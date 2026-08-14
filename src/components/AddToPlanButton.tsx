@@ -21,9 +21,9 @@ export default function AddToPlanButton({ recipeId }: { recipeId: string }) {
       <button
         type="button"
         onClick={() => setOpen((v) => !v)}
-        className="rounded-full bg-brand-sea px-5 py-2.5 text-sm font-semibold text-white hover:bg-brand-sea-dark"
+        className="rounded-full bg-brand-sea px-5 py-2.5 text-sm font-semibold text-white transition hover:-translate-y-0.5 hover:bg-brand-sea-dark"
       >
-        {added ? `${added} gününe eklendi ✓` : "Haftalık Plana Ekle"}
+        {added ? `Added to ${added} ✓` : "Add to Weekly Plan"}
       </button>
       {open && (
         <div className="absolute left-0 top-full z-10 mt-2 w-48 rounded-xl border border-brand-border bg-white p-2 shadow-lg">

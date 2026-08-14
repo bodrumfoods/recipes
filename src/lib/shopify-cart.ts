@@ -51,9 +51,10 @@ export function splitByShopifyMapping(items: ShoppingListItem[]): {
 
 /**
  * Shopify cart permalink: https://{domain}/cart/{variantId}:{qty},{variantId2}:{qty2}
- * Sadece gerçek variantId'si bilinen ürünler dahil edilir. Miktar (adet, g, ml vb.)
- * ürün paket boyutuna göre değişeceğinden her malzeme için 1 adet ürün sepete eklenir;
- * gereken miktar sayfada ayrıca gösterilir ve kullanıcı sepette adedi güncelleyebilir.
+ * Only items with a known real variantId are included. Since the required amount
+ * (pcs, g, ml, etc.) varies from package size, each matched ingredient adds 1 unit
+ * to the cart; the actual amount needed is shown on the page and the user can
+ * adjust quantities in their Shopify cart.
  */
 export function buildShopifyCartUrl(matched: MatchedItem[]): string {
   const withVariant = matched.filter((item): item is MatchedItem & { variantId: string } =>

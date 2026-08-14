@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Geist, Geist_Mono, Fraunces } from "next/font/google";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import "./globals.css";
@@ -14,17 +14,23 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+const fraunces = Fraunces({
+  variable: "--font-fraunces",
+  subsets: ["latin"],
+  axes: ["opsz", "SOFT", "WONK"],
+});
+
 export const metadata: Metadata = {
-  title: "Akdeniz Mutfağı | Haftalık Yemek Planlayıcı",
+  title: "Mediterranean Table | Weekly Meal Planner",
   description:
-    "Akdeniz mutfağından tarifler keşfedin, haftalık yemek planı oluşturun ve malzeme listenizi bodrumfoods.co.uk üzerinden sipariş edin.",
+    "Discover Mediterranean recipes, build a weekly meal plan, and order your ingredient list from bodrumfoods.co.uk.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html
-      lang="tr"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
+      lang="en"
+      className={`${geistSans.variable} ${geistMono.variable} ${fraunces.variable} h-full antialiased`}
     >
       <body className="flex min-h-full flex-col bg-brand-sand text-foreground">
         <Header />

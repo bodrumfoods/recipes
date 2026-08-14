@@ -71,5 +71,5 @@ export function buildShoppingList(
         recipeNames: Array.from(value.recipeNames),
       };
     })
-    .sort((a, b) => a.name.localeCompare(b.name, "tr"));
+    .sort((a, b) => a.name.localeCompare(b.name, "en"));
 }

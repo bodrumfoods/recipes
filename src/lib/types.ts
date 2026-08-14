@@ -1,16 +1,16 @@
-export type Unit = "g" | "kg" | "ml" | "l" | "adet" | "yk" | "çk" | "bardak" | "diş" | "demet";
+export type Unit = "g" | "kg" | "ml" | "l" | "pcs" | "tbsp" | "tsp" | "cup" | "clove" | "bunch";
 
 export type MealType =
-  | "kahvaltı"
-  | "çorba"
+  | "breakfast"
+  | "soup"
   | "meze"
-  | "salata"
-  | "ana-yemek"
-  | "atıştırmalık";
+  | "salad"
+  | "main-course"
+  | "snack";
 
-export type Region = "Türk" | "Yunan" | "İtalyan" | "İspanyol" | "Levanten" | "Fas";
+export type Region = "Turkish" | "Greek" | "Italian" | "Spanish" | "Levantine" | "Moroccan";
 
-export type DietTag = "vegan" | "vejetaryen" | "et" | "deniz-ürünü";
+export type DietTag = "vegan" | "vegetarian" | "meat" | "seafood";
 
 export interface Ingredient {
   name: string;
@@ -21,6 +21,7 @@ export interface Ingredient {
 export interface Recipe {
   id: string;
   name: string;
+  emoji: string;
   region: Region;
   mealType: MealType;
   dietTags: DietTag[];
@@ -33,13 +34,13 @@ export interface Recipe {
 }
 
 export const WEEKDAYS = [
-  "Pazartesi",
-  "Salı",
-  "Çarşamba",
-  "Perşembe",
-  "Cuma",
-  "Cumartesi",
-  "Pazar",
+  "Monday",
+  "Tuesday",
+  "Wednesday",
+  "Thursday",
+  "Friday",
+  "Saturday",
+  "Sunday",
 ] as const;
 
 export type Weekday = (typeof WEEKDAYS)[number];

@@ -1,93 +1,93 @@
-# Akdeniz Mutfağı — Haftalık Yemek Planlayıcı
+# Mediterranean Table — Weekly Meal Planner
 
-Akdeniz mutfağından (Türk, Yunan, İtalyan, İspanyol, Levanten, Fas) tarifler sunan, haftalık
-yemek planı oluşturmaya ve plandan otomatik malzeme listesi çıkarmaya yarayan bir Next.js
-uygulaması. Malzeme listesi, bodrumfoods.co.uk (Shopify) sepetine tek tıkla aktarılabilir.
+A Next.js app that showcases Mediterranean recipes (Turkish, Greek, Italian, Spanish,
+Levantine, Moroccan), lets you build a weekly meal plan, and generates a consolidated
+shopping list from that plan. The list can be pushed to a bodrumfoods.co.uk (Shopify)
+cart in one click.
 
-## Özellikler
+## Features
 
-- `src/data/recipes.json` içinde 50 yapılandırılmış tarif (malzeme, ölçü, adım adım tarif).
-  Sistem binlerce tarife ölçeklenecek şekilde tasarlandı — yeni tarifler bu dosyaya aynı
-  şemayla eklenebilir veya ileride bir CMS/veritabanına taşınabilir.
-- `/tarifler` — arama ve filtreleme (mutfak, öğün türü, diyet etiketi).
-- `/planlayici` — 7 günlük plan, her güne birden fazla tarif eklenebilir, kişi sayısı
-  ayarlanabilir. Plan tarayıcıda `localStorage`'da saklanır (`zustand` persist).
-- `/alisveris-listesi` — plandaki tüm tariflerin malzemeleri birleştirilip (birim
-  normalizasyonu ile: g/kg, ml/l) tek listeye dönüştürülür.
-- Alışveriş listesindeki her malzeme, `src/data/shopify-ingredient-map.json` üzerinden bir
-  bodrumfoods.co.uk ürün varyantına eşlenirse "Sepete Ekle" butonu bir
+- `src/data/recipes.json` holds 50 structured recipes (ingredients, quantities, step-by-step
+  method). The schema is designed to scale to thousands of recipes — new ones can be added in
+  the same shape, or the data can later move to a CMS/database.
+- `/recipes` — search and filter by cuisine, meal type, and diet tag.
+- `/planner` — a 7-day plan; add multiple recipes per day and adjust servings. The plan is
+  persisted in the browser via `localStorage` (`zustand` persist).
+- `/shopping-list` — merges the ingredients from every recipe in the plan into one list, with
+  unit normalisation (g/kg, ml/l).
+- Each ingredient on the shopping list that has a match in
+  `src/data/shopify-ingredient-map.json` gets an "Add to Cart" button that builds a
   [Shopify cart permalink](https://help.shopify.com/en/manual/products/details/cart-permalink)
-  (`https://bodrumfoods.co.uk/cart/{variantId}:{qty},...`) oluşturur ve mağaza sepetini yeni
-  sekmede açar.
+  (`https://bodrumfoods.co.uk/cart/{variantId}:{qty},...`) and opens the store cart in a new
+  tab.
 
-## ⚠️ Canlıya almadan önce yapılması gerekenler
+## ⚠️ Before going live
 
-`src/data/shopify-ingredient-map.json`, gerçek bodrumfoods.co.uk ürün kataloğu (kullanıcının
-yüklediği `products_export` CSV'si) taranarak oluşturuldu: 39 malzeme gerçek ürünlere
-(`handle`, `sku`, `productTitle`) eşlendi. Ancak her eşlemenin `variantId` alanı hâlâ `null` —
-standart Shopify ürün CSV export'u sayısal Variant ID içermez ve bu ortamdan
-bodrumfoods.co.uk'a doğrudan ağ erişimi kurumsal proxy politikası tarafından engellendiği için
-canlı siteden de çekilemedi. `variantId` dolana kadar "Sepete Ekle" tek-tık linki yerine
-alışveriş listesinde her ürün için bir "Ürünü Gör" linki gösterilir (`/products/{handle}`).
+`src/data/shopify-ingredient-map.json` was built from the real bodrumfoods.co.uk product
+catalogue (the `products_export` CSV the user provided): 39 ingredients are mapped to real
+products (`handle`, `sku`, `productTitle`). However, every mapping's `variantId` field is
+still `null` — the standard Shopify product CSV export doesn't include numeric variant IDs,
+and this environment's network egress policy blocks direct access to bodrumfoods.co.uk, so
+live IDs couldn't be fetched either. Until `variantId` is filled in, the shopping list shows a
+"View Product" link (`/products/{handle}`) instead of a one-click cart add.
 
-Gerçek `variantId` değerlerini eklemek için üç yoldan biri kullanılabilir:
+There are three ways to fill in real `variantId` values:
 
-1. **Shopify Admin API (önerilen, ölçeklenebilir):** `read_products` yetkili salt okunur bir
-   custom app oluşturup Admin API ile her `handle` için variant ID'leri toplu çekin, ardından
-   `mappings` dizisindeki ilgili `variantId` alanlarını doldurun.
-2. **Admin panelinden manuel:** Her ürünü **Products** bölümünde açın; varyantın sayısal ID'si
-   düzenleme sayfasının URL'sinde görünür (`/admin/products/{productId}/variants/{variantId}`).
-3. **ID içeren bir export aracı:** Matrixify gibi bazı Shopify export uygulamaları Variant ID
-   kolonunu da içerir; böyle bir CSV varsa doğrudan eşleştirilebilir.
+1. **Shopify Admin API (recommended, scalable):** create a read-only custom app with the
+   `read_products` scope, fetch the variant ID for each `handle` in bulk via the Admin API,
+   then fill in the corresponding `variantId` fields in the `mappings` array.
+2. **Manually from the admin panel:** open each product under **Products**; the numeric
+   variant ID appears in the edit page's URL (`/admin/products/{productId}/variants/{variantId}`).
+3. **An export tool that includes IDs:** some Shopify export apps (e.g. Matrixify) include a
+   Variant ID column; such a CSV can be matched directly.
 
-Diğer notlar:
+Other notes:
 
-- Mağaza alan adı `NEXT_PUBLIC_SHOPIFY_STORE_DOMAIN` ortam değişkeniyle değiştirilebilir
-  (varsayılan: `bodrumfoods.co.uk`).
-- bodrumfoods.co.uk kataloğu ağırlıklı olarak kuru gıda, baharat, konserve/kavanoz ürünler,
-  zeytin, bakliyat ve donmuş hazır yemeklerden oluşuyor; taze sebze, taze et, süt/yumurta gibi
-  ürünler satılmıyor. Bu yüzden tariflerdeki taze malzemeler (domates, soğan, patates,
-  salatalık, kıyma, yumurta vb.) kasıtlı olarak eşlenmedi ve alışveriş listesinde ayrı bir
-  "mağazada bulunmayan malzemeler" bölümünde gösteriliyor.
-- Eşlemesi olmayan malzemeler sepete otomatik eklenmez — bu, yanlış/var olmayan ürünlerin
-  sepete eklenmesini önlemek içindir.
-- Sepete eklenen her ürün miktar olarak **1 adet** eklenir (paket boyutu bilgisi
-  olmadığından); tarifin gerektirdiği gerçek miktar sayfada ayrıca gösterilir, kullanıcı
-  Shopify sepetinde adetleri kendi ihtiyacına göre güncelleyebilir. Paket boyutu verisi
-  eklenirse (`gramPerPackage` gibi) otomatik adet hesaplaması `src/lib/shopify-cart.ts`
-  içine eklenebilir.
+- The store domain can be changed via the `NEXT_PUBLIC_SHOPIFY_STORE_DOMAIN` environment
+  variable (default: `bodrumfoods.co.uk`).
+- The bodrumfoods.co.uk catalogue is mostly pantry items — dry goods, spices, tinned/jarred
+  products, olives, pulses, and frozen ready meals; it doesn't carry fresh produce, fresh
+  meat, milk, or eggs. Fresh ingredients in the recipes (tomato, onion, potato, cucumber,
+  minced meat, egg, etc.) are therefore deliberately left unmapped and shown separately under
+  "Not available in the store" on the shopping list.
+- Unmapped ingredients are never added to the cart automatically — this avoids adding the
+  wrong (or nonexistent) product.
+- Every product added to the cart defaults to a quantity of **1** (package size data isn't
+  available); the actual amount a recipe needs is shown on the page, and the user can adjust
+  quantities in their Shopify cart. If package-size data (e.g. `gramPerPackage`) is added
+  later, automatic quantity calculation can be added to `src/lib/shopify-cart.ts`.
 
-## Geliştirme
+## Development
 
 ```bash
 npm install
 npm run dev
 ```
 
-[http://localhost:3000](http://localhost:3000) adresini açın.
+Open [http://localhost:3000](http://localhost:3000).
 
 ```bash
 npm run lint   # ESLint
-npm run build  # Production build (tüm tarif sayfaları statik üretilir)
+npm run build  # Production build (all recipe pages are statically generated)
 ```
 
-## Proje yapısı
+## Project structure
 
 ```
 src/
   data/
-    recipes.json                  # Tarif veritabanı
-    shopify-ingredient-map.json   # Malzeme -> Shopify varyant eşlemesi (placeholder)
+    recipes.json                  # Recipe database
+    shopify-ingredient-map.json   # Ingredient -> Shopify product mapping
   lib/
-    types.ts                      # Recipe, Ingredient, PlanEntry tipleri
-    recipes.ts                    # Tarif verisine erişim yardımcıları
-    plan-store.ts                 # Haftalık plan state (zustand + localStorage)
-    shopping-list.ts              # Malzeme birleştirme / birim normalizasyonu
-    shopify-cart.ts               # Shopify cart permalink oluşturma
+    types.ts                      # Recipe, Ingredient, PlanEntry types
+    recipes.ts                    # Recipe data access helpers
+    plan-store.ts                 # Weekly plan state (zustand + localStorage)
+    shopping-list.ts              # Ingredient merging / unit normalisation
+    shopify-cart.ts               # Shopify cart permalink builder
   components/                     # Header, Footer, RecipeCard, AddToPlanButton, Badge
   app/
-    page.tsx                      # Anasayfa
-    tarifler/                     # Tarif listesi + detay sayfaları
-    planlayici/                   # Haftalık planlayıcı
-    alisveris-listesi/            # Malzeme listesi + bodrumfoods.co.uk sepet entegrasyonu
+    page.tsx                      # Home page
+    recipes/                      # Recipe list + detail pages
+    planner/                      # Weekly planner
+    shopping-list/                # Ingredient list + bodrumfoods.co.uk cart integration
 ```

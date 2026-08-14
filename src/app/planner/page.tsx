@@ -15,12 +15,12 @@ function DayColumn({ day }: { day: Weekday }) {
   const [selected, setSelected] = useState("");
 
   return (
-    <div className="flex min-w-[260px] flex-col gap-3 rounded-2xl border border-brand-border bg-brand-card p-4">
-      <h3 className="font-semibold text-brand-sea-dark">{day}</h3>
+    <div className="flex min-w-[260px] flex-col gap-3 rounded-2xl border border-brand-border bg-brand-card p-4 transition hover:shadow-md">
+      <h3 className="font-display font-semibold text-brand-sea-dark">{day}</h3>
 
       <div className="flex flex-col gap-2">
         {entries.length === 0 && (
-          <p className="text-xs text-brand-sea-dark/50">Henüz tarif eklenmedi.</p>
+          <p className="text-xs text-brand-sea-dark/50">No recipes added yet.</p>
         )}
         {entries.map((entry) => {
           const recipe = getRecipeById(entry.recipeId);
@@ -29,22 +29,23 @@ function DayColumn({ day }: { day: Weekday }) {
             <div key={entry.id} className="rounded-xl bg-brand-sand p-3 text-sm">
               <div className="flex items-start justify-between gap-2">
                 <Link
-                  href={`/tarifler/${recipe.id}`}
-                  className="font-medium text-brand-sea-dark hover:text-brand-terracotta"
+                  href={`/recipes/${recipe.id}`}
+                  className="flex items-center gap-1.5 font-medium text-brand-sea-dark hover:text-brand-terracotta"
                 >
+                  <span>{recipe.emoji}</span>
                   {recipe.name}
                 </Link>
                 <button
                   type="button"
                   onClick={() => removeEntry(entry.id)}
-                  aria-label="Kaldır"
+                  aria-label="Remove"
                   className="text-brand-terracotta hover:opacity-70"
                 >
                   ✕
                 </button>
               </div>
               <div className="mt-2 flex items-center gap-2 text-xs text-brand-sea-dark/70">
-                <label htmlFor={`servings-${entry.id}`}>Kişi sayısı</label>
+                <label htmlFor={`servings-${entry.id}`}>Servings</label>
                 <input
                   id={`servings-${entry.id}`}
                   type="number"
@@ -65,7 +66,7 @@ function DayColumn({ day }: { day: Weekday }) {
           onChange={(e) => setSelected(e.target.value)}
           className="w-full rounded-lg border border-brand-border bg-white px-2 py-1.5 text-xs"
         >
-          <option value="">Tarif seç...</option>
+          <option value="">Choose a recipe...</option>
           {recipes.map((r) => (
             <option key={r.id} value={r.id}>
               {r.name}
@@ -79,9 +80,9 @@ function DayColumn({ day }: { day: Weekday }) {
             addEntry(day, selected);
             setSelected("");
           }}
-          className="rounded-lg bg-brand-sea px-3 py-1.5 text-xs font-semibold text-white disabled:opacity-40"
+          className="rounded-lg bg-brand-sea px-3 py-1.5 text-xs font-semibold text-white transition hover:bg-brand-sea-dark disabled:opacity-40"
         >
-          Ekle
+          Add
         </button>
       </div>
     </div>
@@ -94,11 +95,13 @@ export default function PlannerPage() {
 
   return (
     <div className="mx-auto w-full max-w-7xl px-4 py-10 sm:px-6">
-      <div className="mb-8 flex flex-wrap items-center justify-between gap-4">
+      <div className="mb-8 flex flex-wrap items-center justify-between gap-4 animate-fade-in-up">
         <div>
-          <h1 className="text-3xl font-bold text-brand-sea-dark">Haftalık Yemek Planlayıcı</h1>
+          <h1 className="font-display text-3xl font-bold text-brand-sea-dark">
+            Weekly Meal Planner
+          </h1>
           <p className="mt-2 text-brand-sea-dark/70">
-            Her gün için tarif seçin, plan otomatik olarak malzeme listenize dönüşür.
+            Pick a recipe for each day — your plan turns into a shopping list automatically.
           </p>
         </div>
         <div className="flex gap-3">
@@ -108,14 +111,14 @@ export default function PlannerPage() {
               onClick={clearPlan}
               className="rounded-full border border-brand-border px-4 py-2 text-sm font-medium text-brand-sea-dark hover:bg-brand-card"
             >
-              Planı Temizle
+              Clear Plan
             </button>
           )}
           <Link
-            href="/alisveris-listesi"
-            className="rounded-full bg-brand-terracotta px-4 py-2 text-sm font-semibold text-white hover:opacity-90"
+            href="/shopping-list"
+            className="rounded-full bg-brand-terracotta px-4 py-2 text-sm font-semibold text-white transition hover:-translate-y-0.5 hover:opacity-90"
           >
-            Alışveriş Listesini Gör
+            View Shopping List
           </Link>
         </div>
       </div>

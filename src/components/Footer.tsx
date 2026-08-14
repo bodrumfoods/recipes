@@ -3,7 +3,7 @@ export default function Footer() {
     <footer className="border-t border-brand-border bg-brand-sand">
       <div className="mx-auto max-w-6xl px-4 py-8 text-sm text-brand-sea-dark/70 sm:px-6">
         <p>
-          Akdeniz Mutfağı — haftalık yemek planlarınızı oluşturun, malzeme listenizi{" "}
+          Mediterranean Table — build your weekly meal plan and order your ingredient list from{" "}
           <a
             href="https://bodrumfoods.co.uk"
             target="_blank"
@@ -11,8 +11,8 @@ export default function Footer() {
             className="font-medium text-brand-terracotta hover:underline"
           >
             bodrumfoods.co.uk
-          </a>{" "}
-          üzerinden sipariş edin.
+          </a>
+          .
         </p>
       </div>
     </footer>
