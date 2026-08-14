@@ -22,26 +22,40 @@ uygulaması. Malzeme listesi, bodrumfoods.co.uk (Shopify) sepetine tek tıkla ak
 
 ## ⚠️ Canlıya almadan önce yapılması gerekenler
 
-`src/data/shopify-ingredient-map.json` içindeki `variantId` değerleri **yer tutucudur**
-(örn. `40000000000001`), gerçek bodrumfoods.co.uk ürünlerine karşılık gelmez. Gerçek
-entegrasyon için:
+`src/data/shopify-ingredient-map.json`, gerçek bodrumfoods.co.uk ürün kataloğu (kullanıcının
+yüklediği `products_export` CSV'si) taranarak oluşturuldu: 39 malzeme gerçek ürünlere
+(`handle`, `sku`, `productTitle`) eşlendi. Ancak her eşlemenin `variantId` alanı hâlâ `null` —
+standart Shopify ürün CSV export'u sayısal Variant ID içermez ve bu ortamdan
+bodrumfoods.co.uk'a doğrudan ağ erişimi kurumsal proxy politikası tarafından engellendiği için
+canlı siteden de çekilemedi. `variantId` dolana kadar "Sepete Ekle" tek-tık linki yerine
+alışveriş listesinde her ürün için bir "Ürünü Gör" linki gösterilir (`/products/{handle}`).
 
-1. Shopify admin panelinde **Products** bölümünden ilgili ürünleri açın; her varyantın
-   sayısal ID'si ürün/varyant düzenleme sayfasının URL'sinde ya da Shopify Admin API /
-   ürün JSON çıktısında görünür.
-2. `shopify-ingredient-map.json` dosyasındaki `mappings` dizisinde her malzeme adını
-   (`ingredient`, `src/data/recipes.json`'daki isimlerle birebir aynı ve küçük harf olmalı)
-   gerçek `variantId` ve `productTitle` ile güncelleyin.
-3. Mağaza alan adı `NEXT_PUBLIC_SHOPIFY_STORE_DOMAIN` ortam değişkeniyle değiştirilebilir
-   (varsayılan: `bodrumfoods.co.uk`).
-4. Eşlemesi olmayan malzemeler alışveriş listesinde ayrı bir "mağazada eşlenmemiş" bölümünde
-   gösterilir ve sepete otomatik eklenmez — bu, yanlış/var olmayan ürünlerin sepete
-   eklenmesini önlemek içindir.
-5. Sepete eklenen her ürün miktar olarak **1 adet** eklenir (paket boyutu bilgisi
-   olmadığından); tarifin gerektirdiği gerçek miktar sayfada ayrıca gösterilir, kullanıcı
-   Shopify sepetinde adetleri kendi ihtiyacına göre güncelleyebilir. Paket boyutu verisi
-   eklenirse (`gramPerPackage` gibi) otomatik adet hesaplaması `src/lib/shopify-cart.ts`
-   içine eklenebilir.
+Gerçek `variantId` değerlerini eklemek için üç yoldan biri kullanılabilir:
+
+1. **Shopify Admin API (önerilen, ölçeklenebilir):** `read_products` yetkili salt okunur bir
+   custom app oluşturup Admin API ile her `handle` için variant ID'leri toplu çekin, ardından
+   `mappings` dizisindeki ilgili `variantId` alanlarını doldurun.
+2. **Admin panelinden manuel:** Her ürünü **Products** bölümünde açın; varyantın sayısal ID'si
+   düzenleme sayfasının URL'sinde görünür (`/admin/products/{productId}/variants/{variantId}`).
+3. **ID içeren bir export aracı:** Matrixify gibi bazı Shopify export uygulamaları Variant ID
+   kolonunu da içerir; böyle bir CSV varsa doğrudan eşleştirilebilir.
+
+Diğer notlar:
+
+- Mağaza alan adı `NEXT_PUBLIC_SHOPIFY_STORE_DOMAIN` ortam değişkeniyle değiştirilebilir
+  (varsayılan: `bodrumfoods.co.uk`).
+- bodrumfoods.co.uk kataloğu ağırlıklı olarak kuru gıda, baharat, konserve/kavanoz ürünler,
+  zeytin, bakliyat ve donmuş hazır yemeklerden oluşuyor; taze sebze, taze et, süt/yumurta gibi
+  ürünler satılmıyor. Bu yüzden tariflerdeki taze malzemeler (domates, soğan, patates,
+  salatalık, kıyma, yumurta vb.) kasıtlı olarak eşlenmedi ve alışveriş listesinde ayrı bir
+  "mağazada bulunmayan malzemeler" bölümünde gösteriliyor.
+- Eşlemesi olmayan malzemeler sepete otomatik eklenmez — bu, yanlış/var olmayan ürünlerin
+  sepete eklenmesini önlemek içindir.
+- Sepete eklenen her ürün miktar olarak **1 adet** eklenir (paket boyutu bilgisi
+  olmadığından); tarifin gerektirdiği gerçek miktar sayfada ayrıca gösterilir, kullanıcı
+  Shopify sepetinde adetleri kendi ihtiyacına göre güncelleyebilir. Paket boyutu verisi
+  eklenirse (`gramPerPackage` gibi) otomatik adet hesaplaması `src/lib/shopify-cart.ts`
+  içine eklenebilir.
 
 ## Geliştirme
 

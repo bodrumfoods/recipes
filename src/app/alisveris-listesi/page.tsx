@@ -5,7 +5,12 @@ import Link from "next/link";
 import { usePlanStore } from "@/lib/plan-store";
 import { recipes } from "@/lib/recipes";
 import { buildShoppingList } from "@/lib/shopping-list";
-import { splitByShopifyMapping, buildShopifyCartUrl, SHOPIFY_STORE_DOMAIN } from "@/lib/shopify-cart";
+import {
+  splitByShopifyMapping,
+  buildShopifyCartUrl,
+  productPageUrl,
+  SHOPIFY_STORE_DOMAIN,
+} from "@/lib/shopify-cart";
 
 export default function ShoppingListPage() {
   const entries = usePlanStore((state) => state.entries);
@@ -17,6 +22,8 @@ export default function ShoppingListPage() {
   );
 
   const { matched, unmatched } = useMemo(() => splitByShopifyMapping(shoppingList), [shoppingList]);
+  const cartReady = useMemo(() => matched.filter((item) => item.variantId), [matched]);
+  const pendingId = useMemo(() => matched.filter((item) => !item.variantId), [matched]);
   const cartUrl = useMemo(() => buildShopifyCartUrl(matched), [matched]);
 
   if (entries.length === 0) {
@@ -50,27 +57,38 @@ export default function ShoppingListPage() {
               bodrumfoods.co.uk üzerinden sipariş ver
             </h2>
             <p className="mt-1 text-xs text-brand-sea-dark/60">
-              {matched.length} malzeme mağazada bulundu ve sepete eklenmeye hazır.
-              {unmatched.length > 0 && ` ${unmatched.length} malzeme için eşleşme bulunamadı.`}
+              {matched.length} malzeme mağaza kataloğunda bulundu.
+              {unmatched.length > 0 && ` ${unmatched.length} malzeme için eşleşme yok (taze ürün olabilir).`}
             </p>
           </div>
-          {matched.length > 0 ? (
+          {cartReady.length > 0 ? (
             <a
               href={cartUrl}
               target="_blank"
               rel="noopener noreferrer"
               className="rounded-full bg-brand-terracotta px-5 py-2.5 text-sm font-semibold text-white hover:opacity-90"
             >
-              Sepete Ekle ({matched.length})
+              Sepete Ekle ({cartReady.length})
             </a>
           ) : (
-            <span className="text-sm text-brand-sea-dark/50">Eşleşen ürün yok</span>
+            <span className="text-sm text-brand-sea-dark/50">
+              Tek tıkla sepete ekleme yakında aktif olacak
+            </span>
           )}
         </div>
-        <p className="mt-3 text-xs text-brand-sea-dark/50">
-          Sepete eklenen her ürün 1 adet olarak eklenir; gereken miktarı aşağıdaki listeden
-          kontrol edip {SHOPIFY_STORE_DOMAIN} sepetinde adetleri güncelleyebilirsiniz.
-        </p>
+        {pendingId.length > 0 && (
+          <p className="mt-3 text-xs text-brand-sea-dark/50">
+            {pendingId.length} ürün mağaza kataloğunda bulundu ama sepete otomatik eklenemiyor
+            (ürün varyant kimliği henüz tanımlı değil) — aşağıdan ürün sayfasını açıp elle
+            ekleyebilirsiniz.
+          </p>
+        )}
+        {cartReady.length > 0 && (
+          <p className="mt-3 text-xs text-brand-sea-dark/50">
+            Sepete eklenen her ürün 1 adet olarak eklenir; gereken miktarı aşağıdaki listeden
+            kontrol edip {SHOPIFY_STORE_DOMAIN} sepetinde adetleri güncelleyebilirsiniz.
+          </p>
+        )}
       </div>
 
       <section className="mt-8">
@@ -84,9 +102,21 @@ export default function ShoppingListPage() {
                 <p className="font-medium text-brand-sea-dark">{item.name}</p>
                 <p className="text-xs text-brand-sea-dark/50">{item.productTitle}</p>
               </div>
-              <span className="font-medium text-brand-sea-dark">
-                {item.amount} {item.unit}
-              </span>
+              <div className="flex items-center gap-3">
+                <span className="font-medium text-brand-sea-dark">
+                  {item.amount} {item.unit}
+                </span>
+                {!item.variantId && (
+                  <a
+                    href={productPageUrl(item.handle)}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="whitespace-nowrap rounded-full border border-brand-border px-3 py-1 text-xs font-medium text-brand-sea-dark hover:border-brand-sea"
+                  >
+                    Ürünü Gör
+                  </a>
+                )}
+              </div>
             </li>
           ))}
           {matched.length === 0 && (
@@ -98,7 +128,7 @@ export default function ShoppingListPage() {
       {unmatched.length > 0 && (
         <section className="mt-8">
           <h2 className="mb-3 text-lg font-semibold text-brand-sea-dark">
-            Mağazada eşlenmemiş malzemeler
+            Mağazada bulunmayan malzemeler
           </h2>
           <ul className="divide-y divide-brand-border/70 rounded-2xl border border-brand-border bg-brand-card">
             {unmatched.map((item) => (
@@ -111,7 +141,8 @@ export default function ShoppingListPage() {
             ))}
           </ul>
           <p className="mt-2 text-xs text-brand-sea-dark/50">
-            Bu malzemeler için mağaza ürün eşlemesi henüz tanımlanmadı.
+            Bu malzemeler çoğunlukla taze sebze, taze et veya süt ürünüdür ve bodrumfoods.co.uk
+            kataloğunda bulunmuyor — yerel marketinizden temin edebilirsiniz.
           </p>
         </section>
       )}
