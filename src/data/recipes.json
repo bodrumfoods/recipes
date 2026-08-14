@@ -1,0 +1,1342 @@
+[
+  {
+    "id": "mercimek-corbasi",
+    "name": "Mercimek Çorbası",
+    "region": "Türk",
+    "mealType": "çorba",
+    "dietTags": ["vejetaryen"],
+    "servings": 6,
+    "prepTime": 10,
+    "cookTime": 30,
+    "description": "Kırmızı mercimekle yapılan klasik, kremamsı Türk çorbası.",
+    "ingredients": [
+      { "name": "kırmızı mercimek", "amount": 200, "unit": "g" },
+      { "name": "soğan", "amount": 1, "unit": "adet" },
+      { "name": "havuç", "amount": 1, "unit": "adet" },
+      { "name": "patates", "amount": 1, "unit": "adet" },
+      { "name": "un", "amount": 1, "unit": "yk" },
+      { "name": "tereyağı", "amount": 30, "unit": "g" },
+      { "name": "kimyon", "amount": 1, "unit": "çk" },
+      { "name": "tuz", "amount": 5, "unit": "g" }
+    ],
+    "steps": [
+      "Soğan, havuç ve patatesi küçük küp doğrayın.",
+      "Tereyağında sebzeleri kavurun, unu ilave edip karıştırın.",
+      "Mercimek ve 1.5 litre suyu ekleyip sebzeler yumuşayana kadar 25 dakika pişirin.",
+      "Blenderdan geçirip kimyon ve tuz ile tatlandırın, sıcak servis yapın."
+    ]
+  },
+  {
+    "id": "ezogelin-corbasi",
+    "name": "Ezogelin Çorbası",
+    "region": "Türk",
+    "mealType": "çorba",
+    "dietTags": ["vejetaryen"],
+    "servings": 6,
+    "prepTime": 10,
+    "cookTime": 35,
+    "description": "Kırmızı mercimek, pirinç ve bulgurla yapılan baharatlı çorba.",
+    "ingredients": [
+      { "name": "kırmızı mercimek", "amount": 150, "unit": "g" },
+      { "name": "pirinç", "amount": 50, "unit": "g" },
+      { "name": "ince bulgur", "amount": 50, "unit": "g" },
+      { "name": "soğan", "amount": 1, "unit": "adet" },
+      { "name": "domates salçası", "amount": 2, "unit": "yk" },
+      { "name": "tereyağı", "amount": 40, "unit": "g" },
+      { "name": "nane", "amount": 1, "unit": "çk" },
+      { "name": "pul biber", "amount": 1, "unit": "çk" },
+      { "name": "tuz", "amount": 5, "unit": "g" }
+    ],
+    "steps": [
+      "Soğanı tereyağında kavurup salçayı ekleyin.",
+      "Mercimek, pirinç, bulgur ve suyu ilave edip karıştırın.",
+      "Malzemeler yumuşayana kadar 30 dakika kısık ateşte pişirin.",
+      "Nane, pul biber ve tuz ile tatlandırıp servis yapın."
+    ]
+  },
+  {
+    "id": "imam-bayildi",
+    "name": "İmam Bayıldı",
+    "region": "Türk",
+    "mealType": "ana-yemek",
+    "dietTags": ["vegan"],
+    "servings": 4,
+    "prepTime": 20,
+    "cookTime": 40,
+    "description": "Bol soğanlı iç harçla doldurulup zeytinyağında pişirilen patlıcan yemeği.",
+    "ingredients": [
+      { "name": "patlıcan", "amount": 4, "unit": "adet" },
+      { "name": "soğan", "amount": 2, "unit": "adet" },
+      { "name": "sarımsak", "amount": 3, "unit": "diş" },
+      { "name": "domates", "amount": 3, "unit": "adet" },
+      { "name": "zeytinyağı", "amount": 150, "unit": "ml" },
+      { "name": "maydanoz", "amount": 1, "unit": "demet" },
+      { "name": "tuz", "amount": 5, "unit": "g" },
+      { "name": "şeker", "amount": 1, "unit": "çk" }
+    ],
+    "steps": [
+      "Patlıcanları soyup kızartın veya fırında yumuşatın.",
+      "Soğan, sarımsak ve domatesi zeytinyağında kavurup iç harcı hazırlayın.",
+      "Patlıcanları yararak içine harcı doldurun.",
+      "Üzerine su ve zeytinyağı gezdirip fırında 25 dakika pişirin, soğuk servis yapın."
+    ]
+  },
+  {
+    "id": "karniyarik",
+    "name": "Karnıyarık",
+    "region": "Türk",
+    "mealType": "ana-yemek",
+    "dietTags": ["et"],
+    "servings": 4,
+    "prepTime": 20,
+    "cookTime": 40,
+    "description": "Kıymalı iç harçla doldurulup fırınlanan patlıcan yemeği.",
+    "ingredients": [
+      { "name": "patlıcan", "amount": 4, "unit": "adet" },
+      { "name": "kıyma", "amount": 300, "unit": "g" },
+      { "name": "soğan", "amount": 2, "unit": "adet" },
+      { "name": "domates", "amount": 3, "unit": "adet" },
+      { "name": "yeşil biber", "amount": 4, "unit": "adet" },
+      { "name": "sarımsak", "amount": 2, "unit": "diş" },
+      { "name": "zeytinyağı", "amount": 100, "unit": "ml" },
+      { "name": "tuz", "amount": 5, "unit": "g" },
+      { "name": "karabiber", "amount": 2, "unit": "g" }
+    ],
+    "steps": [
+      "Patlıcanları soyup kızartın, ortalarını yararak yer açın.",
+      "Kıymayı soğan ve sarımsakla kavurup domates ve baharatları ekleyin.",
+      "Harcı patlıcanların içine doldurun, üzerine domates ve biber dilimleri koyun.",
+      "Fırında 180 derecede 25 dakika pişirin."
+    ]
+  },
+  {
+    "id": "manti",
+    "name": "Mantı",
+    "region": "Türk",
+    "mealType": "ana-yemek",
+    "dietTags": ["et"],
+    "servings": 4,
+    "prepTime": 60,
+    "cookTime": 20,
+    "description": "İnce açılmış hamura sarılan kıymalı Türk mantısı, yoğurt ve tereyağlı sos ile.",
+    "ingredients": [
+      { "name": "un", "amount": 400, "unit": "g" },
+      { "name": "yumurta", "amount": 2, "unit": "adet" },
+      { "name": "kıyma", "amount": 250, "unit": "g" },
+      { "name": "soğan", "amount": 1, "unit": "adet" },
+      { "name": "yoğurt", "amount": 400, "unit": "g" },
+      { "name": "sarımsak", "amount": 3, "unit": "diş" },
+      { "name": "tereyağı", "amount": 50, "unit": "g" },
+      { "name": "pul biber", "amount": 1, "unit": "çk" },
+      { "name": "tuz", "amount": 5, "unit": "g" }
+    ],
+    "steps": [
+      "Un, yumurta, tuz ve su ile sert bir hamur yoğurun, dinlendirin.",
+      "Kıyma ve soğanı karıştırıp iç harcı hazırlayın.",
+      "Hamuru ince açıp küçük karelere kesin, her birine iç harç koyup kapatın.",
+      "Kaynar suda haşlayın, sarımsaklı yoğurt ve tereyağlı sos ile servis yapın."
+    ]
+  },
+  {
+    "id": "zeytinyagli-yaprak-sarma",
+    "name": "Zeytinyağlı Yaprak Sarma",
+    "region": "Türk",
+    "mealType": "meze",
+    "dietTags": ["vegan"],
+    "servings": 6,
+    "prepTime": 45,
+    "cookTime": 40,
+    "description": "Pirinç ve baharatlarla doldurulan asma yaprağı sarması.",
+    "ingredients": [
+      { "name": "asma yaprağı", "amount": 40, "unit": "adet" },
+      { "name": "pirinç", "amount": 200, "unit": "g" },
+      { "name": "soğan", "amount": 2, "unit": "adet" },
+      { "name": "kuş üzümü", "amount": 30, "unit": "g" },
+      { "name": "çam fıstığı", "amount": 30, "unit": "g" },
+      { "name": "zeytinyağı", "amount": 150, "unit": "ml" },
+      { "name": "limon", "amount": 2, "unit": "adet" },
+      { "name": "nane", "amount": 1, "unit": "demet" },
+      { "name": "tuz", "amount": 5, "unit": "g" }
+    ],
+    "steps": [
+      "Soğanı zeytinyağında kavurun, pirinç, kuş üzümü ve çam fıstığını ekleyin.",
+      "Baharat ve otlarla harcı tatlandırın, hafif pişirin.",
+      "Her yaprağa az miktarda harç koyup sıkıca sarın.",
+      "Tencereye dizip su ve limon suyu ile 35 dakika kısık ateşte pişirin."
+    ]
+  },
+  {
+    "id": "menemen",
+    "name": "Menemen",
+    "region": "Türk",
+    "mealType": "kahvaltı",
+    "dietTags": ["vejetaryen"],
+    "servings": 2,
+    "prepTime": 10,
+    "cookTime": 15,
+    "description": "Domates, biber ve yumurtayla yapılan pratik Türk kahvaltı yemeği.",
+    "ingredients": [
+      { "name": "yumurta", "amount": 4, "unit": "adet" },
+      { "name": "domates", "amount": 3, "unit": "adet" },
+      { "name": "yeşil biber", "amount": 3, "unit": "adet" },
+      { "name": "zeytinyağı", "amount": 30, "unit": "ml" },
+      { "name": "tuz", "amount": 3, "unit": "g" },
+      { "name": "pul biber", "amount": 1, "unit": "çk" }
+    ],
+    "steps": [
+      "Biberleri zeytinyağında kavurun.",
+      "Doğranmış domatesleri ekleyip suyunu çekene kadar pişirin.",
+      "Yumurtaları kırıp karıştırarak veya kırık bırakarak pişirin.",
+      "Tuz ve pul biberle tatlandırıp sıcak servis yapın."
+    ]
+  },
+  {
+    "id": "izmir-kofte",
+    "name": "İzmir Köfte",
+    "region": "Türk",
+    "mealType": "ana-yemek",
+    "dietTags": ["et"],
+    "servings": 4,
+    "prepTime": 25,
+    "cookTime": 35,
+    "description": "Patates ve domates soslu fırın köftesi.",
+    "ingredients": [
+      { "name": "kıyma", "amount": 500, "unit": "g" },
+      { "name": "soğan", "amount": 1, "unit": "adet" },
+      { "name": "sarımsak", "amount": 2, "unit": "diş" },
+      { "name": "ekmek içi", "amount": 1, "unit": "adet" },
+      { "name": "yumurta", "amount": 1, "unit": "adet" },
+      { "name": "patates", "amount": 4, "unit": "adet" },
+      { "name": "domates", "amount": 4, "unit": "adet" },
+      { "name": "yeşil biber", "amount": 4, "unit": "adet" },
+      { "name": "zeytinyağı", "amount": 60, "unit": "ml" },
+      { "name": "tuz", "amount": 5, "unit": "g" },
+      { "name": "karabiber", "amount": 2, "unit": "g" }
+    ],
+    "steps": [
+      "Kıyma, soğan, sarımsak, ekmek içi ve yumurtayı yoğurup köfte şekli verin.",
+      "Köfteleri hafifçe kızartın.",
+      "Patatesleri dilimleyip fırın kabına dizin, köfteleri üzerine yerleştirin.",
+      "Domates ve biberi ekleyip fırında 180 derecede 30 dakika pişirin."
+    ]
+  },
+  {
+    "id": "kisir",
+    "name": "Kısır",
+    "region": "Türk",
+    "mealType": "salata",
+    "dietTags": ["vegan"],
+    "servings": 6,
+    "prepTime": 25,
+    "cookTime": 0,
+    "description": "Bulgur, salça ve taze otlarla hazırlanan ferahlatıcı salata.",
+    "ingredients": [
+      { "name": "ince bulgur", "amount": 250, "unit": "g" },
+      { "name": "domates salçası", "amount": 2, "unit": "yk" },
+      { "name": "biber salçası", "amount": 1, "unit": "yk" },
+      { "name": "salatalık", "amount": 1, "unit": "adet" },
+      { "name": "domates", "amount": 2, "unit": "adet" },
+      { "name": "taze soğan", "amount": 1, "unit": "demet" },
+      { "name": "maydanoz", "amount": 1, "unit": "demet" },
+      { "name": "nane", "amount": 1, "unit": "demet" },
+      { "name": "limon", "amount": 2, "unit": "adet" },
+      { "name": "zeytinyağı", "amount": 100, "unit": "ml" },
+      { "name": "nar ekşisi", "amount": 30, "unit": "ml" },
+      { "name": "tuz", "amount": 5, "unit": "g" }
+    ],
+    "steps": [
+      "Bulguru sıcak su ile ıslatıp salçaları ekleyerek karıştırın.",
+      "Bulgur yumuşayınca doğranmış sebze ve otları ekleyin.",
+      "Limon suyu, nar ekşisi ve zeytinyağı ile harmanlayın.",
+      "Buzdolabında dinlendirip soğuk servis yapın."
+    ]
+  },
+  {
+    "id": "patlican-salatasi",
+    "name": "Patlıcan Salatası",
+    "region": "Türk",
+    "mealType": "meze",
+    "dietTags": ["vejetaryen"],
+    "servings": 4,
+    "prepTime": 15,
+    "cookTime": 20,
+    "description": "Közlenmiş patlıcan ve yoğurtla yapılan geleneksel meze.",
+    "ingredients": [
+      { "name": "patlıcan", "amount": 4, "unit": "adet" },
+      { "name": "sarımsak", "amount": 2, "unit": "diş" },
+      { "name": "yoğurt", "amount": 200, "unit": "g" },
+      { "name": "zeytinyağı", "amount": 50, "unit": "ml" },
+      { "name": "limon", "amount": 1, "unit": "adet" },
+      { "name": "tuz", "amount": 3, "unit": "g" }
+    ],
+    "steps": [
+      "Patlıcanları közleyip kabuklarını soyun.",
+      "Etini doğrayıp ezilmiş sarımsak ve yoğurtla karıştırın.",
+      "Limon suyu ve tuz ile tatlandırın.",
+      "Üzerine zeytinyağı gezdirip soğuk servis yapın."
+    ]
+  },
+  {
+    "id": "coban-salata",
+    "name": "Çoban Salata",
+    "region": "Türk",
+    "mealType": "salata",
+    "dietTags": ["vegan"],
+    "servings": 4,
+    "prepTime": 15,
+    "cookTime": 0,
+    "description": "Domates, salatalık ve biberden yapılan ince kıyılmış klasik salata.",
+    "ingredients": [
+      { "name": "domates", "amount": 3, "unit": "adet" },
+      { "name": "salatalık", "amount": 2, "unit": "adet" },
+      { "name": "yeşil biber", "amount": 2, "unit": "adet" },
+      { "name": "soğan", "amount": 1, "unit": "adet" },
+      { "name": "maydanoz", "amount": 1, "unit": "demet" },
+      { "name": "zeytinyağı", "amount": 60, "unit": "ml" },
+      { "name": "limon", "amount": 1, "unit": "adet" },
+      { "name": "tuz", "amount": 3, "unit": "g" }
+    ],
+    "steps": [
+      "Tüm sebzeleri küçük küpler halinde doğrayın.",
+      "Maydanozu ince kıyıp ekleyin.",
+      "Zeytinyağı, limon suyu ve tuz ile harmanlayın.",
+      "Servis tabağına alıp hemen sunun."
+    ]
+  },
+  {
+    "id": "turlu",
+    "name": "Türlü",
+    "region": "Türk",
+    "mealType": "ana-yemek",
+    "dietTags": ["vegan"],
+    "servings": 6,
+    "prepTime": 20,
+    "cookTime": 40,
+    "description": "Mevsim sebzelerinin zeytinyağında birlikte pişirildiği doyurucu yemek.",
+    "ingredients": [
+      { "name": "patlıcan", "amount": 2, "unit": "adet" },
+      { "name": "kabak", "amount": 2, "unit": "adet" },
+      { "name": "patates", "amount": 3, "unit": "adet" },
+      { "name": "havuç", "amount": 2, "unit": "adet" },
+      { "name": "taze fasulye", "amount": 200, "unit": "g" },
+      { "name": "yeşil biber", "amount": 3, "unit": "adet" },
+      { "name": "domates", "amount": 3, "unit": "adet" },
+      { "name": "soğan", "amount": 1, "unit": "adet" },
+      { "name": "sarımsak", "amount": 2, "unit": "diş" },
+      { "name": "zeytinyağı", "amount": 100, "unit": "ml" },
+      { "name": "tuz", "amount": 5, "unit": "g" }
+    ],
+    "steps": [
+      "Tüm sebzeleri iri doğrayın.",
+      "Soğan ve sarımsağı zeytinyağında kavurun.",
+      "Diğer sebzeleri ekleyip birkaç dakika çevirin.",
+      "Domates ve su ekleyip kısık ateşte 35 dakika pişirin."
+    ]
+  },
+  {
+    "id": "horiatiki-yunan-salatasi",
+    "name": "Horiatiki (Yunan Salatası)",
+    "region": "Yunan",
+    "mealType": "salata",
+    "dietTags": ["vejetaryen"],
+    "servings": 4,
+    "prepTime": 15,
+    "cookTime": 0,
+    "description": "Feta peyniri ve zeytinle hazırlanan klasik Yunan salatası.",
+    "ingredients": [
+      { "name": "domates", "amount": 4, "unit": "adet" },
+      { "name": "salatalık", "amount": 1, "unit": "adet" },
+      { "name": "yeşil biber", "amount": 1, "unit": "adet" },
+      { "name": "kırmızı soğan", "amount": 1, "unit": "adet" },
+      { "name": "siyah zeytin", "amount": 100, "unit": "g" },
+      { "name": "beyaz peynir", "amount": 200, "unit": "g" },
+      { "name": "zeytinyağı", "amount": 60, "unit": "ml" },
+      { "name": "kekik", "amount": 1, "unit": "çk" },
+      { "name": "tuz", "amount": 3, "unit": "g" }
+    ],
+    "steps": [
+      "Domates, salatalık, biber ve soğanı iri doğrayın.",
+      "Zeytinleri ve küp beyaz peyniri ekleyin.",
+      "Zeytinyağı ve kekikle tatlandırın.",
+      "Tuzu servis anında ekleyip sunun."
+    ]
+  },
+  {
+    "id": "musakka",
+    "name": "Musakka",
+    "region": "Yunan",
+    "mealType": "ana-yemek",
+    "dietTags": ["et"],
+    "servings": 6,
+    "prepTime": 30,
+    "cookTime": 50,
+    "description": "Patlıcan, kıyma ve beşamel sosla katmanlanan fırın yemeği.",
+    "ingredients": [
+      { "name": "patlıcan", "amount": 3, "unit": "adet" },
+      { "name": "patates", "amount": 2, "unit": "adet" },
+      { "name": "kıyma", "amount": 400, "unit": "g" },
+      { "name": "soğan", "amount": 1, "unit": "adet" },
+      { "name": "domates", "amount": 3, "unit": "adet" },
+      { "name": "süt", "amount": 500, "unit": "ml" },
+      { "name": "un", "amount": 50, "unit": "g" },
+      { "name": "tereyağı", "amount": 50, "unit": "g" },
+      { "name": "kaşar peyniri", "amount": 100, "unit": "g" },
+      { "name": "tuz", "amount": 5, "unit": "g" }
+    ],
+    "steps": [
+      "Patlıcan ve patatesleri dilimleyip hafifçe kızartın.",
+      "Kıymayı soğan ve domatesle kavurup harç hazırlayın.",
+      "Tereyağı, un ve sütten beşamel sos yapın.",
+      "Sebze, kıyma ve beşamel sosu katman katman dizip fırında 35 dakika pişirin."
+    ]
+  },
+  {
+    "id": "tzatziki",
+    "name": "Tzatziki",
+    "region": "Yunan",
+    "mealType": "meze",
+    "dietTags": ["vejetaryen"],
+    "servings": 4,
+    "prepTime": 10,
+    "cookTime": 0,
+    "description": "Süzme yoğurt, salatalık ve sarımsakla yapılan serinletici meze.",
+    "ingredients": [
+      { "name": "yoğurt", "amount": 400, "unit": "g" },
+      { "name": "salatalık", "amount": 1, "unit": "adet" },
+      { "name": "sarımsak", "amount": 2, "unit": "diş" },
+      { "name": "zeytinyağı", "amount": 30, "unit": "ml" },
+      { "name": "dereotu", "amount": 1, "unit": "demet" },
+      { "name": "tuz", "amount": 3, "unit": "g" }
+    ],
+    "steps": [
+      "Salatalığı rendeleyip suyunu sıkın.",
+      "Yoğurt, ezilmiş sarımsak ve salatalığı karıştırın.",
+      "Dereotu ve tuz ile tatlandırın.",
+      "Üzerine zeytinyağı gezdirip soğuk servis yapın."
+    ]
+  },
+  {
+    "id": "spanakopita",
+    "name": "Spanakopita",
+    "region": "Yunan",
+    "mealType": "ana-yemek",
+    "dietTags": ["vejetaryen"],
+    "servings": 6,
+    "prepTime": 25,
+    "cookTime": 40,
+    "description": "Ispanak ve beyaz peynirle doldurulmuş katmanlı yufka böreği.",
+    "ingredients": [
+      { "name": "ıspanak", "amount": 500, "unit": "g" },
+      { "name": "yufka", "amount": 8, "unit": "adet" },
+      { "name": "beyaz peynir", "amount": 200, "unit": "g" },
+      { "name": "yumurta", "amount": 2, "unit": "adet" },
+      { "name": "soğan", "amount": 1, "unit": "adet" },
+      { "name": "tereyağı", "amount": 100, "unit": "g" },
+      { "name": "dereotu", "amount": 1, "unit": "demet" },
+      { "name": "tuz", "amount": 3, "unit": "g" }
+    ],
+    "steps": [
+      "Ispanağı soğanla soteleyip suyunu süzün.",
+      "Peynir, yumurta ve dereotu ile karıştırıp harcı hazırlayın.",
+      "Eritilmiş tereyağı sürülen yufkaları harçla katman katman dizin.",
+      "Fırında 180 derecede altın rengi olana kadar pişirin."
+    ]
+  },
+  {
+    "id": "souvlaki",
+    "name": "Souvlaki",
+    "region": "Yunan",
+    "mealType": "ana-yemek",
+    "dietTags": ["et"],
+    "servings": 4,
+    "prepTime": 30,
+    "cookTime": 15,
+    "description": "Marine edilip şişte veya ızgarada pişirilen tavuklu Yunan yemeği.",
+    "ingredients": [
+      { "name": "tavuk göğsü", "amount": 600, "unit": "g" },
+      { "name": "zeytinyağı", "amount": 60, "unit": "ml" },
+      { "name": "limon", "amount": 2, "unit": "adet" },
+      { "name": "sarımsak", "amount": 3, "unit": "diş" },
+      { "name": "kekik", "amount": 1, "unit": "çk" },
+      { "name": "tuz", "amount": 5, "unit": "g" },
+      { "name": "pide ekmeği", "amount": 4, "unit": "adet" }
+    ],
+    "steps": [
+      "Tavuğu küp doğrayıp zeytinyağı, limon, sarımsak ve kekikle marine edin.",
+      "En az 30 dakika buzdolabında dinlendirin.",
+      "Şişlere dizip ızgarada veya tavada pişirin.",
+      "Sıcak pide ekmeğiyle servis yapın."
+    ]
+  },
+  {
+    "id": "fasolada",
+    "name": "Fasolada",
+    "region": "Yunan",
+    "mealType": "çorba",
+    "dietTags": ["vegan"],
+    "servings": 6,
+    "prepTime": 15,
+    "cookTime": 60,
+    "description": "Kuru fasulye ile pişirilen Yunanistan'ın milli çorbası.",
+    "ingredients": [
+      { "name": "kuru fasulye", "amount": 300, "unit": "g" },
+      { "name": "havuç", "amount": 2, "unit": "adet" },
+      { "name": "kereviz sapı", "amount": 2, "unit": "adet" },
+      { "name": "domates salçası", "amount": 2, "unit": "yk" },
+      { "name": "zeytinyağı", "amount": 80, "unit": "ml" },
+      { "name": "soğan", "amount": 1, "unit": "adet" },
+      { "name": "tuz", "amount": 5, "unit": "g" }
+    ],
+    "steps": [
+      "Kuru fasulyeyi bir gece suda bekletin.",
+      "Sebzeleri zeytinyağında kavurup salçayı ekleyin.",
+      "Fasulye ve suyu ekleyip yumuşayana kadar pişirin.",
+      "Tuzla tatlandırıp sıcak servis yapın."
+    ]
+  },
+  {
+    "id": "gemista",
+    "name": "Gemista",
+    "region": "Yunan",
+    "mealType": "ana-yemek",
+    "dietTags": ["vegan"],
+    "servings": 6,
+    "prepTime": 25,
+    "cookTime": 50,
+    "description": "Pirinç ve otlarla doldurulmuş fırınlanmış domates ve biberler.",
+    "ingredients": [
+      { "name": "domates", "amount": 6, "unit": "adet" },
+      { "name": "yeşil biber", "amount": 6, "unit": "adet" },
+      { "name": "pirinç", "amount": 200, "unit": "g" },
+      { "name": "soğan", "amount": 1, "unit": "adet" },
+      { "name": "maydanoz", "amount": 1, "unit": "demet" },
+      { "name": "nane", "amount": 1, "unit": "demet" },
+      { "name": "zeytinyağı", "amount": 100, "unit": "ml" },
+      { "name": "tuz", "amount": 5, "unit": "g" }
+    ],
+    "steps": [
+      "Domates ve biberlerin içini oyup içlerini saklayın.",
+      "Pirinç, soğan ve otları karıştırıp harç hazırlayın.",
+      "Sebzeleri harçla doldurup fırın kabına dizin.",
+      "Zeytinyağı gezdirip fırında 40 dakika pişirin."
+    ]
+  },
+  {
+    "id": "pastitsio",
+    "name": "Pastitsio",
+    "region": "Yunan",
+    "mealType": "ana-yemek",
+    "dietTags": ["et"],
+    "servings": 6,
+    "prepTime": 25,
+    "cookTime": 45,
+    "description": "Kalın makarna, kıymalı sos ve beşamelle yapılan Yunan fırın yemeği.",
+    "ingredients": [
+      { "name": "makarna", "amount": 400, "unit": "g" },
+      { "name": "kıyma", "amount": 400, "unit": "g" },
+      { "name": "domates", "amount": 3, "unit": "adet" },
+      { "name": "soğan", "amount": 1, "unit": "adet" },
+      { "name": "süt", "amount": 500, "unit": "ml" },
+      { "name": "un", "amount": 50, "unit": "g" },
+      { "name": "tereyağı", "amount": 50, "unit": "g" },
+      { "name": "kaşar peyniri", "amount": 150, "unit": "g" },
+      { "name": "tuz", "amount": 5, "unit": "g" }
+    ],
+    "steps": [
+      "Makarnayı haşlayın.",
+      "Kıymayı soğan ve domatesle kavurup sos hazırlayın.",
+      "Tereyağı, un ve sütten beşamel sos yapın.",
+      "Makarna, kıymalı sos ve beşameli katmanlayıp fırında pişirin."
+    ]
+  },
+  {
+    "id": "fava",
+    "name": "Fava",
+    "region": "Yunan",
+    "mealType": "meze",
+    "dietTags": ["vegan"],
+    "servings": 4,
+    "prepTime": 10,
+    "cookTime": 30,
+    "description": "Sarı bakladan yapılan pürüzsüz Yunan mezesi.",
+    "ingredients": [
+      { "name": "sarı bakla", "amount": 250, "unit": "g" },
+      { "name": "soğan", "amount": 1, "unit": "adet" },
+      { "name": "zeytinyağı", "amount": 60, "unit": "ml" },
+      { "name": "limon", "amount": 1, "unit": "adet" },
+      { "name": "tuz", "amount": 3, "unit": "g" }
+    ],
+    "steps": [
+      "Sarı baklayı soğanla birlikte suda yumuşayana kadar haşlayın.",
+      "Blenderdan geçirip pürüzsüz hale getirin.",
+      "Zeytinyağı ve limon suyu ekleyip karıştırın.",
+      "Soğuk veya ılık servis yapın."
+    ]
+  },
+  {
+    "id": "caprese-salata",
+    "name": "Caprese Salata",
+    "region": "İtalyan",
+    "mealType": "salata",
+    "dietTags": ["vejetaryen"],
+    "servings": 4,
+    "prepTime": 10,
+    "cookTime": 0,
+    "description": "Domates, mozzarella ve fesleğenden oluşan sade İtalyan salatası.",
+    "ingredients": [
+      { "name": "domates", "amount": 4, "unit": "adet" },
+      { "name": "mozzarella", "amount": 250, "unit": "g" },
+      { "name": "fesleğen", "amount": 1, "unit": "demet" },
+      { "name": "zeytinyağı", "amount": 50, "unit": "ml" },
+      { "name": "balzamik sirke", "amount": 20, "unit": "ml" },
+      { "name": "tuz", "amount": 3, "unit": "g" }
+    ],
+    "steps": [
+      "Domates ve mozzarellayı dilimleyin.",
+      "Tabakta domates, mozzarella ve fesleğen yapraklarını sırayla dizin.",
+      "Zeytinyağı ve balzamik sirke gezdirin.",
+      "Tuz serpip hemen servis yapın."
+    ]
+  },
+  {
+    "id": "minestrone",
+    "name": "Minestrone",
+    "region": "İtalyan",
+    "mealType": "çorba",
+    "dietTags": ["vegan"],
+    "servings": 6,
+    "prepTime": 20,
+    "cookTime": 40,
+    "description": "Mevsim sebzeleri ve makarnayla yapılan doyurucu İtalyan çorbası.",
+    "ingredients": [
+      { "name": "kuru fasulye", "amount": 150, "unit": "g" },
+      { "name": "havuç", "amount": 2, "unit": "adet" },
+      { "name": "kereviz sapı", "amount": 2, "unit": "adet" },
+      { "name": "domates", "amount": 4, "unit": "adet" },
+      { "name": "kabak", "amount": 1, "unit": "adet" },
+      { "name": "makarna", "amount": 100, "unit": "g" },
+      { "name": "zeytinyağı", "amount": 60, "unit": "ml" },
+      { "name": "soğan", "amount": 1, "unit": "adet" },
+      { "name": "tuz", "amount": 5, "unit": "g" }
+    ],
+    "steps": [
+      "Soğan, havuç ve kerevizi zeytinyağında kavurun.",
+      "Domates, fasulye ve suyu ekleyip 20 dakika pişirin.",
+      "Kabak ve makarnayı ekleyip makarna pişene kadar devam edin.",
+      "Tuzla tatlandırıp sıcak servis yapın."
+    ]
+  },
+  {
+    "id": "bruschetta",
+    "name": "Bruschetta",
+    "region": "İtalyan",
+    "mealType": "atıştırmalık",
+    "dietTags": ["vegan"],
+    "servings": 4,
+    "prepTime": 15,
+    "cookTime": 5,
+    "description": "Kızarmış ekmek üzerine domates ve fesleğenle hazırlanan atıştırmalık.",
+    "ingredients": [
+      { "name": "baget ekmek", "amount": 1, "unit": "adet" },
+      { "name": "domates", "amount": 4, "unit": "adet" },
+      { "name": "sarımsak", "amount": 2, "unit": "diş" },
+      { "name": "fesleğen", "amount": 1, "unit": "demet" },
+      { "name": "zeytinyağı", "amount": 60, "unit": "ml" },
+      { "name": "tuz", "amount": 3, "unit": "g" }
+    ],
+    "steps": [
+      "Ekmeği dilimleyip kızartın, sarımsakla ovun.",
+      "Domatesleri küçük küp doğrayıp fesleğenle karıştırın.",
+      "Zeytinyağı ve tuz ile tatlandırın.",
+      "Karışımı ekmek dilimlerinin üzerine paylaştırıp servis yapın."
+    ]
+  },
+  {
+    "id": "panzanella",
+    "name": "Panzanella",
+    "region": "İtalyan",
+    "mealType": "salata",
+    "dietTags": ["vegan"],
+    "servings": 4,
+    "prepTime": 15,
+    "cookTime": 0,
+    "description": "Bayat ekmek ve domatesle yapılan Toskana usulü salata.",
+    "ingredients": [
+      { "name": "bayat ekmek", "amount": 200, "unit": "g" },
+      { "name": "domates", "amount": 4, "unit": "adet" },
+      { "name": "salatalık", "amount": 1, "unit": "adet" },
+      { "name": "kırmızı soğan", "amount": 1, "unit": "adet" },
+      { "name": "fesleğen", "amount": 1, "unit": "demet" },
+      { "name": "zeytinyağı", "amount": 80, "unit": "ml" },
+      { "name": "kırmızı şarap sirkesi", "amount": 20, "unit": "ml" },
+      { "name": "tuz", "amount": 3, "unit": "g" }
+    ],
+    "steps": [
+      "Bayat ekmeği küp doğrayıp hafifçe kızartın.",
+      "Domates, salatalık ve soğanı doğrayın.",
+      "Tüm malzemeleri karıştırıp fesleğen ekleyin.",
+      "Zeytinyağı, sirke ve tuz ile harmanlayıp 10 dakika dinlendirin."
+    ]
+  },
+  {
+    "id": "pasta-alla-norma",
+    "name": "Pasta alla Norma",
+    "region": "İtalyan",
+    "mealType": "ana-yemek",
+    "dietTags": ["vejetaryen"],
+    "servings": 4,
+    "prepTime": 15,
+    "cookTime": 30,
+    "description": "Patlıcan ve domates soslu Sicilya usulü makarna.",
+    "ingredients": [
+      { "name": "makarna", "amount": 400, "unit": "g" },
+      { "name": "patlıcan", "amount": 2, "unit": "adet" },
+      { "name": "domates", "amount": 4, "unit": "adet" },
+      { "name": "sarımsak", "amount": 2, "unit": "diş" },
+      { "name": "fesleğen", "amount": 1, "unit": "demet" },
+      { "name": "zeytinyağı", "amount": 80, "unit": "ml" },
+      { "name": "peynir", "amount": 100, "unit": "g" },
+      { "name": "tuz", "amount": 5, "unit": "g" }
+    ],
+    "steps": [
+      "Patlıcanı küp doğrayıp zeytinyağında kızartın.",
+      "Sarımsak ve domatesle sos hazırlayın, patlıcanı ekleyin.",
+      "Makarnayı haşlayıp sosla karıştırın.",
+      "Üzerine peynir ve fesleğen serperek servis yapın."
+    ]
+  },
+  {
+    "id": "mantar-risotto",
+    "name": "Mantar Risotto",
+    "region": "İtalyan",
+    "mealType": "ana-yemek",
+    "dietTags": ["vejetaryen"],
+    "servings": 4,
+    "prepTime": 15,
+    "cookTime": 30,
+    "description": "Kremamsı arborio pirinci ve mantarla yapılan İtalyan risottosu.",
+    "ingredients": [
+      { "name": "arborio pirinç", "amount": 300, "unit": "g" },
+      { "name": "mantar", "amount": 300, "unit": "g" },
+      { "name": "soğan", "amount": 1, "unit": "adet" },
+      { "name": "beyaz şarap", "amount": 100, "unit": "ml" },
+      { "name": "sebze suyu", "amount": 1000, "unit": "ml" },
+      { "name": "tereyağı", "amount": 50, "unit": "g" },
+      { "name": "parmesan", "amount": 80, "unit": "g" },
+      { "name": "tuz", "amount": 5, "unit": "g" }
+    ],
+    "steps": [
+      "Mantarları tereyağında kavurup ayırın.",
+      "Soğanı kavurup pirinci ekleyin, şeffaflaşana kadar karıştırın.",
+      "Şarabı ve sıcak sebze suyunu azar azar ekleyerek karıştırmaya devam edin.",
+      "Pirinç pişince mantar, tereyağı ve parmesan ekleyip karıştırın."
+    ]
+  },
+  {
+    "id": "caponata",
+    "name": "Caponata",
+    "region": "İtalyan",
+    "mealType": "meze",
+    "dietTags": ["vegan"],
+    "servings": 4,
+    "prepTime": 20,
+    "cookTime": 30,
+    "description": "Patlıcan, kereviz ve zeytinle yapılan tatlı-ekşi Sicilya mezesi.",
+    "ingredients": [
+      { "name": "patlıcan", "amount": 2, "unit": "adet" },
+      { "name": "kereviz sapı", "amount": 2, "unit": "adet" },
+      { "name": "domates", "amount": 3, "unit": "adet" },
+      { "name": "soğan", "amount": 1, "unit": "adet" },
+      { "name": "yeşil zeytin", "amount": 80, "unit": "g" },
+      { "name": "kapari", "amount": 20, "unit": "g" },
+      { "name": "sirke", "amount": 30, "unit": "ml" },
+      { "name": "zeytinyağı", "amount": 80, "unit": "ml" },
+      { "name": "tuz", "amount": 3, "unit": "g" }
+    ],
+    "steps": [
+      "Patlıcanı küp doğrayıp zeytinyağında kızartın.",
+      "Kereviz ve soğanı ayrıca kavurun.",
+      "Domates, zeytin ve kapariyi ekleyip birlikte pişirin.",
+      "Sirke ekleyip 5 dakika daha pişirin, soğuk servis yapın."
+    ]
+  },
+  {
+    "id": "aglio-e-olio",
+    "name": "Aglio e Olio",
+    "region": "İtalyan",
+    "mealType": "ana-yemek",
+    "dietTags": ["vegan"],
+    "servings": 4,
+    "prepTime": 5,
+    "cookTime": 15,
+    "description": "Sarımsak ve zeytinyağıyla yapılan sade İtalyan spagettisi.",
+    "ingredients": [
+      { "name": "spagetti", "amount": 400, "unit": "g" },
+      { "name": "sarımsak", "amount": 6, "unit": "diş" },
+      { "name": "zeytinyağı", "amount": 100, "unit": "ml" },
+      { "name": "pul biber", "amount": 1, "unit": "çk" },
+      { "name": "maydanoz", "amount": 1, "unit": "demet" },
+      { "name": "tuz", "amount": 5, "unit": "g" }
+    ],
+    "steps": [
+      "Spagettiyi tuzlu suda haşlayın.",
+      "Sarımsağı zeytinyağında kısık ateşte hafif altın rengine getirin.",
+      "Pul biber ekleyip haşlanmış makarnayla karıştırın.",
+      "Maydanoz serperek sıcak servis yapın."
+    ]
+  },
+  {
+    "id": "margherita-pizza",
+    "name": "Margherita Pizza",
+    "region": "İtalyan",
+    "mealType": "ana-yemek",
+    "dietTags": ["vejetaryen"],
+    "servings": 4,
+    "prepTime": 20,
+    "cookTime": 15,
+    "description": "Domates sosu, mozzarella ve fesleğenle yapılan klasik İtalyan pizzası.",
+    "ingredients": [
+      { "name": "pizza hamuru", "amount": 4, "unit": "adet" },
+      { "name": "domates sosu", "amount": 200, "unit": "g" },
+      { "name": "mozzarella", "amount": 250, "unit": "g" },
+      { "name": "fesleğen", "amount": 1, "unit": "demet" },
+      { "name": "zeytinyağı", "amount": 30, "unit": "ml" },
+      { "name": "tuz", "amount": 3, "unit": "g" }
+    ],
+    "steps": [
+      "Hamuru açıp domates sosunu yayın.",
+      "Üzerine dilimlenmiş mozzarellayı dağıtın.",
+      "Önceden ısıtılmış fırında yüksek ısıda 10 dakika pişirin.",
+      "Üzerine fesleğen ve zeytinyağı gezdirip servis yapın."
+    ]
+  },
+  {
+    "id": "gazpacho",
+    "name": "Gazpacho",
+    "region": "İspanyol",
+    "mealType": "çorba",
+    "dietTags": ["vegan"],
+    "servings": 4,
+    "prepTime": 15,
+    "cookTime": 0,
+    "description": "Çiğ sebzelerden yapılan soğuk İspanyol domates çorbası.",
+    "ingredients": [
+      { "name": "domates", "amount": 6, "unit": "adet" },
+      { "name": "salatalık", "amount": 1, "unit": "adet" },
+      { "name": "yeşil biber", "amount": 1, "unit": "adet" },
+      { "name": "sarımsak", "amount": 1, "unit": "diş" },
+      { "name": "zeytinyağı", "amount": 60, "unit": "ml" },
+      { "name": "kırmızı şarap sirkesi", "amount": 20, "unit": "ml" },
+      { "name": "tuz", "amount": 3, "unit": "g" }
+    ],
+    "steps": [
+      "Tüm sebzeleri iri doğrayın.",
+      "Sebzeleri sarımsak, sirke ve zeytinyağıyla blenderdan geçirin.",
+      "Tuzla tatlandırıp en az 1 saat buzdolabında soğutun.",
+      "Soğuk olarak servis yapın."
+    ]
+  },
+  {
+    "id": "paella",
+    "name": "Paella",
+    "region": "İspanyol",
+    "mealType": "ana-yemek",
+    "dietTags": ["deniz-ürünü"],
+    "servings": 6,
+    "prepTime": 20,
+    "cookTime": 40,
+    "description": "Safranlı pirinç, tavuk ve deniz ürünleriyle yapılan meşhur İspanyol yemeği.",
+    "ingredients": [
+      { "name": "pirinç", "amount": 400, "unit": "g" },
+      { "name": "tavuk but", "amount": 4, "unit": "adet" },
+      { "name": "karides", "amount": 300, "unit": "g" },
+      { "name": "midye", "amount": 300, "unit": "g" },
+      { "name": "domates", "amount": 2, "unit": "adet" },
+      { "name": "safran", "amount": 1, "unit": "çk" },
+      { "name": "tavuk suyu", "amount": 1000, "unit": "ml" },
+      { "name": "zeytinyağı", "amount": 80, "unit": "ml" },
+      { "name": "soğan", "amount": 1, "unit": "adet" },
+      { "name": "tuz", "amount": 5, "unit": "g" }
+    ],
+    "steps": [
+      "Tavuğu zeytinyağında kızartıp kenara alın.",
+      "Soğan ve domatesi kavurup pirinci ekleyin.",
+      "Safranlı sıcak tavuk suyunu ekleyip tavuğu geri koyun.",
+      "Son 10 dakikada karides ve midyeyi ekleyip pişirmeye devam edin."
+    ]
+  },
+  {
+    "id": "patatas-bravas",
+    "name": "Patatas Bravas",
+    "region": "İspanyol",
+    "mealType": "atıştırmalık",
+    "dietTags": ["vegan"],
+    "servings": 4,
+    "prepTime": 10,
+    "cookTime": 30,
+    "description": "Acılı domates soslu kızarmış patates, İspanyol tapas klasiği.",
+    "ingredients": [
+      { "name": "patates", "amount": 6, "unit": "adet" },
+      { "name": "domates salçası", "amount": 2, "unit": "yk" },
+      { "name": "pul biber", "amount": 1, "unit": "çk" },
+      { "name": "sarımsak", "amount": 2, "unit": "diş" },
+      { "name": "zeytinyağı", "amount": 100, "unit": "ml" },
+      { "name": "tuz", "amount": 5, "unit": "g" }
+    ],
+    "steps": [
+      "Patatesleri küp doğrayıp kızartın veya fırınlayın.",
+      "Sarımsak, salça ve pul biberle sos hazırlayın.",
+      "Kızarmış patatesleri sosla karıştırın.",
+      "Sıcak servis yapın."
+    ]
+  },
+  {
+    "id": "tortilla-espanola",
+    "name": "Tortilla Española",
+    "region": "İspanyol",
+    "mealType": "ana-yemek",
+    "dietTags": ["vejetaryen"],
+    "servings": 4,
+    "prepTime": 15,
+    "cookTime": 25,
+    "description": "Patates ve yumurtayla yapılan İspanyol usulü omlet.",
+    "ingredients": [
+      { "name": "patates", "amount": 5, "unit": "adet" },
+      { "name": "yumurta", "amount": 6, "unit": "adet" },
+      { "name": "soğan", "amount": 1, "unit": "adet" },
+      { "name": "zeytinyağı", "amount": 150, "unit": "ml" },
+      { "name": "tuz", "amount": 5, "unit": "g" }
+    ],
+    "steps": [
+      "Patates ve soğanı ince dilimleyip bol zeytinyağında yumuşayana kadar pişirin.",
+      "Yumurtaları çırpıp patateslerle karıştırın.",
+      "Karışımı tavada her iki tarafını da altın rengine gelene kadar pişirin.",
+      "Dilimleyip ılık servis yapın."
+    ]
+  },
+  {
+    "id": "salmorejo",
+    "name": "Salmorejo",
+    "region": "İspanyol",
+    "mealType": "çorba",
+    "dietTags": ["vegan"],
+    "servings": 4,
+    "prepTime": 15,
+    "cookTime": 0,
+    "description": "Domates ve ekmekle yapılan koyu kıvamlı soğuk Endülüs çorbası.",
+    "ingredients": [
+      { "name": "domates", "amount": 8, "unit": "adet" },
+      { "name": "bayat ekmek", "amount": 100, "unit": "g" },
+      { "name": "sarımsak", "amount": 1, "unit": "diş" },
+      { "name": "zeytinyağı", "amount": 100, "unit": "ml" },
+      { "name": "sirke", "amount": 15, "unit": "ml" },
+      { "name": "tuz", "amount": 3, "unit": "g" }
+    ],
+    "steps": [
+      "Domatesleri iri doğrayıp ekmekle birlikte blenderdan geçirin.",
+      "Sarımsak, sirke ve tuz ekleyip tekrar karıştırın.",
+      "Zeytinyağını yavaşça ekleyerek pürüzsüz kıvam alın.",
+      "En az 1 saat soğutup soğuk servis yapın."
+    ]
+  },
+  {
+    "id": "pisto",
+    "name": "Pisto",
+    "region": "İspanyol",
+    "mealType": "ana-yemek",
+    "dietTags": ["vegan"],
+    "servings": 4,
+    "prepTime": 15,
+    "cookTime": 30,
+    "description": "Kabak, patlıcan ve biberle yapılan İspanyol usulü sebze yemeği.",
+    "ingredients": [
+      { "name": "kabak", "amount": 2, "unit": "adet" },
+      { "name": "patlıcan", "amount": 1, "unit": "adet" },
+      { "name": "kırmızı biber", "amount": 2, "unit": "adet" },
+      { "name": "domates", "amount": 3, "unit": "adet" },
+      { "name": "soğan", "amount": 1, "unit": "adet" },
+      { "name": "zeytinyağı", "amount": 80, "unit": "ml" },
+      { "name": "tuz", "amount": 3, "unit": "g" }
+    ],
+    "steps": [
+      "Tüm sebzeleri küp doğrayın.",
+      "Soğan ve biberi zeytinyağında kavurun.",
+      "Patlıcan, kabak ve domatesi ekleyip kısık ateşte pişirin.",
+      "Sebzeler yumuşayınca tuzla tatlandırıp servis yapın."
+    ]
+  },
+  {
+    "id": "tabbouleh",
+    "name": "Tabbouleh",
+    "region": "Levanten",
+    "mealType": "salata",
+    "dietTags": ["vegan"],
+    "servings": 4,
+    "prepTime": 20,
+    "cookTime": 0,
+    "description": "Bol maydanoz ve ince bulgurla yapılan Levanten salatası.",
+    "ingredients": [
+      { "name": "ince bulgur", "amount": 100, "unit": "g" },
+      { "name": "maydanoz", "amount": 3, "unit": "demet" },
+      { "name": "nane", "amount": 1, "unit": "demet" },
+      { "name": "domates", "amount": 3, "unit": "adet" },
+      { "name": "taze soğan", "amount": 3, "unit": "adet" },
+      { "name": "limon", "amount": 2, "unit": "adet" },
+      { "name": "zeytinyağı", "amount": 80, "unit": "ml" },
+      { "name": "tuz", "amount": 3, "unit": "g" }
+    ],
+    "steps": [
+      "Bulguru az suyla ıslatıp yumuşamasını bekleyin.",
+      "Maydanoz, nane, domates ve taze soğanı ince kıyın.",
+      "Bulgur ve kıyılmış malzemeleri karıştırın.",
+      "Limon suyu, zeytinyağı ve tuz ile harmanlayıp servis yapın."
+    ]
+  },
+  {
+    "id": "fattoush",
+    "name": "Fattoush",
+    "region": "Levanten",
+    "mealType": "salata",
+    "dietTags": ["vegan"],
+    "servings": 4,
+    "prepTime": 15,
+    "cookTime": 5,
+    "description": "Kızarmış pide parçalarıyla yapılan çıtır Levanten salatası.",
+    "ingredients": [
+      { "name": "marul", "amount": 1, "unit": "adet" },
+      { "name": "domates", "amount": 2, "unit": "adet" },
+      { "name": "salatalık", "amount": 1, "unit": "adet" },
+      { "name": "turp", "amount": 4, "unit": "adet" },
+      { "name": "pide ekmeği", "amount": 2, "unit": "adet" },
+      { "name": "nar ekşisi", "amount": 30, "unit": "ml" },
+      { "name": "zeytinyağı", "amount": 60, "unit": "ml" },
+      { "name": "sumak", "amount": 1, "unit": "çk" },
+      { "name": "tuz", "amount": 3, "unit": "g" }
+    ],
+    "steps": [
+      "Pide ekmeğini küçük parçalara bölüp kızartın veya fırınlayın.",
+      "Sebzeleri doğrayıp büyük bir kapta karıştırın.",
+      "Nar ekşisi, zeytinyağı, sumak ve tuz ile sos hazırlayın.",
+      "Servis öncesi kızarmış ekmek parçalarını ekleyip karıştırın."
+    ]
+  },
+  {
+    "id": "baba-ganoush",
+    "name": "Baba Ganoush",
+    "region": "Levanten",
+    "mealType": "meze",
+    "dietTags": ["vegan"],
+    "servings": 4,
+    "prepTime": 15,
+    "cookTime": 25,
+    "description": "Közlenmiş patlıcan ve tahinle yapılan dumanlı Levanten mezesi.",
+    "ingredients": [
+      { "name": "patlıcan", "amount": 3, "unit": "adet" },
+      { "name": "tahin", "amount": 60, "unit": "g" },
+      { "name": "limon", "amount": 1, "unit": "adet" },
+      { "name": "sarımsak", "amount": 2, "unit": "diş" },
+      { "name": "zeytinyağı", "amount": 40, "unit": "ml" },
+      { "name": "tuz", "amount": 3, "unit": "g" }
+    ],
+    "steps": [
+      "Patlıcanları alevde veya fırında közleyin.",
+      "Kabuklarını soyup etini ezin.",
+      "Tahin, limon suyu ve ezilmiş sarımsakla karıştırın.",
+      "Üzerine zeytinyağı gezdirip servis yapın."
+    ]
+  },
+  {
+    "id": "falafel",
+    "name": "Falafel",
+    "region": "Levanten",
+    "mealType": "ana-yemek",
+    "dietTags": ["vegan"],
+    "servings": 4,
+    "prepTime": 30,
+    "cookTime": 15,
+    "description": "Baharatlı nohut köftelerinin kızartılmasıyla yapılan Levanten klasiği.",
+    "ingredients": [
+      { "name": "kuru nohut", "amount": 300, "unit": "g" },
+      { "name": "soğan", "amount": 1, "unit": "adet" },
+      { "name": "sarımsak", "amount": 3, "unit": "diş" },
+      { "name": "maydanoz", "amount": 1, "unit": "demet" },
+      { "name": "kimyon", "amount": 1, "unit": "çk" },
+      { "name": "kişniş", "amount": 1, "unit": "çk" },
+      { "name": "un", "amount": 2, "unit": "yk" },
+      { "name": "tuz", "amount": 5, "unit": "g" },
+      { "name": "kızartmalık yağ", "amount": 500, "unit": "ml" }
+    ],
+    "steps": [
+      "Nohutları bir gece suda bekletin, haşlamadan işleyin.",
+      "Nohut, soğan, sarımsak, maydanoz ve baharatları robotta çekin.",
+      "Karışımdan küçük köfteler şekillendirin.",
+      "Kızgın yağda altın rengi olana kadar kızartın."
+    ]
+  },
+  {
+    "id": "shakshuka",
+    "name": "Shakshuka",
+    "region": "Levanten",
+    "mealType": "kahvaltı",
+    "dietTags": ["vejetaryen"],
+    "servings": 4,
+    "prepTime": 10,
+    "cookTime": 25,
+    "description": "Baharatlı domates sosunda pişirilen yumurta yemeği.",
+    "ingredients": [
+      { "name": "yumurta", "amount": 6, "unit": "adet" },
+      { "name": "domates", "amount": 5, "unit": "adet" },
+      { "name": "kırmızı biber", "amount": 2, "unit": "adet" },
+      { "name": "soğan", "amount": 1, "unit": "adet" },
+      { "name": "sarımsak", "amount": 2, "unit": "diş" },
+      { "name": "kimyon", "amount": 1, "unit": "çk" },
+      { "name": "zeytinyağı", "amount": 40, "unit": "ml" },
+      { "name": "tuz", "amount": 3, "unit": "g" }
+    ],
+    "steps": [
+      "Soğan, biber ve sarımsağı zeytinyağında kavurun.",
+      "Domates ve kimyonu ekleyip koyu bir sos elde edene kadar pişirin.",
+      "Sosta küçük oyuklar açıp yumurtaları kırın.",
+      "Yumurtaların beyazı pişip sarısı diri kalana kadar kapağı kapalı pişirin."
+    ]
+  },
+  {
+    "id": "muhammara",
+    "name": "Muhammara",
+    "region": "Levanten",
+    "mealType": "meze",
+    "dietTags": ["vegan"],
+    "servings": 4,
+    "prepTime": 15,
+    "cookTime": 15,
+    "description": "Kızılbiber ve cevizle yapılan acımsı-tatlı Levanten ezmesi.",
+    "ingredients": [
+      { "name": "kırmızı biber", "amount": 4, "unit": "adet" },
+      { "name": "ceviz", "amount": 150, "unit": "g" },
+      { "name": "galeta unu", "amount": 50, "unit": "g" },
+      { "name": "nar ekşisi", "amount": 30, "unit": "ml" },
+      { "name": "pul biber", "amount": 1, "unit": "çk" },
+      { "name": "zeytinyağı", "amount": 60, "unit": "ml" },
+      { "name": "tuz", "amount": 3, "unit": "g" }
+    ],
+    "steps": [
+      "Kırmızı biberleri közleyip kabuklarını soyun.",
+      "Biber, ceviz, galeta unu ve nar ekşisini robotta çekin.",
+      "Pul biber ve tuz ekleyip karıştırın.",
+      "Üzerine zeytinyağı gezdirip servis yapın."
+    ]
+  },
+  {
+    "id": "humus",
+    "name": "Humus",
+    "region": "Levanten",
+    "mealType": "meze",
+    "dietTags": ["vegan"],
+    "servings": 4,
+    "prepTime": 10,
+    "cookTime": 0,
+    "description": "Nohut ve tahinle yapılan kremamsı Levanten mezesi.",
+    "ingredients": [
+      { "name": "kuru nohut", "amount": 250, "unit": "g" },
+      { "name": "tahin", "amount": 80, "unit": "g" },
+      { "name": "limon", "amount": 1, "unit": "adet" },
+      { "name": "sarımsak", "amount": 2, "unit": "diş" },
+      { "name": "zeytinyağı", "amount": 40, "unit": "ml" },
+      { "name": "kimyon", "amount": 1, "unit": "çk" },
+      { "name": "tuz", "amount": 3, "unit": "g" }
+    ],
+    "steps": [
+      "Haşlanmış nohutları suyuyla birlikte robotta çekin.",
+      "Tahin, limon suyu ve sarımsağı ekleyip pürüzsüz kıvama getirin.",
+      "Kimyon ve tuz ile tatlandırın.",
+      "Üzerine zeytinyağı gezdirip servis yapın."
+    ]
+  },
+  {
+    "id": "manakish",
+    "name": "Manakish",
+    "region": "Levanten",
+    "mealType": "kahvaltı",
+    "dietTags": ["vejetaryen"],
+    "servings": 4,
+    "prepTime": 90,
+    "cookTime": 15,
+    "description": "Zahter ve zeytinyağıyla kaplanan Levanten usulü mayalı pide.",
+    "ingredients": [
+      { "name": "un", "amount": 400, "unit": "g" },
+      { "name": "maya", "amount": 7, "unit": "g" },
+      { "name": "zahter", "amount": 40, "unit": "g" },
+      { "name": "zeytinyağı", "amount": 80, "unit": "ml" },
+      { "name": "tuz", "amount": 5, "unit": "g" },
+      { "name": "su", "amount": 250, "unit": "ml" }
+    ],
+    "steps": [
+      "Un, maya, tuz ve suyla hamur yoğurup 1 saat mayalandırın.",
+      "Hamuru yuvarlaklara bölüp yassı şekil verin.",
+      "Zahter ve zeytinyağı karışımını üzerine sürün.",
+      "Önceden ısıtılmış fırında 10-12 dakika pişirin."
+    ]
+  },
+  {
+    "id": "warak-enab",
+    "name": "Warak Enab",
+    "region": "Levanten",
+    "mealType": "meze",
+    "dietTags": ["vegan"],
+    "servings": 6,
+    "prepTime": 45,
+    "cookTime": 40,
+    "description": "Pirinç ve otlarla doldurulan Levanten usulü asma yaprağı sarması.",
+    "ingredients": [
+      { "name": "asma yaprağı", "amount": 40, "unit": "adet" },
+      { "name": "pirinç", "amount": 200, "unit": "g" },
+      { "name": "domates", "amount": 2, "unit": "adet" },
+      { "name": "maydanoz", "amount": 1, "unit": "demet" },
+      { "name": "nane", "amount": 1, "unit": "demet" },
+      { "name": "limon", "amount": 2, "unit": "adet" },
+      { "name": "zeytinyağı", "amount": 100, "unit": "ml" },
+      { "name": "tuz", "amount": 5, "unit": "g" }
+    ],
+    "steps": [
+      "Pirinç, doğranmış domates ve otları karıştırıp iç harcı hazırlayın.",
+      "Her yaprağa az miktarda harç koyup sıkıca sarın.",
+      "Tencereye sıkıca dizin.",
+      "Su, limon suyu ve zeytinyağı ekleyip 35 dakika kısık ateşte pişirin."
+    ]
+  },
+  {
+    "id": "tavuklu-tagine",
+    "name": "Tavuklu Tagine",
+    "region": "Fas",
+    "mealType": "ana-yemek",
+    "dietTags": ["et"],
+    "servings": 4,
+    "prepTime": 20,
+    "cookTime": 45,
+    "description": "Kayısı ve bademle yapılan tatlı-tuzlu Fas usulü tavuk yemeği.",
+    "ingredients": [
+      { "name": "tavuk but", "amount": 6, "unit": "adet" },
+      { "name": "soğan", "amount": 2, "unit": "adet" },
+      { "name": "kayısı kurusu", "amount": 100, "unit": "g" },
+      { "name": "tarçın", "amount": 1, "unit": "çk" },
+      { "name": "zencefil", "amount": 1, "unit": "çk" },
+      { "name": "safran", "amount": 1, "unit": "çk" },
+      { "name": "zeytinyağı", "amount": 60, "unit": "ml" },
+      { "name": "badem", "amount": 50, "unit": "g" },
+      { "name": "tuz", "amount": 5, "unit": "g" }
+    ],
+    "steps": [
+      "Tavukları zeytinyağında mühürleyin.",
+      "Soğan ve baharatları ekleyip birkaç dakika kavurun.",
+      "Kayısı ve az su ekleyip kapağı kapalı 35 dakika pişirin.",
+      "Kavrulmuş badem serperek servis yapın."
+    ]
+  },
+  {
+    "id": "kuskus-salatasi",
+    "name": "Kuskus Salatası",
+    "region": "Fas",
+    "mealType": "salata",
+    "dietTags": ["vegan"],
+    "servings": 4,
+    "prepTime": 15,
+    "cookTime": 5,
+    "description": "Hafif ve ferahlatıcı Fas usulü kuskus salatası.",
+    "ingredients": [
+      { "name": "kuskus", "amount": 250, "unit": "g" },
+      { "name": "salatalık", "amount": 1, "unit": "adet" },
+      { "name": "domates", "amount": 2, "unit": "adet" },
+      { "name": "nane", "amount": 1, "unit": "demet" },
+      { "name": "limon", "amount": 1, "unit": "adet" },
+      { "name": "zeytinyağı", "amount": 60, "unit": "ml" },
+      { "name": "tuz", "amount": 3, "unit": "g" }
+    ],
+    "steps": [
+      "Kuskusu sıcak suyla haşlayıp dinlendirin, çatalla dağıtın.",
+      "Salatalık ve domatesi küçük küp doğrayın.",
+      "Kuskusla sebzeleri ve kıyılmış naneyi karıştırın.",
+      "Limon suyu, zeytinyağı ve tuz ile tatlandırıp servis yapın."
+    ]
+  },
+  {
+    "id": "harira-corbasi",
+    "name": "Harira Çorbası",
+    "region": "Fas",
+    "mealType": "çorba",
+    "dietTags": ["vegan"],
+    "servings": 6,
+    "prepTime": 15,
+    "cookTime": 40,
+    "description": "Mercimek ve nohutla yapılan baharatlı Fas çorbası.",
+    "ingredients": [
+      { "name": "kırmızı mercimek", "amount": 150, "unit": "g" },
+      { "name": "nohut", "amount": 100, "unit": "g" },
+      { "name": "domates", "amount": 3, "unit": "adet" },
+      { "name": "kereviz sapı", "amount": 2, "unit": "adet" },
+      { "name": "soğan", "amount": 1, "unit": "adet" },
+      { "name": "un", "amount": 2, "unit": "yk" },
+      { "name": "kimyon", "amount": 1, "unit": "çk" },
+      { "name": "tarçın", "amount": 1, "unit": "çk" },
+      { "name": "zeytinyağı", "amount": 60, "unit": "ml" },
+      { "name": "tuz", "amount": 5, "unit": "g" }
+    ],
+    "steps": [
+      "Soğan ve kerevizi zeytinyağında kavurun.",
+      "Domates, mercimek, nohut ve baharatları ekleyip su ilave edin.",
+      "30 dakika kısık ateşte pişirin.",
+      "Az suyla açılmış unu ekleyip koyulaştırın ve servis yapın."
+    ]
+  },
+  {
+    "id": "zaalouk",
+    "name": "Zaalouk",
+    "region": "Fas",
+    "mealType": "meze",
+    "dietTags": ["vegan"],
+    "servings": 4,
+    "prepTime": 15,
+    "cookTime": 25,
+    "description": "Patlıcan ve domatesle yapılan baharatlı Fas mezesi.",
+    "ingredients": [
+      { "name": "patlıcan", "amount": 3, "unit": "adet" },
+      { "name": "domates", "amount": 3, "unit": "adet" },
+      { "name": "sarımsak", "amount": 3, "unit": "diş" },
+      { "name": "kimyon", "amount": 1, "unit": "çk" },
+      { "name": "pul biber", "amount": 1, "unit": "çk" },
+      { "name": "zeytinyağı", "amount": 60, "unit": "ml" },
+      { "name": "tuz", "amount": 3, "unit": "g" }
+    ],
+    "steps": [
+      "Patlıcanları küp doğrayıp haşlayın veya fırınlayın.",
+      "Domates ve sarımsakla birlikte zeytinyağında pişirin.",
+      "Patlıcanı ekleyip ezerek karıştırın.",
+      "Kimyon, pul biber ve tuzla tatlandırıp soğuk servis yapın."
+    ]
+  },
+  {
+    "id": "fas-havuc-salatasi",
+    "name": "Fas Havuç Salatası",
+    "region": "Fas",
+    "mealType": "salata",
+    "dietTags": ["vegan"],
+    "servings": 4,
+    "prepTime": 15,
+    "cookTime": 10,
+    "description": "Kimyon ve tarçınla tatlandırılmış Fas usulü haşlanmış havuç salatası.",
+    "ingredients": [
+      { "name": "havuç", "amount": 6, "unit": "adet" },
+      { "name": "limon", "amount": 1, "unit": "adet" },
+      { "name": "kimyon", "amount": 1, "unit": "çk" },
+      { "name": "tarçın", "amount": 1, "unit": "çk" },
+      { "name": "zeytinyağı", "amount": 40, "unit": "ml" },
+      { "name": "maydanoz", "amount": 1, "unit": "demet" },
+      { "name": "tuz", "amount": 3, "unit": "g" }
+    ],
+    "steps": [
+      "Havuçları dilimleyip yumuşayana kadar haşlayın.",
+      "Limon suyu, kimyon ve tarçınla karıştırın.",
+      "Zeytinyağı ve doğranmış maydanoz ekleyin.",
+      "Ilık veya soğuk servis yapın."
+    ]
+  }
+]
