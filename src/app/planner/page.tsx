@@ -30,16 +30,15 @@ function DayColumn({ day }: { day: Weekday }) {
               <div className="flex items-start justify-between gap-2">
                 <Link
                   href={`/recipes/${recipe.id}`}
-                  className="flex items-center gap-1.5 font-medium text-brand-sea-dark hover:text-brand-terracotta"
+                  className="font-medium text-brand-sea-dark hover:text-brand-sea"
                 >
-                  <span>{recipe.emoji}</span>
                   {recipe.name}
                 </Link>
                 <button
                   type="button"
                   onClick={() => removeEntry(entry.id)}
                   aria-label="Remove"
-                  className="text-brand-terracotta hover:opacity-70"
+                  className="text-brand-sea-dark/50 hover:text-brand-sea-dark"
                 >
                   ✕
                 </button>
@@ -116,7 +115,7 @@ export default function PlannerPage() {
           )}
           <Link
             href="/shopping-list"
-            className="rounded-full bg-brand-terracotta px-4 py-2 text-sm font-semibold text-white transition hover:-translate-y-0.5 hover:opacity-90"
+            className="rounded-full bg-brand-sea px-4 py-2 text-sm font-semibold text-white transition hover:-translate-y-0.5 hover:bg-brand-sea-dark"
           >
             View Shopping List
           </Link>

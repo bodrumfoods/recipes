@@ -21,7 +21,6 @@ export interface Ingredient {
 export interface Recipe {
   id: string;
   name: string;
-  emoji: string;
   region: Region;
   mealType: MealType;
   dietTags: DietTag[];

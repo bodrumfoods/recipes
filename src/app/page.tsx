@@ -2,15 +2,6 @@ import Link from "next/link";
 import { recipes, regions } from "@/lib/recipes";
 import RecipeCard from "@/components/RecipeCard";
 
-const floatingEmoji = [
-  { emoji: "🍅", className: "left-[6%] top-[18%] text-6xl animate-float-slow" },
-  { emoji: "🫒", className: "left-[85%] top-[12%] text-5xl animate-float-slow-reverse" },
-  { emoji: "🍆", className: "left-[12%] top-[70%] text-5xl animate-float-slow-reverse" },
-  { emoji: "🥙", className: "left-[80%] top-[65%] text-6xl animate-float-slow" },
-  { emoji: "🍋", className: "left-[45%] top-[8%] text-4xl animate-float-slow" },
-  { emoji: "🧆", className: "left-[92%] top-[40%] text-5xl animate-float-slow-reverse" },
-];
-
 export default function Home() {
   const featured = recipes.slice(0, 6);
 
@@ -18,20 +9,14 @@ export default function Home() {
     <div className="flex flex-col overflow-x-hidden">
       <section className="relative overflow-hidden border-b border-brand-border bg-gradient-to-b from-brand-sea/10 to-brand-sand">
         <div aria-hidden className="pointer-events-none absolute inset-0">
-          {floatingEmoji.map((item, i) => (
-            <span
-              key={i}
-              className={`absolute opacity-20 ${item.className}`}
-              style={{ animationDelay: `${i * 0.6}s` }}
-            >
-              {item.emoji}
-            </span>
-          ))}
+          <span className="animate-float-slow absolute -left-16 top-10 h-72 w-72 rounded-full bg-brand-sea/20 blur-3xl" />
+          <span className="animate-float-slow-reverse absolute -right-24 top-24 h-80 w-80 rounded-full bg-brand-terracotta/40 blur-3xl" />
+          <span className="animate-float-slow absolute bottom-0 left-1/3 h-64 w-64 rounded-full bg-brand-olive/30 blur-3xl" />
         </div>
 
         <div className="relative mx-auto max-w-6xl px-4 py-20 sm:px-6">
           <div className="animate-fade-in-up">
-            <p className="text-sm font-semibold uppercase tracking-widest text-brand-terracotta">
+            <p className="text-sm font-semibold uppercase tracking-widest text-brand-sea-dark">
               Mediterranean cuisine, all in one place
             </p>
             <h1 className="font-display mt-4 max-w-2xl text-4xl font-bold leading-tight text-brand-sea-dark sm:text-5xl">
@@ -58,12 +43,12 @@ export default function Home() {
           </div>
         </div>
 
-        <div aria-hidden className="relative h-14 overflow-hidden border-t border-brand-border/70">
-          <div className="animate-drift absolute flex w-[200%] items-center gap-10 whitespace-nowrap text-2xl">
+        <div aria-hidden className="relative h-10 overflow-hidden border-t border-brand-border/70">
+          <div className="animate-drift absolute flex w-[200%] items-center gap-12 whitespace-nowrap text-xs font-semibold uppercase tracking-widest text-brand-sea-dark/40">
             {Array.from({ length: 2 }).map((_, i) => (
-              <div key={i} className="flex items-center gap-10 pl-10">
-                {["🍅", "🫒", "🧄", "🍆", "🥙", "🍋", "🧆", "🫓", "🥗", "🍲"].map((e, j) => (
-                  <span key={j}>{e}</span>
+              <div key={i} className="flex items-center gap-12 pl-12">
+                {regions.map((r) => (
+                  <span key={r}>{r} Cuisine</span>
                 ))}
               </div>
             ))}
@@ -76,19 +61,16 @@ export default function Home() {
           {[
             {
               step: "1",
-              emoji: "📖",
               title: "Pick recipes",
               text: `Browse ${recipes.length}+ Mediterranean recipes and find your favourites.`,
             },
             {
               step: "2",
-              emoji: "🗓️",
               title: "Plan your week",
               text: "Add one or more recipes to each day and adjust the servings.",
             },
             {
               step: "3",
-              emoji: "🛒",
               title: "Order ingredients",
               text: "Your shopping list is generated automatically — add it to your bodrumfoods.co.uk cart in one click.",
             },
@@ -97,15 +79,10 @@ export default function Home() {
               key={item.step}
               className="group rounded-2xl border border-brand-border bg-brand-card p-6 transition duration-300 hover:-translate-y-1 hover:shadow-lg"
             >
-              <div className="flex items-center gap-3">
-                <span className="text-3xl transition duration-300 group-hover:scale-110">
-                  {item.emoji}
-                </span>
-                <span className="font-display text-3xl font-bold text-brand-terracotta">
-                  {item.step}
-                </span>
-              </div>
-              <h3 className="font-display mt-3 font-semibold text-brand-sea-dark">{item.title}</h3>
+              <span className="font-display flex h-10 w-10 items-center justify-center rounded-full bg-brand-sea/10 text-lg font-bold text-brand-sea-dark transition duration-300 group-hover:bg-brand-sea group-hover:text-white">
+                {item.step}
+              </span>
+              <h3 className="font-display mt-4 font-semibold text-brand-sea-dark">{item.title}</h3>
               <p className="mt-2 text-sm text-brand-sea-dark/70">{item.text}</p>
             </div>
           ))}
@@ -115,7 +92,7 @@ export default function Home() {
       <section className="mx-auto w-full max-w-6xl px-4 pb-16 sm:px-6">
         <div className="mb-6 flex items-center justify-between">
           <h2 className="font-display text-2xl font-bold text-brand-sea-dark">Featured Recipes</h2>
-          <Link href="/recipes" className="text-sm font-semibold text-brand-terracotta hover:underline">
+          <Link href="/recipes" className="text-sm font-semibold text-brand-sea-dark hover:text-brand-sea">
             See All
           </Link>
         </div>

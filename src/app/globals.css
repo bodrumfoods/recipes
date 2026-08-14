@@ -1,15 +1,17 @@
 @import "tailwindcss";
 
 :root {
-  --background: #fdf8f0;
-  --foreground: #1f2a24;
-  --brand-sea: #0f5d76;
-  --brand-sea-dark: #0a3f4f;
-  --brand-terracotta: #c1440e;
-  --brand-olive: #708238;
-  --brand-sand: #fdf8f0;
+  /* "Bodrum" palette */
+  --background: #f8f7ff;
+  --foreground: #241f38;
+  --brand-sea: #9381ff;
+  --brand-sea-dark: #6f5ce0;
+  --brand-terracotta: #ffd8be;
+  --brand-olive: #b8b8ff;
+  --brand-peach: #ffeedd;
+  --brand-sand: #f8f7ff;
   --brand-card: #ffffff;
-  --brand-border: #e7ddc9;
+  --brand-border: #e6e3fb;
 }
 
 @theme inline {
@@ -19,6 +21,7 @@
   --color-brand-sea-dark: var(--brand-sea-dark);
   --color-brand-terracotta: var(--brand-terracotta);
   --color-brand-olive: var(--brand-olive);
+  --color-brand-peach: var(--brand-peach);
   --color-brand-sand: var(--brand-sand);
   --color-brand-card: var(--brand-card);
   --color-brand-border: var(--brand-border);
@@ -32,7 +35,7 @@ body {
   color: var(--foreground);
   font-family: var(--font-sans), Arial, Helvetica, sans-serif;
   background-image:
-    radial-gradient(circle at 1px 1px, rgba(15, 93, 118, 0.07) 1px, transparent 0);
+    radial-gradient(circle at 1px 1px, rgba(147, 129, 255, 0.08) 1px, transparent 0);
   background-size: 22px 22px;
 }
 

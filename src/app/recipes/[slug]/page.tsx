@@ -19,15 +19,8 @@ export default async function RecipeDetailPage({
   return (
     <div className="mx-auto w-full max-w-3xl px-4 py-10 sm:px-6">
       <div className="animate-fade-in-up">
-        <div className="relative overflow-hidden rounded-3xl border border-brand-border bg-gradient-to-br from-brand-sea/10 via-brand-card to-brand-terracotta/10 px-6 py-10 text-center sm:px-10">
-          <div
-            aria-hidden
-            className="pointer-events-none absolute -left-8 -top-10 text-9xl opacity-10"
-          >
-            {recipe.emoji}
-          </div>
-          <span className="text-6xl">{recipe.emoji}</span>
-          <div className="mt-4 flex items-center justify-center gap-2 text-xs font-semibold uppercase tracking-wide text-brand-terracotta">
+        <div className="relative overflow-hidden rounded-3xl border border-brand-border bg-gradient-to-br from-brand-sea/10 via-brand-card to-brand-terracotta/20 px-6 py-10 text-center sm:px-10">
+          <div className="flex items-center justify-center gap-2 text-xs font-semibold uppercase tracking-wide text-brand-sea-dark">
             <span>{recipe.region}</span>
             <span>•</span>
             <span>{recipe.mealType}</span>
@@ -44,9 +37,9 @@ export default async function RecipeDetailPage({
           </div>
 
           <div className="mt-6 flex flex-wrap justify-center gap-6 text-sm text-brand-sea-dark/70">
-            <span>🍽️ {recipe.servings} servings</span>
-            <span>⏱️ {recipe.prepTime} min prep</span>
-            <span>🔥 {recipe.cookTime} min cook</span>
+            <span>{recipe.servings} servings</span>
+            <span>{recipe.prepTime} min prep</span>
+            <span>{recipe.cookTime} min cook</span>
           </div>
 
           <div className="mt-6 flex justify-center">

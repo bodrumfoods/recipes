@@ -29,8 +29,7 @@ export default function ShoppingListPage() {
   if (entries.length === 0) {
     return (
       <div className="mx-auto w-full max-w-2xl px-4 py-16 text-center sm:px-6">
-        <p className="text-6xl">🛒</p>
-        <h1 className="font-display mt-4 text-2xl font-bold text-brand-sea-dark">
+        <h1 className="font-display text-2xl font-bold text-brand-sea-dark">
           Your shopping list is empty
         </h1>
         <p className="mt-3 text-brand-sea-dark/70">
@@ -73,7 +72,7 @@ export default function ShoppingListPage() {
               href={cartUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="rounded-full bg-brand-terracotta px-5 py-2.5 text-sm font-semibold text-white transition hover:-translate-y-0.5 hover:opacity-90"
+              className="rounded-full bg-brand-sea px-5 py-2.5 text-sm font-semibold text-white transition hover:-translate-y-0.5 hover:bg-brand-sea-dark"
             >
               Add to Cart ({cartReady.length})
             </a>
