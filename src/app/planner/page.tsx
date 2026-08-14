@@ -16,21 +16,21 @@ function DayColumn({ day }: { day: Weekday }) {
 
   return (
     <div className="flex min-w-[260px] flex-col gap-3 rounded-2xl border border-brand-border bg-brand-card p-4 transition hover:shadow-md">
-      <h3 className="font-display font-semibold text-brand-sea-dark">{day}</h3>
+      <h3 className="font-display font-semibold text-brand-ink">{day}</h3>
 
       <div className="flex flex-col gap-2">
         {entries.length === 0 && (
-          <p className="text-xs text-brand-sea-dark/50">No recipes added yet.</p>
+          <p className="text-xs text-brand-ink/50">No recipes added yet.</p>
         )}
         {entries.map((entry) => {
           const recipe = getRecipeById(entry.recipeId);
           if (!recipe) return null;
           return (
-            <div key={entry.id} className="rounded-xl bg-brand-sand p-3 text-sm">
+            <div key={entry.id} className="rounded-xl bg-brand-muted p-3 text-sm">
               <div className="flex items-start justify-between gap-2">
                 <Link
                   href={`/recipes/${recipe.id}`}
-                  className="font-medium text-brand-sea-dark hover:text-brand-sea"
+                  className="font-medium text-brand-ink hover:text-brand-red"
                 >
                   {recipe.name}
                 </Link>
@@ -38,12 +38,12 @@ function DayColumn({ day }: { day: Weekday }) {
                   type="button"
                   onClick={() => removeEntry(entry.id)}
                   aria-label="Remove"
-                  className="text-brand-sea-dark/50 hover:text-brand-sea-dark"
+                  className="text-brand-ink/50 hover:text-brand-red"
                 >
                   ✕
                 </button>
               </div>
-              <div className="mt-2 flex items-center gap-2 text-xs text-brand-sea-dark/70">
+              <div className="mt-2 flex items-center gap-2 text-xs text-brand-ink/70">
                 <label htmlFor={`servings-${entry.id}`}>Servings</label>
                 <input
                   id={`servings-${entry.id}`}
@@ -79,7 +79,7 @@ function DayColumn({ day }: { day: Weekday }) {
             addEntry(day, selected);
             setSelected("");
           }}
-          className="rounded-lg bg-brand-sea px-3 py-1.5 text-xs font-semibold text-white transition hover:bg-brand-sea-dark disabled:opacity-40"
+          className="rounded-lg bg-brand-green px-3 py-1.5 text-xs font-semibold text-white transition hover:bg-brand-green-dark disabled:opacity-40"
         >
           Add
         </button>
@@ -96,10 +96,10 @@ export default function PlannerPage() {
     <div className="mx-auto w-full max-w-7xl px-4 py-10 sm:px-6">
       <div className="mb-8 flex flex-wrap items-center justify-between gap-4 animate-fade-in-up">
         <div>
-          <h1 className="font-display text-3xl font-bold text-brand-sea-dark">
+          <h1 className="font-display text-3xl font-bold text-brand-ink">
             Weekly Meal Planner
           </h1>
-          <p className="mt-2 text-brand-sea-dark/70">
+          <p className="mt-2 text-brand-ink/70">
             Pick a recipe for each day — your plan turns into a shopping list automatically.
           </p>
         </div>
@@ -108,14 +108,14 @@ export default function PlannerPage() {
             <button
               type="button"
               onClick={clearPlan}
-              className="rounded-full border border-brand-border px-4 py-2 text-sm font-medium text-brand-sea-dark hover:bg-brand-card"
+              className="rounded-full border border-brand-border px-4 py-2 text-sm font-medium text-brand-ink hover:bg-brand-muted"
             >
               Clear Plan
             </button>
           )}
           <Link
             href="/shopping-list"
-            className="rounded-full bg-brand-sea px-4 py-2 text-sm font-semibold text-white transition hover:-translate-y-0.5 hover:bg-brand-sea-dark"
+            className="rounded-full bg-brand-green px-4 py-2 text-sm font-semibold text-white transition hover:-translate-y-0.5 hover:bg-brand-green-dark"
           >
             View Shopping List
           </Link>

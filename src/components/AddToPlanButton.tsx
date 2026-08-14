@@ -21,7 +21,7 @@ export default function AddToPlanButton({ recipeId }: { recipeId: string }) {
       <button
         type="button"
         onClick={() => setOpen((v) => !v)}
-        className="rounded-full bg-brand-sea px-5 py-2.5 text-sm font-semibold text-white transition hover:-translate-y-0.5 hover:bg-brand-sea-dark"
+        className="rounded-full bg-brand-green px-5 py-2.5 text-sm font-semibold text-white transition hover:-translate-y-0.5 hover:bg-brand-green-dark"
       >
         {added ? `Added to ${added} ✓` : "Add to Weekly Plan"}
       </button>
@@ -32,7 +32,7 @@ export default function AddToPlanButton({ recipeId }: { recipeId: string }) {
               key={day}
               type="button"
               onClick={() => handleAdd(day)}
-              className="block w-full rounded-lg px-3 py-2 text-left text-sm text-brand-sea-dark hover:bg-brand-sand"
+              className="block w-full rounded-lg px-3 py-2 text-left text-sm text-brand-ink hover:bg-brand-muted"
             >
               {day}
             </button>

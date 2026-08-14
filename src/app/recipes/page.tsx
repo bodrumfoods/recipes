@@ -25,8 +25,8 @@ function RecipesContent() {
   return (
     <div className="mx-auto w-full max-w-6xl px-4 py-10 sm:px-6">
       <div className="mb-8 animate-fade-in-up">
-        <h1 className="font-display text-3xl font-bold text-brand-sea-dark">Recipes</h1>
-        <p className="mt-2 text-brand-sea-dark/70">
+        <h1 className="font-display text-3xl font-bold text-brand-ink">Recipes</h1>
+        <p className="mt-2 text-brand-ink/70">
           Choose from {recipes.length} Mediterranean recipes and add them to your weekly plan.
         </p>
       </div>
@@ -37,7 +37,7 @@ function RecipesContent() {
           value={query}
           onChange={(e) => setQuery(e.target.value)}
           placeholder="Search recipes..."
-          className="w-full max-w-xs rounded-full border border-brand-border bg-white px-4 py-2 text-sm outline-none transition focus:border-brand-sea focus:ring-2 focus:ring-brand-sea/20"
+          className="w-full max-w-xs rounded-full border border-brand-border bg-white px-4 py-2 text-sm outline-none transition focus:border-brand-red focus:ring-2 focus:ring-brand-red/15"
         />
         <select
           value={region}
@@ -78,7 +78,7 @@ function RecipesContent() {
       </div>
 
       {filtered.length === 0 ? (
-        <p className="text-brand-sea-dark/70">No recipes match your search.</p>
+        <p className="text-brand-ink/70">No recipes match your search.</p>
       ) : (
         <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
           {filtered.map((recipe, index) => (

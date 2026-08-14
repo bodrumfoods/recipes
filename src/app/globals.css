@@ -1,30 +1,30 @@
 @import "tailwindcss";
 
 :root {
-  /* "Bodrum" palette */
-  --background: #f8f7ff;
-  --foreground: #241f38;
-  --brand-sea: #9381ff;
-  --brand-sea-dark: #6f5ce0;
-  --brand-terracotta: #ffd8be;
-  --brand-olive: #b8b8ff;
-  --brand-peach: #ffeedd;
-  --brand-sand: #f8f7ff;
+  /* Bodrum Foods brand palette */
+  --background: #ffffff;
+  --foreground: #1a1a1a;
+  --brand-red: #d6291f;
+  --brand-red-dark: #b01f17;
+  --brand-green: #1c7c3e;
+  --brand-green-dark: #145c2e;
+  --brand-ink: #1a1a1a;
   --brand-card: #ffffff;
-  --brand-border: #e6e3fb;
+  --brand-border: #e5e5e5;
+  --brand-muted: #f7f7f7;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --color-brand-sea: var(--brand-sea);
-  --color-brand-sea-dark: var(--brand-sea-dark);
-  --color-brand-terracotta: var(--brand-terracotta);
-  --color-brand-olive: var(--brand-olive);
-  --color-brand-peach: var(--brand-peach);
-  --color-brand-sand: var(--brand-sand);
+  --color-brand-red: var(--brand-red);
+  --color-brand-red-dark: var(--brand-red-dark);
+  --color-brand-green: var(--brand-green);
+  --color-brand-green-dark: var(--brand-green-dark);
+  --color-brand-ink: var(--brand-ink);
   --color-brand-card: var(--brand-card);
   --color-brand-border: var(--brand-border);
+  --color-brand-muted: var(--brand-muted);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
   --font-display: var(--font-fraunces);
@@ -34,9 +34,6 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: var(--font-sans), Arial, Helvetica, sans-serif;
-  background-image:
-    radial-gradient(circle at 1px 1px, rgba(147, 129, 255, 0.08) 1px, transparent 0);
-  background-size: 22px 22px;
 }
 
 .font-display {

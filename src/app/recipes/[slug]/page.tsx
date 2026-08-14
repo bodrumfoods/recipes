@@ -19,16 +19,16 @@ export default async function RecipeDetailPage({
   return (
     <div className="mx-auto w-full max-w-3xl px-4 py-10 sm:px-6">
       <div className="animate-fade-in-up">
-        <div className="relative overflow-hidden rounded-3xl border border-brand-border bg-gradient-to-br from-brand-sea/10 via-brand-card to-brand-terracotta/20 px-6 py-10 text-center sm:px-10">
-          <div className="flex items-center justify-center gap-2 text-xs font-semibold uppercase tracking-wide text-brand-sea-dark">
+        <div className="relative overflow-hidden rounded-3xl border border-brand-border bg-brand-muted px-6 py-10 text-center sm:px-10">
+          <div className="flex items-center justify-center gap-2 text-xs font-semibold uppercase tracking-wide text-brand-red">
             <span>{recipe.region}</span>
             <span>•</span>
             <span>{recipe.mealType}</span>
           </div>
-          <h1 className="font-display mt-2 text-3xl font-bold text-brand-sea-dark sm:text-4xl">
+          <h1 className="font-display mt-2 text-3xl font-bold text-brand-ink sm:text-4xl">
             {recipe.name}
           </h1>
-          <p className="mx-auto mt-3 max-w-xl text-brand-sea-dark/70">{recipe.description}</p>
+          <p className="mx-auto mt-3 max-w-xl text-brand-ink/70">{recipe.description}</p>
 
           <div className="mt-4 flex flex-wrap justify-center gap-1.5">
             {recipe.dietTags.map((tag) => (
@@ -36,7 +36,7 @@ export default async function RecipeDetailPage({
             ))}
           </div>
 
-          <div className="mt-6 flex flex-wrap justify-center gap-6 text-sm text-brand-sea-dark/70">
+          <div className="mt-6 flex flex-wrap justify-center gap-6 text-sm text-brand-ink/70">
             <span>{recipe.servings} servings</span>
             <span>{recipe.prepTime} min prep</span>
             <span>{recipe.cookTime} min cook</span>
@@ -50,14 +50,14 @@ export default async function RecipeDetailPage({
 
       <div className="mt-10 grid grid-cols-1 gap-10 sm:grid-cols-[1fr_1.4fr]">
         <section className="animate-fade-in-up" style={{ animationDelay: "80ms" }}>
-          <h2 className="font-display mb-3 text-lg font-semibold text-brand-sea-dark">
+          <h2 className="font-display mb-3 text-lg font-semibold text-brand-ink">
             Ingredients
           </h2>
-          <ul className="space-y-2 text-sm text-brand-sea-dark/80">
+          <ul className="space-y-2 text-sm text-brand-ink/80">
             {recipe.ingredients.map((ingredient) => (
               <li
                 key={ingredient.name}
-                className="flex justify-between border-b border-brand-border/70 pb-2"
+                className="flex justify-between border-b border-brand-border pb-2"
               >
                 <span className="capitalize">{ingredient.name}</span>
                 <span className="font-medium">
@@ -68,11 +68,11 @@ export default async function RecipeDetailPage({
           </ul>
         </section>
         <section className="animate-fade-in-up" style={{ animationDelay: "140ms" }}>
-          <h2 className="font-display mb-3 text-lg font-semibold text-brand-sea-dark">Method</h2>
-          <ol className="space-y-4 text-sm text-brand-sea-dark/80">
+          <h2 className="font-display mb-3 text-lg font-semibold text-brand-ink">Method</h2>
+          <ol className="space-y-4 text-sm text-brand-ink/80">
             {recipe.steps.map((step, index) => (
               <li key={index} className="flex gap-3">
-                <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-sea text-xs font-semibold text-white">
+                <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-green text-xs font-semibold text-white">
                   {index + 1}
                 </span>
                 <span>{step}</span>
