@@ -103,9 +103,19 @@ function DayColumn({ day }: { day: Weekday }) {
   );
 }
 
+function shuffle<T>(items: T[]): T[] {
+  const copy = [...items];
+  for (let i = copy.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [copy[i], copy[j]] = [copy[j], copy[i]];
+  }
+  return copy;
+}
+
 export default function PlannerPage() {
   const { data: session } = useSession();
   const clearPlan = usePlanStore((state) => state.clearPlan);
+  const addEntry = usePlanStore((state) => state.addEntry);
   const entries = usePlanStore((state) => state.entries);
   const entryCount = entries.length;
   const saveSnapshot = useHistoryStore((state) => state.saveSnapshot);
@@ -130,6 +140,24 @@ export default function PlannerPage() {
     setTimeout(() => setSaved(false), 2000);
   }
 
+  function handleMagicPlan() {
+    if (entryCount > 0) {
+      const confirmed = window.confirm(
+        "This will replace your current weekly plan with a random one. Continue?"
+      );
+      if (!confirmed) return;
+    }
+    clearPlan();
+    const mains = shuffle(recipes.filter((r) => r.mealType === "main-course"));
+    const sides = shuffle(recipes.filter((r) => r.mealType === "side"));
+    WEEKDAYS.forEach((day, i) => {
+      addEntry(day, mains[i % mains.length].id);
+      if (sides.length > 0) {
+        addEntry(day, sides[i % sides.length].id);
+      }
+    });
+  }
+
   return (
     <div className="mx-auto w-full max-w-7xl px-4 py-10 sm:px-6">
       <div className="mb-8 flex flex-wrap items-center justify-between gap-4 animate-fade-in-up">
@@ -138,7 +166,9 @@ export default function PlannerPage() {
             Weekly Meal Planner
           </h1>
           <p className="mt-2 text-brand-ink/70">
-            Pick a recipe for each day — your plan turns into a shopping list automatically.
+            Pick a recipe for each day — your plan turns into a shopping list automatically. Not
+            sure what to cook? Hit &quot;Plan My Week For Me&quot; and we&apos;ll pick a main and a
+            side for every day.
           </p>
           {weekCalories > 0 && (
             <p className="mt-1 text-sm font-medium text-brand-ink/50">
@@ -147,6 +177,20 @@ export default function PlannerPage() {
           )}
         </div>
         <div className="flex flex-wrap gap-3">
+          <button
+            type="button"
+            onClick={handleMagicPlan}
+            className="flex items-center gap-2 rounded-full bg-gradient-to-r from-brand-red to-brand-green px-4 py-2 text-sm font-semibold text-white transition hover:-translate-y-0.5 hover:shadow-lg"
+          >
+            <svg viewBox="0 0 24 24" fill="currentColor" className="h-4 w-4">
+              <path d="M11 2.5 12.8 8l5.5 1.8-5.5 1.8L11 17.2 9.2 11.6 3.7 9.8l5.5-1.8L11 2.5Z" />
+              <path
+                d="M18.5 13.5 19.4 16l2.5.9-2.5.9-.9 2.5-.9-2.5-2.5-.9 2.5-.9.9-2.5Z"
+                opacity="0.75"
+              />
+            </svg>
+            Plan My Week For Me
+          </button>
           {entryCount > 0 && (
             <>
               <button
