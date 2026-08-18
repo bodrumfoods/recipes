@@ -8,6 +8,7 @@ import AddToPlanButton from "@/components/AddToPlanButton";
 import RecipeVisual from "@/components/RecipeVisual";
 import RecipeCard from "@/components/RecipeCard";
 import SectionHeader from "@/components/SectionHeader";
+import FavoriteButton from "@/components/FavoriteButton";
 
 export function generateStaticParams() {
   return recipes.map((recipe) => ({ slug: recipe.id }));
@@ -49,7 +50,12 @@ export default async function RecipeDetailPage({
       </div>
 
       <div className="mt-6 grid grid-cols-1 gap-6 animate-fade-in-up lg:grid-cols-[1.6fr_1fr]">
-        <RecipeVisual region={recipe.region} mealType={recipe.mealType} className="aspect-[4/3] w-full" />
+        <div className="relative">
+          <RecipeVisual region={recipe.region} mealType={recipe.mealType} className="aspect-[4/3] w-full" />
+          <div className="absolute right-4 top-4">
+            <FavoriteButton recipeId={recipe.id} size="large" />
+          </div>
+        </div>
 
         <aside className="border border-brand-border bg-brand-muted p-6">
           {cartReady.length > 0 ? (

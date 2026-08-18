@@ -2,6 +2,7 @@ import Link from "next/link";
 import type { Recipe } from "@/lib/types";
 import Badge from "@/components/Badge";
 import RecipeVisual from "@/components/RecipeVisual";
+import FavoriteButton from "@/components/FavoriteButton";
 
 export default function RecipeCard({
   recipe,
@@ -17,13 +18,18 @@ export default function RecipeCard({
       href={`/recipes/${recipe.id}`}
       className="group flex h-full flex-col bg-brand-card transition duration-300 hover:shadow-lg"
     >
-      <RecipeVisual
-        region={recipe.region}
-        mealType={recipe.mealType}
-        className={`w-full overflow-hidden transition duration-500 group-hover:scale-105 ${
-          large ? "aspect-[16/10]" : "aspect-[4/3]"
-        }`}
-      />
+      <div className="relative overflow-hidden">
+        <RecipeVisual
+          region={recipe.region}
+          mealType={recipe.mealType}
+          className={`w-full transition duration-500 group-hover:scale-105 ${
+            large ? "aspect-[16/10]" : "aspect-[4/3]"
+          }`}
+        />
+        <div className="absolute right-3 top-3">
+          <FavoriteButton recipeId={recipe.id} />
+        </div>
+      </div>
       <div className={`flex flex-1 flex-col gap-2 bg-brand-muted ${large ? "p-6" : "p-4"}`}>
         <span className="text-xs uppercase tracking-wide text-brand-ink/50">
           {recipe.region} • {recipe.mealType}
