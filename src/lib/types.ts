@@ -39,6 +39,7 @@ export interface Recipe {
   description: string;
   ingredients: Ingredient[];
   steps: string[];
+  image?: string;
 }
 
 export const WEEKDAYS = [

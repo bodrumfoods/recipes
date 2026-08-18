@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { notFound } from "next/navigation";
 import { recipes, getRecipeById, slugifyIngredient } from "@/lib/recipes";
 import { buildShoppingList } from "@/lib/shopping-list";
@@ -50,8 +51,19 @@ export default async function RecipeDetailPage({
       </div>
 
       <div className="mt-6 grid grid-cols-1 gap-6 animate-fade-in-up lg:grid-cols-[1.6fr_1fr]">
-        <div className="relative">
-          <RecipeVisual region={recipe.region} mealType={recipe.mealType} className="aspect-[4/3] w-full" />
+        <div className="relative aspect-[4/3] w-full overflow-hidden">
+          {recipe.image ? (
+            <Image
+              src={recipe.image}
+              alt={recipe.name}
+              fill
+              priority
+              sizes="(min-width: 1024px) 60vw, 100vw"
+              className="object-cover"
+            />
+          ) : (
+            <RecipeVisual region={recipe.region} mealType={recipe.mealType} className="h-full w-full" />
+          )}
           <div className="absolute right-4 top-4">
             <FavoriteButton recipeId={recipe.id} size="large" />
           </div>

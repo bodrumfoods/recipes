@@ -11,6 +11,7 @@
     "prepTime": 10,
     "cookTime": 30,
     "description": "A classic, creamy Turkish soup made with red lentils.",
+    "image": "https://bodrumfoods.co.uk/cdn/shop/articles/creamy-turkish-red-lentil-soup_a29b23b1-78f8-4c88-804f-067ef8a04fcc.png?v=1778669439&width=1200",
     "ingredients": [
       { "name": "red lentils", "amount": 200, "unit": "g" },
       { "name": "onion", "amount": 1, "unit": "pcs" },

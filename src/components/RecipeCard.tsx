@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import type { Recipe } from "@/lib/types";
 import Badge from "@/components/Badge";
 import RecipeVisual from "@/components/RecipeVisual";
@@ -18,14 +19,24 @@ export default function RecipeCard({
       href={`/recipes/${recipe.id}`}
       className="group flex h-full flex-col bg-brand-card transition duration-300 hover:shadow-lg"
     >
-      <div className="relative overflow-hidden">
-        <RecipeVisual
-          region={recipe.region}
-          mealType={recipe.mealType}
-          className={`w-full transition duration-500 group-hover:scale-105 ${
-            large ? "aspect-[16/10]" : "aspect-[4/3]"
-          }`}
-        />
+      <div
+        className={`relative w-full overflow-hidden ${large ? "aspect-[16/10]" : "aspect-[4/3]"}`}
+      >
+        {recipe.image ? (
+          <Image
+            src={recipe.image}
+            alt={recipe.name}
+            fill
+            sizes={large ? "(min-width: 1024px) 50vw, 100vw" : "(min-width: 1024px) 33vw, 50vw"}
+            className="object-cover transition duration-500 group-hover:scale-105"
+          />
+        ) : (
+          <RecipeVisual
+            region={recipe.region}
+            mealType={recipe.mealType}
+            className="h-full w-full transition duration-500 group-hover:scale-105"
+          />
+        )}
         <div className="absolute right-3 top-3">
           <FavoriteButton recipeId={recipe.id} />
         </div>
