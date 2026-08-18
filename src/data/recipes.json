@@ -2814,5 +2814,61 @@
       "Stir the bulgur and cumin into the lentils, cover, and simmer for 12–15 minutes until the liquid is absorbed.",
       "Season with salt, pile onto a plate, and top generously with the caramelised onions."
     ]
+  },
+  {
+    "id": "ensalada-mixta",
+    "name": "Ensalada Mixta (Spanish Mixed Salad)",
+    "emoji": "🥗",
+    "region": "Spanish",
+    "mealType": "salad",
+    "dietTags": ["vegan"],
+    "servings": 6,
+    "calories": 150,
+    "prepTime": 15,
+    "cookTime": 0,
+    "description": "A simple, refreshing Spanish salad of crisp lettuce, tomato, onion, and olives.",
+    "ingredients": [
+      { "name": "lettuce", "amount": 1, "unit": "pcs" },
+      { "name": "tomato", "amount": 3, "unit": "pcs" },
+      { "name": "red onion", "amount": 1, "unit": "pcs" },
+      { "name": "black olives", "amount": 80, "unit": "g" },
+      { "name": "olive oil", "amount": 3, "unit": "tbsp" },
+      { "name": "sherry vinegar", "amount": 1, "unit": "tbsp" },
+      { "name": "salt", "amount": 3, "unit": "g" }
+    ],
+    "steps": [
+      "Tear the lettuce into bite-sized pieces and arrange on a platter.",
+      "Slice the tomatoes and red onion and scatter over the lettuce.",
+      "Add the black olives.",
+      "Whisk the olive oil, sherry vinegar, and salt together and drizzle over just before serving."
+    ]
+  },
+  {
+    "id": "coleslaw",
+    "name": "Coleslaw",
+    "emoji": "🥬",
+    "region": "British",
+    "mealType": "salad",
+    "dietTags": ["vegetarian"],
+    "servings": 6,
+    "calories": 160,
+    "prepTime": 15,
+    "cookTime": 0,
+    "description": "A crunchy, creamy British coleslaw — the classic cold side for a barbecue or Sunday spread.",
+    "ingredients": [
+      { "name": "white cabbage", "amount": 400, "unit": "g" },
+      { "name": "carrot", "amount": 2, "unit": "pcs" },
+      { "name": "red onion", "amount": 0.5, "unit": "pcs" },
+      { "name": "mayonnaise", "amount": 150, "unit": "g" },
+      { "name": "white wine vinegar", "amount": 1, "unit": "tbsp" },
+      { "name": "sugar", "amount": 1, "unit": "tsp" },
+      { "name": "salt", "amount": 3, "unit": "g" }
+    ],
+    "steps": [
+      "Finely shred the cabbage and carrot, and thinly slice the onion.",
+      "Whisk the mayonnaise, vinegar, sugar, and salt together in a large bowl.",
+      "Add the shredded vegetables and toss well to coat.",
+      "Chill for at least 30 minutes before serving."
+    ]
   }
 ]

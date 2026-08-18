@@ -148,12 +148,33 @@ export default function PlannerPage() {
       if (!confirmed) return;
     }
     clearPlan();
+
     const mains = shuffle(recipes.filter((r) => r.mealType === "main-course"));
-    const sides = shuffle(recipes.filter((r) => r.mealType === "side"));
+    // Sides pool: dedicated side dishes, salads, and yoghurt-based mezes — all things
+    // that make sense served alongside a main, unlike an unrelated meze or dessert.
+    const sidesPool = recipes.filter(
+      (r) =>
+        r.mealType === "side" ||
+        r.mealType === "salad" ||
+        (r.mealType === "meze" && r.ingredients.some((i) => /yog(h)?urt/i.test(i.name)))
+    );
+    const usedSideIds = new Set<string>();
+
     WEEKDAYS.forEach((day, i) => {
-      addEntry(day, mains[i % mains.length].id);
-      if (sides.length > 0) {
-        addEntry(day, sides[i % sides.length].id);
+      const main = mains[i % mains.length];
+      addEntry(day, main.id);
+
+      // Prefer a side from the same cuisine as the main so pairings actually make
+      // sense (e.g. Italian mains get Caprese/Panzanella, not a Turkish bulgur pilaf).
+      const sameRegion = sidesPool.filter((s) => s.region === main.region);
+      const candidates = sameRegion.length > 0 ? sameRegion : sidesPool;
+      const unused = candidates.filter((s) => !usedSideIds.has(s.id));
+      const pool = unused.length > 0 ? unused : candidates;
+      const side = shuffle(pool)[0];
+
+      if (side) {
+        addEntry(day, side.id);
+        usedSideIds.add(side.id);
       }
     });
   }
