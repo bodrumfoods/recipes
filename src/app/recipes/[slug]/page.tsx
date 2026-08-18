@@ -2,6 +2,7 @@ import { notFound } from "next/navigation";
 import { recipes, getRecipeById } from "@/lib/recipes";
 import Badge from "@/components/Badge";
 import AddToPlanButton from "@/components/AddToPlanButton";
+import RecipeVisual from "@/components/RecipeVisual";
 
 export function generateStaticParams() {
   return recipes.map((recipe) => ({ slug: recipe.id }));
@@ -18,8 +19,9 @@ export default async function RecipeDetailPage({
 
   return (
     <div className="mx-auto w-full max-w-3xl px-4 py-10 sm:px-6">
-      <div className="animate-fade-in-up">
-        <div className="relative overflow-hidden rounded-3xl border border-brand-border bg-brand-muted px-6 py-10 text-center sm:px-10">
+      <div className="animate-fade-in-up overflow-hidden rounded-3xl border border-brand-border">
+        <RecipeVisual region={recipe.region} mealType={recipe.mealType} className="h-48 w-full sm:h-64" />
+        <div className="relative bg-brand-muted px-6 py-10 text-center sm:px-10">
           <div className="flex items-center justify-center gap-2 text-xs font-semibold uppercase tracking-wide text-brand-red">
             <span>{recipe.region}</span>
             <span>•</span>
