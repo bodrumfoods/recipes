@@ -1388,5 +1388,536 @@
       "Add the olive oil and chopped parsley.",
       "Serve warm or chilled."
     ]
+  },
+  {
+    "id": "ezme",
+    "name": "Ezme (Spicy Tomato & Pepper Salad)",
+    "emoji": "🥗",
+    "region": "Turkish",
+    "mealType": "meze",
+    "dietTags": ["vegan"],
+    "servings": 6,
+    "prepTime": 15,
+    "cookTime": 0,
+    "description": "A finely chopped, fiery Turkish tomato and pepper relish dressed with pomegranate molasses.",
+    "ingredients": [
+      { "name": "tomato", "amount": 4, "unit": "pcs" },
+      { "name": "green pepper", "amount": 2, "unit": "pcs" },
+      { "name": "red onion", "amount": 1, "unit": "pcs" },
+      { "name": "garlic", "amount": 2, "unit": "clove" },
+      { "name": "parsley", "amount": 1, "unit": "bunch" },
+      { "name": "pomegranate molasses", "amount": 1, "unit": "tbsp" },
+      { "name": "olive oil", "amount": 2, "unit": "tbsp" },
+      { "name": "chilli flakes", "amount": 1, "unit": "tsp" },
+      { "name": "salt", "amount": 3, "unit": "g" }
+    ],
+    "steps": [
+      "Finely chop the tomatoes, green pepper, red onion, garlic, and parsley — as fine as you can manage.",
+      "Combine everything in a bowl with the pomegranate molasses, olive oil, and chilli flakes.",
+      "Season with salt and mix well, mashing slightly with a spoon so the juices release.",
+      "Rest for 10 minutes before serving with warm flatbread."
+    ]
+  },
+  {
+    "id": "haydari",
+    "name": "Haydari (Garlic Yoghurt Dip)",
+    "emoji": "🥣",
+    "region": "Turkish",
+    "mealType": "meze",
+    "dietTags": ["vegetarian"],
+    "servings": 6,
+    "prepTime": 10,
+    "cookTime": 0,
+    "description": "A thick, garlicky strained yoghurt dip finished with fresh mint and olive oil.",
+    "ingredients": [
+      { "name": "greek yoghurt", "amount": 400, "unit": "g" },
+      { "name": "garlic", "amount": 2, "unit": "clove" },
+      { "name": "dried mint", "amount": 1, "unit": "tbsp" },
+      { "name": "dill", "amount": 1, "unit": "bunch" },
+      { "name": "olive oil", "amount": 2, "unit": "tbsp" },
+      { "name": "salt", "amount": 3, "unit": "g" }
+    ],
+    "steps": [
+      "Crush the garlic to a paste with a pinch of salt.",
+      "Stir the garlic, dried mint, and finely chopped dill through the yoghurt.",
+      "Spoon into a shallow bowl and drizzle generously with olive oil.",
+      "Chill for at least 30 minutes before serving with warm pide or flatbread."
+    ]
+  },
+  {
+    "id": "piyaz",
+    "name": "Piyaz (White Bean Salad)",
+    "emoji": "🫘",
+    "region": "Turkish",
+    "mealType": "meze",
+    "dietTags": ["vegan"],
+    "servings": 6,
+    "prepTime": 15,
+    "cookTime": 0,
+    "description": "A tangy Turkish white bean salad with onion, tomato, and a lemony dressing.",
+    "ingredients": [
+      { "name": "white beans", "amount": 400, "unit": "g" },
+      { "name": "red onion", "amount": 1, "unit": "pcs" },
+      { "name": "tomato", "amount": 2, "unit": "pcs" },
+      { "name": "parsley", "amount": 1, "unit": "bunch" },
+      { "name": "olive oil", "amount": 3, "unit": "tbsp" },
+      { "name": "lemon", "amount": 1, "unit": "pcs" },
+      { "name": "sumac", "amount": 1, "unit": "tsp" },
+      { "name": "salt", "amount": 3, "unit": "g" }
+    ],
+    "steps": [
+      "Drain and rinse the white beans and tip them into a large bowl.",
+      "Thinly slice the red onion and toss with the sumac to soften its bite.",
+      "Add the onion, diced tomato, and chopped parsley to the beans.",
+      "Dress with olive oil, lemon juice, and salt, then toss gently and serve at room temperature."
+    ]
+  },
+  {
+    "id": "sigara-boregi",
+    "name": "Sigara Böreği (Fried Cheese Pastry Rolls)",
+    "emoji": "🥖",
+    "region": "Turkish",
+    "mealType": "meze",
+    "dietTags": ["vegetarian"],
+    "servings": 6,
+    "prepTime": 20,
+    "cookTime": 15,
+    "description": "Crisp, cigar-shaped pastry rolls filled with feta and parsley.",
+    "ingredients": [
+      { "name": "yufka pastry", "amount": 10, "unit": "pcs" },
+      { "name": "feta cheese", "amount": 200, "unit": "g" },
+      { "name": "parsley", "amount": 1, "unit": "bunch" },
+      { "name": "egg", "amount": 1, "unit": "pcs" },
+      { "name": "sunflower oil", "amount": 300, "unit": "ml" }
+    ],
+    "steps": [
+      "Mash the feta with the chopped parsley to make the filling.",
+      "Cut each yufka sheet into triangles, place a spoonful of filling at the wide end, and roll tightly into a cigar shape, sealing the tip with beaten egg.",
+      "Heat the sunflower oil in a pan over medium heat.",
+      "Fry the rolls in batches until golden and crisp on all sides, then drain on paper towels and serve hot."
+    ]
+  },
+  {
+    "id": "melitzanosalata",
+    "name": "Melitzanosalata (Greek Aubergine Dip)",
+    "emoji": "🍆",
+    "region": "Greek",
+    "mealType": "meze",
+    "dietTags": ["vegan"],
+    "servings": 6,
+    "prepTime": 15,
+    "cookTime": 25,
+    "description": "A smoky, garlicky Greek aubergine dip brightened with lemon and olive oil.",
+    "ingredients": [
+      { "name": "aubergine", "amount": 2, "unit": "pcs" },
+      { "name": "garlic", "amount": 2, "unit": "clove" },
+      { "name": "olive oil", "amount": 4, "unit": "tbsp" },
+      { "name": "lemon", "amount": 1, "unit": "pcs" },
+      { "name": "red wine vinegar", "amount": 1, "unit": "tbsp" },
+      { "name": "parsley", "amount": 1, "unit": "bunch" },
+      { "name": "salt", "amount": 3, "unit": "g" }
+    ],
+    "steps": [
+      "Char the aubergines whole over a flame or under a hot grill until the skin blisters and the flesh softens, about 20 minutes.",
+      "Let them cool, then peel away the skin and drain the flesh in a sieve for 10 minutes.",
+      "Finely chop the flesh and mix with crushed garlic, olive oil, lemon juice, and red wine vinegar.",
+      "Season with salt, stir through chopped parsley, and serve at room temperature."
+    ]
+  },
+  {
+    "id": "taramasalata",
+    "name": "Taramasalata",
+    "emoji": "🐟",
+    "region": "Greek",
+    "mealType": "meze",
+    "dietTags": ["seafood"],
+    "servings": 6,
+    "prepTime": 10,
+    "cookTime": 0,
+    "description": "A pale, creamy Greek dip made from cured fish roe, bread, and olive oil.",
+    "ingredients": [
+      { "name": "tarama (fish roe)", "amount": 100, "unit": "g" },
+      { "name": "white bread", "amount": 4, "unit": "pcs" },
+      { "name": "olive oil", "amount": 150, "unit": "ml" },
+      { "name": "lemon", "amount": 1, "unit": "pcs" },
+      { "name": "red onion", "amount": 0.5, "unit": "pcs" }
+    ],
+    "steps": [
+      "Soak the crustless white bread in water, then squeeze it as dry as possible.",
+      "Blend the bread with the tarama and grated onion until smooth.",
+      "With the blender running, drizzle in the olive oil a little at a time until the mixture is pale and creamy.",
+      "Stir in lemon juice to taste and chill before serving with crusty bread."
+    ]
+  },
+  {
+    "id": "saganaki",
+    "name": "Saganaki (Fried Cheese)",
+    "emoji": "🧀",
+    "region": "Greek",
+    "mealType": "meze",
+    "dietTags": ["vegetarian"],
+    "servings": 4,
+    "prepTime": 10,
+    "cookTime": 5,
+    "description": "Pan-fried cheese with a golden crust, finished with a squeeze of lemon.",
+    "ingredients": [
+      { "name": "kefalotyri cheese", "amount": 250, "unit": "g" },
+      { "name": "flour", "amount": 3, "unit": "tbsp" },
+      { "name": "olive oil", "amount": 3, "unit": "tbsp" },
+      { "name": "lemon", "amount": 1, "unit": "pcs" }
+    ],
+    "steps": [
+      "Slice the cheese into thick pieces and dust lightly with flour.",
+      "Heat the olive oil in a heavy pan until shimmering.",
+      "Fry the cheese for about 90 seconds per side until deeply golden.",
+      "Transfer to a plate and squeeze fresh lemon juice over the top just before serving."
+    ]
+  },
+  {
+    "id": "sambousek",
+    "name": "Sambousek (Cheese-Filled Pastries)",
+    "emoji": "🥟",
+    "region": "Levantine",
+    "mealType": "meze",
+    "dietTags": ["vegetarian"],
+    "servings": 6,
+    "prepTime": 25,
+    "cookTime": 15,
+    "description": "Half-moon pastries filled with melted cheese and fried until golden and crisp.",
+    "ingredients": [
+      { "name": "plain flour", "amount": 250, "unit": "g" },
+      { "name": "halloumi cheese", "amount": 200, "unit": "g" },
+      { "name": "feta cheese", "amount": 100, "unit": "g" },
+      { "name": "mint", "amount": 1, "unit": "bunch" },
+      { "name": "olive oil", "amount": 2, "unit": "tbsp" },
+      { "name": "sunflower oil", "amount": 400, "unit": "ml" },
+      { "name": "salt", "amount": 3, "unit": "g" }
+    ],
+    "steps": [
+      "Combine the flour, olive oil, salt, and enough warm water to form a smooth dough; rest for 20 minutes.",
+      "Grate the halloumi, crumble the feta, and mix with chopped mint for the filling.",
+      "Roll the dough thin, cut into circles, and fold each with a spoonful of filling into a sealed half-moon.",
+      "Deep-fry in hot sunflower oil until golden on both sides, then drain and serve warm."
+    ]
+  },
+  {
+    "id": "labneh-zaatar",
+    "name": "Labneh with Za'atar",
+    "emoji": "🫒",
+    "region": "Levantine",
+    "mealType": "meze",
+    "dietTags": ["vegetarian"],
+    "servings": 6,
+    "prepTime": 10,
+    "cookTime": 0,
+    "description": "Tangy strained yoghurt cheese, served pooled with olive oil and za'atar.",
+    "ingredients": [
+      { "name": "greek yoghurt", "amount": 500, "unit": "g" },
+      { "name": "salt", "amount": 5, "unit": "g" },
+      { "name": "za'atar", "amount": 2, "unit": "tbsp" },
+      { "name": "olive oil", "amount": 3, "unit": "tbsp" }
+    ],
+    "steps": [
+      "Stir the salt into the yoghurt, then tip it into a muslin-lined sieve set over a bowl.",
+      "Chill and let it strain for at least 24 hours until thick and spreadable.",
+      "Spread the labneh onto a plate, making a shallow well in the centre.",
+      "Sprinkle generously with za'atar and finish with a good pour of olive oil."
+    ]
+  },
+  {
+    "id": "kibbeh",
+    "name": "Kibbeh (Stuffed Bulgur & Meat Croquettes)",
+    "emoji": "🥙",
+    "region": "Levantine",
+    "mealType": "meze",
+    "dietTags": ["meat"],
+    "servings": 6,
+    "prepTime": 40,
+    "cookTime": 20,
+    "description": "Torpedo-shaped bulgur shells filled with spiced minced lamb and fried until crisp.",
+    "ingredients": [
+      { "name": "fine bulgur", "amount": 200, "unit": "g" },
+      { "name": "lamb mince", "amount": 400, "unit": "g" },
+      { "name": "onion", "amount": 2, "unit": "pcs" },
+      { "name": "pine nuts", "amount": 30, "unit": "g" },
+      { "name": "allspice", "amount": 1, "unit": "tsp" },
+      { "name": "cinnamon", "amount": 1, "unit": "tsp" },
+      { "name": "sunflower oil", "amount": 500, "unit": "ml" },
+      { "name": "salt", "amount": 5, "unit": "g" }
+    ],
+    "steps": [
+      "Soak the bulgur in water for 15 minutes, drain well, then blend with half the mince and one grated onion into a smooth, pliable shell paste; chill.",
+      "For the filling, brown the remaining mince with the second onion, pine nuts, allspice, and cinnamon.",
+      "Wet your hands and shape the shell paste into small torpedoes, hollowing each with your finger and stuffing with the filling before sealing.",
+      "Deep-fry in hot sunflower oil for 4–5 minutes until deep brown and crisp, then drain and serve."
+    ]
+  },
+  {
+    "id": "moroccan-carrot-orange-salad",
+    "name": "Moroccan Carrot & Orange Salad",
+    "emoji": "🥕",
+    "region": "Moroccan",
+    "mealType": "meze",
+    "dietTags": ["vegan"],
+    "servings": 6,
+    "prepTime": 15,
+    "cookTime": 0,
+    "description": "A refreshing salad of grated carrot, orange, and orange blossom water spiced with cinnamon.",
+    "ingredients": [
+      { "name": "carrot", "amount": 5, "unit": "pcs" },
+      { "name": "orange", "amount": 2, "unit": "pcs" },
+      { "name": "orange blossom water", "amount": 1, "unit": "tsp" },
+      { "name": "cinnamon", "amount": 1, "unit": "tsp" },
+      { "name": "olive oil", "amount": 2, "unit": "tbsp" },
+      { "name": "honey", "amount": 1, "unit": "tbsp" }
+    ],
+    "steps": [
+      "Coarsely grate the carrots into a bowl.",
+      "Segment the oranges over the bowl to catch the juice, then add the segments to the carrot.",
+      "Whisk the orange blossom water, cinnamon, olive oil, and honey together and pour over the salad.",
+      "Toss well and chill for at least 20 minutes before serving."
+    ]
+  },
+  {
+    "id": "pan-con-tomate",
+    "name": "Pan con Tomate",
+    "emoji": "🍅",
+    "region": "Spanish",
+    "mealType": "meze",
+    "dietTags": ["vegan"],
+    "servings": 6,
+    "prepTime": 10,
+    "cookTime": 5,
+    "description": "Toasted rustic bread rubbed with garlic and ripe tomato, finished with good olive oil.",
+    "ingredients": [
+      { "name": "sourdough bread", "amount": 6, "unit": "pcs" },
+      { "name": "tomato", "amount": 4, "unit": "pcs" },
+      { "name": "garlic", "amount": 2, "unit": "clove" },
+      { "name": "olive oil", "amount": 4, "unit": "tbsp" },
+      { "name": "salt", "amount": 3, "unit": "g" }
+    ],
+    "steps": [
+      "Toast or grill the bread slices until golden and lightly crisp.",
+      "Halve the garlic cloves and rub the cut side over each warm slice.",
+      "Halve the tomatoes and rub the cut side firmly over the bread so the pulp soaks in, discarding the skins.",
+      "Drizzle generously with olive oil and season with salt before serving."
+    ]
+  },
+  {
+    "id": "yorkshire-pudding",
+    "name": "Yorkshire Pudding",
+    "emoji": "🥐",
+    "region": "British",
+    "mealType": "side",
+    "dietTags": ["vegetarian"],
+    "servings": 6,
+    "prepTime": 10,
+    "cookTime": 25,
+    "description": "Our most popular recipe — light, puffed-up batter pudding, the classic partner to a Sunday roast.",
+    "ingredients": [
+      { "name": "plain flour", "amount": 140, "unit": "g" },
+      { "name": "egg", "amount": 4, "unit": "pcs" },
+      { "name": "milk", "amount": 200, "unit": "ml" },
+      { "name": "sunflower oil", "amount": 4, "unit": "tbsp" },
+      { "name": "salt", "amount": 3, "unit": "g" }
+    ],
+    "steps": [
+      "Whisk the flour, eggs, milk, and salt together into a smooth batter and rest for at least 30 minutes.",
+      "Pour a little sunflower oil into each hole of a muffin or Yorkshire pudding tin and heat in a 220°C oven until smoking hot.",
+      "Carefully pour the batter into the hot tin, filling each hole about halfway.",
+      "Bake for 20–25 minutes without opening the oven door, until well risen and deep golden."
+    ]
+  },
+  {
+    "id": "fish-and-chips",
+    "name": "Fish and Chips",
+    "emoji": "🐟",
+    "region": "British",
+    "mealType": "main-course",
+    "dietTags": ["seafood"],
+    "servings": 4,
+    "prepTime": 20,
+    "cookTime": 25,
+    "description": "Beer-battered fried fish with crisp chunky chips, a British takeaway favourite.",
+    "ingredients": [
+      { "name": "cod fillet", "amount": 4, "unit": "pcs" },
+      { "name": "potato", "amount": 6, "unit": "pcs" },
+      { "name": "plain flour", "amount": 200, "unit": "g" },
+      { "name": "baking powder", "amount": 1, "unit": "tsp" },
+      { "name": "sparkling water", "amount": 250, "unit": "ml" },
+      { "name": "sunflower oil", "amount": 1, "unit": "l" },
+      { "name": "salt", "amount": 5, "unit": "g" }
+    ],
+    "steps": [
+      "Cut the potatoes into thick chips and fry in batches at a lower temperature (about 140°C) until soft but not coloured; drain.",
+      "Whisk the flour, baking powder, salt, and sparkling water into a light, thick batter.",
+      "Heat the oil to 190°C, dip the fish fillets in the batter, and fry for 6–8 minutes until golden and crisp.",
+      "Return the chips to the hot oil for a final fry until golden, then drain, salt everything well, and serve together."
+    ]
+  },
+  {
+    "id": "shepherds-pie",
+    "name": "Shepherd's Pie",
+    "emoji": "🥧",
+    "region": "British",
+    "mealType": "main-course",
+    "dietTags": ["meat"],
+    "servings": 6,
+    "prepTime": 25,
+    "cookTime": 40,
+    "description": "A comforting bake of spiced minced lamb topped with buttery mashed potato.",
+    "ingredients": [
+      { "name": "lamb mince", "amount": 500, "unit": "g" },
+      { "name": "potato", "amount": 6, "unit": "pcs" },
+      { "name": "onion", "amount": 1, "unit": "pcs" },
+      { "name": "carrot", "amount": 2, "unit": "pcs" },
+      { "name": "tomato paste", "amount": 2, "unit": "tbsp" },
+      { "name": "beef stock", "amount": 300, "unit": "ml" },
+      { "name": "butter", "amount": 50, "unit": "g" },
+      { "name": "milk", "amount": 100, "unit": "ml" },
+      { "name": "worcestershire sauce", "amount": 1, "unit": "tbsp" }
+    ],
+    "steps": [
+      "Boil the potatoes until tender, then mash with the butter and milk; season well.",
+      "Brown the lamb mince with the diced onion and carrot.",
+      "Stir in the tomato paste, worcestershire sauce, and beef stock, then simmer for 15 minutes until thickened.",
+      "Spoon the mince into a baking dish, top with the mashed potato, and bake at 200°C for 20 minutes until golden on top."
+    ]
+  },
+  {
+    "id": "full-english-breakfast",
+    "name": "Full English Breakfast",
+    "emoji": "🍳",
+    "region": "British",
+    "mealType": "breakfast",
+    "dietTags": ["meat"],
+    "servings": 4,
+    "prepTime": 15,
+    "cookTime": 20,
+    "description": "A hearty cooked breakfast plate with eggs, sausages, bacon, beans, and grilled tomato.",
+    "ingredients": [
+      { "name": "egg", "amount": 4, "unit": "pcs" },
+      { "name": "sausages", "amount": 8, "unit": "pcs" },
+      { "name": "bacon", "amount": 8, "unit": "pcs" },
+      { "name": "baked beans", "amount": 400, "unit": "g" },
+      { "name": "tomato", "amount": 4, "unit": "pcs" },
+      { "name": "mushroom", "amount": 200, "unit": "g" },
+      { "name": "butter", "amount": 20, "unit": "g" },
+      { "name": "bread", "amount": 4, "unit": "pcs" }
+    ],
+    "steps": [
+      "Grill or fry the sausages and bacon until cooked through and browned.",
+      "Halve the tomatoes and fry the mushrooms in butter alongside them.",
+      "Warm the baked beans in a small pan, and fry or poach the eggs to your liking.",
+      "Toast the bread and arrange everything together on warm plates to serve."
+    ]
+  },
+  {
+    "id": "bangers-and-mash",
+    "name": "Bangers and Mash",
+    "emoji": "🌭",
+    "region": "British",
+    "mealType": "main-course",
+    "dietTags": ["meat"],
+    "servings": 4,
+    "prepTime": 10,
+    "cookTime": 25,
+    "description": "Pan-fried sausages served over creamy mashed potato with rich onion gravy.",
+    "ingredients": [
+      { "name": "sausages", "amount": 8, "unit": "pcs" },
+      { "name": "potato", "amount": 6, "unit": "pcs" },
+      { "name": "butter", "amount": 50, "unit": "g" },
+      { "name": "milk", "amount": 100, "unit": "ml" },
+      { "name": "onion", "amount": 2, "unit": "pcs" },
+      { "name": "beef stock", "amount": 300, "unit": "ml" },
+      { "name": "plain flour", "amount": 1, "unit": "tbsp" }
+    ],
+    "steps": [
+      "Fry the sausages gently until browned and cooked through, then set aside.",
+      "Boil the potatoes until tender and mash with the butter and milk.",
+      "In the same pan, soften the sliced onions, stir in the flour, then gradually add the beef stock to make a rich gravy.",
+      "Pile the mash onto plates, top with the sausages, and spoon over the onion gravy."
+    ]
+  },
+  {
+    "id": "victoria-sponge",
+    "name": "Victoria Sponge Cake",
+    "emoji": "🍰",
+    "region": "British",
+    "mealType": "snack",
+    "dietTags": ["vegetarian"],
+    "servings": 8,
+    "prepTime": 20,
+    "cookTime": 25,
+    "description": "A classic British sponge cake sandwiched with strawberry jam and whipped cream.",
+    "ingredients": [
+      { "name": "butter", "amount": 200, "unit": "g" },
+      { "name": "caster sugar", "amount": 200, "unit": "g" },
+      { "name": "egg", "amount": 4, "unit": "pcs" },
+      { "name": "self-raising flour", "amount": 200, "unit": "g" },
+      { "name": "strawberry jam", "amount": 150, "unit": "g" },
+      { "name": "double cream", "amount": 200, "unit": "ml" }
+    ],
+    "steps": [
+      "Cream the butter and caster sugar together until pale and fluffy.",
+      "Beat in the eggs one at a time, then fold in the self-raising flour.",
+      "Divide the batter between two greased 20cm cake tins and bake at 180°C for 20–25 minutes until springy to the touch.",
+      "Once cool, sandwich the two sponges together with the jam and whipped double cream."
+    ]
+  },
+  {
+    "id": "sticky-toffee-pudding",
+    "name": "Sticky Toffee Pudding",
+    "emoji": "🍮",
+    "region": "British",
+    "mealType": "snack",
+    "dietTags": ["vegetarian"],
+    "servings": 8,
+    "prepTime": 20,
+    "cookTime": 30,
+    "description": "A rich date sponge pudding drenched in warm toffee sauce.",
+    "ingredients": [
+      { "name": "dates", "amount": 200, "unit": "g" },
+      { "name": "self-raising flour", "amount": 175, "unit": "g" },
+      { "name": "butter", "amount": 100, "unit": "g" },
+      { "name": "dark brown sugar", "amount": 150, "unit": "g" },
+      { "name": "egg", "amount": 2, "unit": "pcs" },
+      { "name": "double cream", "amount": 200, "unit": "ml" },
+      { "name": "golden syrup", "amount": 2, "unit": "tbsp" }
+    ],
+    "steps": [
+      "Simmer the dates in water until soft, then blend into a purée.",
+      "Cream the butter with half the sugar, beat in the eggs, then fold in the flour and date purée.",
+      "Pour into a greased baking dish and bake at 180°C for 25–30 minutes until risen and set.",
+      "For the sauce, gently melt the remaining sugar, double cream, and golden syrup together, then pour warm over the pudding."
+    ]
+  },
+  {
+    "id": "sunday-roast-beef",
+    "name": "Sunday Roast Beef with Gravy",
+    "emoji": "🍖",
+    "region": "British",
+    "mealType": "main-course",
+    "dietTags": ["meat"],
+    "servings": 6,
+    "prepTime": 20,
+    "cookTime": 90,
+    "description": "A traditional slow-roasted beef joint with rich pan gravy — the centrepiece of a British Sunday lunch.",
+    "ingredients": [
+      { "name": "beef joint", "amount": 1.5, "unit": "kg" },
+      { "name": "carrot", "amount": 4, "unit": "pcs" },
+      { "name": "onion", "amount": 2, "unit": "pcs" },
+      { "name": "garlic", "amount": 4, "unit": "clove" },
+      { "name": "beef stock", "amount": 400, "unit": "ml" },
+      { "name": "plain flour", "amount": 2, "unit": "tbsp" },
+      { "name": "olive oil", "amount": 2, "unit": "tbsp" },
+      { "name": "rosemary", "amount": 1, "unit": "bunch" }
+    ],
+    "steps": [
+      "Rub the beef joint with olive oil, salt, and pepper, and sit it on a bed of carrots, onions, garlic, and rosemary in a roasting tin.",
+      "Roast at 220°C for 20 minutes, then reduce to 180°C and continue roasting until cooked to your liking, about 60–70 minutes more.",
+      "Rest the beef, loosely covered, for 20 minutes before carving.",
+      "Skim the fat from the roasting tin, stir in the flour, then whisk in the beef stock over heat until you have a smooth gravy."
+    ]
   }
 ]

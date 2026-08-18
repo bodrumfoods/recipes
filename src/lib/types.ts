@@ -6,9 +6,17 @@ export type MealType =
   | "meze"
   | "salad"
   | "main-course"
+  | "side"
   | "snack";
 
-export type Region = "Turkish" | "Greek" | "Italian" | "Spanish" | "Levantine" | "Moroccan";
+export type Region =
+  | "Turkish"
+  | "Greek"
+  | "Italian"
+  | "Spanish"
+  | "Levantine"
+  | "Moroccan"
+  | "British";
 
 export type DietTag = "vegan" | "vegetarian" | "meat" | "seafood";
 

@@ -22,8 +22,9 @@ export default function Home() {
               Pick a recipe, plan your week, order your ingredients from bodrumfoods.co.uk.
             </h1>
             <p className="mt-5 max-w-xl text-lg text-brand-ink/70">
-              Build your weekly meal plan from Turkish, Greek, Italian, Spanish, Levantine, and
-              Moroccan recipes — we&apos;ll work out your ingredient list automatically.
+              Build your weekly meal plan from Turkish, Greek, Italian, Spanish, Levantine,
+              Moroccan, and British recipes — we&apos;ll work out your ingredient list
+              automatically.
             </p>
             <div className="mt-8 flex flex-wrap gap-4">
               <Link
