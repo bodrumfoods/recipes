@@ -72,6 +72,7 @@
     "prepTime": 20,
     "cookTime": 40,
     "description": "Aubergines stuffed with a sweet onion filling and slow-cooked in olive oil.",
+    "image": "https://bodrumfoods.co.uk/cdn/shop/articles/imam_bayildi.jpg?v=1787061590&width=1200",
     "ingredients": [
       { "name": "aubergine", "amount": 4, "unit": "pcs" },
       { "name": "onion", "amount": 2, "unit": "pcs" },
