@@ -20,12 +20,12 @@ export default function HeroSlider() {
   }, []);
 
   return (
-    <div className="relative h-56 w-full overflow-hidden bg-brand-muted sm:h-72 md:h-[420px]">
+    <div aria-hidden className="absolute inset-0">
       {SLIDES.map((src, i) => (
         <Image
           key={src}
           src={src}
-          alt={`Bodrum Foods promotion ${i + 1}`}
+          alt=""
           fill
           priority={i === 0}
           sizes="100vw"
@@ -35,7 +35,7 @@ export default function HeroSlider() {
         />
       ))}
 
-      <div className="absolute inset-x-0 bottom-4 flex justify-center gap-2">
+      <div className="absolute inset-x-0 bottom-4 z-10 flex justify-center gap-2">
         {SLIDES.map((_, i) => (
           <button
             key={i}

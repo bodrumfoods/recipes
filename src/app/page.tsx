@@ -11,23 +11,22 @@ export default function Home() {
 
   return (
     <div className="flex flex-col overflow-x-hidden">
-      <HeroSlider />
+      <section className="relative flex min-h-[480px] items-center overflow-hidden border-b border-brand-border sm:min-h-[560px]">
+        <HeroSlider />
+        <div
+          aria-hidden
+          className="absolute inset-0 bg-gradient-to-r from-black/75 via-black/50 to-black/20"
+        />
 
-      <section className="relative overflow-hidden border-b border-brand-border bg-brand-muted">
-        <div aria-hidden className="pointer-events-none absolute inset-0">
-          <span className="animate-float-slow absolute -left-16 top-10 h-72 w-72 rounded-full bg-brand-red/10 blur-3xl" />
-          <span className="animate-float-slow-reverse absolute -right-24 top-24 h-80 w-80 rounded-full bg-brand-green/10 blur-3xl" />
-        </div>
-
-        <div className="relative mx-auto max-w-6xl px-4 py-20 sm:px-6">
+        <div className="relative mx-auto w-full max-w-6xl px-4 py-20 sm:px-6">
           <div className="animate-fade-in-up">
-            <p className="text-sm font-semibold uppercase tracking-widest text-brand-red">
+            <p className="text-sm font-semibold uppercase tracking-widest text-white/90">
               Mediterranean cuisine, all in one place
             </p>
-            <h1 className="font-display mt-4 max-w-2xl text-4xl font-bold leading-tight text-brand-ink sm:text-5xl">
+            <h1 className="font-display mt-4 max-w-2xl text-4xl font-bold leading-tight text-white sm:text-5xl">
               Pick a recipe, plan your week, order your ingredients from bodrumfoods.co.uk.
             </h1>
-            <p className="mt-5 max-w-xl text-lg text-brand-ink/70">
+            <p className="mt-5 max-w-xl text-lg text-white/85">
               Build your weekly meal plan from Turkish, Greek, Italian, Spanish, Levantine,
               Moroccan, and British recipes — we&apos;ll work out your ingredient list
               automatically.
@@ -41,26 +40,26 @@ export default function Home() {
               </Link>
               <Link
                 href="/planner"
-                className="rounded-full border border-brand-red px-6 py-3 text-sm font-semibold text-brand-ink transition hover:-translate-y-0.5 hover:bg-white"
+                className="rounded-full border border-white px-6 py-3 text-sm font-semibold text-white transition hover:-translate-y-0.5 hover:bg-white/10"
               >
                 Start a Weekly Plan
               </Link>
             </div>
           </div>
         </div>
-
-        <div aria-hidden className="relative h-10 overflow-hidden border-t border-brand-border">
-          <div className="animate-drift absolute flex w-[200%] items-center gap-12 whitespace-nowrap text-xs font-semibold uppercase tracking-widest text-brand-ink/40">
-            {Array.from({ length: 2 }).map((_, i) => (
-              <div key={i} className="flex items-center gap-12 pl-12">
-                {regions.map((r) => (
-                  <span key={r}>{r} Cuisine</span>
-                ))}
-              </div>
-            ))}
-          </div>
-        </div>
       </section>
+
+      <div aria-hidden className="relative h-10 overflow-hidden border-b border-brand-border bg-brand-muted">
+        <div className="animate-drift absolute flex w-[200%] items-center gap-12 whitespace-nowrap text-xs font-semibold uppercase tracking-widest text-brand-ink/40">
+          {Array.from({ length: 2 }).map((_, i) => (
+            <div key={i} className="flex items-center gap-12 pl-12">
+              {regions.map((r) => (
+                <span key={r}>{r} Cuisine</span>
+              ))}
+            </div>
+          ))}
+        </div>
+      </div>
 
       <section className="mx-auto w-full max-w-6xl px-4 py-14 sm:px-6">
         <div className="grid grid-cols-1 gap-8 sm:grid-cols-3">
