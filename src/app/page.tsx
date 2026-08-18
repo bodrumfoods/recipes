@@ -8,6 +8,7 @@ import HeroSlider from "@/components/HeroSlider";
 export default function Home() {
   const [heroRecipe, ...restFeatured] = recipes;
   const featured = restFeatured.slice(0, 4);
+  const popular = recipes.filter((r) => r.image);
 
   return (
     <div className="flex flex-col overflow-x-hidden">
@@ -117,6 +118,23 @@ export default function Home() {
       <section className="mx-auto w-full max-w-6xl px-4 pb-14 sm:px-6">
         <AppDownloadBanner />
       </section>
+
+      {popular.length > 0 && (
+        <section className="mx-auto w-full max-w-6xl px-4 pb-14 sm:px-6">
+          <SectionHeader title="Reader Favourites" href="/recipes" linkLabel="See all recipes" />
+          <div className="grid grid-cols-2 gap-5 sm:grid-cols-3 lg:grid-cols-5">
+            {popular.map((recipe, index) => (
+              <div
+                key={recipe.id}
+                className="animate-fade-in-up"
+                style={{ animationDelay: `${index * 60}ms` }}
+              >
+                <RecipeCard recipe={recipe} />
+              </div>
+            ))}
+          </div>
+        </section>
+      )}
 
       <section className="border-t border-brand-border bg-brand-muted">
         <div className="mx-auto max-w-6xl px-4 py-14 sm:px-6">
