@@ -41,6 +41,7 @@
     "prepTime": 10,
     "cookTime": 35,
     "description": "A spiced soup of red lentils, rice, and bulgur.",
+    "image": "https://bodrumfoods.co.uk/cdn/shop/articles/ezogelinsoup_1645ef25-837f-4e7e-a86c-af4ad27202fa.jpg?v=1787060974&width=1200",
     "ingredients": [
       { "name": "red lentils", "amount": 150, "unit": "g" },
       { "name": "rice", "amount": 50, "unit": "g" },
