@@ -1,8 +1,13 @@
+import Link from "next/link";
 import { notFound } from "next/navigation";
-import { recipes, getRecipeById } from "@/lib/recipes";
+import { recipes, getRecipeById, slugifyIngredient } from "@/lib/recipes";
+import { buildShoppingList } from "@/lib/shopping-list";
+import { splitByShopifyMapping, buildShopifyCartUrl } from "@/lib/shopify-cart";
 import Badge from "@/components/Badge";
 import AddToPlanButton from "@/components/AddToPlanButton";
 import RecipeVisual from "@/components/RecipeVisual";
+import RecipeCard from "@/components/RecipeCard";
+import SectionHeader from "@/components/SectionHeader";
 
 export function generateStaticParams() {
   return recipes.map((recipe) => ({ slug: recipe.id }));
@@ -17,38 +22,82 @@ export default async function RecipeDetailPage({
   const recipe = getRecipeById(slug);
   if (!recipe) notFound();
 
+  const shoppingList = buildShoppingList(
+    [{ id: "single", day: "Monday", recipeId: recipe.id, servings: recipe.servings }],
+    new Map([[recipe.id, recipe]])
+  );
+  const { matched } = splitByShopifyMapping(shoppingList);
+  const cartReady = matched.filter((item) => item.variantId);
+  const cartUrl = buildShopifyCartUrl(matched);
+
+  const relatedRecipes = recipes
+    .filter((r) => r.id !== recipe.id && r.region === recipe.region)
+    .slice(0, 4);
+
   return (
-    <div className="mx-auto w-full max-w-3xl px-4 py-10 sm:px-6">
-      <div className="animate-fade-in-up border border-brand-border">
-        <RecipeVisual region={recipe.region} mealType={recipe.mealType} className="h-48 w-full sm:h-64" />
-        <div className="relative bg-brand-muted px-6 py-10 text-center sm:px-10">
-          <div className="flex items-center justify-center gap-2 text-xs font-semibold uppercase tracking-wide text-brand-red">
-            <span>{recipe.region}</span>
-            <span>•</span>
-            <span>{recipe.mealType}</span>
-          </div>
-          <h1 className="font-display mt-2 text-3xl font-bold text-brand-ink sm:text-4xl">
-            {recipe.name}
-          </h1>
-          <p className="mx-auto mt-3 max-w-xl text-brand-ink/70">{recipe.description}</p>
+    <div className="mx-auto w-full max-w-5xl px-4 py-10 sm:px-6">
+      <div className="animate-fade-in-up">
+        <div className="flex items-center gap-2 text-xs font-semibold uppercase tracking-wide text-brand-red">
+          <span>{recipe.region}</span>
+          <span>•</span>
+          <span>{recipe.mealType}</span>
+        </div>
+        <h1 className="font-display mt-2 text-3xl font-bold text-brand-ink sm:text-4xl">
+          {recipe.name}
+        </h1>
+        <p className="mt-3 max-w-2xl text-brand-ink/70">{recipe.description}</p>
+      </div>
 
-          <div className="mt-4 flex flex-wrap justify-center gap-1.5">
-            {recipe.dietTags.map((tag) => (
-              <Badge key={tag} label={tag} />
-            ))}
-          </div>
+      <div className="mt-6 grid grid-cols-1 gap-6 animate-fade-in-up lg:grid-cols-[1.6fr_1fr]">
+        <RecipeVisual region={recipe.region} mealType={recipe.mealType} className="aspect-[4/3] w-full" />
 
-          <div className="mt-6 flex flex-wrap justify-center gap-6 text-sm text-brand-ink/70">
-            <span>{recipe.servings} servings</span>
-            <span>{recipe.prepTime} min prep</span>
-            <span>{recipe.cookTime} min cook</span>
-            <span>~{recipe.calories} kcal / serving</span>
-          </div>
+        <aside className="border border-brand-border bg-brand-muted p-6">
+          {cartReady.length > 0 ? (
+            <a
+              href={cartUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block w-full border border-brand-green bg-brand-green px-4 py-3 text-center text-sm font-semibold text-white transition hover:bg-brand-green-dark"
+            >
+              + Add Ingredients to Cart
+            </a>
+          ) : (
+            <span className="block w-full border border-brand-border px-4 py-3 text-center text-sm font-medium text-brand-ink/40">
+              Add to Cart — coming soon
+            </span>
+          )}
 
-          <div className="mt-6 flex justify-center">
+          <div className="mt-3">
             <AddToPlanButton recipeId={recipe.id} />
           </div>
-        </div>
+
+          <dl className="mt-6 space-y-4 border-t border-brand-border pt-6 text-sm">
+            <div>
+              <dt className="font-display font-semibold text-brand-ink">Prepare</dt>
+              <dd className="text-brand-ink/70">{recipe.prepTime} min</dd>
+            </div>
+            <div>
+              <dt className="font-display font-semibold text-brand-ink">Cook</dt>
+              <dd className="text-brand-ink/70">{recipe.cookTime} min</dd>
+            </div>
+            <div>
+              <dt className="font-display font-semibold text-brand-ink">Serve</dt>
+              <dd className="text-brand-ink/70">Serves {recipe.servings}</dd>
+            </div>
+            <div>
+              <dt className="font-display font-semibold text-brand-ink">Calories</dt>
+              <dd className="text-brand-ink/70">~{recipe.calories} kcal / serving</dd>
+            </div>
+            <div>
+              <dt className="font-display font-semibold text-brand-ink">Dietary</dt>
+              <dd className="mt-1 flex flex-wrap gap-1.5">
+                {recipe.dietTags.map((tag) => (
+                  <Badge key={tag} label={tag} />
+                ))}
+              </dd>
+            </div>
+          </dl>
+        </aside>
       </div>
 
       <div className="mt-10 grid grid-cols-1 gap-10 sm:grid-cols-[1fr_1.4fr]">
@@ -62,7 +111,12 @@ export default async function RecipeDetailPage({
                 key={ingredient.name}
                 className="flex justify-between border-b border-brand-border pb-2"
               >
-                <span className="capitalize">{ingredient.name}</span>
+                <Link
+                  href={`/ingredients/${slugifyIngredient(ingredient.name)}`}
+                  className="capitalize underline decoration-brand-border underline-offset-4 hover:text-brand-red hover:decoration-brand-red"
+                >
+                  {ingredient.name}
+                </Link>
                 <span className="font-medium">
                   {ingredient.amount} {ingredient.unit}
                 </span>
@@ -84,6 +138,17 @@ export default async function RecipeDetailPage({
           </ol>
         </section>
       </div>
+
+      {relatedRecipes.length > 0 && (
+        <div className="mt-16">
+          <SectionHeader title="Related recipes" href={`/recipes?region=${encodeURIComponent(recipe.region)}`} />
+          <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4">
+            {relatedRecipes.map((r) => (
+              <RecipeCard key={r.id} recipe={r} />
+            ))}
+          </div>
+        </div>
+      )}
     </div>
   );
 }

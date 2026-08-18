@@ -48,7 +48,7 @@
       { "name": "tomato paste", "amount": 2, "unit": "tbsp" },
       { "name": "butter", "amount": 40, "unit": "g" },
       { "name": "mint", "amount": 1, "unit": "tsp" },
-      { "name": "chili flakes", "amount": 1, "unit": "tsp" },
+      { "name": "chilli flakes", "amount": 1, "unit": "tsp" },
       { "name": "salt", "amount": 5, "unit": "g" }
     ],
     "steps": [
@@ -137,7 +137,7 @@
       { "name": "yogurt", "amount": 400, "unit": "g" },
       { "name": "garlic", "amount": 3, "unit": "clove" },
       { "name": "butter", "amount": 50, "unit": "g" },
-      { "name": "chili flakes", "amount": 1, "unit": "tsp" },
+      { "name": "chilli flakes", "amount": 1, "unit": "tsp" },
       { "name": "salt", "amount": 5, "unit": "g" }
     ],
     "steps": [
@@ -195,7 +195,7 @@
       { "name": "green pepper", "amount": 3, "unit": "pcs" },
       { "name": "olive oil", "amount": 30, "unit": "ml" },
       { "name": "salt", "amount": 3, "unit": "g" },
-      { "name": "chili flakes", "amount": 1, "unit": "tsp" }
+      { "name": "chilli flakes", "amount": 1, "unit": "tsp" }
     ],
     "steps": [
       "Sauté the peppers in olive oil.",
@@ -832,7 +832,7 @@
       { "name": "spaghetti", "amount": 400, "unit": "g" },
       { "name": "garlic", "amount": 6, "unit": "clove" },
       { "name": "olive oil", "amount": 100, "unit": "ml" },
-      { "name": "chili flakes", "amount": 1, "unit": "tsp" },
+      { "name": "chilli flakes", "amount": 1, "unit": "tsp" },
       { "name": "parsley", "amount": 1, "unit": "bunch" },
       { "name": "salt", "amount": 5, "unit": "g" }
     ],
@@ -944,7 +944,7 @@
     "ingredients": [
       { "name": "potato", "amount": 6, "unit": "pcs" },
       { "name": "tomato paste", "amount": 2, "unit": "tbsp" },
-      { "name": "chili flakes", "amount": 1, "unit": "tsp" },
+      { "name": "chilli flakes", "amount": 1, "unit": "tsp" },
       { "name": "garlic", "amount": 2, "unit": "clove" },
       { "name": "olive oil", "amount": 100, "unit": "ml" },
       { "name": "salt", "amount": 5, "unit": "g" }
@@ -1199,7 +1199,7 @@
       { "name": "walnuts", "amount": 150, "unit": "g" },
       { "name": "breadcrumbs", "amount": 50, "unit": "g" },
       { "name": "pomegranate molasses", "amount": 30, "unit": "ml" },
-      { "name": "chili flakes", "amount": 1, "unit": "tsp" },
+      { "name": "chilli flakes", "amount": 1, "unit": "tsp" },
       { "name": "olive oil", "amount": 60, "unit": "ml" },
       { "name": "salt", "amount": 3, "unit": "g" }
     ],
@@ -1400,7 +1400,7 @@
       { "name": "tomato", "amount": 3, "unit": "pcs" },
       { "name": "garlic", "amount": 3, "unit": "clove" },
       { "name": "cumin", "amount": 1, "unit": "tsp" },
-      { "name": "chili flakes", "amount": 1, "unit": "tsp" },
+      { "name": "chilli flakes", "amount": 1, "unit": "tsp" },
       { "name": "olive oil", "amount": 60, "unit": "ml" },
       { "name": "salt", "amount": 3, "unit": "g" }
     ],
