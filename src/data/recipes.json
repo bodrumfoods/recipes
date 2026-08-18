@@ -2498,5 +2498,321 @@
       "Melt a little butter in a non-stick pan and ladle in portions of the batter.",
       "Cook for 2–3 minutes per side until golden and cooked through, then stack and serve warm."
     ]
+  },
+  {
+    "id": "domates-pilavi",
+    "name": "Domates Pilavı (Turkish Tomato Rice Pilaf)",
+    "emoji": "🍚",
+    "region": "Turkish",
+    "mealType": "side",
+    "dietTags": ["vegetarian"],
+    "servings": 6,
+    "calories": 240,
+    "prepTime": 5,
+    "cookTime": 20,
+    "description": "A simple, everyday Turkish rice pilaf cooked with tomato paste and butter until fluffy.",
+    "ingredients": [
+      { "name": "rice", "amount": 300, "unit": "g" },
+      { "name": "tomato paste", "amount": 2, "unit": "tbsp" },
+      { "name": "butter", "amount": 40, "unit": "g" },
+      { "name": "vegetable stock", "amount": 600, "unit": "ml" },
+      { "name": "salt", "amount": 5, "unit": "g" }
+    ],
+    "steps": [
+      "Rinse the rice in cold water until it runs clear, then drain well.",
+      "Melt the butter in a pan and stir in the tomato paste, cooking for a minute until fragrant.",
+      "Add the rice and stir to coat, then pour in the stock and salt and bring to the boil.",
+      "Cover and simmer for 15 minutes, then rest off the heat for 10 minutes before fluffing with a fork."
+    ]
+  },
+  {
+    "id": "ic-pilav",
+    "name": "İç Pilav (Ottoman Rice Pilaf with Currants & Pine Nuts)",
+    "emoji": "🍚",
+    "region": "Turkish",
+    "mealType": "side",
+    "dietTags": ["vegan"],
+    "servings": 6,
+    "calories": 280,
+    "prepTime": 15,
+    "cookTime": 25,
+    "description": "A fragrant Ottoman-era rice pilaf studded with currants, pine nuts, and warm spices.",
+    "ingredients": [
+      { "name": "rice", "amount": 300, "unit": "g" },
+      { "name": "onion", "amount": 1, "unit": "pcs" },
+      { "name": "pine nuts", "amount": 40, "unit": "g" },
+      { "name": "currants", "amount": 40, "unit": "g" },
+      { "name": "olive oil", "amount": 3, "unit": "tbsp" },
+      { "name": "allspice", "amount": 1, "unit": "tsp" },
+      { "name": "cinnamon", "amount": 0.5, "unit": "tsp" },
+      { "name": "dill", "amount": 1, "unit": "bunch" },
+      { "name": "vegetable stock", "amount": 600, "unit": "ml" }
+    ],
+    "steps": [
+      "Soak the currants in warm water for 10 minutes, then drain.",
+      "Sauté the diced onion in olive oil until soft, add the pine nuts, and toast until golden.",
+      "Stir in the rice, allspice, and cinnamon, coating well, then add the stock and currants.",
+      "Bring to the boil, cover, simmer for 15 minutes, rest for 10 minutes, then fold through the chopped dill before serving."
+    ]
+  },
+  {
+    "id": "nohutlu-pilav",
+    "name": "Nohutlu Pilav (Chickpea Rice Pilaf)",
+    "emoji": "🍚",
+    "region": "Turkish",
+    "mealType": "main-course",
+    "dietTags": ["vegan"],
+    "servings": 6,
+    "calories": 340,
+    "prepTime": 10,
+    "cookTime": 25,
+    "description": "A hearty one-pot Turkish rice and chickpea pilaf, a comforting weeknight staple.",
+    "ingredients": [
+      { "name": "rice", "amount": 300, "unit": "g" },
+      { "name": "chickpeas", "amount": 400, "unit": "g" },
+      { "name": "onion", "amount": 1, "unit": "pcs" },
+      { "name": "tomato paste", "amount": 1, "unit": "tbsp" },
+      { "name": "olive oil", "amount": 3, "unit": "tbsp" },
+      { "name": "paprika", "amount": 1, "unit": "tsp" },
+      { "name": "vegetable stock", "amount": 650, "unit": "ml" },
+      { "name": "salt", "amount": 5, "unit": "g" }
+    ],
+    "steps": [
+      "Sauté the diced onion in olive oil until soft, then stir in the tomato paste and paprika.",
+      "Add the rice and chickpeas, stirring to coat in the paste.",
+      "Pour in the stock and salt and bring to the boil.",
+      "Cover, simmer for 15 minutes, then rest off the heat for 10 minutes before fluffing."
+    ]
+  },
+  {
+    "id": "kuzu-etli-pilav",
+    "name": "Kuzu Etli Pilav (Lamb Rice Pilaf)",
+    "emoji": "🍚",
+    "region": "Turkish",
+    "mealType": "main-course",
+    "dietTags": ["meat"],
+    "servings": 6,
+    "calories": 520,
+    "prepTime": 15,
+    "cookTime": 55,
+    "description": "Tender braised lamb folded through buttery, fragrant rice pilaf.",
+    "ingredients": [
+      { "name": "lamb shoulder", "amount": 600, "unit": "g" },
+      { "name": "rice", "amount": 300, "unit": "g" },
+      { "name": "onion", "amount": 1, "unit": "pcs" },
+      { "name": "butter", "amount": 50, "unit": "g" },
+      { "name": "allspice", "amount": 1, "unit": "tsp" },
+      { "name": "cinnamon", "amount": 0.5, "unit": "tsp" },
+      { "name": "beef stock", "amount": 700, "unit": "ml" },
+      { "name": "salt", "amount": 5, "unit": "g" }
+    ],
+    "steps": [
+      "Brown the diced lamb in butter, then add the onion and soften.",
+      "Stir in the allspice and cinnamon, pour in half the stock, cover, and simmer for 40 minutes until the lamb is tender.",
+      "Stir in the rinsed rice and the remaining stock, and season with salt.",
+      "Cover, simmer for 15 minutes, then rest for 10 minutes off the heat before fluffing."
+    ]
+  },
+  {
+    "id": "spanakorizo",
+    "name": "Spanakorizo (Greek Spinach Rice)",
+    "emoji": "🍚",
+    "region": "Greek",
+    "mealType": "main-course",
+    "dietTags": ["vegan"],
+    "servings": 6,
+    "calories": 240,
+    "prepTime": 10,
+    "cookTime": 25,
+    "description": "A bright, lemony Greek rice dish loaded with spinach and fresh dill.",
+    "ingredients": [
+      { "name": "rice", "amount": 250, "unit": "g" },
+      { "name": "spinach", "amount": 400, "unit": "g" },
+      { "name": "onion", "amount": 1, "unit": "pcs" },
+      { "name": "olive oil", "amount": 4, "unit": "tbsp" },
+      { "name": "dill", "amount": 1, "unit": "bunch" },
+      { "name": "lemon", "amount": 1, "unit": "pcs" },
+      { "name": "vegetable stock", "amount": 500, "unit": "ml" },
+      { "name": "salt", "amount": 5, "unit": "g" }
+    ],
+    "steps": [
+      "Soften the diced onion in olive oil, then add the rice and stir for a minute.",
+      "Add the stock and salt, bring to a simmer, and cook for 10 minutes.",
+      "Stir in the spinach and cook until wilted and the rice is tender, about 8 minutes more.",
+      "Off the heat, stir through the chopped dill and a good squeeze of lemon juice."
+    ]
+  },
+  {
+    "id": "biber-dolmasi",
+    "name": "Biber Dolması (Rice-Stuffed Peppers)",
+    "emoji": "🫑",
+    "region": "Turkish",
+    "mealType": "main-course",
+    "dietTags": ["vegan"],
+    "servings": 6,
+    "calories": 260,
+    "prepTime": 25,
+    "cookTime": 45,
+    "description": "Green peppers stuffed with spiced rice, tomato, and herbs, gently simmered in olive oil.",
+    "ingredients": [
+      { "name": "green pepper", "amount": 8, "unit": "pcs" },
+      { "name": "rice", "amount": 200, "unit": "g" },
+      { "name": "onion", "amount": 1, "unit": "pcs" },
+      { "name": "tomato", "amount": 2, "unit": "pcs" },
+      { "name": "tomato paste", "amount": 1, "unit": "tbsp" },
+      { "name": "olive oil", "amount": 4, "unit": "tbsp" },
+      { "name": "dried mint", "amount": 1, "unit": "tsp" },
+      { "name": "parsley", "amount": 1, "unit": "bunch" },
+      { "name": "water", "amount": 300, "unit": "ml" }
+    ],
+    "steps": [
+      "Slice the tops off the peppers and hollow out the seeds.",
+      "Mix the rice with diced onion, grated tomato, tomato paste, olive oil, dried mint, and chopped parsley for the filling.",
+      "Spoon the filling into the peppers, leaving room for the rice to expand, and arrange upright in a pot.",
+      "Add the water, cover, and simmer for 40–45 minutes until the peppers are tender and the rice is cooked through."
+    ]
+  },
+  {
+    "id": "sutlac",
+    "name": "Sütlaç (Turkish Rice Pudding)",
+    "emoji": "🍮",
+    "region": "Turkish",
+    "mealType": "snack",
+    "dietTags": ["vegetarian"],
+    "servings": 6,
+    "calories": 260,
+    "prepTime": 10,
+    "cookTime": 40,
+    "description": "A creamy baked Turkish rice pudding with a golden top — a classic milk-based dessert.",
+    "ingredients": [
+      { "name": "rice", "amount": 100, "unit": "g" },
+      { "name": "milk", "amount": 1, "unit": "l" },
+      { "name": "sugar", "amount": 120, "unit": "g" },
+      { "name": "cornflour", "amount": 2, "unit": "tbsp" },
+      { "name": "vanilla extract", "amount": 1, "unit": "tsp" },
+      { "name": "egg yolk", "amount": 2, "unit": "pcs" }
+    ],
+    "steps": [
+      "Simmer the rice in a little water until softened, then drain.",
+      "Add the milk and sugar, and cook gently for 20 minutes, stirring occasionally.",
+      "Whisk the cornflour with a splash of cold milk, stir into the pot, and cook until thickened.",
+      "Off the heat, stir in the vanilla and egg yolks, pour into ramekins, and grill until golden on top; chill before serving."
+    ]
+  },
+  {
+    "id": "bulgur-pilavi",
+    "name": "Bulgur Pilavı (Turkish Bulgur Pilaf)",
+    "emoji": "🌾",
+    "region": "Turkish",
+    "mealType": "side",
+    "dietTags": ["vegan"],
+    "servings": 6,
+    "calories": 220,
+    "prepTime": 5,
+    "cookTime": 20,
+    "description": "A simple, everyday Turkish bulgur pilaf with tomato and green pepper — the classic partner to grilled meats.",
+    "ingredients": [
+      { "name": "coarse bulgur", "amount": 300, "unit": "g" },
+      { "name": "tomato", "amount": 2, "unit": "pcs" },
+      { "name": "green pepper", "amount": 1, "unit": "pcs" },
+      { "name": "tomato paste", "amount": 1, "unit": "tbsp" },
+      { "name": "olive oil", "amount": 3, "unit": "tbsp" },
+      { "name": "vegetable stock", "amount": 500, "unit": "ml" },
+      { "name": "salt", "amount": 5, "unit": "g" }
+    ],
+    "steps": [
+      "Sauté the diced pepper in olive oil until softened, then stir in the tomato paste.",
+      "Add the diced tomato and cook for a few minutes until it breaks down.",
+      "Stir in the bulgur, then pour in the stock and salt.",
+      "Bring to the boil, cover, and simmer for 15 minutes, then rest for 10 minutes before fluffing."
+    ]
+  },
+  {
+    "id": "mercimekli-bulgur-pilavi",
+    "name": "Mercimekli Bulgur Pilavı (Bulgur Pilaf with Red Lentils)",
+    "emoji": "🌾",
+    "region": "Turkish",
+    "mealType": "main-course",
+    "dietTags": ["vegan"],
+    "servings": 6,
+    "calories": 300,
+    "prepTime": 10,
+    "cookTime": 30,
+    "description": "A rustic, protein-rich bulgur and red lentil pilaf, warmed with cumin and paprika.",
+    "ingredients": [
+      { "name": "coarse bulgur", "amount": 200, "unit": "g" },
+      { "name": "red lentils", "amount": 150, "unit": "g" },
+      { "name": "onion", "amount": 1, "unit": "pcs" },
+      { "name": "olive oil", "amount": 3, "unit": "tbsp" },
+      { "name": "cumin", "amount": 1, "unit": "tsp" },
+      { "name": "paprika", "amount": 1, "unit": "tsp" },
+      { "name": "vegetable stock", "amount": 700, "unit": "ml" },
+      { "name": "salt", "amount": 5, "unit": "g" }
+    ],
+    "steps": [
+      "Sauté the onion in olive oil until golden, then stir in the cumin and paprika.",
+      "Add the red lentils and stock, bring to a simmer, and cook for 10 minutes until the lentils soften.",
+      "Stir in the bulgur and salt, cover, and simmer for 12–15 minutes until all the liquid is absorbed.",
+      "Rest for 5 minutes off the heat before serving."
+    ]
+  },
+  {
+    "id": "mercimekli-kofte",
+    "name": "Mercimekli Köfte (Lentil & Bulgur Patties)",
+    "emoji": "🥗",
+    "region": "Turkish",
+    "mealType": "meze",
+    "dietTags": ["vegan"],
+    "servings": 6,
+    "calories": 180,
+    "prepTime": 20,
+    "cookTime": 20,
+    "description": "No-cook-required vegan bulgur and red lentil patties, packed with herbs and spice.",
+    "ingredients": [
+      { "name": "fine bulgur", "amount": 150, "unit": "g" },
+      { "name": "red lentils", "amount": 150, "unit": "g" },
+      { "name": "onion", "amount": 1, "unit": "pcs" },
+      { "name": "tomato paste", "amount": 2, "unit": "tbsp" },
+      { "name": "spring onion", "amount": 4, "unit": "pcs" },
+      { "name": "parsley", "amount": 1, "unit": "bunch" },
+      { "name": "cumin", "amount": 1, "unit": "tsp" },
+      { "name": "chilli flakes", "amount": 1, "unit": "tsp" },
+      { "name": "lemon", "amount": 1, "unit": "pcs" },
+      { "name": "olive oil", "amount": 2, "unit": "tbsp" }
+    ],
+    "steps": [
+      "Cook the red lentils in water until soft, about 15 minutes, then drain any excess liquid.",
+      "While still hot, stir in the bulgur and cover for 10 minutes so it steams and softens.",
+      "Sauté the onion in olive oil until deep golden, then stir in the tomato paste, cumin, and chilli flakes.",
+      "Mix everything together with the chopped spring onion and parsley, shape into small ovals, and serve with lemon wedges."
+    ]
+  },
+  {
+    "id": "mujaddara",
+    "name": "Mujaddara (Bulgur with Lentils & Caramelised Onions)",
+    "emoji": "🧅",
+    "region": "Levantine",
+    "mealType": "main-course",
+    "dietTags": ["vegan"],
+    "servings": 6,
+    "calories": 320,
+    "prepTime": 10,
+    "cookTime": 40,
+    "description": "A humble, deeply comforting Levantine classic of bulgur and lentils topped with sweet caramelised onions.",
+    "ingredients": [
+      { "name": "coarse bulgur", "amount": 200, "unit": "g" },
+      { "name": "brown lentils", "amount": 200, "unit": "g" },
+      { "name": "onion", "amount": 3, "unit": "pcs" },
+      { "name": "olive oil", "amount": 4, "unit": "tbsp" },
+      { "name": "cumin", "amount": 1, "unit": "tsp" },
+      { "name": "vegetable stock", "amount": 600, "unit": "ml" },
+      { "name": "salt", "amount": 5, "unit": "g" }
+    ],
+    "steps": [
+      "Cook the lentils in the stock for 15–20 minutes until just tender.",
+      "Meanwhile, thinly slice the onions and fry slowly in olive oil for 20 minutes until deep golden and caramelised.",
+      "Stir the bulgur and cumin into the lentils, cover, and simmer for 12–15 minutes until the liquid is absorbed.",
+      "Season with salt, pile onto a plate, and top generously with the caramelised onions."
+    ]
   }
 ]
