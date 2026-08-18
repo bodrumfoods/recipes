@@ -21,6 +21,31 @@ cart in one click.
   (`https://bodrumfoods.co.uk/cart/{variantId}:{qty},...`) and opens the store cart in a new
   tab.
 
+## ⚠️ Before going live — enabling "Sign in with Google"
+
+Membership (My Favourites list, Meal Plan History) uses [Auth.js](https://authjs.dev)
+with Google as the sign-in provider. The heart icon and the current weekly plan work for
+everyone without an account (stored in `localStorage`); signing in is only required to view
+the aggregated **My Favourites** and **Meal Plan History** pages. Until the environment
+variables below are set, the "Sign in" button will show an "AuthError" — this is expected.
+
+1. Copy `.env.example` to `.env.local` (or add the same variables in the Vercel project's
+   **Settings → Environment Variables**).
+2. Generate `AUTH_SECRET`: `npx auth secret` (or any random 32+ byte string).
+3. Create a Google OAuth 2.0 Client ID at
+   [console.cloud.google.com/apis/credentials](https://console.cloud.google.com/apis/credentials):
+   - Application type: **Web application**
+   - Authorized redirect URI: `https://<your-domain>/api/auth/callback/google`
+     (add `http://localhost:3000/api/auth/callback/google` too for local dev)
+   - Copy the generated **Client ID** and **Client Secret** into `AUTH_GOOGLE_ID` and
+     `AUTH_GOOGLE_SECRET`.
+4. Redeploy. Once these are set, "Sign in with Google" works end to end.
+
+Favourites and plan history are currently stored per-browser (`localStorage`), the same as
+the weekly plan — signing in gates access to those pages but doesn't yet sync them across
+devices. Real cross-device sync needs a database (e.g. Vercel Postgres or Supabase) wired up
+to store `{ userId, recipeId }` favourites and plan snapshots server-side instead.
+
 ## ⚠️ Before going live
 
 `src/data/shopify-ingredient-map.json` was built from the real bodrumfoods.co.uk product

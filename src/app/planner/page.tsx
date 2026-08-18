@@ -2,7 +2,9 @@
 
 import { useMemo, useState } from "react";
 import Link from "next/link";
+import { useSession, signIn } from "next-auth/react";
 import { usePlanStore } from "@/lib/plan-store";
+import { useHistoryStore } from "@/lib/history-store";
 import { WEEKDAYS, type Weekday } from "@/lib/types";
 import { recipes, getRecipeById } from "@/lib/recipes";
 
@@ -102,9 +104,12 @@ function DayColumn({ day }: { day: Weekday }) {
 }
 
 export default function PlannerPage() {
+  const { data: session } = useSession();
   const clearPlan = usePlanStore((state) => state.clearPlan);
   const entries = usePlanStore((state) => state.entries);
   const entryCount = entries.length;
+  const saveSnapshot = useHistoryStore((state) => state.saveSnapshot);
+  const [saved, setSaved] = useState(false);
   const weekCalories = useMemo(
     () =>
       entries.reduce((sum, entry) => {
@@ -113,6 +118,16 @@ export default function PlannerPage() {
       }, 0),
     [entries]
   );
+
+  function handleSaveWeek() {
+    if (!session) {
+      signIn("google");
+      return;
+    }
+    saveSnapshot(entries);
+    setSaved(true);
+    setTimeout(() => setSaved(false), 2000);
+  }
 
   return (
     <div className="mx-auto w-full max-w-7xl px-4 py-10 sm:px-6">
@@ -130,15 +145,24 @@ export default function PlannerPage() {
             </p>
           )}
         </div>
-        <div className="flex gap-3">
+        <div className="flex flex-wrap gap-3">
           {entryCount > 0 && (
-            <button
-              type="button"
-              onClick={clearPlan}
-              className="rounded-full border border-brand-border px-4 py-2 text-sm font-medium text-brand-ink hover:bg-brand-muted"
-            >
-              Clear Plan
-            </button>
+            <>
+              <button
+                type="button"
+                onClick={handleSaveWeek}
+                className="rounded-full border border-brand-border px-4 py-2 text-sm font-medium text-brand-ink hover:bg-brand-muted"
+              >
+                {saved ? "Saved ✓" : session ? "Save This Week" : "Sign in to Save"}
+              </button>
+              <button
+                type="button"
+                onClick={clearPlan}
+                className="rounded-full border border-brand-border px-4 py-2 text-sm font-medium text-brand-ink hover:bg-brand-muted"
+              >
+                Clear Plan
+              </button>
+            </>
           )}
           <Link
             href="/shopping-list"
