@@ -1919,5 +1919,496 @@
       "Rest the beef, loosely covered, for 20 minutes before carving.",
       "Skim the fat from the roasting tin, stir in the flour, then whisk in the beef stock over heat until you have a smooth gravy."
     ]
+  },
+  {
+    "id": "sehriyeli-pirinc",
+    "name": "Perfect Fluffy Rice with Vermicelli (Şehriyeli Pirinç)",
+    "emoji": "🍚",
+    "region": "Turkish",
+    "mealType": "side",
+    "dietTags": ["vegetarian"],
+    "servings": 6,
+    "prepTime": 5,
+    "cookTime": 20,
+    "description": "The ultimate Mediterranean side dish — fluffy rice toasted with vermicelli and butter.",
+    "ingredients": [
+      { "name": "rice", "amount": 300, "unit": "g" },
+      { "name": "vermicelli", "amount": 50, "unit": "g" },
+      { "name": "butter", "amount": 40, "unit": "g" },
+      { "name": "salt", "amount": 5, "unit": "g" },
+      { "name": "water", "amount": 600, "unit": "ml" }
+    ],
+    "steps": [
+      "Rinse the rice in cold water until it runs clear, then drain well.",
+      "Melt the butter in a heavy pan and toast the vermicelli until golden brown.",
+      "Add the rice and stir for a minute to coat it in the butter, then pour in the water and salt.",
+      "Bring to the boil, cover, and simmer on low heat for 15–18 minutes until the water is absorbed, then rest off the heat for 10 minutes before fluffing with a fork."
+    ]
+  },
+  {
+    "id": "kavurma-with-eggs",
+    "name": "Kavurma with Eggs (Turkish Sunday Breakfast)",
+    "emoji": "🍳",
+    "region": "Turkish",
+    "mealType": "breakfast",
+    "dietTags": ["meat"],
+    "servings": 2,
+    "prepTime": 5,
+    "cookTime": 10,
+    "description": "A traditional 10-minute Turkish Sunday breakfast of cured beef kavurma fried with eggs.",
+    "ingredients": [
+      { "name": "kavurma (cured beef)", "amount": 150, "unit": "g" },
+      { "name": "egg", "amount": 4, "unit": "pcs" },
+      { "name": "butter", "amount": 15, "unit": "g" },
+      { "name": "chilli flakes", "amount": 1, "unit": "tsp" }
+    ],
+    "steps": [
+      "Melt the butter in a pan over medium heat and add the kavurma.",
+      "Fry gently for 2–3 minutes until the beef releases its fat and turns lightly crisp at the edges.",
+      "Crack the eggs directly over the kavurma and cook until the whites are just set.",
+      "Sprinkle with chilli flakes and serve straight from the pan with fresh bread."
+    ]
+  },
+  {
+    "id": "sucuklu-menemen",
+    "name": "Sucuk Spiced Menemen",
+    "emoji": "🍅",
+    "region": "Turkish",
+    "mealType": "breakfast",
+    "dietTags": ["meat"],
+    "servings": 4,
+    "prepTime": 10,
+    "cookTime": 15,
+    "description": "A bold twist on Turkey's beloved breakfast of eggs, tomatoes, and peppers, spiced up with sucuk.",
+    "ingredients": [
+      { "name": "sucuk (turkish sausage)", "amount": 150, "unit": "g" },
+      { "name": "tomato", "amount": 4, "unit": "pcs" },
+      { "name": "green pepper", "amount": 2, "unit": "pcs" },
+      { "name": "egg", "amount": 4, "unit": "pcs" },
+      { "name": "olive oil", "amount": 2, "unit": "tbsp" },
+      { "name": "chilli flakes", "amount": 1, "unit": "tsp" },
+      { "name": "salt", "amount": 3, "unit": "g" }
+    ],
+    "steps": [
+      "Fry the sliced sucuk in olive oil for 2 minutes until it releases its rich red oil.",
+      "Add the diced green pepper and cook until softened.",
+      "Stir in the grated tomato and simmer for 5–6 minutes until reduced.",
+      "Crack in the eggs and stir gently until softly set, then season with salt and chilli flakes and serve hot with bread."
+    ]
+  },
+  {
+    "id": "roasted-pepper-yoghurt-dip",
+    "name": "Roasted Pepper Yoghurt Dip",
+    "emoji": "🫑",
+    "region": "Turkish",
+    "mealType": "meze",
+    "dietTags": ["vegetarian"],
+    "servings": 6,
+    "prepTime": 10,
+    "cookTime": 20,
+    "description": "A velvety, healthy Mediterranean dip of smoky roasted peppers folded through thick yoghurt.",
+    "ingredients": [
+      { "name": "red pepper", "amount": 3, "unit": "pcs" },
+      { "name": "greek yoghurt", "amount": 300, "unit": "g" },
+      { "name": "garlic", "amount": 1, "unit": "clove" },
+      { "name": "olive oil", "amount": 2, "unit": "tbsp" },
+      { "name": "walnuts", "amount": 30, "unit": "g" },
+      { "name": "chilli flakes", "amount": 1, "unit": "tsp" }
+    ],
+    "steps": [
+      "Roast the red peppers under a hot grill, turning occasionally, until the skins are blackened and blistered.",
+      "Wrap in cling film to cool, then peel, deseed, and finely chop the flesh.",
+      "Crush the garlic and fold it through the yoghurt with the chopped roasted pepper.",
+      "Spoon into a bowl, top with toasted walnuts, a drizzle of olive oil, and a pinch of chilli flakes."
+    ]
+  },
+  {
+    "id": "sucuklu-kuru-fasulye",
+    "name": "Turkish White Bean Stew with Sucuk (Kuru Fasulye)",
+    "emoji": "🫘",
+    "region": "Turkish",
+    "mealType": "main-course",
+    "dietTags": ["meat"],
+    "servings": 6,
+    "prepTime": 15,
+    "cookTime": 45,
+    "description": "A hearty, slow-simmered Turkish staple of white beans and sucuk in a rich tomato sauce.",
+    "ingredients": [
+      { "name": "white beans", "amount": 300, "unit": "g" },
+      { "name": "sucuk (turkish sausage)", "amount": 150, "unit": "g" },
+      { "name": "onion", "amount": 1, "unit": "pcs" },
+      { "name": "tomato paste", "amount": 2, "unit": "tbsp" },
+      { "name": "red pepper paste", "amount": 1, "unit": "tbsp" },
+      { "name": "olive oil", "amount": 2, "unit": "tbsp" },
+      { "name": "paprika", "amount": 1, "unit": "tsp" },
+      { "name": "beef stock", "amount": 500, "unit": "ml" }
+    ],
+    "steps": [
+      "Soak the dried beans overnight in plenty of water, then drain.",
+      "Sauté the diced onion in olive oil until soft, then add the sliced sucuk and cook for 2 minutes.",
+      "Stir in the tomato paste, red pepper paste, and paprika.",
+      "Add the beans and beef stock, cover, and simmer for 40–45 minutes until the beans are tender, then season and serve with rice."
+    ]
+  },
+  {
+    "id": "mediterranean-spiced-lamb-stew",
+    "name": "Mediterranean Spiced Lamb Stew",
+    "emoji": "🍖",
+    "region": "Turkish",
+    "mealType": "main-course",
+    "dietTags": ["meat"],
+    "servings": 6,
+    "prepTime": 15,
+    "cookTime": 70,
+    "description": "A warm, bold lamb stew simmered slowly with Mediterranean spices until meltingly tender.",
+    "ingredients": [
+      { "name": "lamb shoulder", "amount": 700, "unit": "g" },
+      { "name": "onion", "amount": 2, "unit": "pcs" },
+      { "name": "garlic", "amount": 3, "unit": "clove" },
+      { "name": "carrot", "amount": 2, "unit": "pcs" },
+      { "name": "tomato paste", "amount": 2, "unit": "tbsp" },
+      { "name": "cumin", "amount": 1, "unit": "tsp" },
+      { "name": "paprika", "amount": 1, "unit": "tsp" },
+      { "name": "cinnamon", "amount": 0.5, "unit": "tsp" },
+      { "name": "olive oil", "amount": 2, "unit": "tbsp" },
+      { "name": "beef stock", "amount": 400, "unit": "ml" }
+    ],
+    "steps": [
+      "Brown the diced lamb in olive oil in batches, then set aside.",
+      "Soften the onion and garlic in the same pot, then stir in the cumin, paprika, cinnamon, and tomato paste.",
+      "Return the lamb to the pot with the carrot and beef stock.",
+      "Cover and simmer gently for about an hour until the lamb is fork-tender, then season and serve with rice or bread."
+    ]
+  },
+  {
+    "id": "weeknight-chickpea-stew",
+    "name": "Weeknight Chickpea Stew",
+    "emoji": "🥘",
+    "region": "Turkish",
+    "mealType": "main-course",
+    "dietTags": ["vegan"],
+    "servings": 6,
+    "prepTime": 10,
+    "cookTime": 30,
+    "description": "A quick, comforting chickpea stew in a rich tomato sauce with warming Mediterranean spices.",
+    "ingredients": [
+      { "name": "chickpeas", "amount": 500, "unit": "g" },
+      { "name": "onion", "amount": 1, "unit": "pcs" },
+      { "name": "garlic", "amount": 2, "unit": "clove" },
+      { "name": "tomato paste", "amount": 2, "unit": "tbsp" },
+      { "name": "cumin", "amount": 1, "unit": "tsp" },
+      { "name": "paprika", "amount": 1, "unit": "tsp" },
+      { "name": "olive oil", "amount": 2, "unit": "tbsp" },
+      { "name": "vegetable stock", "amount": 300, "unit": "ml" }
+    ],
+    "steps": [
+      "Sauté the diced onion and garlic in olive oil until softened.",
+      "Stir in the tomato paste, cumin, and paprika and cook for a minute until fragrant.",
+      "Add the chickpeas and vegetable stock and bring to a simmer.",
+      "Cook for 20–25 minutes until thickened, then season and serve with rice or crusty bread."
+    ]
+  },
+  {
+    "id": "asure",
+    "name": "Aşure (Noah's Pudding)",
+    "emoji": "🍮",
+    "region": "Turkish",
+    "mealType": "snack",
+    "dietTags": ["vegan"],
+    "servings": 8,
+    "prepTime": 20,
+    "cookTime": 60,
+    "description": "A traditional Turkish dessert of grains, pulses, and dried fruit, symbolising abundance and sharing.",
+    "ingredients": [
+      { "name": "wheat berries", "amount": 150, "unit": "g" },
+      { "name": "chickpeas", "amount": 50, "unit": "g" },
+      { "name": "white beans", "amount": 50, "unit": "g" },
+      { "name": "dried apricot", "amount": 80, "unit": "g" },
+      { "name": "dried fig", "amount": 80, "unit": "g" },
+      { "name": "raisins", "amount": 80, "unit": "g" },
+      { "name": "sugar", "amount": 200, "unit": "g" },
+      { "name": "orange zest", "amount": 1, "unit": "tsp" },
+      { "name": "walnuts", "amount": 40, "unit": "g" }
+    ],
+    "steps": [
+      "Soak the wheat berries, chickpeas, and white beans separately in water overnight.",
+      "Cook the wheat berries in fresh water for about 45 minutes until tender, then add the cooked chickpeas and beans.",
+      "Stir in the dried apricot, fig, raisins, sugar, and orange zest, and simmer for 20 minutes until thickened to a soft porridge.",
+      "Chill and serve garnished with walnuts and a light dusting of cinnamon."
+    ]
+  },
+  {
+    "id": "turkish-yoghurt-cake",
+    "name": "Viral Turkish Yoghurt Cake",
+    "emoji": "🍰",
+    "region": "Turkish",
+    "mealType": "snack",
+    "dietTags": ["vegetarian"],
+    "servings": 8,
+    "prepTime": 15,
+    "cookTime": 30,
+    "description": "A wobbly, cloud-like Turkish yoghurt cake that has taken social media by storm.",
+    "ingredients": [
+      { "name": "egg", "amount": 4, "unit": "pcs" },
+      { "name": "sugar", "amount": 150, "unit": "g" },
+      { "name": "greek yoghurt", "amount": 200, "unit": "g" },
+      { "name": "flour", "amount": 150, "unit": "g" },
+      { "name": "baking powder", "amount": 1, "unit": "tsp" },
+      { "name": "vanilla extract", "amount": 1, "unit": "tsp" }
+    ],
+    "steps": [
+      "Whisk the eggs and sugar together until pale, thick, and fluffy.",
+      "Fold in the yoghurt and vanilla extract until smooth.",
+      "Gently fold in the flour and baking powder, taking care not to knock out the air.",
+      "Pour into a lined tin and bake at 170°C for 25–30 minutes until golden and springy, then cool before slicing."
+    ]
+  },
+  {
+    "id": "sour-cherry-jam-cheesecake",
+    "name": "Bodrum Sour Cherry Jam Cheesecake",
+    "emoji": "🍒",
+    "region": "Turkish",
+    "mealType": "snack",
+    "dietTags": ["vegetarian"],
+    "servings": 8,
+    "prepTime": 25,
+    "cookTime": 0,
+    "description": "A creamy, no-bake vanilla cheesecake crowned with sweet-tart sour cherry jam.",
+    "ingredients": [
+      { "name": "digestive biscuits", "amount": 200, "unit": "g" },
+      { "name": "butter", "amount": 80, "unit": "g" },
+      { "name": "cream cheese", "amount": 400, "unit": "g" },
+      { "name": "double cream", "amount": 200, "unit": "ml" },
+      { "name": "sugar", "amount": 80, "unit": "g" },
+      { "name": "vanilla extract", "amount": 1, "unit": "tsp" },
+      { "name": "sour cherry jam", "amount": 200, "unit": "g" }
+    ],
+    "steps": [
+      "Crush the digestive biscuits and mix with the melted butter, then press firmly into the base of a lined tin and chill.",
+      "Whisk the cream cheese, double cream, sugar, and vanilla together until thick and holding soft peaks.",
+      "Spread the filling evenly over the chilled biscuit base.",
+      "Top with the sour cherry jam and chill for at least 4 hours, or overnight, before serving."
+    ]
+  },
+  {
+    "id": "dubai-chocolate-bar",
+    "name": "Dubai-Inspired Chocolate Bar",
+    "emoji": "🍫",
+    "region": "Turkish",
+    "mealType": "snack",
+    "dietTags": ["vegetarian"],
+    "servings": 8,
+    "prepTime": 25,
+    "cookTime": 5,
+    "description": "The viral pistachio and kadayif chocolate bar, made at home with crunchy shredded phyllo.",
+    "ingredients": [
+      { "name": "kadayif (shredded phyllo)", "amount": 100, "unit": "g" },
+      { "name": "butter", "amount": 40, "unit": "g" },
+      { "name": "pistachio paste", "amount": 150, "unit": "g" },
+      { "name": "tahini", "amount": 2, "unit": "tbsp" },
+      { "name": "dark chocolate", "amount": 300, "unit": "g" },
+      { "name": "pistachios", "amount": 30, "unit": "g" }
+    ],
+    "steps": [
+      "Chop the kadayif into short strands and toast in the butter until golden and crisp; leave to cool.",
+      "Mix the toasted kadayif with the pistachio paste and tahini to make the filling.",
+      "Melt half the chocolate and coat the base and sides of bar moulds, then chill briefly to set.",
+      "Fill with the pistachio-kadayif mixture, seal with the remaining melted chocolate, scatter with chopped pistachios, and chill until firm."
+    ]
+  },
+  {
+    "id": "mediterranean-chicken-marinade",
+    "name": "Mediterranean Chicken Marinade",
+    "emoji": "🍗",
+    "region": "Greek",
+    "mealType": "main-course",
+    "dietTags": ["meat"],
+    "servings": 4,
+    "prepTime": 15,
+    "cookTime": 20,
+    "description": "Grilled chicken marinated in red wine vinegar, olive oil, garlic, and oregano.",
+    "ingredients": [
+      { "name": "chicken thigh", "amount": 700, "unit": "g" },
+      { "name": "red wine vinegar", "amount": 3, "unit": "tbsp" },
+      { "name": "olive oil", "amount": 4, "unit": "tbsp" },
+      { "name": "garlic", "amount": 3, "unit": "clove" },
+      { "name": "oregano", "amount": 1, "unit": "tbsp" },
+      { "name": "lemon", "amount": 1, "unit": "pcs" },
+      { "name": "salt", "amount": 3, "unit": "g" }
+    ],
+    "steps": [
+      "Whisk together the red wine vinegar, olive oil, crushed garlic, oregano, lemon juice, and salt.",
+      "Coat the chicken thoroughly in the marinade and refrigerate for at least 2 hours, or overnight for best flavour.",
+      "Grill or pan-fry the chicken over high heat until charred and cooked through, about 8–10 minutes per side.",
+      "Rest for 5 minutes before slicing and serving."
+    ]
+  },
+  {
+    "id": "creamy-mediterranean-chicken-orzo",
+    "name": "Creamy Mediterranean Chicken Orzo",
+    "emoji": "🍝",
+    "region": "Italian",
+    "mealType": "main-course",
+    "dietTags": ["meat"],
+    "servings": 4,
+    "prepTime": 15,
+    "cookTime": 25,
+    "description": "A one-pot, quick gourmet meal of orzo pasta, chicken, and mushrooms in a creamy sauce.",
+    "ingredients": [
+      { "name": "chicken breast", "amount": 400, "unit": "g" },
+      { "name": "orzo pasta", "amount": 250, "unit": "g" },
+      { "name": "mushroom", "amount": 200, "unit": "g" },
+      { "name": "chicken stock", "amount": 600, "unit": "ml" },
+      { "name": "double cream", "amount": 100, "unit": "ml" },
+      { "name": "parmesan", "amount": 40, "unit": "g" },
+      { "name": "garlic", "amount": 2, "unit": "clove" },
+      { "name": "olive oil", "amount": 2, "unit": "tbsp" }
+    ],
+    "steps": [
+      "Sear the diced chicken in olive oil until golden, then set aside.",
+      "In the same pan, sauté the sliced mushrooms and garlic until softened.",
+      "Stir in the orzo and toast briefly, then ladle in the stock gradually, stirring often, for about 15 minutes until the orzo is tender.",
+      "Return the chicken to the pan, stir through the cream and parmesan, and season before serving."
+    ]
+  },
+  {
+    "id": "spaghetti-bolognese",
+    "name": "Spaghetti Bolognese",
+    "emoji": "🍝",
+    "region": "Italian",
+    "mealType": "main-course",
+    "dietTags": ["meat"],
+    "servings": 6,
+    "prepTime": 20,
+    "cookTime": 60,
+    "description": "A deep, slow-cooked ragù alla Bolognese, the ultimate authentic Italian classic.",
+    "ingredients": [
+      { "name": "beef mince", "amount": 500, "unit": "g" },
+      { "name": "onion", "amount": 1, "unit": "pcs" },
+      { "name": "carrot", "amount": 1, "unit": "pcs" },
+      { "name": "celery", "amount": 1, "unit": "pcs" },
+      { "name": "garlic", "amount": 2, "unit": "clove" },
+      { "name": "tomato paste", "amount": 2, "unit": "tbsp" },
+      { "name": "chopped tomatoes", "amount": 400, "unit": "g" },
+      { "name": "spaghetti", "amount": 400, "unit": "g" },
+      { "name": "olive oil", "amount": 2, "unit": "tbsp" },
+      { "name": "parmesan", "amount": 40, "unit": "g" }
+    ],
+    "steps": [
+      "Finely dice the onion, carrot, and celery, and soften in olive oil with the garlic.",
+      "Add the mince and brown well, breaking it up as it cooks.",
+      "Stir in the tomato paste, then the chopped tomatoes, and simmer gently for 45 minutes, stirring occasionally, until rich and thick.",
+      "Cook the spaghetti until al dente and serve topped with the ragù and grated parmesan."
+    ]
+  },
+  {
+    "id": "olive-sundried-tomato-mezze-platter",
+    "name": "Olive & Sun-Dried Tomato Mezze Platter",
+    "emoji": "🫒",
+    "region": "Turkish",
+    "mealType": "meze",
+    "dietTags": ["vegetarian"],
+    "servings": 6,
+    "prepTime": 15,
+    "cookTime": 0,
+    "description": "A shareable Mediterranean mezze spread built around olives, sun-dried tomatoes, and feta.",
+    "ingredients": [
+      { "name": "mixed olives", "amount": 200, "unit": "g" },
+      { "name": "sun-dried tomato", "amount": 150, "unit": "g" },
+      { "name": "feta cheese", "amount": 150, "unit": "g" },
+      { "name": "hummus", "amount": 200, "unit": "g" },
+      { "name": "flatbread", "amount": 4, "unit": "pcs" },
+      { "name": "olive oil", "amount": 3, "unit": "tbsp" },
+      { "name": "oregano", "amount": 1, "unit": "tsp" }
+    ],
+    "steps": [
+      "Arrange the olives, sun-dried tomatoes, and cubed feta across a large sharing platter.",
+      "Spoon a generous bowl of hummus into the centre.",
+      "Warm the flatbread and cut into wedges to serve alongside.",
+      "Finish with a good drizzle of olive oil and a scatter of dried oregano."
+    ]
+  },
+  {
+    "id": "chilli-con-carne",
+    "name": "Chilli Con Carne",
+    "emoji": "🌶️",
+    "region": "British",
+    "mealType": "main-course",
+    "dietTags": ["meat"],
+    "servings": 6,
+    "prepTime": 15,
+    "cookTime": 60,
+    "description": "A deep, smoky, award-worthy chilli — a British takeaway and dinner-table favourite.",
+    "ingredients": [
+      { "name": "beef mince", "amount": 500, "unit": "g" },
+      { "name": "onion", "amount": 1, "unit": "pcs" },
+      { "name": "garlic", "amount": 3, "unit": "clove" },
+      { "name": "red kidney beans", "amount": 400, "unit": "g" },
+      { "name": "chopped tomatoes", "amount": 400, "unit": "g" },
+      { "name": "tomato paste", "amount": 2, "unit": "tbsp" },
+      { "name": "smoked paprika", "amount": 1, "unit": "tbsp" },
+      { "name": "cumin", "amount": 1, "unit": "tsp" },
+      { "name": "chilli flakes", "amount": 1, "unit": "tsp" },
+      { "name": "beef stock", "amount": 200, "unit": "ml" }
+    ],
+    "steps": [
+      "Brown the mince with the diced onion and garlic in a large pot.",
+      "Stir in the smoked paprika, cumin, and chilli flakes and cook for a minute until fragrant.",
+      "Add the tomato paste, chopped tomatoes, beef stock, and kidney beans.",
+      "Simmer uncovered for 45–50 minutes, stirring occasionally, until rich and thick, then season and serve with rice or crusty bread."
+    ]
+  },
+  {
+    "id": "apple-crumble",
+    "name": "Homemade Apple Crumble",
+    "emoji": "🍏",
+    "region": "British",
+    "mealType": "snack",
+    "dietTags": ["vegetarian"],
+    "servings": 6,
+    "prepTime": 15,
+    "cookTime": 40,
+    "description": "A warm, comforting British dessert of tender spiced apples under a crisp buttery topping.",
+    "ingredients": [
+      { "name": "apple", "amount": 6, "unit": "pcs" },
+      { "name": "plain flour", "amount": 150, "unit": "g" },
+      { "name": "butter", "amount": 100, "unit": "g" },
+      { "name": "caster sugar", "amount": 80, "unit": "g" },
+      { "name": "cinnamon", "amount": 1, "unit": "tsp" },
+      { "name": "oats", "amount": 30, "unit": "g" }
+    ],
+    "steps": [
+      "Peel, core, and slice the apples into a baking dish, tossing with a little sugar and cinnamon.",
+      "Rub the flour and butter together until it resembles coarse breadcrumbs, then stir in the remaining sugar and oats.",
+      "Scatter the crumble topping evenly over the apples.",
+      "Bake at 190°C for 35–40 minutes until golden and bubbling, and serve warm with custard or cream."
+    ]
+  },
+  {
+    "id": "fluffy-pancakes",
+    "name": "Fluffy Homemade Pancakes",
+    "emoji": "🥞",
+    "region": "British",
+    "mealType": "breakfast",
+    "dietTags": ["vegetarian"],
+    "servings": 4,
+    "prepTime": 10,
+    "cookTime": 15,
+    "description": "A stack of warm, fluffy pancakes with a cosy touch of cinnamon — a weekend breakfast favourite.",
+    "ingredients": [
+      { "name": "plain flour", "amount": 200, "unit": "g" },
+      { "name": "egg", "amount": 2, "unit": "pcs" },
+      { "name": "milk", "amount": 250, "unit": "ml" },
+      { "name": "baking powder", "amount": 2, "unit": "tsp" },
+      { "name": "sugar", "amount": 2, "unit": "tbsp" },
+      { "name": "butter", "amount": 20, "unit": "g" },
+      { "name": "cinnamon", "amount": 0.5, "unit": "tsp" }
+    ],
+    "steps": [
+      "Whisk the flour, baking powder, sugar, and cinnamon together in a bowl.",
+      "Whisk in the eggs and milk until you have a smooth, thick batter.",
+      "Melt a little butter in a non-stick pan and ladle in portions of the batter.",
+      "Cook for 2–3 minutes per side until golden and cooked through, then stack and serve warm."
+    ]
   }
 ]
