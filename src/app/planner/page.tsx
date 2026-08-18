@@ -6,7 +6,7 @@ import { useSession, signIn } from "next-auth/react";
 import { usePlanStore } from "@/lib/plan-store";
 import { useHistoryStore } from "@/lib/history-store";
 import { WEEKDAYS, type Weekday } from "@/lib/types";
-import { recipes, getRecipeById } from "@/lib/recipes";
+import { recipes, regions, getRecipeById } from "@/lib/recipes";
 
 function DayColumn({ day }: { day: Weekday }) {
   const allEntries = usePlanStore((state) => state.entries);
@@ -121,6 +121,7 @@ export default function PlannerPage() {
   const saveSnapshot = useHistoryStore((state) => state.saveSnapshot);
   const [saved, setSaved] = useState(false);
   const [carouselIndex, setCarouselIndex] = useState(0);
+  const [magicRegion, setMagicRegion] = useState("");
   const weekCalories = useMemo(
     () =>
       entries.reduce((sum, entry) => {
@@ -149,7 +150,11 @@ export default function PlannerPage() {
     }
     clearPlan();
 
-    const mains = shuffle(recipes.filter((r) => r.mealType === "main-course"));
+    const mains = shuffle(
+      recipes.filter(
+        (r) => r.mealType === "main-course" && (!magicRegion || r.region === magicRegion)
+      )
+    );
     // Sides pool: dedicated side dishes, salads, and yoghurt-based mezes — all things
     // that make sense served alongside a main, unlike an unrelated meze or dessert.
     const sidesPool = recipes.filter(
@@ -198,20 +203,37 @@ export default function PlannerPage() {
           )}
         </div>
         <div className="flex flex-wrap gap-3">
-          <button
-            type="button"
-            onClick={handleMagicPlan}
-            className="flex items-center gap-2 rounded-full bg-gradient-to-r from-brand-red to-brand-green px-4 py-2 text-sm font-semibold text-white transition hover:-translate-y-0.5 hover:shadow-lg"
-          >
-            <svg viewBox="0 0 24 24" fill="currentColor" className="h-4 w-4">
-              <path d="M11 2.5 12.8 8l5.5 1.8-5.5 1.8L11 17.2 9.2 11.6 3.7 9.8l5.5-1.8L11 2.5Z" />
-              <path
-                d="M18.5 13.5 19.4 16l2.5.9-2.5.9-.9 2.5-.9-2.5-2.5-.9 2.5-.9.9-2.5Z"
-                opacity="0.75"
-              />
-            </svg>
-            Plan My Week For Me
-          </button>
+          <div className="flex items-center overflow-hidden rounded-full bg-gradient-to-r from-brand-red to-brand-green">
+            <select
+              value={magicRegion}
+              onChange={(e) => setMagicRegion(e.target.value)}
+              aria-label="Cuisine for magic plan"
+              className="border-r border-white/30 bg-transparent py-2 pl-4 pr-2 text-sm font-semibold text-white [color-scheme:dark] focus:outline-none"
+            >
+              <option value="" className="text-brand-ink">
+                Any Cuisine
+              </option>
+              {regions.map((region) => (
+                <option key={region} value={region} className="text-brand-ink">
+                  {region}
+                </option>
+              ))}
+            </select>
+            <button
+              type="button"
+              onClick={handleMagicPlan}
+              className="flex items-center gap-2 px-4 py-2 text-sm font-semibold text-white transition hover:shadow-lg"
+            >
+              <svg viewBox="0 0 24 24" fill="currentColor" className="h-4 w-4">
+                <path d="M11 2.5 12.8 8l5.5 1.8-5.5 1.8L11 17.2 9.2 11.6 3.7 9.8l5.5-1.8L11 2.5Z" />
+                <path
+                  d="M18.5 13.5 19.4 16l2.5.9-2.5.9-.9 2.5-.9-2.5-2.5-.9 2.5-.9.9-2.5Z"
+                  opacity="0.75"
+                />
+              </svg>
+              Plan My Week For Me
+            </button>
+          </div>
           {entryCount > 0 && (
             <>
               <button
