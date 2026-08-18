@@ -31,6 +31,8 @@ export default function RecipeCard({ recipe }: { recipe: Recipe }) {
         <span>{recipe.servings} servings</span>
         <span>•</span>
         <span>{recipe.prepTime + recipe.cookTime} min</span>
+        <span>•</span>
+        <span>~{recipe.calories} kcal</span>
       </div>
     </Link>
   );

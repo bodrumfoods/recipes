@@ -14,9 +14,19 @@ function DayColumn({ day }: { day: Weekday }) {
   const updateServings = usePlanStore((state) => state.updateServings);
   const [selected, setSelected] = useState("");
 
+  const dayCalories = entries.reduce((sum, entry) => {
+    const recipe = getRecipeById(entry.recipeId);
+    return recipe ? sum + recipe.calories * entry.servings : sum;
+  }, 0);
+
   return (
     <div className="flex min-w-[260px] flex-col gap-3 rounded-2xl border border-brand-border bg-brand-card p-4 transition hover:shadow-md">
-      <h3 className="font-display font-semibold text-brand-ink">{day}</h3>
+      <div className="flex items-baseline justify-between gap-2">
+        <h3 className="font-display font-semibold text-brand-ink">{day}</h3>
+        {dayCalories > 0 && (
+          <span className="text-xs font-medium text-brand-ink/50">~{dayCalories} kcal</span>
+        )}
+      </div>
 
       <div className="flex flex-col gap-2">
         {entries.length === 0 && (
@@ -53,6 +63,9 @@ function DayColumn({ day }: { day: Weekday }) {
                   onChange={(e) => updateServings(entry.id, Number(e.target.value))}
                   className="w-14 rounded border border-brand-border px-1 py-0.5"
                 />
+                <span className="ml-auto text-brand-ink/50">
+                  ~{recipe.calories * entry.servings} kcal
+                </span>
               </div>
             </div>
           );
@@ -90,7 +103,16 @@ function DayColumn({ day }: { day: Weekday }) {
 
 export default function PlannerPage() {
   const clearPlan = usePlanStore((state) => state.clearPlan);
-  const entryCount = usePlanStore((state) => state.entries.length);
+  const entries = usePlanStore((state) => state.entries);
+  const entryCount = entries.length;
+  const weekCalories = useMemo(
+    () =>
+      entries.reduce((sum, entry) => {
+        const recipe = getRecipeById(entry.recipeId);
+        return recipe ? sum + recipe.calories * entry.servings : sum;
+      }, 0),
+    [entries]
+  );
 
   return (
     <div className="mx-auto w-full max-w-7xl px-4 py-10 sm:px-6">
@@ -102,6 +124,11 @@ export default function PlannerPage() {
           <p className="mt-2 text-brand-ink/70">
             Pick a recipe for each day — your plan turns into a shopping list automatically.
           </p>
+          {weekCalories > 0 && (
+            <p className="mt-1 text-sm font-medium text-brand-ink/50">
+              ~{weekCalories} kcal planned this week
+            </p>
+          )}
         </div>
         <div className="flex gap-3">
           {entryCount > 0 && (

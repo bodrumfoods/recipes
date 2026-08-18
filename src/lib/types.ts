@@ -33,6 +33,7 @@ export interface Recipe {
   mealType: MealType;
   dietTags: DietTag[];
   servings: number;
+  calories: number;
   prepTime: number;
   cookTime: number;
   description: string;

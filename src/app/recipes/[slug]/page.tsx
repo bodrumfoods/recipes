@@ -40,6 +40,7 @@ export default async function RecipeDetailPage({
             <span>{recipe.servings} servings</span>
             <span>{recipe.prepTime} min prep</span>
             <span>{recipe.cookTime} min cook</span>
+            <span>~{recipe.calories} kcal / serving</span>
           </div>
 
           <div className="mt-6 flex justify-center">
