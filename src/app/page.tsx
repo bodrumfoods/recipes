@@ -1,9 +1,11 @@
 import Link from "next/link";
 import { recipes, regions } from "@/lib/recipes";
 import RecipeCard from "@/components/RecipeCard";
+import SectionHeader from "@/components/SectionHeader";
 
 export default function Home() {
-  const featured = recipes.slice(0, 6);
+  const [heroRecipe, ...restFeatured] = recipes;
+  const featured = restFeatured.slice(0, 4);
 
   return (
     <div className="flex flex-col overflow-x-hidden">
@@ -90,36 +92,39 @@ export default function Home() {
       </section>
 
       <section className="mx-auto w-full max-w-6xl px-4 pb-16 sm:px-6">
-        <div className="mb-6 flex items-center justify-between">
-          <h2 className="font-display text-2xl font-bold text-brand-ink">Featured Recipes</h2>
-          <Link href="/recipes" className="text-sm font-semibold text-brand-ink hover:text-brand-red">
-            See All
-          </Link>
-        </div>
-        <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
-          {featured.map((recipe, index) => (
-            <div
-              key={recipe.id}
-              className="animate-fade-in-up"
-              style={{ animationDelay: `${index * 60}ms` }}
-            >
-              <RecipeCard recipe={recipe} />
-            </div>
-          ))}
+        <SectionHeader title="What to cook this week" href="/recipes" />
+        <div className="grid grid-cols-1 gap-5 lg:grid-cols-2">
+          <div className="animate-fade-in-up">
+            <RecipeCard recipe={heroRecipe} size="large" />
+          </div>
+          <div className="grid grid-cols-1 gap-5 sm:grid-cols-2">
+            {featured.map((recipe, index) => (
+              <div
+                key={recipe.id}
+                className="animate-fade-in-up"
+                style={{ animationDelay: `${(index + 1) * 60}ms` }}
+              >
+                <RecipeCard recipe={recipe} />
+              </div>
+            ))}
+          </div>
         </div>
       </section>
 
       <section className="border-t border-brand-border bg-brand-muted">
         <div className="mx-auto max-w-6xl px-4 py-14 sm:px-6">
-          <h2 className="font-display text-2xl font-bold text-brand-ink">Browse by cuisine</h2>
-          <div className="mt-6 flex flex-wrap gap-3">
+          <SectionHeader title="Browse by cuisine" />
+          <div className="grid grid-cols-2 gap-4 sm:grid-cols-4">
             {regions.map((region) => (
               <Link
                 key={region}
                 href={`/recipes?region=${encodeURIComponent(region)}`}
-                className="rounded-full border border-brand-border bg-white px-4 py-2 text-sm font-medium text-brand-ink transition hover:-translate-y-0.5 hover:border-brand-red hover:shadow-sm"
+                className="group border border-brand-border bg-white p-4 transition hover:border-brand-red"
               >
-                {region}
+                <span className="font-display block text-lg font-bold text-brand-ink group-hover:underline">
+                  {region}
+                </span>
+                <span className="text-xs uppercase tracking-wide text-brand-ink/50">Cuisine</span>
               </Link>
             ))}
           </div>

@@ -19,7 +19,7 @@ export default async function RecipeDetailPage({
 
   return (
     <div className="mx-auto w-full max-w-3xl px-4 py-10 sm:px-6">
-      <div className="animate-fade-in-up overflow-hidden rounded-3xl border border-brand-border">
+      <div className="animate-fade-in-up border border-brand-border">
         <RecipeVisual region={recipe.region} mealType={recipe.mealType} className="h-48 w-full sm:h-64" />
         <div className="relative bg-brand-muted px-6 py-10 text-center sm:px-10">
           <div className="flex items-center justify-center gap-2 text-xs font-semibold uppercase tracking-wide text-brand-red">
