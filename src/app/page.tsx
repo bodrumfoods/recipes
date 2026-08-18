@@ -2,6 +2,7 @@ import Link from "next/link";
 import { recipes, regions } from "@/lib/recipes";
 import RecipeCard from "@/components/RecipeCard";
 import SectionHeader from "@/components/SectionHeader";
+import AppDownloadBanner from "@/components/AppDownloadBanner";
 
 export default function Home() {
   const [heroRecipe, ...restFeatured] = recipes;
@@ -109,6 +110,10 @@ export default function Home() {
             ))}
           </div>
         </div>
+      </section>
+
+      <section className="mx-auto w-full max-w-6xl px-4 pb-14 sm:px-6">
+        <AppDownloadBanner />
       </section>
 
       <section className="border-t border-brand-border bg-brand-muted">
