@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Footer() {
   return (
     <footer className="border-t border-brand-border bg-brand-muted">
@@ -14,7 +16,12 @@ export default function Footer() {
           </a>
           .
         </p>
-        <p className="text-xs text-brand-ink/50">Powered by Bodrum Foods</p>
+        <div className="flex flex-wrap items-center gap-x-4 gap-y-1 text-xs text-brand-ink/50">
+          <span>Powered by Bodrum Foods</span>
+          <Link href="/privacy-policy" className="hover:text-brand-red hover:underline">
+            Privacy Policy
+          </Link>
+        </div>
       </div>
     </footer>
   );
