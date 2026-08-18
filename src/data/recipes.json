@@ -1,0 +1,3675 @@
+[
+  {
+    "id": "mercimek-corbasi",
+    "name": "Red Lentil Soup",
+    "emoji": "🍲",
+    "region": "Turkish",
+    "mealType": "soup",
+    "dietTags": ["vegetarian"],
+    "servings": 6,
+    "calories": 180,
+    "prepTime": 10,
+    "cookTime": 30,
+    "description": "A classic, creamy Turkish soup made with red lentils.",
+    "image": "https://bodrumfoods.co.uk/cdn/shop/articles/creamy-turkish-red-lentil-soup_a29b23b1-78f8-4c88-804f-067ef8a04fcc.png?v=1778669439&width=1200",
+    "ingredients": [
+      { "name": "red lentils", "amount": 200, "unit": "g" },
+      { "name": "onion", "amount": 1, "unit": "pcs" },
+      { "name": "carrot", "amount": 1, "unit": "pcs" },
+      { "name": "potato", "amount": 1, "unit": "pcs" },
+      { "name": "flour", "amount": 1, "unit": "tbsp" },
+      { "name": "butter", "amount": 30, "unit": "g" },
+      { "name": "cumin", "amount": 1, "unit": "tsp" },
+      { "name": "salt", "amount": 5, "unit": "g" }
+    ],
+    "steps": [
+      "Dice the onion, carrot, and potato into small cubes.",
+      "Sauté the vegetables in butter, then stir in the flour.",
+      "Add the lentils and 1.5 litres of water, and simmer for 25 minutes until the vegetables are soft.",
+      "Blend until smooth, season with cumin and salt, and serve hot."
+    ]
+  },
+  {
+    "id": "ezogelin-corbasi",
+    "name": "Ezogelin Soup",
+    "emoji": "🍲",
+    "region": "Turkish",
+    "mealType": "soup",
+    "dietTags": ["vegetarian"],
+    "servings": 6,
+    "calories": 190,
+    "prepTime": 10,
+    "cookTime": 35,
+    "description": "A spiced soup of red lentils, rice, and bulgur.",
+    "image": "https://bodrumfoods.co.uk/cdn/shop/articles/ezogelinsoup_1645ef25-837f-4e7e-a86c-af4ad27202fa.jpg?v=1787060974&width=1200",
+    "ingredients": [
+      { "name": "red lentils", "amount": 150, "unit": "g" },
+      { "name": "rice", "amount": 50, "unit": "g" },
+      { "name": "fine bulgur", "amount": 50, "unit": "g" },
+      { "name": "onion", "amount": 1, "unit": "pcs" },
+      { "name": "tomato paste", "amount": 2, "unit": "tbsp" },
+      { "name": "butter", "amount": 40, "unit": "g" },
+      { "name": "mint", "amount": 1, "unit": "tsp" },
+      { "name": "chilli flakes", "amount": 1, "unit": "tsp" },
+      { "name": "salt", "amount": 5, "unit": "g" }
+    ],
+    "steps": [
+      "Sauté the onion in butter and stir in the tomato paste.",
+      "Add the lentils, rice, bulgur, and water, and stir to combine.",
+      "Simmer over low heat for 30 minutes until everything is tender.",
+      "Season with mint, chili flakes, and salt, then serve."
+    ]
+  },
+  {
+    "id": "imam-bayildi",
+    "name": "Imam Bayildi",
+    "emoji": "🍆",
+    "region": "Turkish",
+    "mealType": "main-course",
+    "dietTags": ["vegan"],
+    "servings": 4,
+    "calories": 220,
+    "prepTime": 20,
+    "cookTime": 40,
+    "description": "Aubergines stuffed with a sweet onion filling and slow-cooked in olive oil.",
+    "image": "https://bodrumfoods.co.uk/cdn/shop/articles/imam_bayildi.jpg?v=1787061590&width=1200",
+    "ingredients": [
+      { "name": "aubergine", "amount": 4, "unit": "pcs" },
+      { "name": "onion", "amount": 2, "unit": "pcs" },
+      { "name": "garlic", "amount": 3, "unit": "clove" },
+      { "name": "tomato", "amount": 3, "unit": "pcs" },
+      { "name": "olive oil", "amount": 150, "unit": "ml" },
+      { "name": "parsley", "amount": 1, "unit": "bunch" },
+      { "name": "salt", "amount": 5, "unit": "g" },
+      { "name": "sugar", "amount": 1, "unit": "tsp" }
+    ],
+    "steps": [
+      "Peel the aubergines and fry or roast until soft.",
+      "Sauté the onion, garlic, and tomato in olive oil to make the filling.",
+      "Split the aubergines open and stuff with the filling.",
+      "Drizzle with water and olive oil, then bake for 25 minutes and serve cold."
+    ]
+  },
+  {
+    "id": "karniyarik",
+    "name": "Karniyarik (Split-Belly Aubergine)",
+    "emoji": "🍆",
+    "region": "Turkish",
+    "mealType": "main-course",
+    "dietTags": ["meat"],
+    "servings": 4,
+    "calories": 420,
+    "prepTime": 20,
+    "cookTime": 40,
+    "description": "Aubergines stuffed with a minced meat filling and baked in the oven.",
+    "ingredients": [
+      { "name": "aubergine", "amount": 4, "unit": "pcs" },
+      { "name": "minced meat", "amount": 300, "unit": "g" },
+      { "name": "onion", "amount": 2, "unit": "pcs" },
+      { "name": "tomato", "amount": 3, "unit": "pcs" },
+      { "name": "green pepper", "amount": 4, "unit": "pcs" },
+      { "name": "garlic", "amount": 2, "unit": "clove" },
+      { "name": "olive oil", "amount": 100, "unit": "ml" },
+      { "name": "salt", "amount": 5, "unit": "g" },
+      { "name": "black pepper", "amount": 2, "unit": "g" }
+    ],
+    "steps": [
+      "Peel the aubergines, fry them, then slit them open lengthwise.",
+      "Brown the minced meat with onion and garlic, then add tomato and seasoning.",
+      "Fill the aubergines with the mixture and top with tomato and pepper slices.",
+      "Bake at 180°C (350°F) for 25 minutes."
+    ]
+  },
+  {
+    "id": "manti",
+    "name": "Turkish Manti (Dumplings)",
+    "emoji": "🥟",
+    "region": "Turkish",
+    "mealType": "main-course",
+    "dietTags": ["meat"],
+    "servings": 4,
+    "calories": 520,
+    "prepTime": 60,
+    "cookTime": 20,
+    "description": "Tiny meat-filled dumplings served with garlicky yoghurt and melted butter.",
+    "ingredients": [
+      { "name": "flour", "amount": 400, "unit": "g" },
+      { "name": "egg", "amount": 2, "unit": "pcs" },
+      { "name": "minced meat", "amount": 250, "unit": "g" },
+      { "name": "onion", "amount": 1, "unit": "pcs" },
+      { "name": "yogurt", "amount": 400, "unit": "g" },
+      { "name": "garlic", "amount": 3, "unit": "clove" },
+      { "name": "butter", "amount": 50, "unit": "g" },
+      { "name": "chilli flakes", "amount": 1, "unit": "tsp" },
+      { "name": "salt", "amount": 5, "unit": "g" }
+    ],
+    "steps": [
+      "Knead a firm dough from flour, egg, salt, and water, then let it rest.",
+      "Mix the minced meat and onion to make the filling.",
+      "Roll the dough thin, cut into small squares, fill, and pinch closed.",
+      "Boil until cooked, then serve with garlicky yoghurt and melted butter sauce."
+    ]
+  },
+  {
+    "id": "zeytinyagli-yaprak-sarma",
+    "name": "Olive Oil Stuffed Vine Leaves",
+    "emoji": "🍃",
+    "region": "Turkish",
+    "mealType": "meze",
+    "dietTags": ["vegan"],
+    "servings": 6,
+    "calories": 140,
+    "prepTime": 45,
+    "cookTime": 40,
+    "description": "Vine leaves rolled around a rice and herb filling.",
+    "image": "https://cdn.shopify.com/s/files/1/0900/4666/0952/files/Olive_Oil_Stuffed_Vine_Leaves.jpg?v=1787062835",
+    "ingredients": [
+      { "name": "vine leaves", "amount": 40, "unit": "pcs" },
+      { "name": "rice", "amount": 200, "unit": "g" },
+      { "name": "onion", "amount": 2, "unit": "pcs" },
+      { "name": "currants", "amount": 30, "unit": "g" },
+      { "name": "pine nuts", "amount": 30, "unit": "g" },
+      { "name": "olive oil", "amount": 150, "unit": "ml" },
+      { "name": "lemon", "amount": 2, "unit": "pcs" },
+      { "name": "mint", "amount": 1, "unit": "bunch" },
+      { "name": "salt", "amount": 5, "unit": "g" }
+    ],
+    "steps": [
+      "Sauté the onion in olive oil, then add the rice, currants, and pine nuts.",
+      "Season the filling with herbs and spices and cook briefly.",
+      "Place a small amount of filling on each leaf and roll up tightly.",
+      "Arrange in a pot and simmer with water and lemon juice for 35 minutes over low heat."
+    ]
+  },
+  {
+    "id": "menemen",
+    "name": "Menemen (Turkish Scrambled Eggs)",
+    "emoji": "🍳",
+    "region": "Turkish",
+    "mealType": "breakfast",
+    "dietTags": ["vegetarian"],
+    "servings": 2,
+    "calories": 280,
+    "prepTime": 10,
+    "cookTime": 15,
+    "description": "A quick Turkish breakfast of eggs cooked with tomato and pepper.",
+    "ingredients": [
+      { "name": "egg", "amount": 4, "unit": "pcs" },
+      { "name": "tomato", "amount": 3, "unit": "pcs" },
+      { "name": "green pepper", "amount": 3, "unit": "pcs" },
+      { "name": "olive oil", "amount": 30, "unit": "ml" },
+      { "name": "salt", "amount": 3, "unit": "g" },
+      { "name": "chilli flakes", "amount": 1, "unit": "tsp" }
+    ],
+    "steps": [
+      "Sauté the peppers in olive oil.",
+      "Add the chopped tomatoes and cook until the liquid reduces.",
+      "Crack in the eggs and cook, stirring gently or leaving them softly set.",
+      "Season with salt and chili flakes and serve hot."
+    ]
+  },
+  {
+    "id": "izmir-kofte",
+    "name": "Izmir-Style Meatballs",
+    "emoji": "🍖",
+    "region": "Turkish",
+    "mealType": "main-course",
+    "dietTags": ["meat"],
+    "servings": 4,
+    "calories": 480,
+    "prepTime": 25,
+    "cookTime": 35,
+    "description": "Baked meatballs with potatoes in a tomato sauce.",
+    "ingredients": [
+      { "name": "minced meat", "amount": 500, "unit": "g" },
+      { "name": "onion", "amount": 1, "unit": "pcs" },
+      { "name": "garlic", "amount": 2, "unit": "clove" },
+      { "name": "bread (soft crumb)", "amount": 1, "unit": "pcs" },
+      { "name": "egg", "amount": 1, "unit": "pcs" },
+      { "name": "potato", "amount": 4, "unit": "pcs" },
+      { "name": "tomato", "amount": 4, "unit": "pcs" },
+      { "name": "green pepper", "amount": 4, "unit": "pcs" },
+      { "name": "olive oil", "amount": 60, "unit": "ml" },
+      { "name": "salt", "amount": 5, "unit": "g" },
+      { "name": "black pepper", "amount": 2, "unit": "g" }
+    ],
+    "steps": [
+      "Knead the minced meat with onion, garlic, bread, and egg, then shape into meatballs.",
+      "Lightly fry the meatballs.",
+      "Slice the potatoes and arrange in a baking dish, then place the meatballs on top.",
+      "Add tomato and pepper, and bake at 180°C (350°F) for 30 minutes."
+    ]
+  },
+  {
+    "id": "kisir",
+    "name": "Kisir (Bulgur Salad)",
+    "emoji": "🥗",
+    "region": "Turkish",
+    "mealType": "salad",
+    "dietTags": ["vegan"],
+    "servings": 6,
+    "calories": 220,
+    "prepTime": 25,
+    "cookTime": 0,
+    "description": "A refreshing salad of fine bulgur, tomato paste, and fresh herbs.",
+    "ingredients": [
+      { "name": "fine bulgur", "amount": 250, "unit": "g" },
+      { "name": "tomato paste", "amount": 2, "unit": "tbsp" },
+      { "name": "pepper paste", "amount": 1, "unit": "tbsp" },
+      { "name": "cucumber", "amount": 1, "unit": "pcs" },
+      { "name": "tomato", "amount": 2, "unit": "pcs" },
+      { "name": "spring onion", "amount": 1, "unit": "bunch" },
+      { "name": "parsley", "amount": 1, "unit": "bunch" },
+      { "name": "mint", "amount": 1, "unit": "bunch" },
+      { "name": "lemon", "amount": 2, "unit": "pcs" },
+      { "name": "olive oil", "amount": 100, "unit": "ml" },
+      { "name": "pomegranate molasses", "amount": 30, "unit": "ml" },
+      { "name": "salt", "amount": 5, "unit": "g" }
+    ],
+    "steps": [
+      "Soak the bulgur in hot water and stir in the tomato and pepper pastes.",
+      "Once the bulgur has softened, add the chopped vegetables and herbs.",
+      "Toss with lemon juice, pomegranate molasses, and olive oil.",
+      "Chill in the fridge and serve cold."
+    ]
+  },
+  {
+    "id": "patlican-salatasi",
+    "name": "Smoky Aubergine Salad",
+    "emoji": "🍆",
+    "region": "Turkish",
+    "mealType": "meze",
+    "dietTags": ["vegetarian"],
+    "servings": 4,
+    "calories": 120,
+    "prepTime": 15,
+    "cookTime": 20,
+    "description": "A traditional meze of smoky charred aubergine and yoghurt.",
+    "ingredients": [
+      { "name": "aubergine", "amount": 4, "unit": "pcs" },
+      { "name": "garlic", "amount": 2, "unit": "clove" },
+      { "name": "yogurt", "amount": 200, "unit": "g" },
+      { "name": "olive oil", "amount": 50, "unit": "ml" },
+      { "name": "lemon", "amount": 1, "unit": "pcs" },
+      { "name": "salt", "amount": 3, "unit": "g" }
+    ],
+    "steps": [
+      "Char-grill the aubergines and peel off the skins.",
+      "Chop the flesh and mix with crushed garlic and yoghurt.",
+      "Season with lemon juice and salt.",
+      "Drizzle with olive oil and serve cold."
+    ]
+  },
+  {
+    "id": "coban-salata",
+    "name": "Shepherd's Salad",
+    "emoji": "🥗",
+    "region": "Turkish",
+    "mealType": "salad",
+    "dietTags": ["vegan"],
+    "servings": 4,
+    "calories": 90,
+    "prepTime": 15,
+    "cookTime": 0,
+    "description": "A classic finely diced salad of tomato, cucumber, and pepper.",
+    "ingredients": [
+      { "name": "tomato", "amount": 3, "unit": "pcs" },
+      { "name": "cucumber", "amount": 2, "unit": "pcs" },
+      { "name": "green pepper", "amount": 2, "unit": "pcs" },
+      { "name": "onion", "amount": 1, "unit": "pcs" },
+      { "name": "parsley", "amount": 1, "unit": "bunch" },
+      { "name": "olive oil", "amount": 60, "unit": "ml" },
+      { "name": "lemon", "amount": 1, "unit": "pcs" },
+      { "name": "salt", "amount": 3, "unit": "g" }
+    ],
+    "steps": [
+      "Dice all the vegetables into small cubes.",
+      "Finely chop the parsley and add it in.",
+      "Toss with olive oil, lemon juice, and salt.",
+      "Transfer to a serving dish and serve right away."
+    ]
+  },
+  {
+    "id": "turlu",
+    "name": "Turlu (Mixed Vegetable Stew)",
+    "emoji": "🍲",
+    "region": "Turkish",
+    "mealType": "main-course",
+    "dietTags": ["vegan"],
+    "servings": 6,
+    "calories": 210,
+    "prepTime": 20,
+    "cookTime": 40,
+    "description": "A hearty stew of seasonal vegetables cooked together in olive oil.",
+    "ingredients": [
+      { "name": "aubergine", "amount": 2, "unit": "pcs" },
+      { "name": "courgette", "amount": 2, "unit": "pcs" },
+      { "name": "potato", "amount": 3, "unit": "pcs" },
+      { "name": "carrot", "amount": 2, "unit": "pcs" },
+      { "name": "green beans", "amount": 200, "unit": "g" },
+      { "name": "green pepper", "amount": 3, "unit": "pcs" },
+      { "name": "tomato", "amount": 3, "unit": "pcs" },
+      { "name": "onion", "amount": 1, "unit": "pcs" },
+      { "name": "garlic", "amount": 2, "unit": "clove" },
+      { "name": "olive oil", "amount": 100, "unit": "ml" },
+      { "name": "salt", "amount": 5, "unit": "g" }
+    ],
+    "steps": [
+      "Cut all the vegetables into large chunks.",
+      "Sauté the onion and garlic in olive oil.",
+      "Add the remaining vegetables and toss for a few minutes.",
+      "Add the tomato and water, then simmer over low heat for 35 minutes."
+    ]
+  },
+  {
+    "id": "horiatiki-yunan-salatasi",
+    "name": "Horiatiki (Greek Salad)",
+    "emoji": "🥗",
+    "region": "Greek",
+    "mealType": "salad",
+    "dietTags": ["vegetarian"],
+    "servings": 4,
+    "calories": 180,
+    "prepTime": 15,
+    "cookTime": 0,
+    "description": "The classic Greek salad with feta cheese and olives.",
+    "ingredients": [
+      { "name": "tomato", "amount": 4, "unit": "pcs" },
+      { "name": "cucumber", "amount": 1, "unit": "pcs" },
+      { "name": "green pepper", "amount": 1, "unit": "pcs" },
+      { "name": "red onion", "amount": 1, "unit": "pcs" },
+      { "name": "black olives", "amount": 100, "unit": "g" },
+      { "name": "feta cheese", "amount": 200, "unit": "g" },
+      { "name": "olive oil", "amount": 60, "unit": "ml" },
+      { "name": "oregano", "amount": 1, "unit": "tsp" },
+      { "name": "salt", "amount": 3, "unit": "g" }
+    ],
+    "steps": [
+      "Roughly chop the tomato, cucumber, pepper, and onion.",
+      "Add the olives and a block of feta cheese.",
+      "Season with olive oil and oregano.",
+      "Add salt just before serving."
+    ]
+  },
+  {
+    "id": "musakka",
+    "name": "Moussaka",
+    "emoji": "🍆",
+    "region": "Greek",
+    "mealType": "main-course",
+    "dietTags": ["meat"],
+    "servings": 6,
+    "calories": 520,
+    "prepTime": 30,
+    "cookTime": 50,
+    "description": "Layers of aubergine, spiced minced meat, and creamy béchamel, baked until golden.",
+    "ingredients": [
+      { "name": "aubergine", "amount": 3, "unit": "pcs" },
+      { "name": "potato", "amount": 2, "unit": "pcs" },
+      { "name": "minced meat", "amount": 400, "unit": "g" },
+      { "name": "onion", "amount": 1, "unit": "pcs" },
+      { "name": "tomato", "amount": 3, "unit": "pcs" },
+      { "name": "milk", "amount": 500, "unit": "ml" },
+      { "name": "flour", "amount": 50, "unit": "g" },
+      { "name": "butter", "amount": 50, "unit": "g" },
+      { "name": "kashar cheese", "amount": 100, "unit": "g" },
+      { "name": "salt", "amount": 5, "unit": "g" }
+    ],
+    "steps": [
+      "Slice the aubergine and potato and lightly fry.",
+      "Brown the minced meat with onion and tomato to make the sauce.",
+      "Make a béchamel sauce from butter, flour, and milk.",
+      "Layer the vegetables, meat sauce, and béchamel, then bake for 35 minutes."
+    ]
+  },
+  {
+    "id": "tzatziki",
+    "name": "Tzatziki",
+    "emoji": "🥒",
+    "region": "Greek",
+    "mealType": "meze",
+    "dietTags": ["vegetarian"],
+    "servings": 4,
+    "calories": 90,
+    "prepTime": 10,
+    "cookTime": 0,
+    "description": "A cooling dip of strained yoghurt, cucumber, and garlic.",
+    "ingredients": [
+      { "name": "yogurt", "amount": 400, "unit": "g" },
+      { "name": "cucumber", "amount": 1, "unit": "pcs" },
+      { "name": "garlic", "amount": 2, "unit": "clove" },
+      { "name": "olive oil", "amount": 30, "unit": "ml" },
+      { "name": "dill", "amount": 1, "unit": "bunch" },
+      { "name": "salt", "amount": 3, "unit": "g" }
+    ],
+    "steps": [
+      "Grate the cucumber and squeeze out the excess water.",
+      "Mix the yoghurt with crushed garlic and the cucumber.",
+      "Season with dill and salt.",
+      "Drizzle with olive oil and serve cold."
+    ]
+  },
+  {
+    "id": "spanakopita",
+    "name": "Spanakopita (Spinach Pie)",
+    "emoji": "🥬",
+    "region": "Greek",
+    "mealType": "main-course",
+    "dietTags": ["vegetarian"],
+    "servings": 6,
+    "calories": 380,
+    "prepTime": 25,
+    "cookTime": 40,
+    "description": "Layered filo pastry filled with spinach and feta cheese.",
+    "ingredients": [
+      { "name": "spinach", "amount": 500, "unit": "g" },
+      { "name": "filo pastry", "amount": 8, "unit": "pcs" },
+      { "name": "feta cheese", "amount": 200, "unit": "g" },
+      { "name": "egg", "amount": 2, "unit": "pcs" },
+      { "name": "onion", "amount": 1, "unit": "pcs" },
+      { "name": "butter", "amount": 100, "unit": "g" },
+      { "name": "dill", "amount": 1, "unit": "bunch" },
+      { "name": "salt", "amount": 3, "unit": "g" }
+    ],
+    "steps": [
+      "Sauté the spinach with onion, then drain off any liquid.",
+      "Mix in the feta cheese, egg, and dill to make the filling.",
+      "Layer the filo sheets brushed with melted butter and the filling.",
+      "Bake at 180°C (350°F) until golden brown."
+    ]
+  },
+  {
+    "id": "souvlaki",
+    "name": "Chicken Souvlaki",
+    "emoji": "🍢",
+    "region": "Greek",
+    "mealType": "main-course",
+    "dietTags": ["meat"],
+    "servings": 4,
+    "calories": 350,
+    "prepTime": 30,
+    "cookTime": 15,
+    "description": "Marinated chicken skewers, grilled and served with warm pita.",
+    "ingredients": [
+      { "name": "chicken breast", "amount": 600, "unit": "g" },
+      { "name": "olive oil", "amount": 60, "unit": "ml" },
+      { "name": "lemon", "amount": 2, "unit": "pcs" },
+      { "name": "garlic", "amount": 3, "unit": "clove" },
+      { "name": "oregano", "amount": 1, "unit": "tsp" },
+      { "name": "salt", "amount": 5, "unit": "g" },
+      { "name": "pita bread", "amount": 4, "unit": "pcs" }
+    ],
+    "steps": [
+      "Cube the chicken and marinate with olive oil, lemon, garlic, and oregano.",
+      "Refrigerate for at least 30 minutes.",
+      "Thread onto skewers and grill or pan-fry.",
+      "Serve hot with warm pita bread."
+    ]
+  },
+  {
+    "id": "fasolada",
+    "name": "Fasolada (Greek Bean Soup)",
+    "emoji": "🍲",
+    "region": "Greek",
+    "mealType": "soup",
+    "dietTags": ["vegan"],
+    "servings": 6,
+    "calories": 220,
+    "prepTime": 15,
+    "cookTime": 60,
+    "description": "Greece's national soup, simmered with dried beans.",
+    "ingredients": [
+      { "name": "dried beans", "amount": 300, "unit": "g" },
+      { "name": "carrot", "amount": 2, "unit": "pcs" },
+      { "name": "celery stalk", "amount": 2, "unit": "pcs" },
+      { "name": "tomato paste", "amount": 2, "unit": "tbsp" },
+      { "name": "olive oil", "amount": 80, "unit": "ml" },
+      { "name": "onion", "amount": 1, "unit": "pcs" },
+      { "name": "salt", "amount": 5, "unit": "g" }
+    ],
+    "steps": [
+      "Soak the dried beans overnight.",
+      "Sauté the vegetables in olive oil and stir in the tomato paste.",
+      "Add the beans and water and simmer until tender.",
+      "Season with salt and serve hot."
+    ]
+  },
+  {
+    "id": "gemista",
+    "name": "Gemista (Stuffed Tomatoes and Peppers)",
+    "emoji": "🍅",
+    "region": "Greek",
+    "mealType": "main-course",
+    "dietTags": ["vegan"],
+    "servings": 6,
+    "calories": 260,
+    "prepTime": 25,
+    "cookTime": 50,
+    "description": "Tomatoes and peppers baked with a rice and herb filling.",
+    "ingredients": [
+      { "name": "tomato", "amount": 6, "unit": "pcs" },
+      { "name": "green pepper", "amount": 6, "unit": "pcs" },
+      { "name": "rice", "amount": 200, "unit": "g" },
+      { "name": "onion", "amount": 1, "unit": "pcs" },
+      { "name": "parsley", "amount": 1, "unit": "bunch" },
+      { "name": "mint", "amount": 1, "unit": "bunch" },
+      { "name": "olive oil", "amount": 100, "unit": "ml" },
+      { "name": "salt", "amount": 5, "unit": "g" }
+    ],
+    "steps": [
+      "Hollow out the tomatoes and peppers, reserving the flesh.",
+      "Mix the rice, onion, and herbs to make the filling.",
+      "Stuff the vegetables with the filling and arrange in a baking dish.",
+      "Drizzle with olive oil and bake for 40 minutes."
+    ]
+  },
+  {
+    "id": "pastitsio",
+    "name": "Pastitsio",
+    "emoji": "🍝",
+    "region": "Greek",
+    "mealType": "main-course",
+    "dietTags": ["meat"],
+    "servings": 6,
+    "calories": 550,
+    "prepTime": 25,
+    "cookTime": 45,
+    "description": "A Greek baked pasta dish with minced meat sauce and béchamel.",
+    "ingredients": [
+      { "name": "pasta", "amount": 400, "unit": "g" },
+      { "name": "minced meat", "amount": 400, "unit": "g" },
+      { "name": "tomato", "amount": 3, "unit": "pcs" },
+      { "name": "onion", "amount": 1, "unit": "pcs" },
+      { "name": "milk", "amount": 500, "unit": "ml" },
+      { "name": "flour", "amount": 50, "unit": "g" },
+      { "name": "butter", "amount": 50, "unit": "g" },
+      { "name": "kashar cheese", "amount": 150, "unit": "g" },
+      { "name": "salt", "amount": 5, "unit": "g" }
+    ],
+    "steps": [
+      "Boil the pasta until al dente.",
+      "Brown the minced meat with onion and tomato to make the sauce.",
+      "Make a béchamel sauce from butter, flour, and milk.",
+      "Layer the pasta, meat sauce, and béchamel, then bake."
+    ]
+  },
+  {
+    "id": "fava",
+    "name": "Fava (Yellow Split Pea Purée)",
+    "emoji": "🫘",
+    "region": "Greek",
+    "mealType": "meze",
+    "dietTags": ["vegan"],
+    "servings": 4,
+    "calories": 160,
+    "prepTime": 10,
+    "cookTime": 30,
+    "description": "A silky-smooth Greek meze made from yellow split peas.",
+    "ingredients": [
+      { "name": "yellow split peas", "amount": 250, "unit": "g" },
+      { "name": "onion", "amount": 1, "unit": "pcs" },
+      { "name": "olive oil", "amount": 60, "unit": "ml" },
+      { "name": "lemon", "amount": 1, "unit": "pcs" },
+      { "name": "salt", "amount": 3, "unit": "g" }
+    ],
+    "steps": [
+      "Simmer the split peas with onion until soft.",
+      "Blend until smooth.",
+      "Stir in the olive oil and lemon juice.",
+      "Serve warm or chilled."
+    ]
+  },
+  {
+    "id": "caprese-salata",
+    "name": "Caprese Salad",
+    "emoji": "🍅",
+    "region": "Italian",
+    "mealType": "salad",
+    "dietTags": ["vegetarian"],
+    "servings": 4,
+    "calories": 220,
+    "prepTime": 10,
+    "cookTime": 0,
+    "description": "A simple Italian salad of tomato, mozzarella, and basil.",
+    "ingredients": [
+      { "name": "tomato", "amount": 4, "unit": "pcs" },
+      { "name": "mozzarella", "amount": 250, "unit": "g" },
+      { "name": "basil", "amount": 1, "unit": "bunch" },
+      { "name": "olive oil", "amount": 50, "unit": "ml" },
+      { "name": "balsamic vinegar", "amount": 20, "unit": "ml" },
+      { "name": "salt", "amount": 3, "unit": "g" }
+    ],
+    "steps": [
+      "Slice the tomato and mozzarella.",
+      "Arrange the tomato, mozzarella, and basil leaves alternately on a plate.",
+      "Drizzle with olive oil and balsamic vinegar.",
+      "Sprinkle with salt and serve immediately."
+    ]
+  },
+  {
+    "id": "minestrone",
+    "name": "Minestrone",
+    "emoji": "🍲",
+    "region": "Italian",
+    "mealType": "soup",
+    "dietTags": ["vegan"],
+    "servings": 6,
+    "calories": 160,
+    "prepTime": 20,
+    "cookTime": 40,
+    "description": "A hearty Italian soup of seasonal vegetables and pasta.",
+    "ingredients": [
+      { "name": "dried beans", "amount": 150, "unit": "g" },
+      { "name": "carrot", "amount": 2, "unit": "pcs" },
+      { "name": "celery stalk", "amount": 2, "unit": "pcs" },
+      { "name": "tomato", "amount": 4, "unit": "pcs" },
+      { "name": "courgette", "amount": 1, "unit": "pcs" },
+      { "name": "pasta", "amount": 100, "unit": "g" },
+      { "name": "olive oil", "amount": 60, "unit": "ml" },
+      { "name": "onion", "amount": 1, "unit": "pcs" },
+      { "name": "salt", "amount": 5, "unit": "g" }
+    ],
+    "steps": [
+      "Sauté the onion, carrot, and celery in olive oil.",
+      "Add the tomato and beans with water and simmer for 20 minutes.",
+      "Add the courgette and pasta and cook until the pasta is done.",
+      "Season with salt and serve hot."
+    ]
+  },
+  {
+    "id": "bruschetta",
+    "name": "Bruschetta",
+    "emoji": "🍅",
+    "region": "Italian",
+    "mealType": "snack",
+    "dietTags": ["vegan"],
+    "servings": 4,
+    "calories": 160,
+    "prepTime": 15,
+    "cookTime": 5,
+    "description": "Toasted bread topped with tomato and basil.",
+    "ingredients": [
+      { "name": "baguette", "amount": 1, "unit": "pcs" },
+      { "name": "tomato", "amount": 4, "unit": "pcs" },
+      { "name": "garlic", "amount": 2, "unit": "clove" },
+      { "name": "basil", "amount": 1, "unit": "bunch" },
+      { "name": "olive oil", "amount": 60, "unit": "ml" },
+      { "name": "salt", "amount": 3, "unit": "g" }
+    ],
+    "steps": [
+      "Slice and toast the bread, then rub with garlic.",
+      "Dice the tomatoes and mix with basil.",
+      "Season with olive oil and salt.",
+      "Spoon the mixture over the toasted bread slices and serve."
+    ]
+  },
+  {
+    "id": "panzanella",
+    "name": "Panzanella (Tuscan Bread Salad)",
+    "emoji": "🍅",
+    "region": "Italian",
+    "mealType": "salad",
+    "dietTags": ["vegan"],
+    "servings": 4,
+    "calories": 240,
+    "prepTime": 15,
+    "cookTime": 0,
+    "description": "A Tuscan-style salad of stale bread and tomato.",
+    "ingredients": [
+      { "name": "stale bread", "amount": 200, "unit": "g" },
+      { "name": "tomato", "amount": 4, "unit": "pcs" },
+      { "name": "cucumber", "amount": 1, "unit": "pcs" },
+      { "name": "red onion", "amount": 1, "unit": "pcs" },
+      { "name": "basil", "amount": 1, "unit": "bunch" },
+      { "name": "olive oil", "amount": 80, "unit": "ml" },
+      { "name": "red wine vinegar", "amount": 20, "unit": "ml" },
+      { "name": "salt", "amount": 3, "unit": "g" }
+    ],
+    "steps": [
+      "Cube the stale bread and lightly toast it.",
+      "Chop the tomato, cucumber, and onion.",
+      "Combine everything and add the basil.",
+      "Toss with olive oil, vinegar, and salt, then rest for 10 minutes."
+    ]
+  },
+  {
+    "id": "pasta-alla-norma",
+    "name": "Pasta alla Norma",
+    "emoji": "🍝",
+    "region": "Italian",
+    "mealType": "main-course",
+    "dietTags": ["vegetarian"],
+    "servings": 4,
+    "calories": 480,
+    "prepTime": 15,
+    "cookTime": 30,
+    "description": "A Sicilian pasta with aubergine and tomato sauce.",
+    "ingredients": [
+      { "name": "pasta", "amount": 400, "unit": "g" },
+      { "name": "aubergine", "amount": 2, "unit": "pcs" },
+      { "name": "tomato", "amount": 4, "unit": "pcs" },
+      { "name": "garlic", "amount": 2, "unit": "clove" },
+      { "name": "basil", "amount": 1, "unit": "bunch" },
+      { "name": "olive oil", "amount": 80, "unit": "ml" },
+      { "name": "ricotta salata cheese", "amount": 100, "unit": "g" },
+      { "name": "salt", "amount": 5, "unit": "g" }
+    ],
+    "steps": [
+      "Cube the aubergine and fry in olive oil.",
+      "Make a sauce with garlic and tomato, then add the aubergine.",
+      "Boil the pasta and toss with the sauce.",
+      "Top with cheese and basil, then serve."
+    ]
+  },
+  {
+    "id": "mantar-risotto",
+    "name": "Mushroom Risotto",
+    "emoji": "🍄",
+    "region": "Italian",
+    "mealType": "main-course",
+    "dietTags": ["vegetarian"],
+    "servings": 4,
+    "calories": 420,
+    "prepTime": 15,
+    "cookTime": 30,
+    "description": "A creamy Italian risotto of arborio rice and mushrooms.",
+    "ingredients": [
+      { "name": "arborio rice", "amount": 300, "unit": "g" },
+      { "name": "mushroom", "amount": 300, "unit": "g" },
+      { "name": "onion", "amount": 1, "unit": "pcs" },
+      { "name": "white wine", "amount": 100, "unit": "ml" },
+      { "name": "vegetable stock", "amount": 1000, "unit": "ml" },
+      { "name": "butter", "amount": 50, "unit": "g" },
+      { "name": "parmesan", "amount": 80, "unit": "g" },
+      { "name": "salt", "amount": 5, "unit": "g" }
+    ],
+    "steps": [
+      "Sauté the mushrooms in butter and set aside.",
+      "Sauté the onion, then add the rice and stir until translucent.",
+      "Add the wine and hot stock gradually, stirring constantly.",
+      "Once the rice is cooked, stir in the mushrooms, butter, and parmesan."
+    ]
+  },
+  {
+    "id": "caponata",
+    "name": "Caponata",
+    "emoji": "🍆",
+    "region": "Italian",
+    "mealType": "meze",
+    "dietTags": ["vegan"],
+    "servings": 4,
+    "calories": 150,
+    "prepTime": 20,
+    "cookTime": 30,
+    "description": "A sweet-and-sour Sicilian relish of aubergine, celery, and olives.",
+    "ingredients": [
+      { "name": "aubergine", "amount": 2, "unit": "pcs" },
+      { "name": "celery stalk", "amount": 2, "unit": "pcs" },
+      { "name": "tomato", "amount": 3, "unit": "pcs" },
+      { "name": "onion", "amount": 1, "unit": "pcs" },
+      { "name": "green olives", "amount": 80, "unit": "g" },
+      { "name": "capers", "amount": 20, "unit": "g" },
+      { "name": "vinegar", "amount": 30, "unit": "ml" },
+      { "name": "olive oil", "amount": 80, "unit": "ml" },
+      { "name": "salt", "amount": 3, "unit": "g" }
+    ],
+    "steps": [
+      "Cube the aubergine and fry in olive oil.",
+      "Sauté the celery and onion separately.",
+      "Add the tomato, olives, and capers, and cook together.",
+      "Stir in the vinegar and cook for 5 more minutes, then serve cold."
+    ]
+  },
+  {
+    "id": "aglio-e-olio",
+    "name": "Aglio e Olio",
+    "emoji": "🍝",
+    "region": "Italian",
+    "mealType": "main-course",
+    "dietTags": ["vegan"],
+    "servings": 4,
+    "calories": 430,
+    "prepTime": 5,
+    "cookTime": 15,
+    "description": "A simple Italian spaghetti with garlic and olive oil.",
+    "ingredients": [
+      { "name": "spaghetti", "amount": 400, "unit": "g" },
+      { "name": "garlic", "amount": 6, "unit": "clove" },
+      { "name": "olive oil", "amount": 100, "unit": "ml" },
+      { "name": "chilli flakes", "amount": 1, "unit": "tsp" },
+      { "name": "parsley", "amount": 1, "unit": "bunch" },
+      { "name": "salt", "amount": 5, "unit": "g" }
+    ],
+    "steps": [
+      "Boil the spaghetti in salted water.",
+      "Gently cook the garlic in olive oil over low heat until lightly golden.",
+      "Add the chili flakes and toss with the cooked pasta.",
+      "Sprinkle with parsley and serve hot."
+    ]
+  },
+  {
+    "id": "margherita-pizza",
+    "name": "Margherita Pizza",
+    "emoji": "🍕",
+    "region": "Italian",
+    "mealType": "main-course",
+    "dietTags": ["vegetarian"],
+    "servings": 4,
+    "calories": 650,
+    "prepTime": 20,
+    "cookTime": 15,
+    "description": "The classic Italian pizza with tomato sauce, mozzarella, and basil.",
+    "ingredients": [
+      { "name": "pizza dough", "amount": 4, "unit": "pcs" },
+      { "name": "tomato sauce", "amount": 200, "unit": "g" },
+      { "name": "mozzarella", "amount": 250, "unit": "g" },
+      { "name": "basil", "amount": 1, "unit": "bunch" },
+      { "name": "olive oil", "amount": 30, "unit": "ml" },
+      { "name": "salt", "amount": 3, "unit": "g" }
+    ],
+    "steps": [
+      "Roll out the dough and spread with tomato sauce.",
+      "Scatter over the sliced mozzarella.",
+      "Bake in a preheated oven at high heat for 10 minutes.",
+      "Top with basil and a drizzle of olive oil, then serve."
+    ]
+  },
+  {
+    "id": "gazpacho",
+    "name": "Gazpacho",
+    "emoji": "🍅",
+    "region": "Spanish",
+    "mealType": "soup",
+    "dietTags": ["vegan"],
+    "servings": 4,
+    "calories": 90,
+    "prepTime": 15,
+    "cookTime": 0,
+    "description": "A chilled Spanish soup made from raw vegetables.",
+    "ingredients": [
+      { "name": "tomato", "amount": 6, "unit": "pcs" },
+      { "name": "cucumber", "amount": 1, "unit": "pcs" },
+      { "name": "green pepper", "amount": 1, "unit": "pcs" },
+      { "name": "garlic", "amount": 1, "unit": "clove" },
+      { "name": "olive oil", "amount": 60, "unit": "ml" },
+      { "name": "red wine vinegar", "amount": 20, "unit": "ml" },
+      { "name": "salt", "amount": 3, "unit": "g" }
+    ],
+    "steps": [
+      "Roughly chop all the vegetables.",
+      "Blend the vegetables with garlic, vinegar, and olive oil.",
+      "Season with salt and chill in the fridge for at least 1 hour.",
+      "Serve cold."
+    ]
+  },
+  {
+    "id": "paella",
+    "name": "Paella",
+    "emoji": "🥘",
+    "region": "Spanish",
+    "mealType": "main-course",
+    "dietTags": ["seafood"],
+    "servings": 6,
+    "calories": 480,
+    "prepTime": 20,
+    "cookTime": 40,
+    "description": "Spain's famous saffron rice with chicken and seafood.",
+    "ingredients": [
+      { "name": "rice", "amount": 400, "unit": "g" },
+      { "name": "chicken thigh", "amount": 4, "unit": "pcs" },
+      { "name": "prawns", "amount": 300, "unit": "g" },
+      { "name": "mussels", "amount": 300, "unit": "g" },
+      { "name": "tomato", "amount": 2, "unit": "pcs" },
+      { "name": "saffron", "amount": 1, "unit": "tsp" },
+      { "name": "chicken stock", "amount": 1000, "unit": "ml" },
+      { "name": "olive oil", "amount": 80, "unit": "ml" },
+      { "name": "onion", "amount": 1, "unit": "pcs" },
+      { "name": "salt", "amount": 5, "unit": "g" }
+    ],
+    "steps": [
+      "Brown the chicken in olive oil and set aside.",
+      "Sauté the onion and tomato, then add the rice.",
+      "Add the hot saffron-infused stock and return the chicken to the pan.",
+      "In the final 10 minutes, add the prawns and mussels and continue cooking."
+    ]
+  },
+  {
+    "id": "patatas-bravas",
+    "name": "Patatas Bravas",
+    "emoji": "🥔",
+    "region": "Spanish",
+    "mealType": "snack",
+    "dietTags": ["vegan"],
+    "servings": 4,
+    "calories": 220,
+    "prepTime": 10,
+    "cookTime": 30,
+    "description": "Crispy fried potatoes with a spicy tomato sauce, a Spanish tapas classic.",
+    "ingredients": [
+      { "name": "potato", "amount": 6, "unit": "pcs" },
+      { "name": "tomato paste", "amount": 2, "unit": "tbsp" },
+      { "name": "chilli flakes", "amount": 1, "unit": "tsp" },
+      { "name": "garlic", "amount": 2, "unit": "clove" },
+      { "name": "olive oil", "amount": 100, "unit": "ml" },
+      { "name": "salt", "amount": 5, "unit": "g" }
+    ],
+    "steps": [
+      "Cube the potatoes and fry or roast until crisp.",
+      "Make a sauce with garlic, tomato paste, and chili flakes.",
+      "Toss the fried potatoes with the sauce.",
+      "Serve hot."
+    ]
+  },
+  {
+    "id": "tortilla-espanola",
+    "name": "Tortilla Española",
+    "emoji": "🍳",
+    "region": "Spanish",
+    "mealType": "main-course",
+    "dietTags": ["vegetarian"],
+    "servings": 4,
+    "calories": 320,
+    "prepTime": 15,
+    "cookTime": 25,
+    "description": "A Spanish-style omelette made with potato and egg.",
+    "ingredients": [
+      { "name": "potato", "amount": 5, "unit": "pcs" },
+      { "name": "egg", "amount": 6, "unit": "pcs" },
+      { "name": "onion", "amount": 1, "unit": "pcs" },
+      { "name": "olive oil", "amount": 150, "unit": "ml" },
+      { "name": "salt", "amount": 5, "unit": "g" }
+    ],
+    "steps": [
+      "Thinly slice the potato and onion and cook gently in plenty of olive oil until soft.",
+      "Beat the eggs and mix in the potatoes.",
+      "Cook in a pan, flipping to brown both sides.",
+      "Slice and serve warm."
+    ]
+  },
+  {
+    "id": "salmorejo",
+    "name": "Salmorejo",
+    "emoji": "🍅",
+    "region": "Spanish",
+    "mealType": "soup",
+    "dietTags": ["vegan"],
+    "servings": 4,
+    "calories": 220,
+    "prepTime": 15,
+    "cookTime": 0,
+    "description": "A thick, chilled Andalusian soup of tomato and bread.",
+    "ingredients": [
+      { "name": "tomato", "amount": 8, "unit": "pcs" },
+      { "name": "stale bread", "amount": 100, "unit": "g" },
+      { "name": "garlic", "amount": 1, "unit": "clove" },
+      { "name": "olive oil", "amount": 100, "unit": "ml" },
+      { "name": "vinegar", "amount": 15, "unit": "ml" },
+      { "name": "salt", "amount": 3, "unit": "g" }
+    ],
+    "steps": [
+      "Roughly chop the tomatoes and blend with the bread.",
+      "Add the garlic, vinegar, and salt and blend again.",
+      "Slowly drizzle in the olive oil while blending until smooth.",
+      "Chill for at least 1 hour and serve cold."
+    ]
+  },
+  {
+    "id": "pisto",
+    "name": "Pisto",
+    "emoji": "🍆",
+    "region": "Spanish",
+    "mealType": "main-course",
+    "dietTags": ["vegan"],
+    "servings": 4,
+    "calories": 200,
+    "prepTime": 15,
+    "cookTime": 30,
+    "description": "A Spanish-style vegetable medley of courgette, aubergine, and pepper.",
+    "ingredients": [
+      { "name": "courgette", "amount": 2, "unit": "pcs" },
+      { "name": "aubergine", "amount": 1, "unit": "pcs" },
+      { "name": "red pepper", "amount": 2, "unit": "pcs" },
+      { "name": "tomato", "amount": 3, "unit": "pcs" },
+      { "name": "onion", "amount": 1, "unit": "pcs" },
+      { "name": "olive oil", "amount": 80, "unit": "ml" },
+      { "name": "salt", "amount": 3, "unit": "g" }
+    ],
+    "steps": [
+      "Cube all the vegetables.",
+      "Sauté the onion and pepper in olive oil.",
+      "Add the aubergine, courgette, and tomato, and cook over low heat.",
+      "Once the vegetables are soft, season with salt and serve."
+    ]
+  },
+  {
+    "id": "tabbouleh",
+    "name": "Tabbouleh",
+    "emoji": "🥗",
+    "region": "Levantine",
+    "mealType": "salad",
+    "dietTags": ["vegan"],
+    "servings": 4,
+    "calories": 160,
+    "prepTime": 20,
+    "cookTime": 0,
+    "description": "A Levantine salad packed with fresh parsley and fine bulgur.",
+    "ingredients": [
+      { "name": "fine bulgur", "amount": 100, "unit": "g" },
+      { "name": "parsley", "amount": 3, "unit": "bunch" },
+      { "name": "mint", "amount": 1, "unit": "bunch" },
+      { "name": "tomato", "amount": 3, "unit": "pcs" },
+      { "name": "spring onion", "amount": 3, "unit": "pcs" },
+      { "name": "lemon", "amount": 2, "unit": "pcs" },
+      { "name": "olive oil", "amount": 80, "unit": "ml" },
+      { "name": "salt", "amount": 3, "unit": "g" }
+    ],
+    "steps": [
+      "Soak the bulgur in a little water and let it soften.",
+      "Finely chop the parsley, mint, tomato, and spring onion.",
+      "Combine the bulgur with the chopped ingredients.",
+      "Toss with lemon juice, olive oil, and salt, then serve."
+    ]
+  },
+  {
+    "id": "fattoush",
+    "name": "Fattoush",
+    "emoji": "🥗",
+    "region": "Levantine",
+    "mealType": "salad",
+    "dietTags": ["vegan"],
+    "servings": 4,
+    "calories": 200,
+    "prepTime": 15,
+    "cookTime": 5,
+    "description": "A crisp Levantine salad topped with toasted pita.",
+    "ingredients": [
+      { "name": "lettuce", "amount": 1, "unit": "pcs" },
+      { "name": "tomato", "amount": 2, "unit": "pcs" },
+      { "name": "cucumber", "amount": 1, "unit": "pcs" },
+      { "name": "radish", "amount": 4, "unit": "pcs" },
+      { "name": "pita bread", "amount": 2, "unit": "pcs" },
+      { "name": "pomegranate molasses", "amount": 30, "unit": "ml" },
+      { "name": "olive oil", "amount": 60, "unit": "ml" },
+      { "name": "sumac", "amount": 1, "unit": "tsp" },
+      { "name": "salt", "amount": 3, "unit": "g" }
+    ],
+    "steps": [
+      "Break the pita into pieces and toast or fry until crisp.",
+      "Chop the vegetables and combine in a large bowl.",
+      "Make a dressing with pomegranate molasses, olive oil, sumac, and salt.",
+      "Toss in the toasted pita just before serving."
+    ]
+  },
+  {
+    "id": "baba-ganoush",
+    "name": "Baba Ganoush",
+    "emoji": "🍆",
+    "region": "Levantine",
+    "mealType": "meze",
+    "dietTags": ["vegan"],
+    "servings": 4,
+    "calories": 150,
+    "prepTime": 15,
+    "cookTime": 25,
+    "description": "A smoky Levantine dip of charred aubergine and tahini.",
+    "ingredients": [
+      { "name": "aubergine", "amount": 3, "unit": "pcs" },
+      { "name": "tahini", "amount": 60, "unit": "g" },
+      { "name": "lemon", "amount": 1, "unit": "pcs" },
+      { "name": "garlic", "amount": 2, "unit": "clove" },
+      { "name": "olive oil", "amount": 40, "unit": "ml" },
+      { "name": "salt", "amount": 3, "unit": "g" }
+    ],
+    "steps": [
+      "Char the aubergines over a flame or in the oven.",
+      "Peel and mash the flesh.",
+      "Mix with tahini, lemon juice, and crushed garlic.",
+      "Drizzle with olive oil and serve."
+    ]
+  },
+  {
+    "id": "falafel",
+    "name": "Falafel",
+    "emoji": "🧆",
+    "region": "Levantine",
+    "mealType": "main-course",
+    "dietTags": ["vegan"],
+    "servings": 4,
+    "calories": 380,
+    "prepTime": 30,
+    "cookTime": 15,
+    "description": "A Levantine classic of fried spiced chickpea patties.",
+    "ingredients": [
+      { "name": "chickpeas", "amount": 300, "unit": "g" },
+      { "name": "onion", "amount": 1, "unit": "pcs" },
+      { "name": "garlic", "amount": 3, "unit": "clove" },
+      { "name": "parsley", "amount": 1, "unit": "bunch" },
+      { "name": "cumin", "amount": 1, "unit": "tsp" },
+      { "name": "ground coriander", "amount": 1, "unit": "tsp" },
+      { "name": "flour", "amount": 2, "unit": "tbsp" },
+      { "name": "salt", "amount": 5, "unit": "g" },
+      { "name": "frying oil", "amount": 500, "unit": "ml" }
+    ],
+    "steps": [
+      "Soak the chickpeas overnight; do not boil before use.",
+      "Process the chickpeas, onion, garlic, parsley, and spices in a food processor.",
+      "Shape the mixture into small patties.",
+      "Deep-fry in hot oil until golden brown."
+    ]
+  },
+  {
+    "id": "shakshuka",
+    "name": "Shakshuka",
+    "emoji": "🍳",
+    "region": "Levantine",
+    "mealType": "breakfast",
+    "dietTags": ["vegetarian"],
+    "servings": 4,
+    "calories": 260,
+    "prepTime": 10,
+    "cookTime": 25,
+    "description": "Eggs poached in a spiced tomato sauce.",
+    "ingredients": [
+      { "name": "egg", "amount": 6, "unit": "pcs" },
+      { "name": "tomato", "amount": 5, "unit": "pcs" },
+      { "name": "red pepper", "amount": 2, "unit": "pcs" },
+      { "name": "onion", "amount": 1, "unit": "pcs" },
+      { "name": "garlic", "amount": 2, "unit": "clove" },
+      { "name": "cumin", "amount": 1, "unit": "tsp" },
+      { "name": "olive oil", "amount": 40, "unit": "ml" },
+      { "name": "salt", "amount": 3, "unit": "g" }
+    ],
+    "steps": [
+      "Sauté the onion, pepper, and garlic in olive oil.",
+      "Add the tomato and cumin and simmer until a thick sauce forms.",
+      "Make wells in the sauce and crack in the eggs.",
+      "Cover and cook until the whites are set but the yolks are still soft."
+    ]
+  },
+  {
+    "id": "muhammara",
+    "name": "Muhammara",
+    "emoji": "🌶️",
+    "region": "Levantine",
+    "mealType": "meze",
+    "dietTags": ["vegan"],
+    "servings": 4,
+    "calories": 190,
+    "prepTime": 15,
+    "cookTime": 15,
+    "description": "A sweet-and-spicy Levantine dip of roasted red pepper and walnuts.",
+    "ingredients": [
+      { "name": "red pepper", "amount": 4, "unit": "pcs" },
+      { "name": "walnuts", "amount": 150, "unit": "g" },
+      { "name": "breadcrumbs", "amount": 50, "unit": "g" },
+      { "name": "pomegranate molasses", "amount": 30, "unit": "ml" },
+      { "name": "chilli flakes", "amount": 1, "unit": "tsp" },
+      { "name": "olive oil", "amount": 60, "unit": "ml" },
+      { "name": "salt", "amount": 3, "unit": "g" }
+    ],
+    "steps": [
+      "Char-grill the red peppers and peel off the skins.",
+      "Process the peppers, walnuts, breadcrumbs, and pomegranate molasses together.",
+      "Stir in the chili flakes and salt.",
+      "Drizzle with olive oil and serve."
+    ]
+  },
+  {
+    "id": "humus",
+    "name": "Hummus",
+    "emoji": "🧆",
+    "region": "Levantine",
+    "mealType": "meze",
+    "dietTags": ["vegan"],
+    "servings": 4,
+    "calories": 180,
+    "prepTime": 10,
+    "cookTime": 0,
+    "description": "A creamy Levantine dip of chickpeas and tahini.",
+    "ingredients": [
+      { "name": "chickpeas", "amount": 250, "unit": "g" },
+      { "name": "tahini", "amount": 80, "unit": "g" },
+      { "name": "lemon", "amount": 1, "unit": "pcs" },
+      { "name": "garlic", "amount": 2, "unit": "clove" },
+      { "name": "olive oil", "amount": 40, "unit": "ml" },
+      { "name": "cumin", "amount": 1, "unit": "tsp" },
+      { "name": "salt", "amount": 3, "unit": "g" }
+    ],
+    "steps": [
+      "Blend the cooked chickpeas with their cooking liquid until smooth.",
+      "Add the tahini, lemon juice, and garlic, and blend again until creamy.",
+      "Season with cumin and salt.",
+      "Drizzle with olive oil and serve."
+    ]
+  },
+  {
+    "id": "manakish",
+    "name": "Manakish",
+    "emoji": "🫓",
+    "region": "Levantine",
+    "mealType": "breakfast",
+    "dietTags": ["vegetarian"],
+    "servings": 4,
+    "calories": 320,
+    "prepTime": 90,
+    "cookTime": 15,
+    "description": "Levantine flatbread topped with za'atar and olive oil.",
+    "ingredients": [
+      { "name": "flour", "amount": 400, "unit": "g" },
+      { "name": "yeast", "amount": 7, "unit": "g" },
+      { "name": "thyme", "amount": 40, "unit": "g" },
+      { "name": "olive oil", "amount": 80, "unit": "ml" },
+      { "name": "salt", "amount": 5, "unit": "g" },
+      { "name": "water", "amount": 250, "unit": "ml" }
+    ],
+    "steps": [
+      "Knead the flour, yeast, salt, and water into a dough and let it rise for 1 hour.",
+      "Divide the dough into rounds and flatten them out.",
+      "Spread with the thyme and olive oil mixture.",
+      "Bake in a preheated oven for 10-12 minutes."
+    ]
+  },
+  {
+    "id": "warak-enab",
+    "name": "Warak Enab (Levantine Stuffed Vine Leaves)",
+    "emoji": "🍃",
+    "region": "Levantine",
+    "mealType": "meze",
+    "dietTags": ["vegan"],
+    "servings": 6,
+    "calories": 150,
+    "prepTime": 45,
+    "cookTime": 40,
+    "description": "Vine leaves rolled around a rice and herb filling, Levantine style.",
+    "ingredients": [
+      { "name": "vine leaves", "amount": 40, "unit": "pcs" },
+      { "name": "rice", "amount": 200, "unit": "g" },
+      { "name": "tomato", "amount": 2, "unit": "pcs" },
+      { "name": "parsley", "amount": 1, "unit": "bunch" },
+      { "name": "mint", "amount": 1, "unit": "bunch" },
+      { "name": "lemon", "amount": 2, "unit": "pcs" },
+      { "name": "olive oil", "amount": 100, "unit": "ml" },
+      { "name": "salt", "amount": 5, "unit": "g" }
+    ],
+    "steps": [
+      "Mix the rice with chopped tomato and herbs to make the filling.",
+      "Place a small amount of filling on each leaf and roll up tightly.",
+      "Arrange the rolls snugly in a pot.",
+      "Add water, lemon juice, and olive oil, then simmer over low heat for 35 minutes."
+    ]
+  },
+  {
+    "id": "tavuklu-tagine",
+    "name": "Chicken Tagine",
+    "emoji": "🍛",
+    "region": "Moroccan",
+    "mealType": "main-course",
+    "dietTags": ["meat"],
+    "servings": 4,
+    "calories": 420,
+    "prepTime": 20,
+    "cookTime": 45,
+    "description": "A sweet-and-savoury Moroccan chicken dish with apricots and almonds.",
+    "ingredients": [
+      { "name": "chicken thigh", "amount": 6, "unit": "pcs" },
+      { "name": "onion", "amount": 2, "unit": "pcs" },
+      { "name": "dried apricots", "amount": 100, "unit": "g" },
+      { "name": "cinnamon", "amount": 1, "unit": "tsp" },
+      { "name": "ginger", "amount": 1, "unit": "tsp" },
+      { "name": "saffron", "amount": 1, "unit": "tsp" },
+      { "name": "olive oil", "amount": 60, "unit": "ml" },
+      { "name": "almonds", "amount": 50, "unit": "g" },
+      { "name": "salt", "amount": 5, "unit": "g" }
+    ],
+    "steps": [
+      "Sear the chicken in olive oil.",
+      "Add the onion and spices and sauté for a few minutes.",
+      "Add the apricots and a little water, cover, and cook for 35 minutes.",
+      "Scatter with toasted almonds and serve."
+    ]
+  },
+  {
+    "id": "kuskus-salatasi",
+    "name": "Couscous Salad",
+    "emoji": "🥗",
+    "region": "Moroccan",
+    "mealType": "salad",
+    "dietTags": ["vegan"],
+    "servings": 4,
+    "calories": 250,
+    "prepTime": 15,
+    "cookTime": 5,
+    "description": "A light and refreshing Moroccan couscous salad.",
+    "ingredients": [
+      { "name": "couscous", "amount": 250, "unit": "g" },
+      { "name": "cucumber", "amount": 1, "unit": "pcs" },
+      { "name": "tomato", "amount": 2, "unit": "pcs" },
+      { "name": "mint", "amount": 1, "unit": "bunch" },
+      { "name": "lemon", "amount": 1, "unit": "pcs" },
+      { "name": "olive oil", "amount": 60, "unit": "ml" },
+      { "name": "salt", "amount": 3, "unit": "g" }
+    ],
+    "steps": [
+      "Pour hot water over the couscous, let it stand, then fluff with a fork.",
+      "Dice the cucumber and tomato.",
+      "Combine the couscous with the vegetables and chopped mint.",
+      "Season with lemon juice, olive oil, and salt, then serve."
+    ]
+  },
+  {
+    "id": "harira-corbasi",
+    "name": "Harira Soup",
+    "emoji": "🍲",
+    "region": "Moroccan",
+    "mealType": "soup",
+    "dietTags": ["vegan"],
+    "servings": 6,
+    "calories": 200,
+    "prepTime": 15,
+    "cookTime": 40,
+    "description": "A spiced Moroccan soup of lentils and chickpeas.",
+    "ingredients": [
+      { "name": "red lentils", "amount": 150, "unit": "g" },
+      { "name": "chickpeas", "amount": 100, "unit": "g" },
+      { "name": "tomato", "amount": 3, "unit": "pcs" },
+      { "name": "celery stalk", "amount": 2, "unit": "pcs" },
+      { "name": "onion", "amount": 1, "unit": "pcs" },
+      { "name": "flour", "amount": 2, "unit": "tbsp" },
+      { "name": "cumin", "amount": 1, "unit": "tsp" },
+      { "name": "cinnamon", "amount": 1, "unit": "tsp" },
+      { "name": "olive oil", "amount": 60, "unit": "ml" },
+      { "name": "salt", "amount": 5, "unit": "g" }
+    ],
+    "steps": [
+      "Sauté the onion and celery in olive oil.",
+      "Add the tomato, lentils, chickpeas, and spices, then pour in water.",
+      "Simmer over low heat for 30 minutes.",
+      "Whisk the flour with a little water and stir in to thicken, then serve."
+    ]
+  },
+  {
+    "id": "zaalouk",
+    "name": "Zaalouk",
+    "emoji": "🍆",
+    "region": "Moroccan",
+    "mealType": "meze",
+    "dietTags": ["vegan"],
+    "servings": 4,
+    "calories": 110,
+    "prepTime": 15,
+    "cookTime": 25,
+    "description": "A spiced Moroccan relish of aubergine and tomato.",
+    "ingredients": [
+      { "name": "aubergine", "amount": 3, "unit": "pcs" },
+      { "name": "tomato", "amount": 3, "unit": "pcs" },
+      { "name": "garlic", "amount": 3, "unit": "clove" },
+      { "name": "cumin", "amount": 1, "unit": "tsp" },
+      { "name": "chilli flakes", "amount": 1, "unit": "tsp" },
+      { "name": "olive oil", "amount": 60, "unit": "ml" },
+      { "name": "salt", "amount": 3, "unit": "g" }
+    ],
+    "steps": [
+      "Cube the aubergine and boil or roast until soft.",
+      "Cook with tomato and garlic in olive oil.",
+      "Mash the aubergine in as you stir.",
+      "Season with cumin, chili flakes, and salt, then serve cold."
+    ]
+  },
+  {
+    "id": "fas-havuc-salatasi",
+    "name": "Moroccan Carrot Salad",
+    "emoji": "🥕",
+    "region": "Moroccan",
+    "mealType": "salad",
+    "dietTags": ["vegan"],
+    "servings": 4,
+    "calories": 140,
+    "prepTime": 15,
+    "cookTime": 10,
+    "description": "Boiled carrot salad seasoned with cumin and cinnamon.",
+    "ingredients": [
+      { "name": "carrot", "amount": 6, "unit": "pcs" },
+      { "name": "lemon", "amount": 1, "unit": "pcs" },
+      { "name": "cumin", "amount": 1, "unit": "tsp" },
+      { "name": "cinnamon", "amount": 1, "unit": "tsp" },
+      { "name": "olive oil", "amount": 40, "unit": "ml" },
+      { "name": "parsley", "amount": 1, "unit": "bunch" },
+      { "name": "salt", "amount": 3, "unit": "g" }
+    ],
+    "steps": [
+      "Slice the carrots and boil until tender.",
+      "Toss with lemon juice, cumin, and cinnamon.",
+      "Add the olive oil and chopped parsley.",
+      "Serve warm or chilled."
+    ]
+  },
+  {
+    "id": "ezme",
+    "name": "Ezme (Spicy Tomato & Pepper Salad)",
+    "emoji": "🥗",
+    "region": "Turkish",
+    "mealType": "meze",
+    "dietTags": ["vegan"],
+    "servings": 6,
+    "calories": 70,
+    "prepTime": 15,
+    "cookTime": 0,
+    "description": "A finely chopped, fiery Turkish tomato and pepper relish dressed with pomegranate molasses.",
+    "ingredients": [
+      { "name": "tomato", "amount": 4, "unit": "pcs" },
+      { "name": "green pepper", "amount": 2, "unit": "pcs" },
+      { "name": "red onion", "amount": 1, "unit": "pcs" },
+      { "name": "garlic", "amount": 2, "unit": "clove" },
+      { "name": "parsley", "amount": 1, "unit": "bunch" },
+      { "name": "pomegranate molasses", "amount": 1, "unit": "tbsp" },
+      { "name": "olive oil", "amount": 2, "unit": "tbsp" },
+      { "name": "chilli flakes", "amount": 1, "unit": "tsp" },
+      { "name": "salt", "amount": 3, "unit": "g" }
+    ],
+    "steps": [
+      "Finely chop the tomatoes, green pepper, red onion, garlic, and parsley — as fine as you can manage.",
+      "Combine everything in a bowl with the pomegranate molasses, olive oil, and chilli flakes.",
+      "Season with salt and mix well, mashing slightly with a spoon so the juices release.",
+      "Rest for 10 minutes before serving with warm flatbread."
+    ]
+  },
+  {
+    "id": "haydari",
+    "name": "Haydari (Garlic Yoghurt Dip)",
+    "emoji": "🥣",
+    "region": "Turkish",
+    "mealType": "meze",
+    "dietTags": ["vegetarian"],
+    "servings": 6,
+    "calories": 110,
+    "prepTime": 10,
+    "cookTime": 0,
+    "description": "A thick, garlicky strained yoghurt dip finished with fresh mint and olive oil.",
+    "ingredients": [
+      { "name": "greek yoghurt", "amount": 400, "unit": "g" },
+      { "name": "garlic", "amount": 2, "unit": "clove" },
+      { "name": "dried mint", "amount": 1, "unit": "tbsp" },
+      { "name": "dill", "amount": 1, "unit": "bunch" },
+      { "name": "olive oil", "amount": 2, "unit": "tbsp" },
+      { "name": "salt", "amount": 3, "unit": "g" }
+    ],
+    "steps": [
+      "Crush the garlic to a paste with a pinch of salt.",
+      "Stir the garlic, dried mint, and finely chopped dill through the yoghurt.",
+      "Spoon into a shallow bowl and drizzle generously with olive oil.",
+      "Chill for at least 30 minutes before serving with warm pide or flatbread."
+    ]
+  },
+  {
+    "id": "piyaz",
+    "name": "Piyaz (White Bean Salad)",
+    "emoji": "🫘",
+    "region": "Turkish",
+    "mealType": "meze",
+    "dietTags": ["vegan"],
+    "servings": 6,
+    "calories": 180,
+    "prepTime": 15,
+    "cookTime": 0,
+    "description": "A tangy Turkish white bean salad with onion, tomato, and a lemony dressing.",
+    "ingredients": [
+      { "name": "white beans", "amount": 400, "unit": "g" },
+      { "name": "red onion", "amount": 1, "unit": "pcs" },
+      { "name": "tomato", "amount": 2, "unit": "pcs" },
+      { "name": "parsley", "amount": 1, "unit": "bunch" },
+      { "name": "olive oil", "amount": 3, "unit": "tbsp" },
+      { "name": "lemon", "amount": 1, "unit": "pcs" },
+      { "name": "sumac", "amount": 1, "unit": "tsp" },
+      { "name": "salt", "amount": 3, "unit": "g" }
+    ],
+    "steps": [
+      "Drain and rinse the white beans and tip them into a large bowl.",
+      "Thinly slice the red onion and toss with the sumac to soften its bite.",
+      "Add the onion, diced tomato, and chopped parsley to the beans.",
+      "Dress with olive oil, lemon juice, and salt, then toss gently and serve at room temperature."
+    ]
+  },
+  {
+    "id": "sigara-boregi",
+    "name": "Sigara Böreği (Fried Cheese Pastry Rolls)",
+    "emoji": "🥖",
+    "region": "Turkish",
+    "mealType": "meze",
+    "dietTags": ["vegetarian"],
+    "servings": 6,
+    "calories": 210,
+    "prepTime": 20,
+    "cookTime": 15,
+    "description": "Crisp, cigar-shaped pastry rolls filled with feta and parsley.",
+    "ingredients": [
+      { "name": "yufka pastry", "amount": 10, "unit": "pcs" },
+      { "name": "feta cheese", "amount": 200, "unit": "g" },
+      { "name": "parsley", "amount": 1, "unit": "bunch" },
+      { "name": "egg", "amount": 1, "unit": "pcs" },
+      { "name": "sunflower oil", "amount": 300, "unit": "ml" }
+    ],
+    "steps": [
+      "Mash the feta with the chopped parsley to make the filling.",
+      "Cut each yufka sheet into triangles, place a spoonful of filling at the wide end, and roll tightly into a cigar shape, sealing the tip with beaten egg.",
+      "Heat the sunflower oil in a pan over medium heat.",
+      "Fry the rolls in batches until golden and crisp on all sides, then drain on paper towels and serve hot."
+    ]
+  },
+  {
+    "id": "melitzanosalata",
+    "name": "Melitzanosalata (Greek Aubergine Dip)",
+    "emoji": "🍆",
+    "region": "Greek",
+    "mealType": "meze",
+    "dietTags": ["vegan"],
+    "servings": 6,
+    "calories": 140,
+    "prepTime": 15,
+    "cookTime": 25,
+    "description": "A smoky, garlicky Greek aubergine dip brightened with lemon and olive oil.",
+    "ingredients": [
+      { "name": "aubergine", "amount": 2, "unit": "pcs" },
+      { "name": "garlic", "amount": 2, "unit": "clove" },
+      { "name": "olive oil", "amount": 4, "unit": "tbsp" },
+      { "name": "lemon", "amount": 1, "unit": "pcs" },
+      { "name": "red wine vinegar", "amount": 1, "unit": "tbsp" },
+      { "name": "parsley", "amount": 1, "unit": "bunch" },
+      { "name": "salt", "amount": 3, "unit": "g" }
+    ],
+    "steps": [
+      "Char the aubergines whole over a flame or under a hot grill until the skin blisters and the flesh softens, about 20 minutes.",
+      "Let them cool, then peel away the skin and drain the flesh in a sieve for 10 minutes.",
+      "Finely chop the flesh and mix with crushed garlic, olive oil, lemon juice, and red wine vinegar.",
+      "Season with salt, stir through chopped parsley, and serve at room temperature."
+    ]
+  },
+  {
+    "id": "taramasalata",
+    "name": "Taramasalata",
+    "emoji": "🐟",
+    "region": "Greek",
+    "mealType": "meze",
+    "dietTags": ["seafood"],
+    "servings": 6,
+    "calories": 220,
+    "prepTime": 10,
+    "cookTime": 0,
+    "description": "A pale, creamy Greek dip made from cured fish roe, bread, and olive oil.",
+    "ingredients": [
+      { "name": "tarama (fish roe)", "amount": 100, "unit": "g" },
+      { "name": "white bread", "amount": 4, "unit": "pcs" },
+      { "name": "olive oil", "amount": 150, "unit": "ml" },
+      { "name": "lemon", "amount": 1, "unit": "pcs" },
+      { "name": "red onion", "amount": 0.5, "unit": "pcs" }
+    ],
+    "steps": [
+      "Soak the crustless white bread in water, then squeeze it as dry as possible.",
+      "Blend the bread with the tarama and grated onion until smooth.",
+      "With the blender running, drizzle in the olive oil a little at a time until the mixture is pale and creamy.",
+      "Stir in lemon juice to taste and chill before serving with crusty bread."
+    ]
+  },
+  {
+    "id": "saganaki",
+    "name": "Saganaki (Fried Cheese)",
+    "emoji": "🧀",
+    "region": "Greek",
+    "mealType": "meze",
+    "dietTags": ["vegetarian"],
+    "servings": 4,
+    "calories": 260,
+    "prepTime": 10,
+    "cookTime": 5,
+    "description": "Pan-fried cheese with a golden crust, finished with a squeeze of lemon.",
+    "ingredients": [
+      { "name": "kefalotyri cheese", "amount": 250, "unit": "g" },
+      { "name": "flour", "amount": 3, "unit": "tbsp" },
+      { "name": "olive oil", "amount": 3, "unit": "tbsp" },
+      { "name": "lemon", "amount": 1, "unit": "pcs" }
+    ],
+    "steps": [
+      "Slice the cheese into thick pieces and dust lightly with flour.",
+      "Heat the olive oil in a heavy pan until shimmering.",
+      "Fry the cheese for about 90 seconds per side until deeply golden.",
+      "Transfer to a plate and squeeze fresh lemon juice over the top just before serving."
+    ]
+  },
+  {
+    "id": "sambousek",
+    "name": "Sambousek (Cheese-Filled Pastries)",
+    "emoji": "🥟",
+    "region": "Levantine",
+    "mealType": "meze",
+    "dietTags": ["vegetarian"],
+    "servings": 6,
+    "calories": 230,
+    "prepTime": 25,
+    "cookTime": 15,
+    "description": "Half-moon pastries filled with melted cheese and fried until golden and crisp.",
+    "ingredients": [
+      { "name": "plain flour", "amount": 250, "unit": "g" },
+      { "name": "halloumi cheese", "amount": 200, "unit": "g" },
+      { "name": "feta cheese", "amount": 100, "unit": "g" },
+      { "name": "mint", "amount": 1, "unit": "bunch" },
+      { "name": "olive oil", "amount": 2, "unit": "tbsp" },
+      { "name": "sunflower oil", "amount": 400, "unit": "ml" },
+      { "name": "salt", "amount": 3, "unit": "g" }
+    ],
+    "steps": [
+      "Combine the flour, olive oil, salt, and enough warm water to form a smooth dough; rest for 20 minutes.",
+      "Grate the halloumi, crumble the feta, and mix with chopped mint for the filling.",
+      "Roll the dough thin, cut into circles, and fold each with a spoonful of filling into a sealed half-moon.",
+      "Deep-fry in hot sunflower oil until golden on both sides, then drain and serve warm."
+    ]
+  },
+  {
+    "id": "labneh-zaatar",
+    "name": "Labneh with Za'atar",
+    "emoji": "🫒",
+    "region": "Levantine",
+    "mealType": "meze",
+    "dietTags": ["vegetarian"],
+    "servings": 6,
+    "calories": 160,
+    "prepTime": 10,
+    "cookTime": 0,
+    "description": "Tangy strained yoghurt cheese, served pooled with olive oil and za'atar.",
+    "ingredients": [
+      { "name": "greek yoghurt", "amount": 500, "unit": "g" },
+      { "name": "salt", "amount": 5, "unit": "g" },
+      { "name": "za'atar", "amount": 2, "unit": "tbsp" },
+      { "name": "olive oil", "amount": 3, "unit": "tbsp" }
+    ],
+    "steps": [
+      "Stir the salt into the yoghurt, then tip it into a muslin-lined sieve set over a bowl.",
+      "Chill and let it strain for at least 24 hours until thick and spreadable.",
+      "Spread the labneh onto a plate, making a shallow well in the centre.",
+      "Sprinkle generously with za'atar and finish with a good pour of olive oil."
+    ]
+  },
+  {
+    "id": "kibbeh",
+    "name": "Kibbeh (Stuffed Bulgur & Meat Croquettes)",
+    "emoji": "🥙",
+    "region": "Levantine",
+    "mealType": "meze",
+    "dietTags": ["meat"],
+    "servings": 6,
+    "calories": 260,
+    "prepTime": 40,
+    "cookTime": 20,
+    "description": "Torpedo-shaped bulgur shells filled with spiced minced lamb and fried until crisp.",
+    "ingredients": [
+      { "name": "fine bulgur", "amount": 200, "unit": "g" },
+      { "name": "lamb mince", "amount": 400, "unit": "g" },
+      { "name": "onion", "amount": 2, "unit": "pcs" },
+      { "name": "pine nuts", "amount": 30, "unit": "g" },
+      { "name": "allspice", "amount": 1, "unit": "tsp" },
+      { "name": "cinnamon", "amount": 1, "unit": "tsp" },
+      { "name": "sunflower oil", "amount": 500, "unit": "ml" },
+      { "name": "salt", "amount": 5, "unit": "g" }
+    ],
+    "steps": [
+      "Soak the bulgur in water for 15 minutes, drain well, then blend with half the mince and one grated onion into a smooth, pliable shell paste; chill.",
+      "For the filling, brown the remaining mince with the second onion, pine nuts, allspice, and cinnamon.",
+      "Wet your hands and shape the shell paste into small torpedoes, hollowing each with your finger and stuffing with the filling before sealing.",
+      "Deep-fry in hot sunflower oil for 4–5 minutes until deep brown and crisp, then drain and serve."
+    ]
+  },
+  {
+    "id": "moroccan-carrot-orange-salad",
+    "name": "Moroccan Carrot & Orange Salad",
+    "emoji": "🥕",
+    "region": "Moroccan",
+    "mealType": "meze",
+    "dietTags": ["vegan"],
+    "servings": 6,
+    "calories": 120,
+    "prepTime": 15,
+    "cookTime": 0,
+    "description": "A refreshing salad of grated carrot, orange, and orange blossom water spiced with cinnamon.",
+    "ingredients": [
+      { "name": "carrot", "amount": 5, "unit": "pcs" },
+      { "name": "orange", "amount": 2, "unit": "pcs" },
+      { "name": "orange blossom water", "amount": 1, "unit": "tsp" },
+      { "name": "cinnamon", "amount": 1, "unit": "tsp" },
+      { "name": "olive oil", "amount": 2, "unit": "tbsp" },
+      { "name": "honey", "amount": 1, "unit": "tbsp" }
+    ],
+    "steps": [
+      "Coarsely grate the carrots into a bowl.",
+      "Segment the oranges over the bowl to catch the juice, then add the segments to the carrot.",
+      "Whisk the orange blossom water, cinnamon, olive oil, and honey together and pour over the salad.",
+      "Toss well and chill for at least 20 minutes before serving."
+    ]
+  },
+  {
+    "id": "pan-con-tomate",
+    "name": "Pan con Tomate",
+    "emoji": "🍅",
+    "region": "Spanish",
+    "mealType": "meze",
+    "dietTags": ["vegan"],
+    "servings": 6,
+    "calories": 160,
+    "prepTime": 10,
+    "cookTime": 5,
+    "description": "Toasted rustic bread rubbed with garlic and ripe tomato, finished with good olive oil.",
+    "ingredients": [
+      { "name": "sourdough bread", "amount": 6, "unit": "pcs" },
+      { "name": "tomato", "amount": 4, "unit": "pcs" },
+      { "name": "garlic", "amount": 2, "unit": "clove" },
+      { "name": "olive oil", "amount": 4, "unit": "tbsp" },
+      { "name": "salt", "amount": 3, "unit": "g" }
+    ],
+    "steps": [
+      "Toast or grill the bread slices until golden and lightly crisp.",
+      "Halve the garlic cloves and rub the cut side over each warm slice.",
+      "Halve the tomatoes and rub the cut side firmly over the bread so the pulp soaks in, discarding the skins.",
+      "Drizzle generously with olive oil and season with salt before serving."
+    ]
+  },
+  {
+    "id": "yorkshire-pudding",
+    "name": "Yorkshire Pudding",
+    "emoji": "🥐",
+    "region": "British",
+    "mealType": "side",
+    "dietTags": ["vegetarian"],
+    "servings": 6,
+    "calories": 150,
+    "prepTime": 10,
+    "cookTime": 25,
+    "description": "Our most popular recipe — light, puffed-up batter pudding, the classic partner to a Sunday roast.",
+    "ingredients": [
+      { "name": "plain flour", "amount": 140, "unit": "g" },
+      { "name": "egg", "amount": 4, "unit": "pcs" },
+      { "name": "milk", "amount": 200, "unit": "ml" },
+      { "name": "sunflower oil", "amount": 4, "unit": "tbsp" },
+      { "name": "salt", "amount": 3, "unit": "g" }
+    ],
+    "steps": [
+      "Whisk the flour, eggs, milk, and salt together into a smooth batter and rest for at least 30 minutes.",
+      "Pour a little sunflower oil into each hole of a muffin or Yorkshire pudding tin and heat in a 220°C oven until smoking hot.",
+      "Carefully pour the batter into the hot tin, filling each hole about halfway.",
+      "Bake for 20–25 minutes without opening the oven door, until well risen and deep golden."
+    ]
+  },
+  {
+    "id": "fish-and-chips",
+    "name": "Fish and Chips",
+    "emoji": "🐟",
+    "region": "British",
+    "mealType": "main-course",
+    "dietTags": ["seafood"],
+    "servings": 4,
+    "calories": 750,
+    "prepTime": 20,
+    "cookTime": 25,
+    "description": "Beer-battered fried fish with crisp chunky chips, a British takeaway favourite.",
+    "ingredients": [
+      { "name": "cod fillet", "amount": 4, "unit": "pcs" },
+      { "name": "potato", "amount": 6, "unit": "pcs" },
+      { "name": "plain flour", "amount": 200, "unit": "g" },
+      { "name": "baking powder", "amount": 1, "unit": "tsp" },
+      { "name": "sparkling water", "amount": 250, "unit": "ml" },
+      { "name": "sunflower oil", "amount": 1, "unit": "l" },
+      { "name": "salt", "amount": 5, "unit": "g" }
+    ],
+    "steps": [
+      "Cut the potatoes into thick chips and fry in batches at a lower temperature (about 140°C) until soft but not coloured; drain.",
+      "Whisk the flour, baking powder, salt, and sparkling water into a light, thick batter.",
+      "Heat the oil to 190°C, dip the fish fillets in the batter, and fry for 6–8 minutes until golden and crisp.",
+      "Return the chips to the hot oil for a final fry until golden, then drain, salt everything well, and serve together."
+    ]
+  },
+  {
+    "id": "shepherds-pie",
+    "name": "Shepherd's Pie",
+    "emoji": "🥧",
+    "region": "British",
+    "mealType": "main-course",
+    "dietTags": ["meat"],
+    "servings": 6,
+    "calories": 480,
+    "prepTime": 25,
+    "cookTime": 40,
+    "description": "A comforting bake of spiced minced lamb topped with buttery mashed potato.",
+    "ingredients": [
+      { "name": "lamb mince", "amount": 500, "unit": "g" },
+      { "name": "potato", "amount": 6, "unit": "pcs" },
+      { "name": "onion", "amount": 1, "unit": "pcs" },
+      { "name": "carrot", "amount": 2, "unit": "pcs" },
+      { "name": "tomato paste", "amount": 2, "unit": "tbsp" },
+      { "name": "beef stock", "amount": 300, "unit": "ml" },
+      { "name": "butter", "amount": 50, "unit": "g" },
+      { "name": "milk", "amount": 100, "unit": "ml" },
+      { "name": "worcestershire sauce", "amount": 1, "unit": "tbsp" }
+    ],
+    "steps": [
+      "Boil the potatoes until tender, then mash with the butter and milk; season well.",
+      "Brown the lamb mince with the diced onion and carrot.",
+      "Stir in the tomato paste, worcestershire sauce, and beef stock, then simmer for 15 minutes until thickened.",
+      "Spoon the mince into a baking dish, top with the mashed potato, and bake at 200°C for 20 minutes until golden on top."
+    ]
+  },
+  {
+    "id": "full-english-breakfast",
+    "name": "Full English Breakfast",
+    "emoji": "🍳",
+    "region": "British",
+    "mealType": "breakfast",
+    "dietTags": ["meat"],
+    "servings": 4,
+    "calories": 650,
+    "prepTime": 15,
+    "cookTime": 20,
+    "description": "A hearty cooked breakfast plate with eggs, sausages, bacon, beans, and grilled tomato.",
+    "ingredients": [
+      { "name": "egg", "amount": 4, "unit": "pcs" },
+      { "name": "sausages", "amount": 8, "unit": "pcs" },
+      { "name": "bacon", "amount": 8, "unit": "pcs" },
+      { "name": "baked beans", "amount": 400, "unit": "g" },
+      { "name": "tomato", "amount": 4, "unit": "pcs" },
+      { "name": "mushroom", "amount": 200, "unit": "g" },
+      { "name": "butter", "amount": 20, "unit": "g" },
+      { "name": "bread", "amount": 4, "unit": "pcs" }
+    ],
+    "steps": [
+      "Grill or fry the sausages and bacon until cooked through and browned.",
+      "Halve the tomatoes and fry the mushrooms in butter alongside them.",
+      "Warm the baked beans in a small pan, and fry or poach the eggs to your liking.",
+      "Toast the bread and arrange everything together on warm plates to serve."
+    ]
+  },
+  {
+    "id": "bangers-and-mash",
+    "name": "Bangers and Mash",
+    "emoji": "🌭",
+    "region": "British",
+    "mealType": "main-course",
+    "dietTags": ["meat"],
+    "servings": 4,
+    "calories": 550,
+    "prepTime": 10,
+    "cookTime": 25,
+    "description": "Pan-fried sausages served over creamy mashed potato with rich onion gravy.",
+    "ingredients": [
+      { "name": "sausages", "amount": 8, "unit": "pcs" },
+      { "name": "potato", "amount": 6, "unit": "pcs" },
+      { "name": "butter", "amount": 50, "unit": "g" },
+      { "name": "milk", "amount": 100, "unit": "ml" },
+      { "name": "onion", "amount": 2, "unit": "pcs" },
+      { "name": "beef stock", "amount": 300, "unit": "ml" },
+      { "name": "plain flour", "amount": 1, "unit": "tbsp" }
+    ],
+    "steps": [
+      "Fry the sausages gently until browned and cooked through, then set aside.",
+      "Boil the potatoes until tender and mash with the butter and milk.",
+      "In the same pan, soften the sliced onions, stir in the flour, then gradually add the beef stock to make a rich gravy.",
+      "Pile the mash onto plates, top with the sausages, and spoon over the onion gravy."
+    ]
+  },
+  {
+    "id": "victoria-sponge",
+    "name": "Victoria Sponge Cake",
+    "emoji": "🍰",
+    "region": "British",
+    "mealType": "snack",
+    "dietTags": ["vegetarian"],
+    "servings": 8,
+    "calories": 380,
+    "prepTime": 20,
+    "cookTime": 25,
+    "description": "A classic British sponge cake sandwiched with strawberry jam and whipped cream.",
+    "ingredients": [
+      { "name": "butter", "amount": 200, "unit": "g" },
+      { "name": "caster sugar", "amount": 200, "unit": "g" },
+      { "name": "egg", "amount": 4, "unit": "pcs" },
+      { "name": "self-raising flour", "amount": 200, "unit": "g" },
+      { "name": "strawberry jam", "amount": 150, "unit": "g" },
+      { "name": "double cream", "amount": 200, "unit": "ml" }
+    ],
+    "steps": [
+      "Cream the butter and caster sugar together until pale and fluffy.",
+      "Beat in the eggs one at a time, then fold in the self-raising flour.",
+      "Divide the batter between two greased 20cm cake tins and bake at 180°C for 20–25 minutes until springy to the touch.",
+      "Once cool, sandwich the two sponges together with the jam and whipped double cream."
+    ]
+  },
+  {
+    "id": "sticky-toffee-pudding",
+    "name": "Sticky Toffee Pudding",
+    "emoji": "🍮",
+    "region": "British",
+    "mealType": "snack",
+    "dietTags": ["vegetarian"],
+    "servings": 8,
+    "calories": 420,
+    "prepTime": 20,
+    "cookTime": 30,
+    "description": "A rich date sponge pudding drenched in warm toffee sauce.",
+    "ingredients": [
+      { "name": "dates", "amount": 200, "unit": "g" },
+      { "name": "self-raising flour", "amount": 175, "unit": "g" },
+      { "name": "butter", "amount": 100, "unit": "g" },
+      { "name": "dark brown sugar", "amount": 150, "unit": "g" },
+      { "name": "egg", "amount": 2, "unit": "pcs" },
+      { "name": "double cream", "amount": 200, "unit": "ml" },
+      { "name": "golden syrup", "amount": 2, "unit": "tbsp" }
+    ],
+    "steps": [
+      "Simmer the dates in water until soft, then blend into a purée.",
+      "Cream the butter with half the sugar, beat in the eggs, then fold in the flour and date purée.",
+      "Pour into a greased baking dish and bake at 180°C for 25–30 minutes until risen and set.",
+      "For the sauce, gently melt the remaining sugar, double cream, and golden syrup together, then pour warm over the pudding."
+    ]
+  },
+  {
+    "id": "sunday-roast-beef",
+    "name": "Sunday Roast Beef with Gravy",
+    "emoji": "🍖",
+    "region": "British",
+    "mealType": "main-course",
+    "dietTags": ["meat"],
+    "servings": 6,
+    "calories": 480,
+    "prepTime": 20,
+    "cookTime": 90,
+    "description": "A traditional slow-roasted beef joint with rich pan gravy — the centrepiece of a British Sunday lunch.",
+    "ingredients": [
+      { "name": "beef joint", "amount": 1.5, "unit": "kg" },
+      { "name": "carrot", "amount": 4, "unit": "pcs" },
+      { "name": "onion", "amount": 2, "unit": "pcs" },
+      { "name": "garlic", "amount": 4, "unit": "clove" },
+      { "name": "beef stock", "amount": 400, "unit": "ml" },
+      { "name": "plain flour", "amount": 2, "unit": "tbsp" },
+      { "name": "olive oil", "amount": 2, "unit": "tbsp" },
+      { "name": "rosemary", "amount": 1, "unit": "bunch" }
+    ],
+    "steps": [
+      "Rub the beef joint with olive oil, salt, and pepper, and sit it on a bed of carrots, onions, garlic, and rosemary in a roasting tin.",
+      "Roast at 220°C for 20 minutes, then reduce to 180°C and continue roasting until cooked to your liking, about 60–70 minutes more.",
+      "Rest the beef, loosely covered, for 20 minutes before carving.",
+      "Skim the fat from the roasting tin, stir in the flour, then whisk in the beef stock over heat until you have a smooth gravy."
+    ]
+  },
+  {
+    "id": "sehriyeli-pirinc",
+    "name": "Perfect Fluffy Rice with Vermicelli (Şehriyeli Pirinç)",
+    "emoji": "🍚",
+    "region": "Turkish",
+    "mealType": "side",
+    "dietTags": ["vegetarian"],
+    "servings": 6,
+    "calories": 260,
+    "prepTime": 5,
+    "cookTime": 20,
+    "description": "The ultimate Mediterranean side dish — fluffy rice toasted with vermicelli and butter.",
+    "image": "https://bodrumfoods.co.uk/cdn/shop/articles/Gemini_Generated_Image_cbfnadcbfnadcbfn_20e15c71-781f-4462-9f76-46dba93c83ca.png?v=1784619746&width=800",
+    "ingredients": [
+      { "name": "rice", "amount": 300, "unit": "g" },
+      { "name": "vermicelli", "amount": 50, "unit": "g" },
+      { "name": "butter", "amount": 40, "unit": "g" },
+      { "name": "salt", "amount": 5, "unit": "g" },
+      { "name": "water", "amount": 600, "unit": "ml" }
+    ],
+    "steps": [
+      "Rinse the rice in cold water until it runs clear, then drain well.",
+      "Melt the butter in a heavy pan and toast the vermicelli until golden brown.",
+      "Add the rice and stir for a minute to coat it in the butter, then pour in the water and salt.",
+      "Bring to the boil, cover, and simmer on low heat for 15–18 minutes until the water is absorbed, then rest off the heat for 10 minutes before fluffing with a fork."
+    ]
+  },
+  {
+    "id": "kavurma-with-eggs",
+    "name": "Kavurma with Eggs (Turkish Sunday Breakfast)",
+    "emoji": "🍳",
+    "region": "Turkish",
+    "mealType": "breakfast",
+    "dietTags": ["meat"],
+    "servings": 2,
+    "calories": 380,
+    "prepTime": 5,
+    "cookTime": 10,
+    "description": "A traditional 10-minute Turkish Sunday breakfast of cured beef kavurma fried with eggs.",
+    "ingredients": [
+      { "name": "kavurma (cured beef)", "amount": 150, "unit": "g" },
+      { "name": "egg", "amount": 4, "unit": "pcs" },
+      { "name": "butter", "amount": 15, "unit": "g" },
+      { "name": "chilli flakes", "amount": 1, "unit": "tsp" }
+    ],
+    "steps": [
+      "Melt the butter in a pan over medium heat and add the kavurma.",
+      "Fry gently for 2–3 minutes until the beef releases its fat and turns lightly crisp at the edges.",
+      "Crack the eggs directly over the kavurma and cook until the whites are just set.",
+      "Sprinkle with chilli flakes and serve straight from the pan with fresh bread."
+    ]
+  },
+  {
+    "id": "sucuklu-menemen",
+    "name": "Sucuk Spiced Menemen",
+    "emoji": "🍅",
+    "region": "Turkish",
+    "mealType": "breakfast",
+    "dietTags": ["meat"],
+    "servings": 4,
+    "calories": 380,
+    "prepTime": 10,
+    "cookTime": 15,
+    "description": "A bold twist on Turkey's beloved breakfast of eggs, tomatoes, and peppers, spiced up with sucuk.",
+    "ingredients": [
+      { "name": "sucuk (turkish sausage)", "amount": 150, "unit": "g" },
+      { "name": "tomato", "amount": 4, "unit": "pcs" },
+      { "name": "green pepper", "amount": 2, "unit": "pcs" },
+      { "name": "egg", "amount": 4, "unit": "pcs" },
+      { "name": "olive oil", "amount": 2, "unit": "tbsp" },
+      { "name": "chilli flakes", "amount": 1, "unit": "tsp" },
+      { "name": "salt", "amount": 3, "unit": "g" }
+    ],
+    "steps": [
+      "Fry the sliced sucuk in olive oil for 2 minutes until it releases its rich red oil.",
+      "Add the diced green pepper and cook until softened.",
+      "Stir in the grated tomato and simmer for 5–6 minutes until reduced.",
+      "Crack in the eggs and stir gently until softly set, then season with salt and chilli flakes and serve hot with bread."
+    ]
+  },
+  {
+    "id": "roasted-pepper-yoghurt-dip",
+    "name": "Roasted Pepper Yoghurt Dip",
+    "emoji": "🫑",
+    "region": "Turkish",
+    "mealType": "meze",
+    "dietTags": ["vegetarian"],
+    "servings": 6,
+    "calories": 110,
+    "prepTime": 10,
+    "cookTime": 20,
+    "description": "A velvety, healthy Mediterranean dip of smoky roasted peppers folded through thick yoghurt.",
+    "ingredients": [
+      { "name": "red pepper", "amount": 3, "unit": "pcs" },
+      { "name": "greek yoghurt", "amount": 300, "unit": "g" },
+      { "name": "garlic", "amount": 1, "unit": "clove" },
+      { "name": "olive oil", "amount": 2, "unit": "tbsp" },
+      { "name": "walnuts", "amount": 30, "unit": "g" },
+      { "name": "chilli flakes", "amount": 1, "unit": "tsp" }
+    ],
+    "steps": [
+      "Roast the red peppers under a hot grill, turning occasionally, until the skins are blackened and blistered.",
+      "Wrap in cling film to cool, then peel, deseed, and finely chop the flesh.",
+      "Crush the garlic and fold it through the yoghurt with the chopped roasted pepper.",
+      "Spoon into a bowl, top with toasted walnuts, a drizzle of olive oil, and a pinch of chilli flakes."
+    ]
+  },
+  {
+    "id": "sucuklu-kuru-fasulye",
+    "name": "Turkish White Bean Stew with Sucuk (Kuru Fasulye)",
+    "emoji": "🫘",
+    "region": "Turkish",
+    "mealType": "main-course",
+    "dietTags": ["meat"],
+    "servings": 6,
+    "calories": 480,
+    "prepTime": 15,
+    "cookTime": 45,
+    "description": "A hearty, slow-simmered Turkish staple of white beans and sucuk in a rich tomato sauce.",
+    "ingredients": [
+      { "name": "white beans", "amount": 300, "unit": "g" },
+      { "name": "sucuk (turkish sausage)", "amount": 150, "unit": "g" },
+      { "name": "onion", "amount": 1, "unit": "pcs" },
+      { "name": "tomato paste", "amount": 2, "unit": "tbsp" },
+      { "name": "red pepper paste", "amount": 1, "unit": "tbsp" },
+      { "name": "olive oil", "amount": 2, "unit": "tbsp" },
+      { "name": "paprika", "amount": 1, "unit": "tsp" },
+      { "name": "beef stock", "amount": 500, "unit": "ml" }
+    ],
+    "steps": [
+      "Soak the dried beans overnight in plenty of water, then drain.",
+      "Sauté the diced onion in olive oil until soft, then add the sliced sucuk and cook for 2 minutes.",
+      "Stir in the tomato paste, red pepper paste, and paprika.",
+      "Add the beans and beef stock, cover, and simmer for 40–45 minutes until the beans are tender, then season and serve with rice."
+    ]
+  },
+  {
+    "id": "mediterranean-spiced-lamb-stew",
+    "name": "Mediterranean Spiced Lamb Stew",
+    "emoji": "🍖",
+    "region": "Turkish",
+    "mealType": "main-course",
+    "dietTags": ["meat"],
+    "servings": 6,
+    "calories": 520,
+    "prepTime": 15,
+    "cookTime": 70,
+    "description": "A warm, bold lamb stew simmered slowly with Mediterranean spices until meltingly tender.",
+    "ingredients": [
+      { "name": "lamb shoulder", "amount": 700, "unit": "g" },
+      { "name": "onion", "amount": 2, "unit": "pcs" },
+      { "name": "garlic", "amount": 3, "unit": "clove" },
+      { "name": "carrot", "amount": 2, "unit": "pcs" },
+      { "name": "tomato paste", "amount": 2, "unit": "tbsp" },
+      { "name": "cumin", "amount": 1, "unit": "tsp" },
+      { "name": "paprika", "amount": 1, "unit": "tsp" },
+      { "name": "cinnamon", "amount": 0.5, "unit": "tsp" },
+      { "name": "olive oil", "amount": 2, "unit": "tbsp" },
+      { "name": "beef stock", "amount": 400, "unit": "ml" }
+    ],
+    "steps": [
+      "Brown the diced lamb in olive oil in batches, then set aside.",
+      "Soften the onion and garlic in the same pot, then stir in the cumin, paprika, cinnamon, and tomato paste.",
+      "Return the lamb to the pot with the carrot and beef stock.",
+      "Cover and simmer gently for about an hour until the lamb is fork-tender, then season and serve with rice or bread."
+    ]
+  },
+  {
+    "id": "weeknight-chickpea-stew",
+    "name": "Weeknight Chickpea Stew",
+    "emoji": "🥘",
+    "region": "Turkish",
+    "mealType": "main-course",
+    "dietTags": ["vegan"],
+    "servings": 6,
+    "calories": 320,
+    "prepTime": 10,
+    "cookTime": 30,
+    "description": "A quick, comforting chickpea stew in a rich tomato sauce with warming Mediterranean spices.",
+    "ingredients": [
+      { "name": "chickpeas", "amount": 500, "unit": "g" },
+      { "name": "onion", "amount": 1, "unit": "pcs" },
+      { "name": "garlic", "amount": 2, "unit": "clove" },
+      { "name": "tomato paste", "amount": 2, "unit": "tbsp" },
+      { "name": "cumin", "amount": 1, "unit": "tsp" },
+      { "name": "paprika", "amount": 1, "unit": "tsp" },
+      { "name": "olive oil", "amount": 2, "unit": "tbsp" },
+      { "name": "vegetable stock", "amount": 300, "unit": "ml" }
+    ],
+    "steps": [
+      "Sauté the diced onion and garlic in olive oil until softened.",
+      "Stir in the tomato paste, cumin, and paprika and cook for a minute until fragrant.",
+      "Add the chickpeas and vegetable stock and bring to a simmer.",
+      "Cook for 20–25 minutes until thickened, then season and serve with rice or crusty bread."
+    ]
+  },
+  {
+    "id": "asure",
+    "name": "Aşure (Noah's Pudding)",
+    "emoji": "🍮",
+    "region": "Turkish",
+    "mealType": "snack",
+    "dietTags": ["vegan"],
+    "servings": 8,
+    "calories": 260,
+    "prepTime": 20,
+    "cookTime": 60,
+    "description": "A traditional Turkish dessert of grains, pulses, and dried fruit, symbolising abundance and sharing.",
+    "ingredients": [
+      { "name": "wheat berries", "amount": 150, "unit": "g" },
+      { "name": "chickpeas", "amount": 50, "unit": "g" },
+      { "name": "white beans", "amount": 50, "unit": "g" },
+      { "name": "dried apricot", "amount": 80, "unit": "g" },
+      { "name": "dried fig", "amount": 80, "unit": "g" },
+      { "name": "raisins", "amount": 80, "unit": "g" },
+      { "name": "sugar", "amount": 200, "unit": "g" },
+      { "name": "orange zest", "amount": 1, "unit": "tsp" },
+      { "name": "walnuts", "amount": 40, "unit": "g" }
+    ],
+    "steps": [
+      "Soak the wheat berries, chickpeas, and white beans separately in water overnight.",
+      "Cook the wheat berries in fresh water for about 45 minutes until tender, then add the cooked chickpeas and beans.",
+      "Stir in the dried apricot, fig, raisins, sugar, and orange zest, and simmer for 20 minutes until thickened to a soft porridge.",
+      "Chill and serve garnished with walnuts and a light dusting of cinnamon."
+    ]
+  },
+  {
+    "id": "turkish-yoghurt-cake",
+    "name": "Viral Turkish Yoghurt Cake",
+    "emoji": "🍰",
+    "region": "Turkish",
+    "mealType": "snack",
+    "dietTags": ["vegetarian"],
+    "servings": 8,
+    "calories": 290,
+    "prepTime": 15,
+    "cookTime": 30,
+    "description": "A wobbly, cloud-like Turkish yoghurt cake that has taken social media by storm.",
+    "ingredients": [
+      { "name": "egg", "amount": 4, "unit": "pcs" },
+      { "name": "sugar", "amount": 150, "unit": "g" },
+      { "name": "greek yoghurt", "amount": 200, "unit": "g" },
+      { "name": "flour", "amount": 150, "unit": "g" },
+      { "name": "baking powder", "amount": 1, "unit": "tsp" },
+      { "name": "vanilla extract", "amount": 1, "unit": "tsp" }
+    ],
+    "steps": [
+      "Whisk the eggs and sugar together until pale, thick, and fluffy.",
+      "Fold in the yoghurt and vanilla extract until smooth.",
+      "Gently fold in the flour and baking powder, taking care not to knock out the air.",
+      "Pour into a lined tin and bake at 170°C for 25–30 minutes until golden and springy, then cool before slicing."
+    ]
+  },
+  {
+    "id": "sour-cherry-jam-cheesecake",
+    "name": "Bodrum Sour Cherry Jam Cheesecake",
+    "emoji": "🍒",
+    "region": "Turkish",
+    "mealType": "snack",
+    "dietTags": ["vegetarian"],
+    "servings": 8,
+    "calories": 420,
+    "prepTime": 25,
+    "cookTime": 0,
+    "description": "A creamy, no-bake vanilla cheesecake crowned with sweet-tart sour cherry jam.",
+    "ingredients": [
+      { "name": "digestive biscuits", "amount": 200, "unit": "g" },
+      { "name": "butter", "amount": 80, "unit": "g" },
+      { "name": "cream cheese", "amount": 400, "unit": "g" },
+      { "name": "double cream", "amount": 200, "unit": "ml" },
+      { "name": "sugar", "amount": 80, "unit": "g" },
+      { "name": "vanilla extract", "amount": 1, "unit": "tsp" },
+      { "name": "sour cherry jam", "amount": 200, "unit": "g" }
+    ],
+    "steps": [
+      "Crush the digestive biscuits and mix with the melted butter, then press firmly into the base of a lined tin and chill.",
+      "Whisk the cream cheese, double cream, sugar, and vanilla together until thick and holding soft peaks.",
+      "Spread the filling evenly over the chilled biscuit base.",
+      "Top with the sour cherry jam and chill for at least 4 hours, or overnight, before serving."
+    ]
+  },
+  {
+    "id": "dubai-chocolate-bar",
+    "name": "Dubai-Inspired Chocolate Bar",
+    "emoji": "🍫",
+    "region": "Turkish",
+    "mealType": "snack",
+    "dietTags": ["vegetarian"],
+    "servings": 8,
+    "calories": 380,
+    "prepTime": 25,
+    "cookTime": 5,
+    "description": "The viral pistachio and kadayif chocolate bar, made at home with crunchy shredded phyllo.",
+    "ingredients": [
+      { "name": "kadayif (shredded phyllo)", "amount": 100, "unit": "g" },
+      { "name": "butter", "amount": 40, "unit": "g" },
+      { "name": "pistachio paste", "amount": 150, "unit": "g" },
+      { "name": "tahini", "amount": 2, "unit": "tbsp" },
+      { "name": "dark chocolate", "amount": 300, "unit": "g" },
+      { "name": "pistachios", "amount": 30, "unit": "g" }
+    ],
+    "steps": [
+      "Chop the kadayif into short strands and toast in the butter until golden and crisp; leave to cool.",
+      "Mix the toasted kadayif with the pistachio paste and tahini to make the filling.",
+      "Melt half the chocolate and coat the base and sides of bar moulds, then chill briefly to set.",
+      "Fill with the pistachio-kadayif mixture, seal with the remaining melted chocolate, scatter with chopped pistachios, and chill until firm."
+    ]
+  },
+  {
+    "id": "mediterranean-chicken-marinade",
+    "name": "Mediterranean Chicken Marinade",
+    "emoji": "🍗",
+    "region": "Greek",
+    "mealType": "main-course",
+    "dietTags": ["meat"],
+    "servings": 4,
+    "calories": 380,
+    "prepTime": 15,
+    "cookTime": 20,
+    "description": "Grilled chicken marinated in red wine vinegar, olive oil, garlic, and oregano.",
+    "ingredients": [
+      { "name": "chicken thigh", "amount": 700, "unit": "g" },
+      { "name": "red wine vinegar", "amount": 3, "unit": "tbsp" },
+      { "name": "olive oil", "amount": 4, "unit": "tbsp" },
+      { "name": "garlic", "amount": 3, "unit": "clove" },
+      { "name": "oregano", "amount": 1, "unit": "tbsp" },
+      { "name": "lemon", "amount": 1, "unit": "pcs" },
+      { "name": "salt", "amount": 3, "unit": "g" }
+    ],
+    "steps": [
+      "Whisk together the red wine vinegar, olive oil, crushed garlic, oregano, lemon juice, and salt.",
+      "Coat the chicken thoroughly in the marinade and refrigerate for at least 2 hours, or overnight for best flavour.",
+      "Grill or pan-fry the chicken over high heat until charred and cooked through, about 8–10 minutes per side.",
+      "Rest for 5 minutes before slicing and serving."
+    ]
+  },
+  {
+    "id": "creamy-mediterranean-chicken-orzo",
+    "name": "Creamy Mediterranean Chicken Orzo",
+    "emoji": "🍝",
+    "region": "Italian",
+    "mealType": "main-course",
+    "dietTags": ["meat"],
+    "servings": 4,
+    "calories": 560,
+    "prepTime": 15,
+    "cookTime": 25,
+    "description": "A one-pot, quick gourmet meal of orzo pasta, chicken, and mushrooms in a creamy sauce.",
+    "ingredients": [
+      { "name": "chicken breast", "amount": 400, "unit": "g" },
+      { "name": "orzo pasta", "amount": 250, "unit": "g" },
+      { "name": "mushroom", "amount": 200, "unit": "g" },
+      { "name": "chicken stock", "amount": 600, "unit": "ml" },
+      { "name": "double cream", "amount": 100, "unit": "ml" },
+      { "name": "parmesan", "amount": 40, "unit": "g" },
+      { "name": "garlic", "amount": 2, "unit": "clove" },
+      { "name": "olive oil", "amount": 2, "unit": "tbsp" }
+    ],
+    "steps": [
+      "Sear the diced chicken in olive oil until golden, then set aside.",
+      "In the same pan, sauté the sliced mushrooms and garlic until softened.",
+      "Stir in the orzo and toast briefly, then ladle in the stock gradually, stirring often, for about 15 minutes until the orzo is tender.",
+      "Return the chicken to the pan, stir through the cream and parmesan, and season before serving."
+    ]
+  },
+  {
+    "id": "spaghetti-bolognese",
+    "name": "Spaghetti Bolognese",
+    "emoji": "🍝",
+    "region": "Italian",
+    "mealType": "main-course",
+    "dietTags": ["meat"],
+    "servings": 6,
+    "calories": 580,
+    "prepTime": 20,
+    "cookTime": 60,
+    "description": "A deep, slow-cooked ragù alla Bolognese, the ultimate authentic Italian classic.",
+    "ingredients": [
+      { "name": "beef mince", "amount": 500, "unit": "g" },
+      { "name": "onion", "amount": 1, "unit": "pcs" },
+      { "name": "carrot", "amount": 1, "unit": "pcs" },
+      { "name": "celery", "amount": 1, "unit": "pcs" },
+      { "name": "garlic", "amount": 2, "unit": "clove" },
+      { "name": "tomato paste", "amount": 2, "unit": "tbsp" },
+      { "name": "chopped tomatoes", "amount": 400, "unit": "g" },
+      { "name": "spaghetti", "amount": 400, "unit": "g" },
+      { "name": "olive oil", "amount": 2, "unit": "tbsp" },
+      { "name": "parmesan", "amount": 40, "unit": "g" }
+    ],
+    "steps": [
+      "Finely dice the onion, carrot, and celery, and soften in olive oil with the garlic.",
+      "Add the mince and brown well, breaking it up as it cooks.",
+      "Stir in the tomato paste, then the chopped tomatoes, and simmer gently for 45 minutes, stirring occasionally, until rich and thick.",
+      "Cook the spaghetti until al dente and serve topped with the ragù and grated parmesan."
+    ]
+  },
+  {
+    "id": "olive-sundried-tomato-mezze-platter",
+    "name": "Olive & Sun-Dried Tomato Mezze Platter",
+    "emoji": "🫒",
+    "region": "Turkish",
+    "mealType": "meze",
+    "dietTags": ["vegetarian"],
+    "servings": 6,
+    "calories": 280,
+    "prepTime": 15,
+    "cookTime": 0,
+    "description": "A shareable Mediterranean mezze spread built around olives, sun-dried tomatoes, and feta.",
+    "ingredients": [
+      { "name": "mixed olives", "amount": 200, "unit": "g" },
+      { "name": "sun-dried tomato", "amount": 150, "unit": "g" },
+      { "name": "feta cheese", "amount": 150, "unit": "g" },
+      { "name": "hummus", "amount": 200, "unit": "g" },
+      { "name": "flatbread", "amount": 4, "unit": "pcs" },
+      { "name": "olive oil", "amount": 3, "unit": "tbsp" },
+      { "name": "oregano", "amount": 1, "unit": "tsp" }
+    ],
+    "steps": [
+      "Arrange the olives, sun-dried tomatoes, and cubed feta across a large sharing platter.",
+      "Spoon a generous bowl of hummus into the centre.",
+      "Warm the flatbread and cut into wedges to serve alongside.",
+      "Finish with a good drizzle of olive oil and a scatter of dried oregano."
+    ]
+  },
+  {
+    "id": "chilli-con-carne",
+    "name": "Chilli Con Carne",
+    "emoji": "🌶️",
+    "region": "British",
+    "mealType": "main-course",
+    "dietTags": ["meat"],
+    "servings": 6,
+    "calories": 480,
+    "prepTime": 15,
+    "cookTime": 60,
+    "description": "A deep, smoky, award-worthy chilli — a British takeaway and dinner-table favourite.",
+    "ingredients": [
+      { "name": "beef mince", "amount": 500, "unit": "g" },
+      { "name": "onion", "amount": 1, "unit": "pcs" },
+      { "name": "garlic", "amount": 3, "unit": "clove" },
+      { "name": "red kidney beans", "amount": 400, "unit": "g" },
+      { "name": "chopped tomatoes", "amount": 400, "unit": "g" },
+      { "name": "tomato paste", "amount": 2, "unit": "tbsp" },
+      { "name": "smoked paprika", "amount": 1, "unit": "tbsp" },
+      { "name": "cumin", "amount": 1, "unit": "tsp" },
+      { "name": "chilli flakes", "amount": 1, "unit": "tsp" },
+      { "name": "beef stock", "amount": 200, "unit": "ml" }
+    ],
+    "steps": [
+      "Brown the mince with the diced onion and garlic in a large pot.",
+      "Stir in the smoked paprika, cumin, and chilli flakes and cook for a minute until fragrant.",
+      "Add the tomato paste, chopped tomatoes, beef stock, and kidney beans.",
+      "Simmer uncovered for 45–50 minutes, stirring occasionally, until rich and thick, then season and serve with rice or crusty bread."
+    ]
+  },
+  {
+    "id": "apple-crumble",
+    "name": "Homemade Apple Crumble",
+    "emoji": "🍏",
+    "region": "British",
+    "mealType": "snack",
+    "dietTags": ["vegetarian"],
+    "servings": 6,
+    "calories": 320,
+    "prepTime": 15,
+    "cookTime": 40,
+    "description": "A warm, comforting British dessert of tender spiced apples under a crisp buttery topping.",
+    "ingredients": [
+      { "name": "apple", "amount": 6, "unit": "pcs" },
+      { "name": "plain flour", "amount": 150, "unit": "g" },
+      { "name": "butter", "amount": 100, "unit": "g" },
+      { "name": "caster sugar", "amount": 80, "unit": "g" },
+      { "name": "cinnamon", "amount": 1, "unit": "tsp" },
+      { "name": "oats", "amount": 30, "unit": "g" }
+    ],
+    "steps": [
+      "Peel, core, and slice the apples into a baking dish, tossing with a little sugar and cinnamon.",
+      "Rub the flour and butter together until it resembles coarse breadcrumbs, then stir in the remaining sugar and oats.",
+      "Scatter the crumble topping evenly over the apples.",
+      "Bake at 190°C for 35–40 minutes until golden and bubbling, and serve warm with custard or cream."
+    ]
+  },
+  {
+    "id": "fluffy-pancakes",
+    "name": "Fluffy Homemade Pancakes",
+    "emoji": "🥞",
+    "region": "British",
+    "mealType": "breakfast",
+    "dietTags": ["vegetarian"],
+    "servings": 4,
+    "calories": 380,
+    "prepTime": 10,
+    "cookTime": 15,
+    "description": "A stack of warm, fluffy pancakes with a cosy touch of cinnamon — a weekend breakfast favourite.",
+    "ingredients": [
+      { "name": "plain flour", "amount": 200, "unit": "g" },
+      { "name": "egg", "amount": 2, "unit": "pcs" },
+      { "name": "milk", "amount": 250, "unit": "ml" },
+      { "name": "baking powder", "amount": 2, "unit": "tsp" },
+      { "name": "sugar", "amount": 2, "unit": "tbsp" },
+      { "name": "butter", "amount": 20, "unit": "g" },
+      { "name": "cinnamon", "amount": 0.5, "unit": "tsp" }
+    ],
+    "steps": [
+      "Whisk the flour, baking powder, sugar, and cinnamon together in a bowl.",
+      "Whisk in the eggs and milk until you have a smooth, thick batter.",
+      "Melt a little butter in a non-stick pan and ladle in portions of the batter.",
+      "Cook for 2–3 minutes per side until golden and cooked through, then stack and serve warm."
+    ]
+  },
+  {
+    "id": "domates-pilavi",
+    "name": "Domates Pilavı (Turkish Tomato Rice Pilaf)",
+    "emoji": "🍚",
+    "region": "Turkish",
+    "mealType": "side",
+    "dietTags": ["vegetarian"],
+    "servings": 6,
+    "calories": 240,
+    "prepTime": 5,
+    "cookTime": 20,
+    "description": "A simple, everyday Turkish rice pilaf cooked with tomato paste and butter until fluffy.",
+    "ingredients": [
+      { "name": "rice", "amount": 300, "unit": "g" },
+      { "name": "tomato paste", "amount": 2, "unit": "tbsp" },
+      { "name": "butter", "amount": 40, "unit": "g" },
+      { "name": "vegetable stock", "amount": 600, "unit": "ml" },
+      { "name": "salt", "amount": 5, "unit": "g" }
+    ],
+    "steps": [
+      "Rinse the rice in cold water until it runs clear, then drain well.",
+      "Melt the butter in a pan and stir in the tomato paste, cooking for a minute until fragrant.",
+      "Add the rice and stir to coat, then pour in the stock and salt and bring to the boil.",
+      "Cover and simmer for 15 minutes, then rest off the heat for 10 minutes before fluffing with a fork."
+    ]
+  },
+  {
+    "id": "ic-pilav",
+    "name": "İç Pilav (Ottoman Rice Pilaf with Currants & Pine Nuts)",
+    "emoji": "🍚",
+    "region": "Turkish",
+    "mealType": "side",
+    "dietTags": ["vegan"],
+    "servings": 6,
+    "calories": 280,
+    "prepTime": 15,
+    "cookTime": 25,
+    "description": "A fragrant Ottoman-era rice pilaf studded with currants, pine nuts, and warm spices.",
+    "ingredients": [
+      { "name": "rice", "amount": 300, "unit": "g" },
+      { "name": "onion", "amount": 1, "unit": "pcs" },
+      { "name": "pine nuts", "amount": 40, "unit": "g" },
+      { "name": "currants", "amount": 40, "unit": "g" },
+      { "name": "olive oil", "amount": 3, "unit": "tbsp" },
+      { "name": "allspice", "amount": 1, "unit": "tsp" },
+      { "name": "cinnamon", "amount": 0.5, "unit": "tsp" },
+      { "name": "dill", "amount": 1, "unit": "bunch" },
+      { "name": "vegetable stock", "amount": 600, "unit": "ml" }
+    ],
+    "steps": [
+      "Soak the currants in warm water for 10 minutes, then drain.",
+      "Sauté the diced onion in olive oil until soft, add the pine nuts, and toast until golden.",
+      "Stir in the rice, allspice, and cinnamon, coating well, then add the stock and currants.",
+      "Bring to the boil, cover, simmer for 15 minutes, rest for 10 minutes, then fold through the chopped dill before serving."
+    ]
+  },
+  {
+    "id": "nohutlu-pilav",
+    "name": "Nohutlu Pilav (Chickpea Rice Pilaf)",
+    "emoji": "🍚",
+    "region": "Turkish",
+    "mealType": "main-course",
+    "dietTags": ["vegan"],
+    "servings": 6,
+    "calories": 340,
+    "prepTime": 10,
+    "cookTime": 25,
+    "description": "A hearty one-pot Turkish rice and chickpea pilaf, a comforting weeknight staple.",
+    "ingredients": [
+      { "name": "rice", "amount": 300, "unit": "g" },
+      { "name": "chickpeas", "amount": 400, "unit": "g" },
+      { "name": "onion", "amount": 1, "unit": "pcs" },
+      { "name": "tomato paste", "amount": 1, "unit": "tbsp" },
+      { "name": "olive oil", "amount": 3, "unit": "tbsp" },
+      { "name": "paprika", "amount": 1, "unit": "tsp" },
+      { "name": "vegetable stock", "amount": 650, "unit": "ml" },
+      { "name": "salt", "amount": 5, "unit": "g" }
+    ],
+    "steps": [
+      "Sauté the diced onion in olive oil until soft, then stir in the tomato paste and paprika.",
+      "Add the rice and chickpeas, stirring to coat in the paste.",
+      "Pour in the stock and salt and bring to the boil.",
+      "Cover, simmer for 15 minutes, then rest off the heat for 10 minutes before fluffing."
+    ]
+  },
+  {
+    "id": "kuzu-etli-pilav",
+    "name": "Kuzu Etli Pilav (Lamb Rice Pilaf)",
+    "emoji": "🍚",
+    "region": "Turkish",
+    "mealType": "main-course",
+    "dietTags": ["meat"],
+    "servings": 6,
+    "calories": 520,
+    "prepTime": 15,
+    "cookTime": 55,
+    "description": "Tender braised lamb folded through buttery, fragrant rice pilaf.",
+    "ingredients": [
+      { "name": "lamb shoulder", "amount": 600, "unit": "g" },
+      { "name": "rice", "amount": 300, "unit": "g" },
+      { "name": "onion", "amount": 1, "unit": "pcs" },
+      { "name": "butter", "amount": 50, "unit": "g" },
+      { "name": "allspice", "amount": 1, "unit": "tsp" },
+      { "name": "cinnamon", "amount": 0.5, "unit": "tsp" },
+      { "name": "beef stock", "amount": 700, "unit": "ml" },
+      { "name": "salt", "amount": 5, "unit": "g" }
+    ],
+    "steps": [
+      "Brown the diced lamb in butter, then add the onion and soften.",
+      "Stir in the allspice and cinnamon, pour in half the stock, cover, and simmer for 40 minutes until the lamb is tender.",
+      "Stir in the rinsed rice and the remaining stock, and season with salt.",
+      "Cover, simmer for 15 minutes, then rest for 10 minutes off the heat before fluffing."
+    ]
+  },
+  {
+    "id": "spanakorizo",
+    "name": "Spanakorizo (Greek Spinach Rice)",
+    "emoji": "🍚",
+    "region": "Greek",
+    "mealType": "main-course",
+    "dietTags": ["vegan"],
+    "servings": 6,
+    "calories": 240,
+    "prepTime": 10,
+    "cookTime": 25,
+    "description": "A bright, lemony Greek rice dish loaded with spinach and fresh dill.",
+    "ingredients": [
+      { "name": "rice", "amount": 250, "unit": "g" },
+      { "name": "spinach", "amount": 400, "unit": "g" },
+      { "name": "onion", "amount": 1, "unit": "pcs" },
+      { "name": "olive oil", "amount": 4, "unit": "tbsp" },
+      { "name": "dill", "amount": 1, "unit": "bunch" },
+      { "name": "lemon", "amount": 1, "unit": "pcs" },
+      { "name": "vegetable stock", "amount": 500, "unit": "ml" },
+      { "name": "salt", "amount": 5, "unit": "g" }
+    ],
+    "steps": [
+      "Soften the diced onion in olive oil, then add the rice and stir for a minute.",
+      "Add the stock and salt, bring to a simmer, and cook for 10 minutes.",
+      "Stir in the spinach and cook until wilted and the rice is tender, about 8 minutes more.",
+      "Off the heat, stir through the chopped dill and a good squeeze of lemon juice."
+    ]
+  },
+  {
+    "id": "biber-dolmasi",
+    "name": "Biber Dolması (Rice-Stuffed Peppers)",
+    "emoji": "🫑",
+    "region": "Turkish",
+    "mealType": "main-course",
+    "dietTags": ["vegan"],
+    "servings": 6,
+    "calories": 260,
+    "prepTime": 25,
+    "cookTime": 45,
+    "description": "Green peppers stuffed with spiced rice, tomato, and herbs, gently simmered in olive oil.",
+    "ingredients": [
+      { "name": "green pepper", "amount": 8, "unit": "pcs" },
+      { "name": "rice", "amount": 200, "unit": "g" },
+      { "name": "onion", "amount": 1, "unit": "pcs" },
+      { "name": "tomato", "amount": 2, "unit": "pcs" },
+      { "name": "tomato paste", "amount": 1, "unit": "tbsp" },
+      { "name": "olive oil", "amount": 4, "unit": "tbsp" },
+      { "name": "dried mint", "amount": 1, "unit": "tsp" },
+      { "name": "parsley", "amount": 1, "unit": "bunch" },
+      { "name": "water", "amount": 300, "unit": "ml" }
+    ],
+    "steps": [
+      "Slice the tops off the peppers and hollow out the seeds.",
+      "Mix the rice with diced onion, grated tomato, tomato paste, olive oil, dried mint, and chopped parsley for the filling.",
+      "Spoon the filling into the peppers, leaving room for the rice to expand, and arrange upright in a pot.",
+      "Add the water, cover, and simmer for 40–45 minutes until the peppers are tender and the rice is cooked through."
+    ]
+  },
+  {
+    "id": "sutlac",
+    "name": "Sütlaç (Turkish Rice Pudding)",
+    "emoji": "🍮",
+    "region": "Turkish",
+    "mealType": "snack",
+    "dietTags": ["vegetarian"],
+    "servings": 6,
+    "calories": 260,
+    "prepTime": 10,
+    "cookTime": 40,
+    "description": "A creamy baked Turkish rice pudding with a golden top — a classic milk-based dessert.",
+    "ingredients": [
+      { "name": "rice", "amount": 100, "unit": "g" },
+      { "name": "milk", "amount": 1, "unit": "l" },
+      { "name": "sugar", "amount": 120, "unit": "g" },
+      { "name": "cornflour", "amount": 2, "unit": "tbsp" },
+      { "name": "vanilla extract", "amount": 1, "unit": "tsp" },
+      { "name": "egg yolk", "amount": 2, "unit": "pcs" }
+    ],
+    "steps": [
+      "Simmer the rice in a little water until softened, then drain.",
+      "Add the milk and sugar, and cook gently for 20 minutes, stirring occasionally.",
+      "Whisk the cornflour with a splash of cold milk, stir into the pot, and cook until thickened.",
+      "Off the heat, stir in the vanilla and egg yolks, pour into ramekins, and grill until golden on top; chill before serving."
+    ]
+  },
+  {
+    "id": "bulgur-pilavi",
+    "name": "Bulgur Pilavı (Turkish Bulgur Pilaf)",
+    "emoji": "🌾",
+    "region": "Turkish",
+    "mealType": "side",
+    "dietTags": ["vegan"],
+    "servings": 6,
+    "calories": 220,
+    "prepTime": 5,
+    "cookTime": 20,
+    "description": "A simple, everyday Turkish bulgur pilaf with tomato and green pepper — the classic partner to grilled meats.",
+    "ingredients": [
+      { "name": "coarse bulgur", "amount": 300, "unit": "g" },
+      { "name": "tomato", "amount": 2, "unit": "pcs" },
+      { "name": "green pepper", "amount": 1, "unit": "pcs" },
+      { "name": "tomato paste", "amount": 1, "unit": "tbsp" },
+      { "name": "olive oil", "amount": 3, "unit": "tbsp" },
+      { "name": "vegetable stock", "amount": 500, "unit": "ml" },
+      { "name": "salt", "amount": 5, "unit": "g" }
+    ],
+    "steps": [
+      "Sauté the diced pepper in olive oil until softened, then stir in the tomato paste.",
+      "Add the diced tomato and cook for a few minutes until it breaks down.",
+      "Stir in the bulgur, then pour in the stock and salt.",
+      "Bring to the boil, cover, and simmer for 15 minutes, then rest for 10 minutes before fluffing."
+    ]
+  },
+  {
+    "id": "mercimekli-bulgur-pilavi",
+    "name": "Mercimekli Bulgur Pilavı (Bulgur Pilaf with Red Lentils)",
+    "emoji": "🌾",
+    "region": "Turkish",
+    "mealType": "main-course",
+    "dietTags": ["vegan"],
+    "servings": 6,
+    "calories": 300,
+    "prepTime": 10,
+    "cookTime": 30,
+    "description": "A rustic, protein-rich bulgur and red lentil pilaf, warmed with cumin and paprika.",
+    "ingredients": [
+      { "name": "coarse bulgur", "amount": 200, "unit": "g" },
+      { "name": "red lentils", "amount": 150, "unit": "g" },
+      { "name": "onion", "amount": 1, "unit": "pcs" },
+      { "name": "olive oil", "amount": 3, "unit": "tbsp" },
+      { "name": "cumin", "amount": 1, "unit": "tsp" },
+      { "name": "paprika", "amount": 1, "unit": "tsp" },
+      { "name": "vegetable stock", "amount": 700, "unit": "ml" },
+      { "name": "salt", "amount": 5, "unit": "g" }
+    ],
+    "steps": [
+      "Sauté the onion in olive oil until golden, then stir in the cumin and paprika.",
+      "Add the red lentils and stock, bring to a simmer, and cook for 10 minutes until the lentils soften.",
+      "Stir in the bulgur and salt, cover, and simmer for 12–15 minutes until all the liquid is absorbed.",
+      "Rest for 5 minutes off the heat before serving."
+    ]
+  },
+  {
+    "id": "mercimekli-kofte",
+    "name": "Mercimekli Köfte (Lentil & Bulgur Patties)",
+    "emoji": "🥗",
+    "region": "Turkish",
+    "mealType": "meze",
+    "dietTags": ["vegan"],
+    "servings": 6,
+    "calories": 180,
+    "prepTime": 20,
+    "cookTime": 20,
+    "description": "No-cook-required vegan bulgur and red lentil patties, packed with herbs and spice.",
+    "ingredients": [
+      { "name": "fine bulgur", "amount": 150, "unit": "g" },
+      { "name": "red lentils", "amount": 150, "unit": "g" },
+      { "name": "onion", "amount": 1, "unit": "pcs" },
+      { "name": "tomato paste", "amount": 2, "unit": "tbsp" },
+      { "name": "spring onion", "amount": 4, "unit": "pcs" },
+      { "name": "parsley", "amount": 1, "unit": "bunch" },
+      { "name": "cumin", "amount": 1, "unit": "tsp" },
+      { "name": "chilli flakes", "amount": 1, "unit": "tsp" },
+      { "name": "lemon", "amount": 1, "unit": "pcs" },
+      { "name": "olive oil", "amount": 2, "unit": "tbsp" }
+    ],
+    "steps": [
+      "Cook the red lentils in water until soft, about 15 minutes, then drain any excess liquid.",
+      "While still hot, stir in the bulgur and cover for 10 minutes so it steams and softens.",
+      "Sauté the onion in olive oil until deep golden, then stir in the tomato paste, cumin, and chilli flakes.",
+      "Mix everything together with the chopped spring onion and parsley, shape into small ovals, and serve with lemon wedges."
+    ]
+  },
+  {
+    "id": "mujaddara",
+    "name": "Mujaddara (Bulgur with Lentils & Caramelised Onions)",
+    "emoji": "🧅",
+    "region": "Levantine",
+    "mealType": "main-course",
+    "dietTags": ["vegan"],
+    "servings": 6,
+    "calories": 320,
+    "prepTime": 10,
+    "cookTime": 40,
+    "description": "A humble, deeply comforting Levantine classic of bulgur and lentils topped with sweet caramelised onions.",
+    "ingredients": [
+      { "name": "coarse bulgur", "amount": 200, "unit": "g" },
+      { "name": "brown lentils", "amount": 200, "unit": "g" },
+      { "name": "onion", "amount": 3, "unit": "pcs" },
+      { "name": "olive oil", "amount": 4, "unit": "tbsp" },
+      { "name": "cumin", "amount": 1, "unit": "tsp" },
+      { "name": "vegetable stock", "amount": 600, "unit": "ml" },
+      { "name": "salt", "amount": 5, "unit": "g" }
+    ],
+    "steps": [
+      "Cook the lentils in the stock for 15–20 minutes until just tender.",
+      "Meanwhile, thinly slice the onions and fry slowly in olive oil for 20 minutes until deep golden and caramelised.",
+      "Stir the bulgur and cumin into the lentils, cover, and simmer for 12–15 minutes until the liquid is absorbed.",
+      "Season with salt, pile onto a plate, and top generously with the caramelised onions."
+    ]
+  },
+  {
+    "id": "ensalada-mixta",
+    "name": "Ensalada Mixta (Spanish Mixed Salad)",
+    "emoji": "🥗",
+    "region": "Spanish",
+    "mealType": "salad",
+    "dietTags": ["vegan"],
+    "servings": 6,
+    "calories": 150,
+    "prepTime": 15,
+    "cookTime": 0,
+    "description": "A simple, refreshing Spanish salad of crisp lettuce, tomato, onion, and olives.",
+    "ingredients": [
+      { "name": "lettuce", "amount": 1, "unit": "pcs" },
+      { "name": "tomato", "amount": 3, "unit": "pcs" },
+      { "name": "red onion", "amount": 1, "unit": "pcs" },
+      { "name": "black olives", "amount": 80, "unit": "g" },
+      { "name": "olive oil", "amount": 3, "unit": "tbsp" },
+      { "name": "sherry vinegar", "amount": 1, "unit": "tbsp" },
+      { "name": "salt", "amount": 3, "unit": "g" }
+    ],
+    "steps": [
+      "Tear the lettuce into bite-sized pieces and arrange on a platter.",
+      "Slice the tomatoes and red onion and scatter over the lettuce.",
+      "Add the black olives.",
+      "Whisk the olive oil, sherry vinegar, and salt together and drizzle over just before serving."
+    ]
+  },
+  {
+    "id": "coleslaw",
+    "name": "Coleslaw",
+    "emoji": "🥬",
+    "region": "British",
+    "mealType": "salad",
+    "dietTags": ["vegetarian"],
+    "servings": 6,
+    "calories": 160,
+    "prepTime": 15,
+    "cookTime": 0,
+    "description": "A crunchy, creamy British coleslaw — the classic cold side for a barbecue or Sunday spread.",
+    "ingredients": [
+      { "name": "white cabbage", "amount": 400, "unit": "g" },
+      { "name": "carrot", "amount": 2, "unit": "pcs" },
+      { "name": "red onion", "amount": 0.5, "unit": "pcs" },
+      { "name": "mayonnaise", "amount": 150, "unit": "g" },
+      { "name": "white wine vinegar", "amount": 1, "unit": "tbsp" },
+      { "name": "sugar", "amount": 1, "unit": "tsp" },
+      { "name": "salt", "amount": 3, "unit": "g" }
+    ],
+    "steps": [
+      "Finely shred the cabbage and carrot, and thinly slice the onion.",
+      "Whisk the mayonnaise, vinegar, sugar, and salt together in a large bowl.",
+      "Add the shredded vegetables and toss well to coat.",
+      "Chill for at least 30 minutes before serving."
+    ]
+  },
+  {
+    "id": "lamb-tagine-prunes",
+    "name": "Lamb Tagine with Prunes & Almonds",
+    "emoji": "🍲",
+    "region": "Moroccan",
+    "mealType": "main-course",
+    "dietTags": ["meat"],
+    "servings": 6,
+    "calories": 520,
+    "prepTime": 20,
+    "cookTime": 90,
+    "description": "A sweet-savoury Moroccan tagine of tender lamb slow-cooked with prunes, almonds, and warming spices.",
+    "ingredients": [
+      { "name": "lamb shoulder", "amount": 700, "unit": "g" },
+      { "name": "onion", "amount": 2, "unit": "pcs" },
+      { "name": "prunes", "amount": 150, "unit": "g" },
+      { "name": "almonds", "amount": 50, "unit": "g" },
+      { "name": "cinnamon", "amount": 1, "unit": "tsp" },
+      { "name": "ginger", "amount": 1, "unit": "tsp" },
+      { "name": "honey", "amount": 2, "unit": "tbsp" },
+      { "name": "olive oil", "amount": 2, "unit": "tbsp" },
+      { "name": "beef stock", "amount": 500, "unit": "ml" }
+    ],
+    "steps": [
+      "Brown the diced lamb in olive oil, then add the onion and soften.",
+      "Stir in the cinnamon and ginger, then pour in the stock and bring to a simmer.",
+      "Cover and cook gently for 70 minutes until the lamb is tender.",
+      "Stir in the prunes and honey, simmer for 10 more minutes, and scatter with toasted almonds before serving."
+    ]
+  },
+  {
+    "id": "moroccan-fish-tagine",
+    "name": "Chermoula Fish Tagine",
+    "emoji": "🐟",
+    "region": "Moroccan",
+    "mealType": "main-course",
+    "dietTags": ["seafood"],
+    "servings": 4,
+    "calories": 380,
+    "prepTime": 20,
+    "cookTime": 30,
+    "description": "White fish gently braised in a vibrant Moroccan chermoula of herbs, garlic, and spices.",
+    "ingredients": [
+      { "name": "cod fillet", "amount": 600, "unit": "g" },
+      { "name": "garlic", "amount": 4, "unit": "clove" },
+      { "name": "coriander", "amount": 1, "unit": "bunch" },
+      { "name": "cumin", "amount": 1, "unit": "tsp" },
+      { "name": "paprika", "amount": 1, "unit": "tsp" },
+      { "name": "lemon", "amount": 1, "unit": "pcs" },
+      { "name": "olive oil", "amount": 4, "unit": "tbsp" },
+      { "name": "tomato", "amount": 3, "unit": "pcs" },
+      { "name": "red pepper", "amount": 1, "unit": "pcs" }
+    ],
+    "steps": [
+      "Blend the garlic, coriander, cumin, paprika, lemon juice, and olive oil into a chermoula paste.",
+      "Rub half the paste over the fish and set aside to marinate for 15 minutes.",
+      "Layer the sliced tomato and pepper in a pan, spoon over the remaining chermoula, and lay the fish on top.",
+      "Cover and cook gently for 20–25 minutes until the fish flakes easily and the vegetables are tender."
+    ]
+  },
+  {
+    "id": "vegetable-tagine",
+    "name": "Vegetable & Chickpea Tagine",
+    "emoji": "🥘",
+    "region": "Moroccan",
+    "mealType": "main-course",
+    "dietTags": ["vegan"],
+    "servings": 6,
+    "calories": 280,
+    "prepTime": 20,
+    "cookTime": 40,
+    "description": "A warming, spiced Moroccan tagine of chickpeas and root vegetables, finished with apricots.",
+    "ingredients": [
+      { "name": "chickpeas", "amount": 400, "unit": "g" },
+      { "name": "carrot", "amount": 2, "unit": "pcs" },
+      { "name": "courgette", "amount": 2, "unit": "pcs" },
+      { "name": "sweet potato", "amount": 1, "unit": "pcs" },
+      { "name": "onion", "amount": 1, "unit": "pcs" },
+      { "name": "dried apricot", "amount": 60, "unit": "g" },
+      { "name": "cinnamon", "amount": 1, "unit": "tsp" },
+      { "name": "cumin", "amount": 1, "unit": "tsp" },
+      { "name": "olive oil", "amount": 2, "unit": "tbsp" },
+      { "name": "vegetable stock", "amount": 500, "unit": "ml" }
+    ],
+    "steps": [
+      "Soften the onion in olive oil, then stir in the cumin and cinnamon.",
+      "Add the carrot, sweet potato, and stock, and simmer for 15 minutes.",
+      "Add the courgette, chickpeas, and dried apricots, and simmer for 15–20 minutes more until the vegetables are tender.",
+      "Season and serve with couscous or flatbread."
+    ]
+  },
+  {
+    "id": "kefta-tagine",
+    "name": "Kefta Tagine (Spiced Meatballs in Tomato & Egg Sauce)",
+    "emoji": "🍅",
+    "region": "Moroccan",
+    "mealType": "main-course",
+    "dietTags": ["meat"],
+    "servings": 6,
+    "calories": 460,
+    "prepTime": 25,
+    "cookTime": 35,
+    "description": "Spiced Moroccan meatballs simmered in a rich tomato sauce, traditionally finished with poached eggs.",
+    "ingredients": [
+      { "name": "beef mince", "amount": 500, "unit": "g" },
+      { "name": "onion", "amount": 1, "unit": "pcs" },
+      { "name": "parsley", "amount": 1, "unit": "bunch" },
+      { "name": "cumin", "amount": 1, "unit": "tsp" },
+      { "name": "paprika", "amount": 1, "unit": "tsp" },
+      { "name": "chopped tomatoes", "amount": 400, "unit": "g" },
+      { "name": "garlic", "amount": 3, "unit": "clove" },
+      { "name": "egg", "amount": 4, "unit": "pcs" },
+      { "name": "olive oil", "amount": 2, "unit": "tbsp" }
+    ],
+    "steps": [
+      "Mix the mince with grated onion, chopped parsley, cumin, and paprika, and shape into small balls.",
+      "Simmer the garlic and chopped tomatoes in olive oil for 10 minutes to make the sauce.",
+      "Add the meatballs to the sauce and simmer for 20 minutes, turning occasionally.",
+      "Crack the eggs over the top, cover, and cook for 5 minutes until just set."
+    ]
+  },
+  {
+    "id": "couscous-royal",
+    "name": "Couscous with Seven Vegetables",
+    "emoji": "🥕",
+    "region": "Moroccan",
+    "mealType": "main-course",
+    "dietTags": ["vegetarian"],
+    "servings": 6,
+    "calories": 340,
+    "prepTime": 20,
+    "cookTime": 40,
+    "description": "A festive Moroccan couscous piled with seven vegetables in a fragrant spiced broth.",
+    "ingredients": [
+      { "name": "couscous", "amount": 300, "unit": "g" },
+      { "name": "carrot", "amount": 2, "unit": "pcs" },
+      { "name": "courgette", "amount": 2, "unit": "pcs" },
+      { "name": "turnip", "amount": 1, "unit": "pcs" },
+      { "name": "pumpkin", "amount": 200, "unit": "g" },
+      { "name": "chickpeas", "amount": 300, "unit": "g" },
+      { "name": "onion", "amount": 1, "unit": "pcs" },
+      { "name": "cinnamon", "amount": 1, "unit": "tsp" },
+      { "name": "vegetable stock", "amount": 700, "unit": "ml" },
+      { "name": "butter", "amount": 30, "unit": "g" }
+    ],
+    "steps": [
+      "Simmer the onion, carrot, turnip, and pumpkin in the stock with cinnamon for 15 minutes.",
+      "Add the courgette and chickpeas and simmer for a further 10 minutes until all the vegetables are tender.",
+      "Meanwhile, pour boiling water over the couscous, cover, and let it steam for 5 minutes, then fluff with butter.",
+      "Pile the couscous onto a platter and top with the vegetables and a ladle of broth."
+    ]
+  },
+  {
+    "id": "taktouka",
+    "name": "Taktouka (Moroccan Tomato & Pepper Salad)",
+    "emoji": "🍅",
+    "region": "Moroccan",
+    "mealType": "salad",
+    "dietTags": ["vegan"],
+    "servings": 6,
+    "calories": 130,
+    "prepTime": 15,
+    "cookTime": 15,
+    "description": "A smoky Moroccan cooked salad of roasted peppers and tomatoes, spiced with cumin and paprika.",
+    "ingredients": [
+      { "name": "red pepper", "amount": 4, "unit": "pcs" },
+      { "name": "tomato", "amount": 4, "unit": "pcs" },
+      { "name": "garlic", "amount": 2, "unit": "clove" },
+      { "name": "olive oil", "amount": 3, "unit": "tbsp" },
+      { "name": "cumin", "amount": 1, "unit": "tsp" },
+      { "name": "paprika", "amount": 1, "unit": "tsp" }
+    ],
+    "steps": [
+      "Roast or grill the peppers until blackened, then peel and slice.",
+      "Simmer the chopped tomatoes and garlic in olive oil for 10 minutes until pulpy.",
+      "Stir in the roasted peppers, cumin, and paprika, and cook for 5 more minutes.",
+      "Season and serve warm or at room temperature."
+    ]
+  },
+  {
+    "id": "shawarma-chicken",
+    "name": "Chicken Shawarma",
+    "emoji": "🌯",
+    "region": "Levantine",
+    "mealType": "main-course",
+    "dietTags": ["meat"],
+    "servings": 4,
+    "calories": 420,
+    "prepTime": 20,
+    "cookTime": 20,
+    "description": "Spiced, garlicky chicken thigh grilled until charred — the Levantine street food classic.",
+    "ingredients": [
+      { "name": "chicken thigh", "amount": 700, "unit": "g" },
+      { "name": "garlic", "amount": 4, "unit": "clove" },
+      { "name": "greek yoghurt", "amount": 100, "unit": "g" },
+      { "name": "cumin", "amount": 1, "unit": "tsp" },
+      { "name": "paprika", "amount": 1, "unit": "tsp" },
+      { "name": "turmeric", "amount": 0.5, "unit": "tsp" },
+      { "name": "lemon", "amount": 1, "unit": "pcs" },
+      { "name": "olive oil", "amount": 2, "unit": "tbsp" }
+    ],
+    "steps": [
+      "Mix the garlic, yoghurt, cumin, paprika, turmeric, lemon juice, and olive oil into a marinade.",
+      "Coat the chicken thighs and marinate for at least 1 hour, or overnight.",
+      "Grill or pan-fry over high heat for 8–10 minutes per side until charred and cooked through.",
+      "Rest for a few minutes, then slice thinly and serve in flatbread."
+    ]
+  },
+  {
+    "id": "kofta-kebab",
+    "name": "Levantine Beef Kofta Kebabs",
+    "emoji": "🍢",
+    "region": "Levantine",
+    "mealType": "main-course",
+    "dietTags": ["meat"],
+    "servings": 6,
+    "calories": 440,
+    "prepTime": 20,
+    "cookTime": 15,
+    "description": "Char-grilled spiced beef kofta skewers, a Levantine grill-house favourite.",
+    "ingredients": [
+      { "name": "beef mince", "amount": 600, "unit": "g" },
+      { "name": "onion", "amount": 1, "unit": "pcs" },
+      { "name": "parsley", "amount": 1, "unit": "bunch" },
+      { "name": "allspice", "amount": 1, "unit": "tsp" },
+      { "name": "cumin", "amount": 1, "unit": "tsp" },
+      { "name": "chilli flakes", "amount": 1, "unit": "tsp" },
+      { "name": "salt", "amount": 5, "unit": "g" }
+    ],
+    "steps": [
+      "Mix the mince with grated onion, chopped parsley, allspice, cumin, chilli flakes, and salt.",
+      "Knead well until sticky, then shape around skewers into long kofta.",
+      "Grill over high heat for 3–4 minutes per side until charred and cooked through.",
+      "Serve with flatbread and a squeeze of lemon."
+    ]
+  },
+  {
+    "id": "maqluba",
+    "name": "Maqluba (Upside-Down Rice with Chicken & Vegetables)",
+    "emoji": "🍚",
+    "region": "Levantine",
+    "mealType": "main-course",
+    "dietTags": ["meat"],
+    "servings": 6,
+    "calories": 520,
+    "prepTime": 25,
+    "cookTime": 50,
+    "description": "A spectacular Levantine layered rice dish, flipped out of the pot to reveal chicken and vegetables.",
+    "ingredients": [
+      { "name": "chicken thigh", "amount": 600, "unit": "g" },
+      { "name": "rice", "amount": 300, "unit": "g" },
+      { "name": "aubergine", "amount": 1, "unit": "pcs" },
+      { "name": "cauliflower", "amount": 300, "unit": "g" },
+      { "name": "onion", "amount": 1, "unit": "pcs" },
+      { "name": "cinnamon", "amount": 1, "unit": "tsp" },
+      { "name": "allspice", "amount": 1, "unit": "tsp" },
+      { "name": "chicken stock", "amount": 600, "unit": "ml" },
+      { "name": "olive oil", "amount": 3, "unit": "tbsp" }
+    ],
+    "steps": [
+      "Fry the aubergine and cauliflower in olive oil until golden; set aside.",
+      "Brown the chicken with the onion, cinnamon, and allspice.",
+      "Layer the fried vegetables, then the chicken, then the rice in a pot, and pour over the stock.",
+      "Cover and simmer for 30–35 minutes until the rice is cooked, then invert onto a large platter to serve."
+    ]
+  },
+  {
+    "id": "musakhan",
+    "name": "Musakhan (Sumac Chicken with Onions on Flatbread)",
+    "emoji": "🍗",
+    "region": "Levantine",
+    "mealType": "main-course",
+    "dietTags": ["meat"],
+    "servings": 4,
+    "calories": 480,
+    "prepTime": 15,
+    "cookTime": 45,
+    "description": "Roasted sumac-spiced chicken over caramelised onions on flatbread — a Palestinian classic.",
+    "ingredients": [
+      { "name": "chicken thigh", "amount": 700, "unit": "g" },
+      { "name": "onion", "amount": 3, "unit": "pcs" },
+      { "name": "sumac", "amount": 2, "unit": "tbsp" },
+      { "name": "allspice", "amount": 1, "unit": "tsp" },
+      { "name": "olive oil", "amount": 4, "unit": "tbsp" },
+      { "name": "flatbread", "amount": 4, "unit": "pcs" },
+      { "name": "pine nuts", "amount": 30, "unit": "g" }
+    ],
+    "steps": [
+      "Toss the sliced onions with sumac, allspice, and half the olive oil.",
+      "Spread the onions in a roasting tray, place the chicken on top, and drizzle with the remaining oil.",
+      "Roast at 200°C for 40–45 minutes until the chicken is cooked and the onions are caramelised.",
+      "Pile onto flatbread, spoon over the onions and pan juices, and scatter with toasted pine nuts."
+    ]
+  },
+  {
+    "id": "fasolia",
+    "name": "Fasolia (Levantine Green Bean & Tomato Stew)",
+    "emoji": "🫘",
+    "region": "Levantine",
+    "mealType": "main-course",
+    "dietTags": ["vegan"],
+    "servings": 6,
+    "calories": 240,
+    "prepTime": 15,
+    "cookTime": 35,
+    "description": "A comforting Levantine stew of green beans slow-cooked in garlicky tomato sauce.",
+    "ingredients": [
+      { "name": "green beans", "amount": 500, "unit": "g" },
+      { "name": "onion", "amount": 1, "unit": "pcs" },
+      { "name": "garlic", "amount": 3, "unit": "clove" },
+      { "name": "chopped tomatoes", "amount": 400, "unit": "g" },
+      { "name": "tomato paste", "amount": 1, "unit": "tbsp" },
+      { "name": "olive oil", "amount": 3, "unit": "tbsp" },
+      { "name": "cinnamon", "amount": 0.5, "unit": "tsp" }
+    ],
+    "steps": [
+      "Sauté the onion and garlic in olive oil until soft.",
+      "Stir in the tomato paste, chopped tomatoes, and cinnamon.",
+      "Add the green beans, cover, and simmer for 25–30 minutes until tender.",
+      "Season and serve warm with rice or bread."
+    ]
+  },
+  {
+    "id": "batata-harra",
+    "name": "Batata Harra (Spicy Lebanese Potatoes)",
+    "emoji": "🌶️",
+    "region": "Levantine",
+    "mealType": "side",
+    "dietTags": ["vegan"],
+    "servings": 6,
+    "calories": 220,
+    "prepTime": 10,
+    "cookTime": 25,
+    "description": "Crisp fried potato cubes tossed with garlic, chilli, and fresh coriander.",
+    "ingredients": [
+      { "name": "potato", "amount": 6, "unit": "pcs" },
+      { "name": "garlic", "amount": 3, "unit": "clove" },
+      { "name": "chilli flakes", "amount": 1, "unit": "tsp" },
+      { "name": "coriander", "amount": 1, "unit": "bunch" },
+      { "name": "lemon", "amount": 1, "unit": "pcs" },
+      { "name": "olive oil", "amount": 4, "unit": "tbsp" }
+    ],
+    "steps": [
+      "Cut the potatoes into cubes and fry in olive oil until golden and crisp; drain.",
+      "Sauté the garlic and chilli flakes briefly in a little oil until fragrant.",
+      "Toss the hot potatoes through the garlic and chilli oil.",
+      "Finish with chopped coriander and a squeeze of lemon."
+    ]
+  },
+  {
+    "id": "pollo-chorizo",
+    "name": "Chicken and Chorizo Stew",
+    "emoji": "🍗",
+    "region": "Spanish",
+    "mealType": "main-course",
+    "dietTags": ["meat"],
+    "servings": 6,
+    "calories": 460,
+    "prepTime": 15,
+    "cookTime": 45,
+    "description": "A rustic Spanish stew of chicken and chorizo simmered with peppers and paprika.",
+    "ingredients": [
+      { "name": "chicken thigh", "amount": 700, "unit": "g" },
+      { "name": "chorizo", "amount": 200, "unit": "g" },
+      { "name": "red pepper", "amount": 2, "unit": "pcs" },
+      { "name": "onion", "amount": 1, "unit": "pcs" },
+      { "name": "garlic", "amount": 3, "unit": "clove" },
+      { "name": "smoked paprika", "amount": 1, "unit": "tsp" },
+      { "name": "chopped tomatoes", "amount": 400, "unit": "g" },
+      { "name": "chicken stock", "amount": 300, "unit": "ml" }
+    ],
+    "steps": [
+      "Brown the chicken and sliced chorizo in a large pan; set aside.",
+      "Soften the onion, garlic, and pepper in the rendered fat.",
+      "Stir in the smoked paprika, chopped tomatoes, and stock, then return the chicken and chorizo to the pan.",
+      "Cover and simmer for 30–35 minutes until the chicken is tender."
+    ]
+  },
+  {
+    "id": "albondigas",
+    "name": "Albóndigas (Spanish Meatballs in Tomato Sauce)",
+    "emoji": "🍅",
+    "region": "Spanish",
+    "mealType": "main-course",
+    "dietTags": ["meat"],
+    "servings": 6,
+    "calories": 420,
+    "prepTime": 20,
+    "cookTime": 30,
+    "description": "Tender Spanish-style meatballs simmered in a rich garlicky tomato sauce.",
+    "ingredients": [
+      { "name": "beef mince", "amount": 500, "unit": "g" },
+      { "name": "breadcrumbs", "amount": 50, "unit": "g" },
+      { "name": "egg", "amount": 1, "unit": "pcs" },
+      { "name": "garlic", "amount": 4, "unit": "clove" },
+      { "name": "onion", "amount": 1, "unit": "pcs" },
+      { "name": "chopped tomatoes", "amount": 400, "unit": "g" },
+      { "name": "olive oil", "amount": 3, "unit": "tbsp" },
+      { "name": "paprika", "amount": 1, "unit": "tsp" }
+    ],
+    "steps": [
+      "Mix the mince with breadcrumbs, egg, and half the garlic, then shape into small balls.",
+      "Fry the meatballs in olive oil until browned all over; set aside.",
+      "Soften the onion and remaining garlic, stir in the paprika and chopped tomatoes, and simmer for 10 minutes.",
+      "Return the meatballs to the sauce and simmer for 15 minutes until cooked through."
+    ]
+  },
+  {
+    "id": "bacalao-al-horno",
+    "name": "Bacalao al Horno (Baked Cod with Peppers)",
+    "emoji": "🐟",
+    "region": "Spanish",
+    "mealType": "main-course",
+    "dietTags": ["seafood"],
+    "servings": 4,
+    "calories": 360,
+    "prepTime": 15,
+    "cookTime": 25,
+    "description": "Spanish baked cod with roasted peppers, tomatoes, and olive oil.",
+    "ingredients": [
+      { "name": "cod fillet", "amount": 600, "unit": "g" },
+      { "name": "red pepper", "amount": 2, "unit": "pcs" },
+      { "name": "tomato", "amount": 3, "unit": "pcs" },
+      { "name": "garlic", "amount": 3, "unit": "clove" },
+      { "name": "olive oil", "amount": 4, "unit": "tbsp" },
+      { "name": "paprika", "amount": 1, "unit": "tsp" }
+    ],
+    "steps": [
+      "Slice the peppers and tomatoes and toss with garlic, olive oil, and paprika in a baking dish.",
+      "Roast at 200°C for 15 minutes until softened.",
+      "Nestle the cod fillets among the vegetables and drizzle with more olive oil.",
+      "Bake for a further 12–15 minutes until the fish is just cooked through."
+    ]
+  },
+  {
+    "id": "lentejas",
+    "name": "Lentejas (Spanish Lentil Stew with Chorizo)",
+    "emoji": "🍲",
+    "region": "Spanish",
+    "mealType": "main-course",
+    "dietTags": ["meat"],
+    "servings": 6,
+    "calories": 420,
+    "prepTime": 10,
+    "cookTime": 40,
+    "description": "A hearty Spanish lentil stew simmered with chorizo, carrot, and smoked paprika.",
+    "ingredients": [
+      { "name": "brown lentils", "amount": 300, "unit": "g" },
+      { "name": "chorizo", "amount": 150, "unit": "g" },
+      { "name": "carrot", "amount": 2, "unit": "pcs" },
+      { "name": "onion", "amount": 1, "unit": "pcs" },
+      { "name": "garlic", "amount": 3, "unit": "clove" },
+      { "name": "smoked paprika", "amount": 1, "unit": "tsp" },
+      { "name": "chopped tomatoes", "amount": 400, "unit": "g" },
+      { "name": "vegetable stock", "amount": 700, "unit": "ml" }
+    ],
+    "steps": [
+      "Fry the sliced chorizo until it releases its oil, then add the onion, garlic, and carrot.",
+      "Stir in the smoked paprika and chopped tomatoes.",
+      "Add the lentils and stock, and bring to a simmer.",
+      "Cook for 30–35 minutes until the lentils are tender, stirring occasionally."
+    ]
+  },
+  {
+    "id": "escalivada",
+    "name": "Escalivada (Catalan Roasted Vegetable Salad)",
+    "emoji": "🍆",
+    "region": "Spanish",
+    "mealType": "salad",
+    "dietTags": ["vegan"],
+    "servings": 6,
+    "calories": 140,
+    "prepTime": 10,
+    "cookTime": 40,
+    "description": "Smoky Catalan roasted peppers, aubergine, and onion, dressed simply in olive oil.",
+    "ingredients": [
+      { "name": "red pepper", "amount": 3, "unit": "pcs" },
+      { "name": "aubergine", "amount": 2, "unit": "pcs" },
+      { "name": "onion", "amount": 1, "unit": "pcs" },
+      { "name": "olive oil", "amount": 4, "unit": "tbsp" },
+      { "name": "garlic", "amount": 1, "unit": "clove" },
+      { "name": "salt", "amount": 3, "unit": "g" }
+    ],
+    "steps": [
+      "Roast the whole peppers, aubergines, and onion at 200°C for 35–40 minutes until soft and blistered.",
+      "Cool slightly, then peel and tear the vegetables into strips.",
+      "Arrange on a platter and drizzle with olive oil and crushed garlic.",
+      "Season with salt and serve warm or at room temperature."
+    ]
+  },
+  {
+    "id": "pimientos-de-padron",
+    "name": "Pimientos de Padrón (Blistered Spanish Peppers)",
+    "emoji": "🫑",
+    "region": "Spanish",
+    "mealType": "side",
+    "dietTags": ["vegan"],
+    "servings": 4,
+    "calories": 120,
+    "prepTime": 5,
+    "cookTime": 10,
+    "description": "Small green peppers blistered in hot olive oil and finished with flaky sea salt — a Spanish tapas classic.",
+    "ingredients": [
+      { "name": "padron peppers", "amount": 250, "unit": "g" },
+      { "name": "olive oil", "amount": 3, "unit": "tbsp" },
+      { "name": "sea salt", "amount": 3, "unit": "g" }
+    ],
+    "steps": [
+      "Heat the olive oil in a pan until very hot.",
+      "Add the peppers and fry for 5–8 minutes, turning often, until blistered and blackened in spots.",
+      "Drain briefly on paper towels.",
+      "Scatter generously with sea salt and serve immediately."
+    ]
+  },
+  {
+    "id": "cottage-pie",
+    "name": "Cottage Pie",
+    "emoji": "🥧",
+    "region": "British",
+    "mealType": "main-course",
+    "dietTags": ["meat"],
+    "servings": 6,
+    "calories": 470,
+    "prepTime": 20,
+    "cookTime": 40,
+    "description": "The beef version of shepherd's pie — spiced minced beef under buttery mashed potato.",
+    "ingredients": [
+      { "name": "beef mince", "amount": 500, "unit": "g" },
+      { "name": "potato", "amount": 6, "unit": "pcs" },
+      { "name": "onion", "amount": 1, "unit": "pcs" },
+      { "name": "carrot", "amount": 2, "unit": "pcs" },
+      { "name": "tomato paste", "amount": 2, "unit": "tbsp" },
+      { "name": "beef stock", "amount": 300, "unit": "ml" },
+      { "name": "butter", "amount": 50, "unit": "g" },
+      { "name": "milk", "amount": 100, "unit": "ml" },
+      { "name": "worcestershire sauce", "amount": 1, "unit": "tbsp" }
+    ],
+    "steps": [
+      "Boil the potatoes until tender, then mash with the butter and milk.",
+      "Brown the mince with the onion and carrot.",
+      "Stir in the tomato paste, worcestershire sauce, and stock, and simmer for 15 minutes until thickened.",
+      "Top with the mash and bake at 200°C for 20 minutes until golden."
+    ]
+  },
+  {
+    "id": "toad-in-the-hole",
+    "name": "Toad in the Hole",
+    "emoji": "🌭",
+    "region": "British",
+    "mealType": "main-course",
+    "dietTags": ["meat"],
+    "servings": 4,
+    "calories": 520,
+    "prepTime": 10,
+    "cookTime": 35,
+    "description": "Sausages baked in a puffed-up Yorkshire pudding batter, served with onion gravy.",
+    "ingredients": [
+      { "name": "sausages", "amount": 8, "unit": "pcs" },
+      { "name": "plain flour", "amount": 140, "unit": "g" },
+      { "name": "egg", "amount": 4, "unit": "pcs" },
+      { "name": "milk", "amount": 200, "unit": "ml" },
+      { "name": "sunflower oil", "amount": 3, "unit": "tbsp" },
+      { "name": "onion", "amount": 1, "unit": "pcs" },
+      { "name": "beef stock", "amount": 300, "unit": "ml" }
+    ],
+    "steps": [
+      "Whisk the flour, eggs, and milk into a smooth batter and rest for 30 minutes.",
+      "Brown the sausages in a hot ovenproof pan with the oil.",
+      "Pour the batter around the sausages and bake at 220°C for 25–30 minutes until well risen and golden.",
+      "Meanwhile, soften the onion and simmer with the stock to make a gravy; serve alongside."
+    ]
+  },
+  {
+    "id": "mushy-peas",
+    "name": "Mushy Peas",
+    "emoji": "🟢",
+    "region": "British",
+    "mealType": "side",
+    "dietTags": ["vegan"],
+    "servings": 4,
+    "calories": 140,
+    "prepTime": 5,
+    "cookTime": 15,
+    "description": "Soft, buttery mashed marrowfat peas — the classic partner to fish and chips.",
+    "ingredients": [
+      { "name": "marrowfat peas", "amount": 300, "unit": "g" },
+      { "name": "butter", "amount": 20, "unit": "g" },
+      { "name": "mint", "amount": 1, "unit": "tsp" },
+      { "name": "salt", "amount": 3, "unit": "g" }
+    ],
+    "steps": [
+      "Soak the peas overnight if using dried, then simmer in water for 10–15 minutes until soft.",
+      "Drain, reserving a little of the cooking liquid.",
+      "Mash roughly with the butter and chopped mint, loosening with the reserved liquid if needed.",
+      "Season with salt and serve hot."
+    ]
+  },
+  {
+    "id": "lasagne",
+    "name": "Lasagne al Forno",
+    "emoji": "🍝",
+    "region": "Italian",
+    "mealType": "main-course",
+    "dietTags": ["meat"],
+    "servings": 8,
+    "calories": 560,
+    "prepTime": 30,
+    "cookTime": 50,
+    "description": "Layers of ragù, béchamel, and pasta baked until bubbling and golden.",
+    "ingredients": [
+      { "name": "beef mince", "amount": 500, "unit": "g" },
+      { "name": "onion", "amount": 1, "unit": "pcs" },
+      { "name": "carrot", "amount": 1, "unit": "pcs" },
+      { "name": "celery", "amount": 1, "unit": "pcs" },
+      { "name": "chopped tomatoes", "amount": 400, "unit": "g" },
+      { "name": "lasagne sheets", "amount": 250, "unit": "g" },
+      { "name": "butter", "amount": 50, "unit": "g" },
+      { "name": "flour", "amount": 50, "unit": "g" },
+      { "name": "milk", "amount": 700, "unit": "ml" },
+      { "name": "parmesan", "amount": 60, "unit": "g" }
+    ],
+    "steps": [
+      "Soften the onion, carrot, and celery, then brown the mince and add the chopped tomatoes; simmer for 30 minutes to make the ragù.",
+      "Melt the butter, whisk in the flour, then gradually add the milk to make a smooth béchamel.",
+      "Layer the ragù, béchamel, and lasagne sheets in a dish, finishing with béchamel and parmesan.",
+      "Bake at 190°C for 35–40 minutes until golden and bubbling."
+    ]
+  },
+  {
+    "id": "chicken-parmigiana",
+    "name": "Chicken Parmigiana",
+    "emoji": "🧀",
+    "region": "Italian",
+    "mealType": "main-course",
+    "dietTags": ["meat"],
+    "servings": 4,
+    "calories": 540,
+    "prepTime": 20,
+    "cookTime": 25,
+    "description": "Crisp breaded chicken breast topped with tomato sauce and melted cheese.",
+    "ingredients": [
+      { "name": "chicken breast", "amount": 4, "unit": "pcs" },
+      { "name": "breadcrumbs", "amount": 100, "unit": "g" },
+      { "name": "egg", "amount": 2, "unit": "pcs" },
+      { "name": "chopped tomatoes", "amount": 400, "unit": "g" },
+      { "name": "garlic", "amount": 2, "unit": "clove" },
+      { "name": "mozzarella", "amount": 150, "unit": "g" },
+      { "name": "parmesan", "amount": 40, "unit": "g" },
+      { "name": "olive oil", "amount": 3, "unit": "tbsp" }
+    ],
+    "steps": [
+      "Coat the chicken breasts in beaten egg, then breadcrumbs, and fry in olive oil until golden and cooked through.",
+      "Simmer the garlic and chopped tomatoes for 10 minutes to make a simple sauce.",
+      "Spoon the sauce over the chicken and top with mozzarella and parmesan.",
+      "Grill or bake until the cheese is melted and bubbling."
+    ]
+  },
+  {
+    "id": "insalata-di-finocchi",
+    "name": "Insalata di Finocchi (Fennel & Orange Salad)",
+    "emoji": "🍊",
+    "region": "Italian",
+    "mealType": "salad",
+    "dietTags": ["vegan"],
+    "servings": 6,
+    "calories": 130,
+    "prepTime": 15,
+    "cookTime": 0,
+    "description": "A crisp, refreshing Italian salad of shaved fennel and orange, dressed with olive oil.",
+    "ingredients": [
+      { "name": "fennel", "amount": 2, "unit": "pcs" },
+      { "name": "orange", "amount": 2, "unit": "pcs" },
+      { "name": "olive oil", "amount": 3, "unit": "tbsp" },
+      { "name": "black olives", "amount": 40, "unit": "g" },
+      { "name": "lemon", "amount": 1, "unit": "pcs" }
+    ],
+    "steps": [
+      "Thinly shave the fennel and arrange on a platter.",
+      "Segment the oranges and scatter over the fennel.",
+      "Add the olives.",
+      "Drizzle with olive oil and a squeeze of lemon just before serving."
+    ]
+  },
+  {
+    "id": "greek-lemon-chicken-potatoes",
+    "name": "Greek Lemon Roast Chicken & Potatoes",
+    "emoji": "🍋",
+    "region": "Greek",
+    "mealType": "main-course",
+    "dietTags": ["meat"],
+    "servings": 6,
+    "calories": 520,
+    "prepTime": 15,
+    "cookTime": 75,
+    "description": "Chicken and potatoes roasted together in a garlicky lemon and oregano marinade.",
+    "ingredients": [
+      { "name": "chicken thigh", "amount": 800, "unit": "g" },
+      { "name": "potato", "amount": 6, "unit": "pcs" },
+      { "name": "lemon", "amount": 2, "unit": "pcs" },
+      { "name": "garlic", "amount": 4, "unit": "clove" },
+      { "name": "oregano", "amount": 1, "unit": "tbsp" },
+      { "name": "olive oil", "amount": 4, "unit": "tbsp" },
+      { "name": "chicken stock", "amount": 200, "unit": "ml" }
+    ],
+    "steps": [
+      "Whisk the lemon juice, crushed garlic, oregano, and olive oil together.",
+      "Toss the chicken and quartered potatoes in the marinade and arrange in a roasting tray.",
+      "Pour over the stock and roast at 200°C for 30 minutes.",
+      "Baste and roast for a further 40–45 minutes until the chicken is golden and the potatoes are tender."
+    ]
+  },
+  {
+    "id": "marouli-salata",
+    "name": "Marouli Salata (Lettuce & Dill Salad)",
+    "emoji": "🥬",
+    "region": "Greek",
+    "mealType": "salad",
+    "dietTags": ["vegan"],
+    "servings": 6,
+    "calories": 90,
+    "prepTime": 10,
+    "cookTime": 0,
+    "description": "A light, crunchy Greek lettuce salad with spring onion, dill, and a lemony dressing.",
+    "ingredients": [
+      { "name": "lettuce", "amount": 1, "unit": "pcs" },
+      { "name": "spring onion", "amount": 4, "unit": "pcs" },
+      { "name": "dill", "amount": 1, "unit": "bunch" },
+      { "name": "olive oil", "amount": 3, "unit": "tbsp" },
+      { "name": "lemon", "amount": 1, "unit": "pcs" },
+      { "name": "salt", "amount": 3, "unit": "g" }
+    ],
+    "steps": [
+      "Shred the lettuce finely and place in a large bowl.",
+      "Add the sliced spring onion and chopped dill.",
+      "Whisk the olive oil, lemon juice, and salt together.",
+      "Toss the dressing through the salad just before serving."
+    ]
+  },
+  {
+    "id": "adana-kebap",
+    "name": "Adana Kebab",
+    "emoji": "🍢",
+    "region": "Turkish",
+    "mealType": "main-course",
+    "dietTags": ["meat"],
+    "servings": 4,
+    "calories": 460,
+    "prepTime": 20,
+    "cookTime": 15,
+    "description": "Hand-minced spiced lamb kebabs, grilled over charcoal in the style of Adana.",
+    "ingredients": [
+      { "name": "lamb mince", "amount": 500, "unit": "g" },
+      { "name": "red pepper", "amount": 1, "unit": "pcs" },
+      { "name": "garlic", "amount": 2, "unit": "clove" },
+      { "name": "chilli flakes", "amount": 1, "unit": "tsp" },
+      { "name": "sumac", "amount": 1, "unit": "tsp" },
+      { "name": "parsley", "amount": 1, "unit": "bunch" },
+      { "name": "salt", "amount": 5, "unit": "g" }
+    ],
+    "steps": [
+      "Finely chop the red pepper and garlic, and knead into the lamb mince with the chilli flakes, sumac, and salt.",
+      "Knead the mixture well for a few minutes until sticky, then shape around flat skewers.",
+      "Grill over high heat for 3–4 minutes per side until charred.",
+      "Serve with grilled flatbread, parsley, and a squeeze of lemon."
+    ]
+  },
+  {
+    "id": "hunkar-begendi",
+    "name": "Hünkar Beğendi (Sultan's Delight)",
+    "emoji": "🍆",
+    "region": "Turkish",
+    "mealType": "main-course",
+    "dietTags": ["meat"],
+    "servings": 6,
+    "calories": 480,
+    "prepTime": 20,
+    "cookTime": 60,
+    "description": "Tender braised lamb served over a silky smoked aubergine and cheese purée.",
+    "ingredients": [
+      { "name": "lamb shoulder", "amount": 600, "unit": "g" },
+      { "name": "aubergine", "amount": 3, "unit": "pcs" },
+      { "name": "onion", "amount": 1, "unit": "pcs" },
+      { "name": "tomato paste", "amount": 2, "unit": "tbsp" },
+      { "name": "milk", "amount": 200, "unit": "ml" },
+      { "name": "flour", "amount": 2, "unit": "tbsp" },
+      { "name": "kashkaval cheese", "amount": 60, "unit": "g" },
+      { "name": "butter", "amount": 30, "unit": "g" },
+      { "name": "beef stock", "amount": 400, "unit": "ml" }
+    ],
+    "steps": [
+      "Brown the diced lamb with the onion, stir in the tomato paste, add the stock, and simmer for 45 minutes until tender.",
+      "Char the aubergines over a flame until the skin blisters, then scoop out the smoky flesh.",
+      "Melt the butter, whisk in the flour, then gradually add the milk and aubergine flesh to make a smooth purée; stir in the cheese.",
+      "Spoon the purée onto plates and top with the braised lamb."
+    ]
+  }
+]
