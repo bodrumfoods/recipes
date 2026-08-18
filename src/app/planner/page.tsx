@@ -22,7 +22,7 @@ function DayColumn({ day }: { day: Weekday }) {
   }, 0);
 
   return (
-    <div className="flex min-w-[260px] flex-col gap-3 rounded-2xl border border-brand-border bg-brand-card p-4 transition hover:shadow-md">
+    <div className="flex w-full flex-col gap-3 rounded-2xl border border-brand-border bg-brand-card p-4 transition hover:shadow-md">
       <div className="flex items-baseline justify-between gap-2">
         <h3 className="font-display font-semibold text-brand-ink">{day}</h3>
         {dayCalories > 0 && (
@@ -110,6 +110,7 @@ export default function PlannerPage() {
   const entryCount = entries.length;
   const saveSnapshot = useHistoryStore((state) => state.saveSnapshot);
   const [saved, setSaved] = useState(false);
+  const [carouselIndex, setCarouselIndex] = useState(0);
   const weekCalories = useMemo(
     () =>
       entries.reduce((sum, entry) => {
@@ -173,10 +174,50 @@ export default function PlannerPage() {
         </div>
       </div>
 
-      <div className="flex gap-4 overflow-x-auto pb-4">
+      <div className="hidden gap-4 sm:grid sm:grid-cols-2">
         {WEEKDAYS.map((day) => (
           <DayColumn key={day} day={day} />
         ))}
+      </div>
+
+      <div className="sm:hidden">
+        <div className="mb-3 flex items-center justify-between gap-3">
+          <button
+            type="button"
+            onClick={() => setCarouselIndex((i) => (i - 1 + WEEKDAYS.length) % WEEKDAYS.length)}
+            aria-label="Previous day"
+            className="flex h-9 w-9 items-center justify-center rounded-full border border-brand-border text-brand-ink hover:border-brand-red hover:text-brand-red"
+          >
+            ‹
+          </button>
+          <span className="font-display text-lg font-semibold text-brand-ink">
+            {WEEKDAYS[carouselIndex]}
+          </span>
+          <button
+            type="button"
+            onClick={() => setCarouselIndex((i) => (i + 1) % WEEKDAYS.length)}
+            aria-label="Next day"
+            className="flex h-9 w-9 items-center justify-center rounded-full border border-brand-border text-brand-ink hover:border-brand-red hover:text-brand-red"
+          >
+            ›
+          </button>
+        </div>
+
+        <DayColumn day={WEEKDAYS[carouselIndex]} />
+
+        <div className="mt-4 flex justify-center gap-2">
+          {WEEKDAYS.map((day, i) => (
+            <button
+              key={day}
+              type="button"
+              onClick={() => setCarouselIndex(i)}
+              aria-label={`Show ${day}`}
+              className={`h-2 w-2 rounded-full transition ${
+                i === carouselIndex ? "bg-brand-red" : "bg-brand-border hover:bg-brand-red/40"
+              }`}
+            />
+          ))}
+        </div>
       </div>
     </div>
   );
