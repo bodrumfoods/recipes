@@ -3,6 +3,7 @@ import { recipes, regions } from "@/lib/recipes";
 import RecipeCard from "@/components/RecipeCard";
 import SectionHeader from "@/components/SectionHeader";
 import AppDownloadBanner from "@/components/AppDownloadBanner";
+import HeroSlider from "@/components/HeroSlider";
 
 export default function Home() {
   const [heroRecipe, ...restFeatured] = recipes;
@@ -10,6 +11,8 @@ export default function Home() {
 
   return (
     <div className="flex flex-col overflow-x-hidden">
+      <HeroSlider />
+
       <section className="relative overflow-hidden border-b border-brand-border bg-brand-muted">
         <div aria-hidden className="pointer-events-none absolute inset-0">
           <span className="animate-float-slow absolute -left-16 top-10 h-72 w-72 rounded-full bg-brand-red/10 blur-3xl" />
