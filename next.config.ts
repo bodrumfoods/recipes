@@ -5,6 +5,7 @@ const nextConfig: NextConfig = {
     remotePatterns: [
       { protocol: "https", hostname: "lh3.googleusercontent.com" },
       { protocol: "https", hostname: "bodrumfoods.co.uk" },
+      { protocol: "https", hostname: "cdn.shopify.com" },
     ],
   },
 };

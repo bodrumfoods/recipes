@@ -162,6 +162,7 @@
     "prepTime": 45,
     "cookTime": 40,
     "description": "Vine leaves rolled around a rice and herb filling.",
+    "image": "https://cdn.shopify.com/s/files/1/0900/4666/0952/files/Olive_Oil_Stuffed_Vine_Leaves.jpg?v=1787062835",
     "ingredients": [
       { "name": "vine leaves", "amount": 40, "unit": "pcs" },
       { "name": "rice", "amount": 200, "unit": "g" },
