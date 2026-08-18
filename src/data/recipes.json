@@ -2003,6 +2003,7 @@
     "prepTime": 5,
     "cookTime": 20,
     "description": "The ultimate Mediterranean side dish — fluffy rice toasted with vermicelli and butter.",
+    "image": "https://bodrumfoods.co.uk/cdn/shop/articles/Gemini_Generated_Image_cbfnadcbfnadcbfn_20e15c71-781f-4462-9f76-46dba93c83ca.png?v=1784619746&width=800",
     "ingredients": [
       { "name": "rice", "amount": 300, "unit": "g" },
       { "name": "vermicelli", "amount": 50, "unit": "g" },
