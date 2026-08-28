@@ -6,11 +6,10 @@ export default function CareersFooter() {
       <div className="mx-auto max-w-6xl px-4 py-12 sm:px-6">
         <div className="flex flex-col gap-8 sm:flex-row sm:justify-between">
           <div className="max-w-sm">
-            <div className="flex items-center gap-2.5">
-              <span className="flex h-8 w-8 items-center justify-center rounded-full bg-brand-red text-xs font-bold text-white">
-                BF
-              </span>
-              <span className="text-base font-bold text-white">Bodrum Foods Careers</span>
+            <div className="flex items-center gap-3">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img src="/careers/bodrum-logo.svg" alt="Bodrum Foods" className="h-8 w-auto" />
+              <span className="text-sm font-medium text-white/60">Careers</span>
             </div>
             <p className="mt-3 text-sm text-white/60">
               We bring Mediterranean flavours to tables across the UK — from our distribution

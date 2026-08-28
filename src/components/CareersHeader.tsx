@@ -11,14 +11,10 @@ export default function CareersHeader() {
   return (
     <header className="sticky top-0 z-40 border-b border-brand-border bg-white">
       <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-4 py-4 sm:px-6">
-        <Link href="/careers" className="flex items-center gap-2.5">
-          <span className="flex h-9 w-9 items-center justify-center rounded-full bg-brand-red text-sm font-bold tracking-tight text-white">
-            BF
-          </span>
-          <span className="flex items-baseline gap-2">
-            <span className="text-lg font-bold tracking-tight text-brand-ink">Bodrum Foods</span>
-            <span className="text-sm font-medium text-brand-ink/50">Careers</span>
-          </span>
+        <Link href="/careers" className="flex items-center gap-3">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img src="/careers/bodrum-logo.svg" alt="Bodrum Foods" className="h-9 w-auto" />
+          <span className="text-sm font-medium text-brand-ink/50">Careers</span>
         </Link>
 
         <nav className="hidden items-center gap-6 text-sm font-medium sm:flex">
