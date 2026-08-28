@@ -40,7 +40,7 @@ export default async function ApplyPage({
         <p className="text-xs font-semibold uppercase tracking-wide text-brand-red">
           Application form
         </p>
-        <h1 className="font-display mt-1 text-2xl font-bold text-brand-ink sm:text-3xl">
+        <h1 className="mt-1 text-2xl font-bold text-brand-ink sm:text-3xl">
           Apply for {job.title}
         </h1>
         <p className="mt-2 text-sm text-brand-ink/60">

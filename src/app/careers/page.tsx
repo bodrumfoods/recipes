@@ -48,7 +48,7 @@ function CareersContent() {
             <p className="text-sm font-semibold uppercase tracking-widest text-white/80">
               Careers at Bodrum Foods
             </p>
-            <h1 className="font-display mt-3 text-3xl font-bold leading-tight text-white sm:text-4xl">
+            <h1 className="mt-3 text-3xl font-bold leading-tight text-white sm:text-4xl">
               Help bring Mediterranean flavours to more tables across the UK
             </h1>
             <p className="mt-4 text-lg text-white/80">
@@ -113,7 +113,7 @@ function CareersContent() {
                     : "border-brand-border bg-brand-card hover:border-brand-ink/30"
                 }`}
               >
-                <span className="font-display text-lg font-bold text-brand-ink">{cat}</span>
+                <span className="text-lg font-bold text-brand-ink">{cat}</span>
                 <span className="text-sm text-brand-ink/60">{categoryBlurb[cat]}</span>
                 <span className="mt-auto pt-3 text-xs font-semibold uppercase tracking-wide text-brand-ink/50">
                   {count} open role{count === 1 ? "" : "s"}
@@ -128,7 +128,7 @@ function CareersContent() {
         <div className="grid grid-cols-1 gap-8 lg:grid-cols-[240px_1fr]">
           <aside className="space-y-6">
             <div>
-              <h2 className="font-display mb-3 text-sm font-semibold uppercase tracking-wide text-brand-ink/60">
+              <h2 className="mb-3 text-sm font-semibold uppercase tracking-wide text-brand-ink/60">
                 Employment type
               </h2>
               <div className="flex flex-col gap-2 text-sm">
@@ -155,7 +155,7 @@ function CareersContent() {
             </div>
 
             <div>
-              <h2 className="font-display mb-3 text-sm font-semibold uppercase tracking-wide text-brand-ink/60">
+              <h2 className="mb-3 text-sm font-semibold uppercase tracking-wide text-brand-ink/60">
                 Category
               </h2>
               <div className="flex flex-col gap-2 text-sm">
@@ -215,7 +215,7 @@ function CareersContent() {
 
       <section className="border-t border-brand-border bg-brand-muted">
         <div className="mx-auto max-w-6xl px-4 py-16 sm:px-6">
-          <h2 className="font-display text-2xl font-bold text-brand-ink">
+          <h2 className="text-2xl font-bold text-brand-ink">
             Why work at Bodrum Foods
           </h2>
           <div className="mt-8 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
@@ -238,7 +238,7 @@ function CareersContent() {
               },
             ].map((item) => (
               <div key={item.title} className="border border-brand-border bg-white p-5">
-                <h3 className="font-display font-semibold text-brand-ink">{item.title}</h3>
+                <h3 className="font-semibold text-brand-ink">{item.title}</h3>
                 <p className="mt-2 text-sm text-brand-ink/70">{item.text}</p>
               </div>
             ))}
@@ -247,7 +247,7 @@ function CareersContent() {
       </section>
 
       <section className="mx-auto w-full max-w-6xl px-4 py-14 text-center sm:px-6">
-        <h2 className="font-display text-xl font-bold text-brand-ink">
+        <h2 className="text-xl font-bold text-brand-ink">
           Can&apos;t see the right role?
         </h2>
         <p className="mx-auto mt-2 max-w-xl text-brand-ink/70">

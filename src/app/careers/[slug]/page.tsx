@@ -50,7 +50,7 @@ export default async function JobDetailPage({
               </span>
             )}
           </div>
-          <h1 className="font-display mt-3 text-3xl font-bold text-white sm:text-4xl">
+          <h1 className="mt-3 text-3xl font-bold text-white sm:text-4xl">
             {job.title}
           </h1>
           {job.localTitle && <p className="mt-1 text-white/60">{job.localTitle}</p>}
@@ -69,14 +69,14 @@ export default async function JobDetailPage({
         <div className="grid grid-cols-1 gap-10 lg:grid-cols-[1fr_320px]">
           <div className="animate-fade-in-up space-y-8">
             <div>
-              <h2 className="font-display mb-2 text-lg font-semibold text-brand-ink">
+              <h2 className="mb-2 text-lg font-semibold text-brand-ink">
                 About the role
               </h2>
               <p className="leading-relaxed text-brand-ink/80">{job.summary}</p>
             </div>
 
             <div>
-              <h2 className="font-display mb-3 text-lg font-semibold text-brand-ink">
+              <h2 className="mb-3 text-lg font-semibold text-brand-ink">
                 What you&apos;ll do
               </h2>
               <ul className="space-y-2 text-brand-ink/80">
@@ -90,7 +90,7 @@ export default async function JobDetailPage({
             </div>
 
             <div>
-              <h2 className="font-display mb-3 text-lg font-semibold text-brand-ink">
+              <h2 className="mb-3 text-lg font-semibold text-brand-ink">
                 What we&apos;re looking for
               </h2>
               <ul className="space-y-2 text-brand-ink/80">
@@ -104,7 +104,7 @@ export default async function JobDetailPage({
             </div>
 
             <div>
-              <h2 className="font-display mb-3 text-lg font-semibold text-brand-ink">
+              <h2 className="mb-3 text-lg font-semibold text-brand-ink">
                 What you&apos;ll get
               </h2>
               <ul className="grid grid-cols-1 gap-2 text-brand-ink/80 sm:grid-cols-2">
@@ -125,7 +125,7 @@ export default async function JobDetailPage({
               <p className="text-xs font-semibold uppercase tracking-wide text-brand-ink/50">
                 Salary
               </p>
-              <p className="font-display font-semibold text-brand-ink">{job.salary}</p>
+              <p className="font-semibold text-brand-ink">{job.salary}</p>
             </div>
             <div>
               <p className="text-xs font-semibold uppercase tracking-wide text-brand-ink/50">
@@ -168,7 +168,7 @@ export default async function JobDetailPage({
       {relatedJobs.length > 0 && (
         <section className="border-t border-brand-border bg-brand-muted">
           <div className="mx-auto max-w-5xl px-4 py-14 sm:px-6">
-            <h2 className="font-display mb-6 text-xl font-bold text-brand-ink">
+            <h2 className="mb-6 text-xl font-bold text-brand-ink">
               Other {job.category} roles
             </h2>
             <div className="flex flex-col gap-4">

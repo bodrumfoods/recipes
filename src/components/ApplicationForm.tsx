@@ -25,11 +25,11 @@ function FormSection({
   return (
     <div className="border border-brand-border bg-brand-card p-6">
       <div className="mb-5 flex items-start gap-3">
-        <span className="font-display flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-brand-ink text-sm font-bold text-white">
+        <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-brand-ink text-sm font-bold text-white">
           {step}
         </span>
         <div>
-          <h2 className="font-display text-lg font-semibold text-brand-ink">{title}</h2>
+          <h2 className="text-lg font-semibold text-brand-ink">{title}</h2>
           {description && <p className="mt-1 text-sm text-brand-ink/60">{description}</p>}
         </div>
       </div>
@@ -126,10 +126,10 @@ export default function ApplicationForm({ job }: { job: JobPosting }) {
   if (status === "success") {
     return (
       <div className="border border-brand-green/30 bg-brand-green/5 p-8 text-center">
-        <span className="font-display flex h-12 w-12 items-center justify-center rounded-full bg-brand-green text-2xl text-white mx-auto">
+        <span className="flex h-12 w-12 items-center justify-center rounded-full bg-brand-green text-2xl text-white mx-auto">
           ✓
         </span>
-        <h2 className="font-display mt-4 text-xl font-bold text-brand-ink">
+        <h2 className="mt-4 text-xl font-bold text-brand-ink">
           Application submitted
         </h2>
         <p className="mx-auto mt-2 max-w-md text-brand-ink/70">

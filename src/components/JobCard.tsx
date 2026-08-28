@@ -18,7 +18,7 @@ export default function JobCard({ job }: { job: JobPosting }) {
             </span>
           )}
         </div>
-        <h3 className="font-display mt-2 text-lg font-bold text-brand-ink underline-offset-4 group-hover:underline">
+        <h3 className="mt-2 text-lg font-bold text-brand-ink underline-offset-4 group-hover:underline">
           {job.title}
         </h3>
         {job.localTitle && (
