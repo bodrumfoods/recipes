@@ -3,6 +3,7 @@ import { randomUUID } from "crypto";
 import { mkdir, writeFile } from "fs/promises";
 import path from "path";
 import { getJobById } from "@/lib/jobs";
+import { sendApplicationEmails } from "@/lib/email";
 
 const STORAGE_DIR = path.join(process.cwd(), ".data", "careers-applications");
 const MAX_FILE_SIZE = 5 * 1024 * 1024;
@@ -54,12 +55,17 @@ export async function POST(request: Request) {
   const reference = `BF-${Date.now().toString(36).toUpperCase()}-${randomUUID()
     .slice(0, 4)
     .toUpperCase()}`;
-  const applicationDir = path.join(STORAGE_DIR, reference);
-  await mkdir(applicationDir, { recursive: true });
-
   const cvExtension = path.extname(cv.name) || ".pdf";
   const cvBuffer = Buffer.from(await cv.arrayBuffer());
-  await writeFile(path.join(applicationDir, `cv${cvExtension}`), cvBuffer);
+
+  const postcode = String(formData.get("postcode") ?? "");
+  const hearAboutUs = String(formData.get("hearAboutUs") ?? "");
+  const availableFrom = String(formData.get("availableFrom") ?? "");
+  const noticePeriod = String(formData.get("noticePeriod") ?? "");
+  const drivingLicence = String(formData.get("drivingLicence") ?? "");
+  const drivingExperience = String(formData.get("drivingExperience") ?? "");
+  const forkliftLicence = String(formData.get("forkliftLicence") ?? "");
+  const coverLetter = String(formData.get("coverLetter") ?? "");
 
   const record = {
     reference,
@@ -70,15 +76,15 @@ export async function POST(request: Request) {
     lastName,
     email,
     phone,
-    postcode: String(formData.get("postcode") ?? ""),
-    hearAboutUs: String(formData.get("hearAboutUs") ?? ""),
+    postcode,
+    hearAboutUs,
     rightToWork,
-    availableFrom: String(formData.get("availableFrom") ?? ""),
-    noticePeriod: String(formData.get("noticePeriod") ?? ""),
-    drivingLicence: String(formData.get("drivingLicence") ?? ""),
-    drivingExperience: String(formData.get("drivingExperience") ?? ""),
-    forkliftLicence: String(formData.get("forkliftLicence") ?? ""),
-    coverLetter: String(formData.get("coverLetter") ?? ""),
+    availableFrom,
+    noticePeriod,
+    drivingLicence,
+    drivingExperience,
+    forkliftLicence,
+    coverLetter,
     equalOpportunities: {
       gender: String(formData.get("eoGender") ?? ""),
       ethnicity: String(formData.get("eoEthnicity") ?? ""),
@@ -87,10 +93,38 @@ export async function POST(request: Request) {
     cvFileName: cv.name,
   };
 
-  await writeFile(
-    path.join(applicationDir, "application.json"),
-    JSON.stringify(record, null, 2)
-  );
+  try {
+    const applicationDir = path.join(STORAGE_DIR, reference);
+    await mkdir(applicationDir, { recursive: true });
+    await writeFile(path.join(applicationDir, `cv${cvExtension}`), cvBuffer);
+    await writeFile(
+      path.join(applicationDir, "application.json"),
+      JSON.stringify(record, null, 2)
+    );
+  } catch (error) {
+    console.error("[careers] Failed to write application to local storage:", error);
+  }
 
-  return NextResponse.json({ ok: true, reference });
+  const { sent, error: emailError } = await sendApplicationEmails({
+    reference,
+    jobTitle: job.title,
+    jobLocation: job.location,
+    firstName,
+    lastName,
+    email,
+    phone,
+    postcode,
+    rightToWork,
+    availableFrom,
+    noticePeriod,
+    drivingLicence,
+    drivingExperience,
+    forkliftLicence,
+    hearAboutUs,
+    coverLetter,
+    cvFileName: cv.name,
+    cvBuffer,
+  });
+
+  return NextResponse.json({ ok: true, reference, emailed: sent, emailError });
 }

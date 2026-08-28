@@ -96,22 +96,33 @@ before it should be used to hire actual staff:
    existing one's `"status"` to `"closed"` to take it down) and redeploy. For frequent postings
    or multiple recruiters, this should move to a small admin UI or an ATS (e.g. Workable,
    BambooHR, Breezy) instead.
-2. **Applications are stored locally on the server, not emailed or sent to an ATS.**
-   `POST /api/careers/apply` (`src/app/api/careers/apply/route.ts`) validates each submission
-   and writes the applicant's details and CV to `.data/careers-applications/<reference>/` on
-   the server's filesystem (this folder is git-ignored, as it will contain personal data).
-   This works for local development and a single always-on Node server, but:
-   - **It will not work on serverless/edge platforms** (e.g. Vercel's default runtime) because
-     their filesystem is read-only/ephemeral — writes will fail or vanish. Deploy this route to
-     a persistent Node server, or swap the storage in `route.ts` for a real destination:
-     upload the CV to S3/Blob storage, insert the record into a database, and/or email/webhook
-     it to an ATS.
-   - No email notification is currently sent to the applicant or to a recruiter inbox on
-     submission — wire up a transactional email provider (e.g. Resend, Postmark) in `route.ts`
-     if that's needed.
-   - Applicant data (CVs, contact details, equal-opportunities answers) is sensitive personal
-     data under UK GDPR. Before going live, add a retention/deletion policy and make sure
-     wherever this data ends up (disk, database, or third-party ATS) is access-controlled.
+2. **Email notifications need a `RESEND_API_KEY`.** `POST /api/careers/apply`
+   (`src/app/api/careers/apply/route.ts`) calls `src/lib/email.ts`, which uses
+   [Resend](https://resend.com) to email every new application (with the CV attached) to
+   `CAREERS_NOTIFICATION_EMAIL` (defaults to `hello@bodrumfoods.co.uk`), and sends the
+   applicant a confirmation email with their reference number. Until `RESEND_API_KEY` is set,
+   these emails are skipped (logged as a warning) — applications still submit successfully,
+   they just won't reach an inbox. To turn this on:
+   1. Create a Resend account and verify a sending domain (e.g. `bodrumfoods.co.uk`) at
+      [resend.com/domains](https://resend.com/domains) — needed so `CAREERS_FROM_EMAIL`
+      (e.g. `careers@bodrumfoods.co.uk`) is allowed to send.
+   2. Generate an API key at [resend.com/api-keys](https://resend.com/api-keys).
+   3. Copy `.env.example` to `.env.local` (or set the same variables in your host's
+      environment variables) and fill in `RESEND_API_KEY`, `CAREERS_NOTIFICATION_EMAIL`, and
+      `CAREERS_FROM_EMAIL`.
+   4. Redeploy. From then on, every submitted application emails
+      `CAREERS_NOTIFICATION_EMAIL` with the applicant's details and CV attached.
+
+   Applications are also still written to `.data/careers-applications/<reference>/` on the
+   server's filesystem as a local backup (this folder is git-ignored, as it contains personal
+   data) — but **this will not persist on serverless/edge platforms** (e.g. Vercel's default
+   runtime), since their filesystem is read-only/ephemeral. On those platforms, email is the
+   only reliable delivery path unless the storage in `route.ts` is swapped for a database or
+   blob storage.
+
+   Applicant data (CVs, contact details, equal-opportunities answers) is sensitive personal
+   data under UK GDPR. Before going live, agree a retention/deletion policy for the recruiter
+   inbox and the local backup folder, and make sure access to both is restricted.
 
 ## Development
 
@@ -142,6 +153,7 @@ src/
     shopping-list.ts              # Ingredient merging / unit normalisation
     shopify-cart.ts               # Shopify cart permalink builder
     jobs.ts                       # Job data access helpers
+    email.ts                      # Resend email notifications for job applications
   components/                     # Header, Footer, RecipeCard, AddToPlanButton, Badge,
                                    # JobCard, ApplicationForm
   app/
