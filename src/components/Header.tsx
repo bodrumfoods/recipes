@@ -13,6 +13,7 @@ const links = [
   { href: "/planner", label: "Weekly Planner" },
   { href: "/favorites", label: "My Favourites" },
   { href: "/shopping-list", label: "Shopping List" },
+  { href: "/careers", label: "Careers" },
 ];
 
 function AccountControl() {

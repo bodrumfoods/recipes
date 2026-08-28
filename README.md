@@ -20,6 +20,10 @@ cart in one click.
   [Shopify cart permalink](https://help.shopify.com/en/manual/products/details/cart-permalink)
   (`https://bodrumfoods.co.uk/cart/{variantId}:{qty},...`) and opens the store cart in a new
   tab.
+- `/careers` — a Tesco-Careers-style job search page for Bodrum Foods (warehouse, driving,
+  office/buying, and retail roles), with keyword/category/location filtering, a job detail
+  page per role, and a full application form with CV upload. See "Before going live —
+  Careers" below.
 
 ## ⚠️ Before going live — enabling "Sign in with Google"
 
@@ -82,6 +86,33 @@ Other notes:
   quantities in their Shopify cart. If package-size data (e.g. `gramPerPackage`) is added
   later, automatic quantity calculation can be added to `src/lib/shopify-cart.ts`.
 
+## ⚠️ Before going live — Careers
+
+The `/careers` section is fully wired up end to end, but two things need real infrastructure
+before it should be used to hire actual staff:
+
+1. **Job postings are a static file, not a CMS.** Open roles live in `src/data/jobs.json`
+   (same pattern as `recipes.json`). To post a new role, add an entry there (or set an
+   existing one's `"status"` to `"closed"` to take it down) and redeploy. For frequent postings
+   or multiple recruiters, this should move to a small admin UI or an ATS (e.g. Workable,
+   BambooHR, Breezy) instead.
+2. **Applications are stored locally on the server, not emailed or sent to an ATS.**
+   `POST /api/careers/apply` (`src/app/api/careers/apply/route.ts`) validates each submission
+   and writes the applicant's details and CV to `.data/careers-applications/<reference>/` on
+   the server's filesystem (this folder is git-ignored, as it will contain personal data).
+   This works for local development and a single always-on Node server, but:
+   - **It will not work on serverless/edge platforms** (e.g. Vercel's default runtime) because
+     their filesystem is read-only/ephemeral — writes will fail or vanish. Deploy this route to
+     a persistent Node server, or swap the storage in `route.ts` for a real destination:
+     upload the CV to S3/Blob storage, insert the record into a database, and/or email/webhook
+     it to an ATS.
+   - No email notification is currently sent to the applicant or to a recruiter inbox on
+     submission — wire up a transactional email provider (e.g. Resend, Postmark) in `route.ts`
+     if that's needed.
+   - Applicant data (CVs, contact details, equal-opportunities answers) is sensitive personal
+     data under UK GDPR. Before going live, add a retention/deletion policy and make sure
+     wherever this data ends up (disk, database, or third-party ATS) is access-controlled.
+
 ## Development
 
 ```bash
@@ -103,16 +134,21 @@ src/
   data/
     recipes.json                  # Recipe database
     shopify-ingredient-map.json   # Ingredient -> Shopify product mapping
+    jobs.json                     # Careers job postings
   lib/
-    types.ts                      # Recipe, Ingredient, PlanEntry types
+    types.ts                      # Recipe, Ingredient, PlanEntry, JobPosting types
     recipes.ts                    # Recipe data access helpers
     plan-store.ts                 # Weekly plan state (zustand + localStorage)
     shopping-list.ts              # Ingredient merging / unit normalisation
     shopify-cart.ts               # Shopify cart permalink builder
-  components/                     # Header, Footer, RecipeCard, AddToPlanButton, Badge
+    jobs.ts                       # Job data access helpers
+  components/                     # Header, Footer, RecipeCard, AddToPlanButton, Badge,
+                                   # JobCard, ApplicationForm
   app/
     page.tsx                      # Home page
     recipes/                      # Recipe list + detail pages
     planner/                      # Weekly planner
     shopping-list/                # Ingredient list + bodrumfoods.co.uk cart integration
+    careers/                      # Job search, job detail, and apply pages
+    api/careers/apply/            # Application submission endpoint
 ```

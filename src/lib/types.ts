@@ -60,3 +60,28 @@ export interface PlanEntry {
   recipeId: string;
   servings: number;
 }
+
+export type JobCategory = "Warehouse & Logistics" | "Driving" | "Office & Support" | "Retail";
+
+export type EmploymentType = "Full-time" | "Part-time";
+
+export type ContractType = "Permanent" | "Temporary" | "Seasonal";
+
+export interface JobPosting {
+  id: string;
+  title: string;
+  localTitle?: string;
+  category: JobCategory;
+  employmentType: EmploymentType;
+  contractType: ContractType;
+  location: string;
+  salary: string;
+  postedDate: string;
+  closingDate?: string;
+  summary: string;
+  responsibilities: string[];
+  requirements: string[];
+  benefits: string[];
+  featured?: boolean;
+  status: "open" | "closed";
+}
